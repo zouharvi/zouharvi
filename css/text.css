@@ -1,0 +1,74 @@
+@font-face {
+ font-family: 'Ubuntu Mono';
+ src: url('../src/ubuntu_mono.ttf');
+}
+
+.t_0, .standard_ul {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 1.1em;
+}
+
+.no_bullet_ul {
+  list-style-type: none;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 1.1em;
+}
+
+.t_0_bold, #name {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 1.15em;
+  font-weight: bold;
+}
+
+.a_0 {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+
+  text-decoration: none;
+  color: black;
+}
+
+.a_1, .a_2 {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 1.0em;
+  font-weight: bold;
+
+  text-decoration: none;
+  color: black;
+}
+
+.l_0 {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 1.0em;
+  text-decoration: none;
+  color: black;
+}
+
+.portfolio_table_div div a {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 1.0em;
+  font-weight: bold;
+
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+
+.portfolio_table_div div {
+  display: inline-block;
+}
+
+.portfolio_table_div div a img {
+  width: 300px;
+}
+
+.a_3 {
+  margin-top: 0px;
+}

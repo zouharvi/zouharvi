@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://vilix.xyz/</loc>
+  <lastmod>2016-04-19T04:47:38+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://vilix.xyz/?p=about</loc>
+  <lastmod>2016-04-19T04:47:38+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://vilix.xyz/?p=portfolio</loc>
+  <lastmod>2016-04-19T04:47:38+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://vilix.xyz/?p=disquieting_excerpts_from_my_diary</loc>
+  <lastmod>2016-04-19T04:47:38+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://vilix.xyz/?p=ludum_dare_32</loc>
+  <lastmod>2016-04-19T04:47:38+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://vilix.xyz/?p=whipbit_solutions</loc>
+  <lastmod>2016-04-19T04:47:38+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://vilix.xyz/s/noise_simulator</loc>
+  <lastmod>2016-04-21T04:47:38+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>
