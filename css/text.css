@@ -20,6 +20,11 @@
   font-weight: bold;
 }
 
+.t_1 {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 2.1em;
+}
+
 h3 {
   font-family: 'Mukta Mahee', sans-serif;
   font-size: 1.15em;
@@ -72,3 +77,8 @@ h3 {
 .a_3 {
   margin-top: 0px;
 }
+.remove_p_space p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 3px;
+} 

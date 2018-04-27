@@ -25,7 +25,7 @@
     <div id='container' style='display: inline-block; width: 700px'>
       <div style='width: 100%'>
         <?php
-            $allowed = array('about', 'portfolio', 'blog', 'disquieting_excerpts_from_my_diary', 'ludum_dare_32', 'whipbit_solutions');
+            $allowed = array('about', 'portfolio', 'blog', 'disquieting_excerpts_from_my_diary', 'ludum_dare_32', 'whipbit_solutions', 'asmhell');
             if(in_array($_GET['p'], $allowed) )
                 echo file_get_contents("pages/". $_GET['p'] . ".html");
             else
