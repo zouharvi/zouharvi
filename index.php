@@ -7,7 +7,7 @@
  <meta name="author" content="Vilém Zouhar">
  <link rel='stylesheet' type='text/css'  href='css/text.css?ver=2'>
  <link rel='icon'       type='image/png' href='src/favicon.png?ver=1'>
- <title>ViliX64 | Vilém Zouhar</title>
+ <title>Vilda | Vilém Zouhar</title>
  <meta name="viewport" content="width=device-width">
 </head>
 
