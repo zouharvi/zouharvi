@@ -24,31 +24,36 @@
 <url>
   <loc>https://vilda.net/?p=disquieting_excerpts_from_my_diary</loc>
   <lastmod>2016-04-19T04:47:38+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
   <loc>https://vilda.net/?p=ludum_dare_32</loc>
   <lastmod>2016-04-19T04:47:38+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://vilda.net/?p=asmhell</loc>
+  <lastmod>2016-04-19T04:47:38+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
   <loc>https://vilda.net/?p=whipbit_solutions</loc>
   <lastmod>2016-04-19T04:47:38+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>https://vilda.net/s/noise_simulator</loc>
+  <loc>https://vilda.net/s/noise_simulator/</loc>
   <lastmod>2016-04-21T04:47:38+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>https://vilda.net/s/go-w-cof</loc>
+  <loc>https://vilda.net/s/go-w-cof/</loc>
   <lastmod>2016-04-21T04:47:38+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>https://vilda.net/s/ma-w-cof</loc>
+  <loc>https://vilda.net/s/ma-w-cof/</loc>
   <lastmod>2016-04-21T04:47:38+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <changefreq>yearly</changefreq>
 </url>
 </urlset>
