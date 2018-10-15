@@ -1,0 +1,64 @@
+div#ptakopet_floater {
+    width: 400px;
+    height: auto;
+    position: fixed;
+    top: 20px;
+
+    background-color: #d6d6d6d5;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+
+    visibility: hidden;
+
+    z-index: 120391231;
+}
+
+#ptakopet_control_bar {
+    height: 35px;
+}
+
+#ptakopet_floater #ptakopet_control_bar i {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#ptakopet_floater #ptakopet_control_bar {
+    text-align: center;
+}
+
+#ptakopet_floater #ptakopet_control_bar i.title {
+    font-size: 15px;
+    font-style: normal; 
+}
+
+#ptakopet_floater textarea {
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+    resize: none;
+    overflow-x: hidden;
+    outline:none;
+}
+
+#ptakopet_floater textarea /*:first-of-type*/ {
+    margin-bottom: 20px;
+    background-color: #ffffffd5;
+}
+
+#ptakopet_floater textarea:last-of-type {
+    background-color: #dfdfdfd5;
+}
+
+#ptakopet_floater #bottom_bar {
+    height: 40px; 
+    font-size: 20px;
+}
+
+.ptakopet_trigger_bird {
+    visibility: hidden;
+    position: absolute;
+    z-index: 120391231;
+    cursor: pointer;
+    width: 25px;
+}
