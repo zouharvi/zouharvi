@@ -4,7 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
   <loc>https://vilda.net/</loc>
@@ -12,9 +11,9 @@
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>https://vilda.net/?p=ptakopet</loc>
+  <loc>https://vilda.net/?p=ptakopet_v1</loc>
   <lastmod>2018-10-14T04:47:38+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
   <loc>https://vilda.net/?p=about</loc>
@@ -44,6 +43,11 @@
 <url>
   <loc>https://vilda.net/?p=whipbit_solutions</loc>
   <lastmod>2016-04-19T04:47:38+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://vilda.net/s/Grewh2d/</loc>
+  <lastmod>2019-01-21T04:47:38+00:00</lastmod>
   <changefreq>yearly</changefreq>
 </url>
 <url>
