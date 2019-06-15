@@ -12,23 +12,22 @@
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.9em;
   font-weight: bold;
 }
 
 .a_0 {
   font-size: 1.1em;
   font-weight: bold;
-
   text-decoration: none;
   color: black;
 }
 
-.standard_ul li {
+#portfolio ul li {
   font-size: 1.1em;
 }
 
-.portfolio_ul li a {
+#portfolio ul li a {
   font-size: 1.1em;
   font-weight: bold;
   text-decoration: none;
