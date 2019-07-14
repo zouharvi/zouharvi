@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html style='overflow-y: scroll' lang='en'>
+<html lang='en'>
+
 <head>
   <meta charset='utf-8'>
   <meta http-equiv="Cache-control" content="public">
@@ -13,8 +14,8 @@
 </head>
 
 <body style='padding-top: 50px; padding-bottom: 100px; background-color: #F0F0F0;'>
-  <div id='whole' style='width: 910px; margin:auto;'>
-    <div id='menu' style='display: inline-block; width: 200px; vertical-align: top;'>
+  <div id='whole' style='max-width: 910px; margin:auto;'>
+    <div id='menu' style='display: inline-block; max-width: 200px; margin-right: 20px; vertical-align: top;'>
       <header id='name' style='margin-left: 20px; margin-top: 20px;'>Vilém Zouhar</header>
       <img src='src/portrait.webp' alt='portrait' style='width: 120px; margin-left: 15px; margin-top: 10px;'>
       <nav>
@@ -24,7 +25,7 @@
         </ul>
       </nav>
     </div>
-    <main id='container' style='display: inline-block; width: 700px'>
+    <main id='container' style='display: inline-block; max-width: 700px; min-width: 300px;'>
       <div style='width: 100%'>
         <?php
             $allowed = array('about', 'portfolio');
@@ -37,6 +38,18 @@
     </main>
   </div>
   
-  <link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet">
+  <!-- Loads Mukta:400 -->
+  <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Mukta:400' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
 </body>
 </html>
