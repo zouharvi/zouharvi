@@ -23,18 +23,14 @@
   color: black;
 }
 
-nav ul li {
-  font-size: 1.1em;
-  line-height: 200%;
-}
-
-#portfolio ul li {
-  font-size: 1.1em;
-}
-
-#portfolio ul li a {
+ul li a {
   font-size: 1.1em;
   font-weight: bold;
   text-decoration: none;
   color: black;
+}
+
+nav ul li {
+  font-size: 1.1em;
+  line-height: 200%;
 }
