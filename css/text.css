@@ -1,5 +1,5 @@
 * {
-  font-family: 'Mukta Mahee', sans-serif;
+  font-family: 'Mukta', sans-serif;
 }
 
 .t_0 {
@@ -21,6 +21,11 @@
   font-weight: bold;
   text-decoration: none;
   color: black;
+}
+
+nav ul li {
+  font-size: 1.1em;
+  line-height: 200%;
 }
 
 #portfolio ul li {
