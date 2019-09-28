@@ -4,8 +4,8 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv="Cache-control" content="public">
-  <meta name="description" content="Portfolio and basic information about freelance programmer Vilém Zouhar (me, ViliX64). Student, programmer, published 3 roky hlavy..">
-  <meta name="keywords" content="Vilém Zouhar, ViliX64, ViliX, Programmer, Freelancer, Portfolio, Student, Mathematics, MFF, HTML, CSS, XML, JavaScript, C++, C#, 3 roky hlavy">
+  <meta name="description" content="Portfolio and basic information about me, Vilém Zouhar (Vilda).">
+  <meta name="keywords" content="Vilém Zouhar, ViliX64, ViliX, Programmer, Freelancer, Portfolio, Student, Mathematics, MFF, HTML, CSS, XML, JavaScript, C++, C#">
   <meta name="author" content="Vilém Zouhar">
   <link rel='stylesheet' type='text/css'  href='css/text.css'>
   <link rel='icon'       type='image/png' href='src/favicon.png'>
