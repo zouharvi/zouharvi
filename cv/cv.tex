@@ -1,0 +1,121 @@
+\documentclass[11pt,a4paper]{article} % Font size and paper type
+\pagestyle{empty} % Suppress page numbers
+\usepackage[left=1.9cm,top=2cm,right=2cm,bottom=1cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[parfill]{parskip} % Remove paragraph indentation
+\usepackage{graphicx}
+\usepackage{enumitem}
+\setitemize{itemsep=-5pt,leftmargin=*,label={-},topsep=-5pt}
+\usepackage[colorlinks=true,urlcolor=MidnightBlue]{hyperref}
+
+\newcommand{\hSection}[1]{
+    \medskip
+    \MakeUppercase{\bf #1}
+    \medskip
+    \hrule
+}
+\newcommand{\hSubsectionI}[2]{{\bf #1}\hfill {#2}\hspace{-1cm}}
+\newcommand{\hSubsection}[2]{{\bf #1}\hfill {#2}}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \bf VILÉM ZOUHAR} \\
+    {\large \href{mailto:vilem.zouhar@mff.cuni.cz}{\color{black}{vilem.zouhar@mff.cuni.cz}}}
+\end{center}
+
+\vspace{1.9cm}
+
+\begin{minipage}{0.75\textwidth}
+    \hSection{Education}\vspace{0.2cm}
+    {\bf Charles University in Prague} \hfill {2017/18 - Exp. 2019/20} \\
+    % 93.5\%, 
+    Bsc. in Computer Science \hfill 169 ECTS \\
+    specialization in Computational linguistics \hfill (1st, 2nd year)
+\end{minipage}
+\begin{minipage}{0.25\textwidth}
+  \vspace{-2cm}
+  \hfill
+  \includegraphics[width=3.5cm]{portrait.jpg}
+  \vspace{-0.9cm}
+\end{minipage}
+
+\hSection{Academic Projects and Publications}
+
+\hSubsectionI{A Collection of Machine Learning Excercises}{2018/2019}
+
+\begin{itemize}
+    \item Successfull application for the Student's Faculty Grant
+    \item 50 pages of ML tasks with solutions in R
+    \item Full version with solutions available only per request (used as \href{http://ufal.mff.cuni.cz/courses/npfl054}{teaching material})
+\end{itemize}
+
+\hSubsectionI{Ptakopět/Bergamot}{2018-present}
+
+\begin{itemize}
+    \item Participation in the \href{http://browser.mt/}{Bergamot} project for client-side MT in web browsers
+    \item Experimental UI for Outbound Translation \href{https://github.com/zouharvi/ptakopet}{Ptakopět}
+    \item More experiments  planned for 2020, which are expected to be summarized to papers
+\end{itemize}
+
+\hSubsectionI{Pilot study of Outbound Translation UI with Ptakopět}{submitted to LREC}
+
+\begin{itemize}
+    \item Results of the first experiment from Ptakopět/Bergamot
+    \item Zouhar, Bojar .. TODO
+\end{itemize}
+
+\begin{minipage}{.55\textwidth}
+    \hSection{Technical Knowledge}
+    \hspace{-0.3cm}
+    \begin{minipage}{\textwidth}
+        \vspace{0.15cm}
+        \begin{tabular}{ l l}
+        {\bf Programming} & JS/TS, C/C++, Python, C\#, R \\
+        {\bf Toolkits} & TensorFlow 2.0+, NLTK, Pandas \\
+        {\bf Misc.} & Bash, UNIX/Linux administration \\
+        \cr
+        \end{tabular}
+    \end{minipage}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+    \hSection{Language Proficiency}
+    \hspace{-0.3cm}
+    \begin{minipage}{\textwidth}
+        \vspace{0.15cm}
+        \begin{tabular}{ l l}
+        {\bf Czech} & Native \\
+        {\bf English} & C1-C2 (CAE grade B / 198) \\
+        {\bf German} & A2-B1 \\
+        {\bf Polish} & A1-A2
+        \end{tabular}
+    \end{minipage}
+\end{minipage}
+
+\vspace{-0.5cm}
+\hSection{Work Experience}
+\hSubsection{Previo}{summer 2018} \\
+Development of multilayer CMS using JS, PHP, Zend and MySQL
+
+\hSubsection{BIM Project}{summer 2017} \\
+Development of plugins for the ArchiCAD suite with C++/Boost and C\#
+
+\hSubsection{Web development}{2015-2017} \\
+Participation in several commercial projects: Brno bez vizuálního smogu, \href{https://www.mrfox.cz/}{mrfox.cz}, \href{http://www.velab.cz/}{velab.cz} and \href{http://www.intimedcare.cz/}{intimedcare.cz} using the PHP/JS/HTML/CSS stack
+
+\hSection{Extra-Curricular}
+\hSubsection{Academic senate}{2018-present} \\
+Member of the Academic Senate at Charles University Faculty of Mathematics and Physics
+
+\hSubsection{Game Jams}{2015-present} \\
+Various game jams, mostly Ludum Dare; several \href{https://github.com/allemansratten}{games} programmed and presented in limited time
+
+\hSubsection{Misc. projects}{present} \\
+Small projects either for convenience, or as a hobby; code hosted at \href{https://github.com/zouharvi}{GitHub}
+
+\hSubsection{Kasiopea}{2017-2019} \\
+Organization of Kasiopea, an annual coding competition for highschool students
+
+\end{document}
+
