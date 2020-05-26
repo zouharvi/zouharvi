@@ -5,9 +5,9 @@
   <meta charset='utf-8'>
   <meta http-equiv="Cache-control" content="public">
   <meta name="description" content="Portfolio and basic information about me, Vilém Zouhar (Vilda).">
-  <meta name="keywords" content="Vilém Zouhar, ViliX64, ViliX, Programmer, Freelancer, Portfolio, Student, Mathematics, MFF, HTML, CSS, XML, JavaScript, C++, C#">
+  <meta name="keywords" content="Vilém Zouhar, zouharvi, programmer, portfolio, student, mathematics, TypeScript, Python, Linguistics, Research">
   <meta name="author" content="Vilém Zouhar">
-  <link rel='stylesheet' type='text/css'  href='css/text.css'>
+  <link rel='stylesheet' type='text/css'  href='css/style.css'>
   <link rel='icon'       type='image/png' href='src/favicon.png'>
   <title>Vilda | Vilém Zouhar</title>
   <meta name="viewport" content="width=device-width">
@@ -21,6 +21,7 @@
       <nav>
         <ul>
           <li><a class='a_0' href='?p=about'>About</a></li>
+          <li><a class='a_0' href='?p=contact'>Contact</a></li>
           <li><a class='a_0' href='?p=portfolio'>Portfolio</a></li>
         </ul>
       </nav>
@@ -28,7 +29,7 @@
     <main id='container' style='display: inline-block; max-width: 700px; min-width: 300px;'>
       <div style='width: 100%'>
         <?php
-            $allowed = array('about', 'portfolio');
+            $allowed = array('about', 'portfolio', 'contact');
             if(in_array($_GET['p'], $allowed) )
                 echo file_get_contents("pages/". $_GET['p'] . ".html");
             else

@@ -1,0 +1,73 @@
+* {
+  font-family: 'Mukta', sans-serif;
+}
+
+.t_0 {
+  font-size: 1.1em;
+}
+
+.t_0_bold, #name {
+  font-weight: bold;
+}
+
+.a_0 {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  font-size: 1.1em;
+}
+
+ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li {
+  line-height: 200%;
+}
+
+/* TOOLTIP */
+/* https://www.w3schools.com/howto/howto_css_tooltip.asp */
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  font-weight: bold;
+}
+
+/* Tooltip text */
+.tooltip .tooltip_text {
+  visibility: hidden;
+  width: 250px;
+  background-color: #555;
+  color: #fff;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 6px;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: -110px;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltip_text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltip_text {
+  visibility: visible;
+}
