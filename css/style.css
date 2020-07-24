@@ -2,15 +2,15 @@
   font-family: 'Mukta', sans-serif;
 }
 
-.t_0 {
+.t {
   font-size: 1.1em;
 }
 
-.t_0_bold, #name {
+.t_bold, #name {
   font-weight: bold;
 }
 
-.a_0 {
+a {
   font-weight: bold;
   text-decoration: none;
   color: black;
@@ -18,12 +18,6 @@
 
 nav {
   font-size: 1.1em;
-}
-
-ul li a {
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
 }
 
 nav ul li {

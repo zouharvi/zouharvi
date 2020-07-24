@@ -20,9 +20,9 @@
       <img src='src/portrait.webp' alt='portrait' style='width: 120px; margin-left: 15px; margin-top: 10px;'>
       <nav>
         <ul>
-          <li><a class='a_0' href='?p=about'>About</a></li>
-          <li><a class='a_0' href='?p=contact'>Contact</a></li>
-          <li><a class='a_0' href='?p=portfolio'>Portfolio</a></li>
+          <li><a href='?p=about'>About</a></li>
+          <li><a href='?p=contact'>Contact</a></li>
+          <li><a href='?p=portfolio'>Portfolio</a></li>
         </ul>
       </nav>
     </div>
