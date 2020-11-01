@@ -7,6 +7,7 @@
   <meta name="description" content="Portfolio and basic information about me, Vilém Zouhar (Vilda).">
   <meta name="keywords" content="Vilém Zouhar, zouharvi, programmer, portfolio, student, mathematics, TypeScript, Python, Linguistics, Research">
   <meta name="author" content="Vilém Zouhar">
+  <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
   <link rel='stylesheet' type='text/css'  href='css/style.css'>
   <link rel='icon'       type='image/png' href='src/favicon.png'>
   <title>Vilda | Vilém Zouhar</title>
@@ -38,19 +39,5 @@
       </div>    
     </main>
   </div>
-  
-  <!-- Loads Mukta:400 -->
-  <script type="text/javascript">
-  WebFontConfig = {
-    google: { families: [ 'Mukta:400' ] }
-  };
-  (function() {
-    var wf = document.createElement('script');
-    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-    wf.type = 'text/javascript';
-    wf.async = 'true';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(wf, s);
-  })(); </script>
 </body>
 </html>
