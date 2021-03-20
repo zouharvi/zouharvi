@@ -23,14 +23,13 @@
         <ul>
           <li><a href='?p=about'>About</a></li>
           <li><a href='?p=contact'>Contact</a></li>
-          <li><a href='?p=portfolio'>Portfolio</a></li>
         </ul>
       </nav>
     </div>
     <main id='container' style='display: inline-block; max-width: 700px; min-width: 300px;'>
       <div style='width: 100%'>
         <?php
-            $allowed = array('about', 'portfolio', 'contact');
+            $allowed = array('about', 'contact');
             if(in_array($_GET['p'], $allowed) )
                 echo file_get_contents("pages/". $_GET['p'] . ".html");
             else
