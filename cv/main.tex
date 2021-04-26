@@ -25,13 +25,13 @@
 }
 \newcommand{\hSubsectionA}[2]{{#1}\hfill {#2}\hspace{-1cm}}
 \newcommand{\hSubsectionB}[3]{
-    {#1} \hfill {#2}\hspace{-1cm}\\
+    {#1} \hfill {\footnotesize #2}\hspace{-1cm}\\
     \vspace{-0.2cm} \hspace{-0.17cm}\textit{\footnotesize #3}
     \vspace{0.1cm}
 }
 \newcommand{\hSubsection}[2]{{#1}\hfill {#2}}
 \newcommand{\hSubsectionItemize}[3]{
-    {#1}\hfill {#2}\hspace{-1cm}\\
+    {#1}\hfill {\footnotesize #2}\hspace{-1cm}\\
     \vspace{-0.5cm}
     \begin{itemize} \footnotesize #3 \end{itemize}
     \vspace{0.3\baselineskip}
@@ -50,7 +50,7 @@
 \hSection{Education}\vspace{0.2cm}
 {\bf Charles University in Prague} \hfill {2017/18 - 2019/20} \\
 BSc. in Computer Science \\
-specialization in Computational linguistics \\
+Specialization in Computational linguistics \\
 Thesis \href{https://dspace.cuni.cz/bitstream/handle/20.500.11956/119400/130284419.pdf?sequence=1&isAllowed=y}{Enabling Outbound Machine Translation}
 
 \vspace{\baselineskip}
@@ -60,42 +60,47 @@ MSc. in Language Science and Technology \\
 Double degree programme \\
 Thesis TBD
 \end{minipage}
-% 
-% 
+% -----
+% dont remove this line
+% -----
 \begin{minipage}{0.25\textwidth}
     \center
-    \vspace{-1cm}
+    \vspace{0.5cm}
     \hfill
-    \includegraphics[width=3.5cm]{portrait.jpg}
-    \vspace{-0.9cm}
+    \includegraphics[width=3.85cm]{portrait.jpg}
 \end{minipage}
 
 \hSectionI{Selected Academic Projects and Publications}{\href{https://scholar.google.com/citations?user=2EUDwtkAAAAJ}{Google Scholar}\hspace{-1.12cm}}
 
 \hSubsectionB
 {Providing Backtranslation Improves Users Confidence in MT, Not Quality}
-{NAACL 2021 accepted}
+{\href{https://arxiv.org/pdf/2104.05688.pdf}{NAACL 2021}}
 {Vilém Zouhar, Michal Novák, Matúš Žilinec, Ondřej Bojar, Mateo Obregón, Robin L. Hill,\\ Frédéric Blain, Marina Fomicheva, Lucia Specia, Lisa Yankovskaya}
 \vspace{-0.11cm}
 
 \hSubsectionB
+{Sampling and Filtering of Neural Machine Translation Distillation Data}
+{\href{https://arxiv.org/pdf/2104.00664.pdf}{NAACL SRW 2021}}
+{Vilém Zouhar}
+
+\hSubsectionB
 {Leveraging Neural Machine Translation for Word Alignment}
-{PBML 116 accepted}
+{\href{https://ufal.mff.cuni.cz/pbml/116/art-zouhar-pylypenko.pdf}{PBML 116}}
 {Vilém Zouhar, Daria Pylypenko}
 
 \hSubsectionB
 {WMT20 Document-Level Markable Error Exploration}
-{\href{http://www.statmt.org/wmt20/pdf/2020.wmt-1.41.pdf}{WMT20} published}
+{\href{http://www.statmt.org/wmt20/pdf/2020.wmt-1.41.pdf}{WMT20}}
 {Vilém Zouhar, Tereza Vojtěchová, Ondřej Bojar}
 
 \hSubsectionB
 {Extending Ptakopět for MT User Interaction Experiments}
-{\href{https://ufal.mff.cuni.cz/pbml/115/art-zouhar-novak.pdf}{PBML 115} published}
+{\href{https://ufal.mff.cuni.cz/pbml/115/art-zouhar-novak.pdf}{PBML 115}}
 {Vilém Zouhar, Michal Novák}
 
 \hSubsectionB
 {Outbound Translation User Interface Ptakopet: A Pilot Study}
-{\href{https://www.aclweb.org/anthology/2020.lrec-1.860.pdf}{LREC 2020} published}
+{\href{https://www.aclweb.org/anthology/2020.lrec-1.860.pdf}{LREC 2020}}
 {Vilém Zouhar, Ondřej Bojar}
 
 \hSubsectionB
@@ -109,6 +114,14 @@ Thesis TBD
 
 \hSubsectionA
 {Paper on machine translation with eyetracking}
+{in writing}
+
+\hSubsectionA
+{Paper on survey of knowledge intensive NLP tasks with knowledge bases}
+{in writing}
+
+\hSubsectionA
+{Paper on dimension reduction for knowledge intensive NLP tasks}
 {in writing}
 
 \vspace{\baselineskip}
@@ -139,6 +152,7 @@ Thesis TBD
     \end{minipage}
 \end{minipage}
 
+\vspace{-0.4cm}
 \hSection{Work Experience}
 \hSubsectionItemize
 {\href{https://www.lsv.uni-saarland.de/}{Spoken Language Systems} group (student research assistant)}
