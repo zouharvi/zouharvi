@@ -19,9 +19,11 @@
     <div id='menu' style='display: inline-block; max-width: 200px; margin-right: 20px; vertical-align: top;'>
       <header id='name' style='margin-left: 20px; margin-top: 20px;'>Vilém Zouhar</header>
       <img src='src/portrait.webp' alt='portrait' style='width: 120px; margin-left: 15px; margin-top: 10px;'>
-      <nav>
+      <nav style="width: 150px">
         <ul>
           <li><a href='?p=about'>About</a></li>
+          <li><a href='?p=publications'>Publications</a>
+          <li><a href='?p=projects'>Projects</a>
           <li><a href='?p=contact'>Contact</a></li>
         </ul>
       </nav>
@@ -29,7 +31,7 @@
     <main id='container' style='display: inline-block; max-width: 700px; min-width: 300px;'>
       <div style='width: 100%'>
         <?php
-            $allowed = array('about', 'contact');
+            $allowed = array('about', 'contact', 'projects', 'publications');
             if(in_array($_GET['p'], $allowed) )
                 echo file_get_contents("pages/". $_GET['p'] . ".html");
             else
