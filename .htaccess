@@ -1,3 +1,16 @@
+ErrorDocument 404 /error_pages/404.php
+ErrorDocument 403 /error_pages/403.php
+
+<Files "list_files.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "error_pages/main.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
 RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
