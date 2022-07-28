@@ -53,10 +53,16 @@
 		//check for file extension in list
 		if (in_array($file_ext, $exclude_ext_array) || in_array($file, $exclude_file_array)) {
 			continue;
-		} else{ 
+		} else { 
+			if ($file_ext == ".link") {
+				$filelink = file_get_contents($file);
+			} else {
+				$filelink = $file;
+			}
+
 			if(($file != '.') && ($file!= '..')) { 
 				echo
-					'<li><a href="' . $file . '">'
+					'<li><a href="' . $filelink . '">'
 					. '<span>[' . date ("d M Y H", filemtime($file)) . 'h]</span>'
 					. $file
 					. '</a></li>';
