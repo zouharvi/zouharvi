@@ -29,7 +29,7 @@
 </head>
 
 <body style='padding-bottom: 100px; background-color: #F0F0F0;'>
-	<h2>Listing of <span style='font-style: italic'><?php echo $WHATFILES; ?></span> files</h2>
+	<h2>Listing of <span style='font-style: italic'><?php echo $WHATFILES; ?></span></h2>
 	<h4>..for private presentation purposes, easy files handover, etc</h4>
 	<ul>
 	<?php

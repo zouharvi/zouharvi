@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://vilda.net/</loc>
+  <lastmod>2023-02-20T08:10:39+00:00</lastmod>
+</url>
+<url>
+  <loc>https://vilda.net/?p=about</loc>
+  <lastmod>2023-02-20T08:10:39+00:00</lastmod>
+</url>
+<url>
+  <loc>https://vilda.net/?p=publications</loc>
+  <lastmod>2023-02-20T08:10:39+00:00</lastmod>
+</url>
+<url>
+  <loc>https://vilda.net/?p=projects</loc>
+  <lastmod>2023-02-20T08:10:39+00:00</lastmod>
+</url>
+<url>
+  <loc>https://vilda.net/s/papers</loc>
+  <lastmod>2023-01-12T11:23:10+00:00</lastmod>
+</url>
+
+</urlset>

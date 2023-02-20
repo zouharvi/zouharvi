@@ -1,4 +1,4 @@
 <?php
-$WHATFILES = '"stable"';
+$WHATFILES = '"stable" files';
 include '../list_files.php';
 ?>

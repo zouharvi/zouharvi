@@ -1,4 +1,4 @@
 <?php
-$WHATFILES = 'temporary';
+$WHATFILES = 'temporary files';
 include '../list_files.php';
 ?>
