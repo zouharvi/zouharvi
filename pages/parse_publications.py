@@ -1,7 +1,11 @@
+#!/usr/bin/env python3
+
+raise Exception("publications.csv is now manually authored")
+
 import bs4
 import csv
 
-with open("pages/publications.html", "r") as f:
+with open("pages/projects.html", "r") as f:
     raw = f.read()
 parsed = bs4.BeautifulSoup(raw, features="lxml")
 
