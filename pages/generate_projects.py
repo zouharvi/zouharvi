@@ -5,13 +5,15 @@ import csv
 data = list(csv.reader(open("pages/projects.csv", "r")))
 
 text_replace = ""
-for title, description, link_href in data:
-    text_replace += ("    <tr><td>\n")
-    text_replace += (f'    <a href="{link_href}">{title}</a><br>\n')
-    text_replace += ('        <span style="font-style: italic; font-size: small;">\n')
-    text_replace += ("            " + description + "\n")
-    text_replace += ('        </span>\n')
-    text_replace += ("    </td></tr>\n")
+for year, title, description, link_href in data:
+    text_replace += f"    <tr><td>\n"
+    text_replace += f'    <a href="{link_href}">{title}</a><br>\n'
+    text_replace += '        <span style="font-style: italic; font-size: small;">\n'
+    text_replace += "            " + description + "\n"
+    text_replace += '        </span>\n'
+    text_replace += f"    </td><td>"
+    text_replace += f"        <a href='{link_href}'>{year}</a>"
+    text_replace += f"    </td></tr>\n"
 
 
 text_pub = open("pages/projects.html", "r").read()
