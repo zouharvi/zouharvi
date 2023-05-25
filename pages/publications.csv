@@ -1,3 +1,5 @@
+"Tokenization and the Noiseless Channel","Vilém Zouhar, Clara Meister, Juan Luis Gastaldi, Li Du, Mrinmaya Sachan, Ryan Cotterell","ACL 2023","todo"
+"A Formal Perspective on Byte-Pair Encoding","Vilém Zouhar, Clara Meister, Juan Luis Gastaldi, Li Du, Tim Vieira, Mrinmaya Sachan, Ryan Cotterell","ACL 2023","todo"
 "Re-visiting Automated Topic Model Evaluation with Large Language Models","Dominik Stammbach, Vilém Zouhar, Alexander Hoyle, Mrinmaya Sachan, Elliott Ash","In review","https://arxiv.org/abs/2107.02173"
 "Enhancing Textbooks with Visuals from the Web for Improved Learning","Janvijay Singh, Vilém Zouhar, Mrinmaya Sachan","In review","https://arxiv.org/abs/2304.08931"
 "PWESuite: Phonetic Word Embeddings and Tasks They Facilitate","Vilém Zouhar, Kalvin Chang, Chenxuan Cui, Nathaniel Carlson, Nathaniel Robinson, Mrinmaya Sachan, David Mortensen","In review","https://arxiv.org/abs/2304.02541"
@@ -21,6 +23,3 @@
 "Statistical Natural Language Processing Presentations","Vilém Zouhar, Awantee Deshpande, Julius Steuer","Teaching material","https://github.com/zouharvi/uds-snlp-tutorial"
 "Enabling Outbound Machine Translation","Vilém Zouhar","Bachelor thesis 2020","https://dspace.cuni.cz/bitstream/handle/20.500.11956/119400/130284419.pdf?sequence=1"
 "Evaluating Optimal Reference Translations","Vilém Zouhar, Věra Kloudová, Martin Popel, Ondřej Bojar","In review",""
-"Paper on tokenization (1)","main author","In review",""
-"Paper on tokenization (2)","main author","In review",""
-"Paper on beam-search","n-th author","In review",""
