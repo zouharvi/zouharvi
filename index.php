@@ -16,7 +16,7 @@
 
 <body style='padding-top: 50px; padding-bottom: 100px; background-color: #F0F0F0;'>
   <div id='whole' style='max-width: 950px; margin:auto;'> 
-    <div id='menu' style='display: inline-block; margin-right: 20px; vertical-align: top;'>
+    <div id='menu' style='display: inline-block; margin-right: 20px; vertical-align: top; border-right: 2px solid black;'>
       <header id='name' style='margin-left: 20px; margin-top: 20px;'>Vilém Zouhar</header>
       <img src='src/portrait.webp' alt='portrait' style='width: 120px; margin-left: 15px; margin-top: 10px;'>
       <nav style="width: 150px">
@@ -27,6 +27,7 @@
         </ul>
       </nav>
     </div>
+
     <main id='container' style='display: inline-block; max-width: 760px; min-width: 300px;'>
       <div style='width: 100%'>
         <?php

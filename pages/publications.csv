@@ -10,7 +10,7 @@
 "Fusing Sentence Embeddings Into LSTM-based Autoregressive Language Models","Vilém Zouhar, Marius Mosbach, Dietrich Klakow","Preprint","https://arxiv.org/abs/2208.02402"
 "Shrinking Knowledge Base Size: Dimension Reduction, Splitting & Filtering","Vilém Zouhar","Master thesis 2022","https://raw.githubusercontent.com/zouharvi/kb-shrink/main/meta/thesis/zouhar_thesis_lct.pdf"
 "Knowledge Base Index Compression via Dimensionality and Precision Reduction","Vilém Zouhar, Marius Mosbach, Miaoran Zhang, Dietrich Klakow","ACL Spa-NLP 2022","https://arxiv.org/abs/2204.02906"
-"EMMT: A simultaneous eye-tracking, 4-electrode EEG and audio corpus for multi-modal reading and translation scenarios","Sunit Bhattacharya, Věra Kloudová, Vilém Zouhar, Ondřej Bojar","Preprint","https://arxiv.org/pdf/2204.02905.pdf"
+"EMMT: An eye-tracking, EEG and audio corpus for multi-modal reading and translation scenarios","Sunit Bhattacharya, Věra Kloudová, Vilém Zouhar, Ondřej Bojar","Preprint","https://arxiv.org/pdf/2204.02905.pdf"
 "Neural Machine Translation Quality and Post-Editing Performance","Vilém Zouhar, Ondřej Bojar, Martin Popel, Aleš Tamchyna","EMNLP 2021","https://arxiv.org/pdf/2109.05016.pdf"
 "Providing Backtranslation Improves Users Confidence in MT, Not Quality","Vilém Zouhar, Michal Novák, Matúš Žilinec, Ondřej Bojar, Mateo Obregón, Robin L. Hill, Frédéric Blain, Marina Fomicheva, Lucia Specia, Lisa Yankovskaya","NAACL 2021","https://aclanthology.org/2021.naacl-main.14/"
 "Artefact Retrieval: Overview of NLP Models with Knowledge Base Access","Vilém Zouhar, Marius Mosbach, Debanjali Biswas, Dietrich Klakow","AKBC CSKB 2021","https://openreview.net/forum?id=9_oCNR6R9l2"
