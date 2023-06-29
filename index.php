@@ -5,7 +5,7 @@
   <meta charset='utf-8'>
   <meta http-equiv="Cache-control" content="public">
   <meta name="description" content="Portfolio and basic information about me, Vilém Zouhar (Vilda).">
-  <meta name="keywords" content="Vilém Zouhar, zouharvi, programmer, portfolio, student, mathematics, TypeScript, Python, Linguistics, Research">
+  <meta name="keywords" content="Vilém Zouhar, zouharvi, researcher, deep learning, NLP, programmer, portfolio, student, mathematics, TypeScript, Python, Linguistics, Research">
   <meta name="author" content="Vilém Zouhar">
   <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
   <link rel='stylesheet' type='text/css'  href='css/style.css?v=3'>
@@ -28,7 +28,7 @@
       </nav>
     </div>
 
-    <main id='container' style='display: inline-block; max-width: 760px; min-width: 300px;'>
+    <main id='container' style='display: inline-block; width: 760px;'>
       <div style='width: 100%'>
         <?php
             $allowed = array('about', 'projects', 'publications');
