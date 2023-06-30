@@ -1,6 +1,5 @@
-<p class='t'>
-<p>
-  Hi, my name's Vilém Zouhar (Vilda) and I'm a student with passion for natural language processing, especially:
+<p style="margin-top: 20px;">
+  Hi, I'm Vilém/Vilda and I'm a student with passion for natural language processing, especially:
   <ul>
   	<li>NLP-oriented human-computer interaction (trust, confidence)</li>
     <li>non-mainstream machine translation (quality estimation)</li>
@@ -10,7 +9,7 @@
 
 <p class='t_bold'>Basic info:</p>
 <ul>
-  <li>PhD student at ETH, Zürich, Switzerland</li>
+  <li>PhD student at ETH Zürich, Switzerland</li>
   <li>CV:<span class='tooltip'>
       <a href="https://github.com/zouharvi/vilda.net/raw/master/cv/cv.pdf">here</a>
       <span class='tooltip_text'>This document is probably outdated, please request an updated version.</span>
