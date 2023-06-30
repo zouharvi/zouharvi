@@ -6,10 +6,12 @@ data = list(csv.reader(open("pages/publications.csv", "r")))
 
 text_replace = ""
 for title, authors, link_name, link_href in data:
+    authors = authors.replace('Vilém Zouhar', '<u>Vilém Zouhar</u>')
+    authors = authors.replace('V. Zouhar', '<u>V. Zouhar</u>')
     text_replace += f"""
     <tr>
         <td>{title}<br>
-            <span style="font-style: italic; font-size: small;">{authors.replace('Vilém Zouhar', '<u>Vilém Zouhar</u>')}</span>
+            <span style="font-style: italic; font-size: small;">{authors}</span>
         </td>
     """
 
