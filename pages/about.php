@@ -2,10 +2,9 @@
 <p>
   Hi, my name's Vilém Zouhar (Vilda) and I'm a student with passion for natural language processing, especially:
   <ul>
-  	<li>non-mainstream machine translation</li>
-  	<li>text simplification and complexity</li>
-  	<li>evaluation of usefulness and confidence</li>
-  	<li>NLP-oriented human-computer interaction</li>
+  	<li>NLP-oriented human-computer interaction (trust, confidence)</li>
+    <li>non-mainstream machine translation (quality estimation)</li>
+  	<li>text qualities (simplicity/complexity, usefulness)</li>
   </ul>
 </p>
 

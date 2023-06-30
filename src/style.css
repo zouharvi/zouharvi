@@ -1,5 +1,5 @@
 * {
-  font-family: 'Mukta', sans-serif;
+  font-family: 'Inria Sans', serif;
 }
 
 .t {
@@ -13,7 +13,7 @@
 a {
   font-weight: bold;
   text-decoration: none;
-  color: black;
+  color: #022;
 }
 
 #menu {
