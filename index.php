@@ -15,10 +15,22 @@
   <meta name="viewport" content="width=device-width">
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QT17P5TW51"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QT17P5TW51');
+</script>
+
 <body style='padding-top: 50px; padding-bottom: 100px; background-color: #fafafa;'>
   <div id='whole' style='max-width: 950px; margin:auto; border: 3px solid #e3e3e3; border-radius: 10px; background-color: #fff;'> 
     <div id='menu' style='display: inline-block; margin-right: 20px; vertical-align: top; font-family: "Inria Serif"'>
-      <header id='name' style='margin-left: 20px; margin-top: 20px; font-size: 1.2em;'>Vilém Zouhar</header>
+      <header id='name' style='margin-left: 20px; margin-top: 20px; font-size: 1.2em;'>
+        <a href="/" style="color: black;">Vilém Zouhar</a>
+      </header>
       <img
         src='src/portrait_2.webp'
         alt='photo of mountains and trees'
