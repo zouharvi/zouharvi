@@ -40,8 +40,8 @@
       >
     </div>
 
-    <main id='container' style='display: inline-block; width: 760px;'>
-      <div style='width: 100%'>
+    <main id='container' style='display: inline-block; max-width: 760px; width: 100%;'>
+      <div style='width: 100%;'>
         <?php
             $allowed = array('about', 'projects', 'publications');
             if(in_array($_GET['p'], $allowed))
