@@ -21,7 +21,7 @@
 <p class='t_bold'>Academic Affiliations:</p>
 <ul>
   <li>ETH Zürich, Department of Computer Science (<a href="http://www.mrinmaya.io/">Mrinmaya Sachan</a>, <a href="https://el-assady.com/">Menna El-Assady</a>)</li>
-  <li>Saarland University, Department of Language Science and Technology (<a href="https://www.lsv.uni-saarland.de/people/dietrich-klakow/">Dietrich Klakow</a>, <a href="https://www.let.rug.nl/gosse/">Gosse Bouma</a>)</li>
+  <li>Saarland University, Department of Language Science and Technology (<a href="https://www.lsv.uni-saarland.de/people/dietrich-klakow/">Dietrich Klakow</a>   )</li>
   <li>Charles University, Institute of Formal and Applied Linguistics (<a href="https://ufal.mff.cuni.cz/ondrej-bojar">Ondřej Bojar</a>)</li>
 </ul>
 
