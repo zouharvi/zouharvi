@@ -4,14 +4,14 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv="Cache-control" content="public">
-  <meta name="description" content="Portfolio and basic information about me, Vilém Zouhar (Vilda).">
-  <meta name="keywords" content="Vilém Zouhar, zouharvi, researcher, deep learning, NLP, programmer, portfolio, student, mathematics, TypeScript, Python, Linguistics, Research">
+  <meta name="description" content=", Vilém Zouhar (Vilda).">
+  <meta name="keywords" content="Vilém Zouhar is an PhD student at ETH Zürich working on user-centered NLP (trust, quality/complexity estimation).">
   <meta name="author" content="Vilém Zouhar">
   <link href="https://fonts.googleapis.com/css2?family=Inria+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inria+Serif" rel="stylesheet">
   <link rel='stylesheet' type='text/css'  href='src/style.css?v=3'>
   <link rel='icon'       type='image/png' href='src/favicon.png'>
-  <title>Vilda | Vilém Zouhar</title>
+  <title>(Vilda) Vilém Zouhar</title>
   <meta name="viewport" content="width=device-width">
 </head>
 
@@ -49,6 +49,10 @@
         style='width: 120px; margin-left: 15px;'
         onmouseover="this.src='src/portrait_3.webp'"
         onmouseout="this.src='src/portrait_1.webp'" 
+      >
+      <img
+        src='src/portrait_3.webp'
+        style="width:0px"
       >
     </div>
 

@@ -2,8 +2,8 @@
   Hi, I'm Vilém/Vilda and I'm have a passion for natural language processing research, especially:
   <ul>
   	<li>NLP-oriented human-computer interaction (trust, confidence)</li>
-    <li>non-mainstream machine translation (quality estimation)</li>
-  	<li>text qualities (simplicity/complexity, usefulness)</li>
+    <li>Non-mainstream machine translation (quality estimation)</li>
+  	<li>Text qualities (simplicity/complexity, usefulness)</li>
   </ul>
 </p>
 
