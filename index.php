@@ -26,7 +26,7 @@
 </script>
 
 <body style='padding-top: 50px; padding-bottom: 100px; background-color: #fafafa;'>
-  <div id='whole' style='max-width: 950px; margin:auto; border: 3px solid #e3e3e3; border-radius: 10px; background-color: #fff;'> 
+  <div id='whole' style='max-width: 950px; min-width: 450px; margin:auto; border: 3px solid #e3e3e3; border-radius: 10px; background-color: #fff; padding: 10px;'> 
     <div id='menu' style='display: inline-block; margin-right: 20px; vertical-align: top; font-family: "Inria Serif"'>
       <header id='name' style='margin-left: 20px; margin-top: 20px; font-size: 1.2em;'>
         <a href="/" style="color: black;">Vilém Zouhar</a>
@@ -36,7 +36,7 @@
         alt='photo of mountains and trees'
         style='width: 120px; margin-left: 15px; margin-top: 10px;'
       >
-      <nav style="width: 150px; margin-left: -5px;">
+      <nav style="width: 150px; margin-left: -5px; display: inline-block;">
         <ul>
           <li><a href='?p=about'>About</a></li>
           <li><a href='?p=publications'>Publications</a>

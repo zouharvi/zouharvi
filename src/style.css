@@ -20,13 +20,9 @@ a {
   width: 160px;
 }
 
-@media only screen and (max-width: 960px) {
-  nav {
-    display: inline-block;
-  }
-
+@media only screen and (max-width: 1000px) {
   #menu {
-    width: 400px;
+    width: 100%;
   }
 
   #name {
