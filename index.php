@@ -9,7 +9,7 @@
   <meta name="author" content="Vilém Zouhar">
   <link href="https://fonts.googleapis.com/css2?family=Inria+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inria+Serif" rel="stylesheet">
-  <link rel='stylesheet' type='text/css'  href='src/style.css?v=4'>
+  <link rel='stylesheet' type='text/css'  href='src/style.css?v=5'>
   <link rel='icon'       type='image/png' href='src/favicon.png'>
   <title>(Vilda) Vilém Zouhar</title>
   <meta name="viewport" content="width=550px">
@@ -27,27 +27,11 @@
 
 <body style='padding-top: 50px; padding-bottom: 100px;'>
   <div id='whole'> 
-    <div id='menu'>
-      <header id='name' style='margin-left: 20px; margin-top: 20px; font-size: 1.2em;'>
-        <a href="/" style="color: black;">Vilém Zouhar</a>
-      </header>
-      <img
-        src='src/portrait_2.webp'
-        alt='photo of mountains and trees'
-        style='width: 120px; margin-left: 15px; margin-top: 10px;'
-      >
-      <nav style="width: 150px; margin-left: -5px; display: inline-block;">
-        <br>
-        <ul>
-          <li><a href='?p=about'>About</a></li>
-          <li><a href='?p=publications'>Publications</a>
-          <li><a href='?p=projects'>Projects</a>
-        </ul>
-      </nav>
+    <div id='menu' style="width: 100%; vertical-align: top">
       <img
         src='src/portrait_1.webp'
         alt='photo of Vilém'
-        style='width: 120px; margin-left: 15px;'
+        style='width: 100px; margin-left: 15px;'
         onmouseover="this.src='src/portrait_3.webp'"
         onmouseout="this.src='src/portrait_1.webp'" 
       >
@@ -55,19 +39,37 @@
         src='src/portrait_3.webp'
         style="width:0px"
       >
+      <header id='name' style='font-size: 2em; display: inline-block; margin-left: 10pt;'>
+        <a href="/" style="color: black;">
+          <span style="letter-spacing: 0.15em;">Vilém</span>
+            <br>Zouhar
+        </a>
+      </header>
+      <span id="header_nothing"></span>
+      <ul style="display: inline-block; text-align: left;">
+        <li><a href='?p=about'>About</a></li>
+        <li><a href='?p=publications'>Publications</a></li>
+        <li><a href='?p=projects'>Projects</a></li>
+      </ul>
+      <img
+        id="img_trees"
+        src='src/portrait_2.webp'
+        alt='photo of mountains and trees'
+        style='width: 100px; margin-left: 15px; margin-top: 10px; float: right;'
+      >
     </div>
 
-    <main id='container' style='display: inline-block; max-width: 760px; width: 100%;'>
-      <div style='width: 100%;'>
-        <?php
-            $allowed = array('about', 'projects', 'publications');
-            if(in_array($_GET['p'], $allowed))
-                include("pages/". $_GET['p'] . ".php");
-            else
-                include("pages/about.php");
-        ?>
-      </div>    
-    </main>
+    <hr style="border: none; height: 3px; color: #919191; background-color: #919191;">
+
+    <div style='width: 100%;'>
+      <?php
+          $allowed = array('about', 'projects', 'publications');
+          if(in_array($_GET['p'], $allowed))
+              include("pages/". $_GET['p'] . ".php");
+          else
+              include("pages/about.php");
+      ?>
+    </div>    
   </div>
 </body>
 </html>

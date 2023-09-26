@@ -1,5 +1,5 @@
 <p style="margin-top: 20px;">
-  Hi, I'm Vilém/Vilda and I'm have a passion for natural language processing research, especially:
+  Hi, I'm Vilém/Vilda and I have a passion for natural language processing research, especially:
   <ul>
   	<li>NLP-oriented human-computer interaction (trust, confidence)</li>
     <li>Non-mainstream machine translation (quality estimation)</li>
