@@ -7,7 +7,7 @@
   </ul>
 </p>
 
-<p class='t_bold'>Basic info:</p>
+<p class='t_bold'>About me:</p>
 <ul>
   <li>PhD student at ETH Zürich, Switzerland</li>
   <li>CV:<span class='tooltip'>

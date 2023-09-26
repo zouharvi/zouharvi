@@ -9,10 +9,10 @@
   <meta name="author" content="Vilém Zouhar">
   <link href="https://fonts.googleapis.com/css2?family=Inria+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inria+Serif" rel="stylesheet">
-  <link rel='stylesheet' type='text/css'  href='src/style.css?v=3'>
+  <link rel='stylesheet' type='text/css'  href='src/style.css?v=4'>
   <link rel='icon'       type='image/png' href='src/favicon.png'>
   <title>(Vilda) Vilém Zouhar</title>
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=550px">
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -26,8 +26,8 @@
 </script>
 
 <body style='padding-top: 50px; padding-bottom: 100px; background-color: #fafafa;'>
-  <div id='whole' style='max-width: 950px; min-width: 450px; margin:auto; border: 3px solid #e3e3e3; border-radius: 10px; background-color: #fff; padding: 10px;'> 
-    <div id='menu' style='display: inline-block; margin-right: 20px; vertical-align: top; font-family: "Inria Serif"'>
+  <div id='whole'> 
+    <div id='menu'>
       <header id='name' style='margin-left: 20px; margin-top: 20px; font-size: 1.2em;'>
         <a href="/" style="color: black;">Vilém Zouhar</a>
       </header>
@@ -37,6 +37,7 @@
         style='width: 120px; margin-left: 15px; margin-top: 10px;'
       >
       <nav style="width: 150px; margin-left: -5px; display: inline-block;">
+        <br>
         <ul>
           <li><a href='?p=about'>About</a></li>
           <li><a href='?p=publications'>Publications</a>

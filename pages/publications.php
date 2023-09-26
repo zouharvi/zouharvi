@@ -6,21 +6,6 @@
     <a href="https://www.semanticscholar.org/author/Vilém-Zouhar/1429837660">Semantic Scholar</a>)
 </p>
 
-<style>
-    td {
-        padding-bottom: 10px;
-        line-height: 1em;
-    }
-
-    table tr td:last-child {
-        text-align: right;
-    }
-
-    /* set column width */
-    table td:nth-child(1) {
-        width: auto;
-    }
-</style>
 
 <table style="text-align: left; width: 100%; padding-right: 5px;">
 <?php
@@ -28,7 +13,7 @@
 
     while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
         echo "<tr><td><a href='" . $data[3] . "'>" . $data[0] . "</a><br>";
-        echo "<span style='font-size: small;'>" . $data[1] . "</span></td>";
+        echo "<span style='font-size: 0.8em;'>" . $data[1] . "</span></td>";
         echo "<td>" . $data[2] . "</td></tr>";
     }
     fclose($handle);
