@@ -5,6 +5,7 @@
     (see more at <a href="?p=publications">Publications</a> or <a href="https://github.com/zouharvi/">GitHub</a>)
 </p>
 
+<hr>
 
 <table class="ul_0" style="text-align: left; width: 100%;; padding-right: 5px;">
 <?php

@@ -25,7 +25,7 @@
   gtag('config', 'G-QT17P5TW51');
 </script>
 
-<body style='padding-top: 50px; padding-bottom: 100px;'>
+<body style='padding-top: 50px; padding-bottom: 50px;'>
   <div id='whole'> 
     <div id='menu' style="width: 100%; vertical-align: top">
       <img
@@ -59,7 +59,7 @@
       >
     </div>
 
-    <hr style="border: none; height: 3px; color: #919191; background-color: #919191;">
+    <hr>
 
     <div style='width: 100%;'>
       <?php

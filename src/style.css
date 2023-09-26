@@ -37,9 +37,16 @@ a {
   padding: 10px;
 }
 
-@media only screen and (max-width: 560px) {
+hr {
+  border: none;
+  height: 3px;
+  color: #919191;
+  background-color: #919191;
+}
+
+@media only screen and (max-width: 570px) {
   #whole {
-    margin-top: -50px;
+    margin-top: -30px;
   }
 
   #header_nothing {

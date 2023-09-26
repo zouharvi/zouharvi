@@ -6,6 +6,7 @@
     <a href="https://www.semanticscholar.org/author/Vilém-Zouhar/1429837660">Semantic Scholar</a>)
 </p>
 
+<hr>
 
 <table style="text-align: left; width: 100%; padding-right: 5px;">
 <?php
