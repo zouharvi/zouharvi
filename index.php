@@ -55,7 +55,7 @@
         id="img_trees"
         src='src/portrait_2.webp'
         alt='photo of mountains and trees'
-        style='width: 100px; margin-left: 15px; margin-top: 10px; float: right;'
+        style='width: 100px; margin-left: 15px; margin-top: 10px; margin-right: 15px; float: right;'
       >
     </div>
 
