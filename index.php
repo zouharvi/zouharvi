@@ -25,7 +25,7 @@
   gtag('config', 'G-QT17P5TW51');
 </script>
 
-<body style='padding-top: 50px; padding-bottom: 100px; background-color: #fafafa;'>
+<body style='padding-top: 50px; padding-bottom: 100px;'>
   <div id='whole'> 
     <div id='menu'>
       <header id='name' style='margin-left: 20px; margin-top: 20px; font-size: 1.2em;'>
