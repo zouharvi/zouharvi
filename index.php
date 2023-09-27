@@ -27,7 +27,7 @@
 
 <body style='padding-top: 50px; padding-bottom: 50px;'>
   <div id='whole'> 
-    <div id='menu' style="width: 100%; vertical-align: top">
+    <div id='menu' style="width: 100%;">
       <img
         src='src/portrait_1.webp'
         alt='photo of Vilém'
@@ -39,11 +39,13 @@
         src='src/portrait_3.webp'
         style="width:0px"
       >
-      <header id='name' style='font-size: 2em; display: inline-block; margin-left: 10pt;'>
+      <header id='name' style='font-size: 2em; display: inline-block; margin-left: 10px; vertical-align: bottom;'>
         <a href="/" style="color: black;">
           <span style="letter-spacing: 0.15em;">Vilém</span>
-            <br>Zouhar
+          <br>
+          Zouhar
         </a>
+        <div style='font-size: 0.3em; color: gray; letter-spacing: 0.15em; font-weight: normal; margin-bottom: 10px;'>updated Sep-2023</div>
       </header>
       <span id="header_nothing"></span>
       <ul style="display: inline-block; text-align: left;">

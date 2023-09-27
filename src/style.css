@@ -24,7 +24,6 @@ a {
   font-family: 'Inria Serif';
   margin-right: 20px; 
   display: inline-block;
-  vertical-align: top;
 }
 
 #whole {
@@ -42,6 +41,10 @@ hr {
   height: 3px;
   color: #919191;
   background-color: #919191;
+}
+ 
+.subpage_header {
+  font-size: 1.1em;
 }
 
 @media only screen and (max-width: 570px) {
@@ -68,7 +71,7 @@ hr {
 }
 
 #menu ul li {
-  line-height: 1.5em;
+  line-height: 1.6em;
 }
 
 /* TOOLTIP */

@@ -1,6 +1,6 @@
 <div style='margin-top: 20px;'></div>
 
-<p>
+<p class="subpage_header">
     <span class='t_bold'>Publications/Academia</span>
     (see <a href="https://scholar.google.com/citations?user=2EUDwtkAAAAJ">Google Scholar</a>,
     <a href="https://www.semanticscholar.org/author/Vilém-Zouhar/1429837660">Semantic Scholar</a>)

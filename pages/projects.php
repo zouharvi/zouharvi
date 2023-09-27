@@ -1,6 +1,6 @@
 <div style='margin-top: 20px;'></div>
 
-<p>
+<p class="subpage_header">
     <span class='t_bold'>Projects</span>
     (see more at <a href="?p=publications">Publications</a> or <a href="https://github.com/zouharvi/">GitHub</a>)
 </p>
