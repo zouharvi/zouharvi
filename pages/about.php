@@ -15,7 +15,7 @@
       <span class='tooltip_text'>This document is probably outdated, please request an updated version.</span>
   </span></li>
   <li>Research: <a href="?p=publications">Publications</a>, <a href="https://scholar.google.com/citations?user=2EUDwtkAAAAJ">Google Scholar</a>, <a href="https://www.semanticscholar.org/author/Vilém-Zouhar/1429837660">Semantic Scholar</a></li>
-  <li>Code: <a href="?p=publications">Projects</a>, <a href='https://github.com/zouharvi'>GitHub</a></li>
+  <li>Code: <a href="?p=projects">Projects</a>, <a href='https://github.com/zouharvi'>GitHub</a></li>
 </ul>
 
 <p class='t_bold'>Academic Affiliations:</p>
