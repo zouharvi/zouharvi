@@ -45,7 +45,7 @@
           <br>
           Zouhar
         </a>
-        <div style='font-size: 0.3em; color: gray; letter-spacing: 0.15em; font-weight: normal; margin-bottom: 10px;'>updated Sep-2023</div>
+        <div style='font-size: 0.3em; color: gray; letter-spacing: 0.15em; font-weight: normal; margin-bottom: 10px;'>updated Nov-2023</div>
       </header>
       <span id="header_nothing"></span>
       <ul style="display: inline-block; text-align: left;">
