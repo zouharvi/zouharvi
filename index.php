@@ -8,10 +8,12 @@
   <meta name="keywords" content="Vilém Zouhar is an PhD student at ETH Zürich working on user-centered NLP (trust, quality/complexity estimation).">
   <meta name="author" content="Vilém Zouhar">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans" rel="stylesheet">
-  <link rel='stylesheet' type='text/css'  href='src/style.css?v=5'>
+  <link rel='stylesheet' type='text/css'  href='src/style.css?v=6'>
   <link rel='icon'       type='image/png' href='src/favicon.png'>
   <title>(Vilda) Vilém Zouhar</title>
   <meta name="viewport" content="width=550px">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
 </head>
 
 <!-- Google tag (gtag.js) -->
