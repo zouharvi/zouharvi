@@ -1,40 +1,38 @@
 <p style="margin-top: 20px;">
-  Hi, I'm Vilém/Vilda and I have a passion for natural language processing research, especially:
-  <ul>
+  Hi, I'm Vilém/Vilda, a PhD student at ETH Zürich, Switzerland supervised by <a href="http://www.mrinmaya.io/">Mrinmaya Sachan</a> and <a href="https://el-assady.com/">Menna El-Assady</a>.
+  I have a passion for natural language processing research, especially:
+  <ul style="margin-top: -12px">
   	<li>NLP-oriented human-computer interaction (trust, confidence)</li>
     <li>Non-mainstream machine translation (quality estimation)</li>
   	<li>Text qualities (simplicity/complexity, usefulness)</li>
   </ul>
 </p>
 
-<p class='t_bold'>About me:</p>
-<ul>
-  <li>PhD student at ETH Zürich, Switzerland</li>
-  <li>CV:<span class='tooltip'>
-      <a href="https://github.com/zouharvi/vilda.net/raw/master/cv/cv.pdf">here</a>
-      <span class='tooltip_text'>This document is probably outdated, please request an updated version.</span>
-  </span></li>
-  <li>Research: <a href="?p=publications">Publications</a>, <a href="https://scholar.google.com/citations?user=2EUDwtkAAAAJ">Google Scholar</a>, <a href="https://www.semanticscholar.org/author/Vilém-Zouhar/1429837660">Semantic Scholar</a></li>
-  <li>Code: <a href="?p=projects">Projects</a>, <a href='https://github.com/zouharvi'>GitHub</a></li>
-</ul>
 
-<p class='t_bold'>Academic Affiliations:</p>
-<ul>
-  <li>ETH Zürich, Department of Computer Science (<a href="http://www.mrinmaya.io/">Mrinmaya Sachan</a>, <a href="https://el-assady.com/">Menna El-Assady</a>)</li>
-  <li>Saarland University, Department of Language Science and Technology (<a href="https://www.lsv.uni-saarland.de/people/dietrich-klakow/">Dietrich Klakow</a>   )</li>
-  <li>Charles University, Institute of Formal and Applied Linguistics (<a href="https://ufal.mff.cuni.cz/ondrej-bojar">Ondřej Bojar</a>)</li>
-</ul>
+<h3>Serious publications</h3>
+<table style="text-align: left; width: 100%; padding-right: 5px;">
+<?php
+    $handle = fopen("pages/publications.csv", "r");
 
-I'm always looking for a collaboration (and have a list of project ideas I'd like to move forward).
-Please do <b>send me unsolicited emails</b> if you have a project you'd like to collaborate/work on.
-Researchers, PhD & master students are welcome.
+    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+        echo "<tr><td><a href='" . $data[3] . "'>" . $data[0] . "</a><br>";
+        echo "<span style='font-size: 0.8em;'>" . $data[1] . "</span></td>";
+        echo "<td>" . $data[2] . "</td></tr>";
+    }
+    fclose($handle);
+?>
+</table>
 
-<p class='t_bold'>Contact:</p>
-<ul>
-  <li>
-      Email: <a href='mailto:vilem.zouhar@gmail.com'>vilem.zouhar@gmail.com</a>
-  </li>
-  <li>
-      Twitter: <a href='https://twitter.com/zouharvi'>@zouharvi</a><br>
-  </li>
-</ul>
+<h3>Less-serious projects</h3>
+<table class="ul_0" style="text-align: left; width: 100%;; padding-right: 5px;">
+<?php
+    $handle = fopen("pages/projects.csv", "r");
+
+    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+        echo "<tr><td><a href='" . $data[3] . "'>" . $data[0] . "</a><br>";
+        echo "<span style='font-size: 0.8em;'>" . $data[1] . "</span></td>";
+        echo "<td>" . $data[2] . "</td></tr>";
+    }
+    fclose($handle);
+?>
+</table>

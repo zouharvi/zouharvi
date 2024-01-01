@@ -7,8 +7,7 @@
   <meta name="description" content=", Vilém Zouhar (Vilda).">
   <meta name="keywords" content="Vilém Zouhar is an PhD student at ETH Zürich working on user-centered NLP (trust, quality/complexity estimation).">
   <meta name="author" content="Vilém Zouhar">
-  <link href="https://fonts.googleapis.com/css2?family=Inria+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inria+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans" rel="stylesheet">
   <link rel='stylesheet' type='text/css'  href='src/style.css?v=5'>
   <link rel='icon'       type='image/png' href='src/favicon.png'>
   <title>(Vilda) Vilém Zouhar</title>
@@ -42,16 +41,28 @@
       <header id='name' style='font-size: 2em; display: inline-block; margin-left: 10px; vertical-align: bottom;'>
         <a href="/" style="color: black;">
           <span style="letter-spacing: 0.15em;">Vilém</span>
-          <br>
+          <br style="display: block; margin: -5px 0;">
           Zouhar
         </a>
-        <div style='font-size: 0.3em; color: gray; letter-spacing: 0.15em; font-weight: normal; margin-bottom: 10px;'>updated Nov-2023</div>
+        <div style='font-size: 0.3em; color: gray; letter-spacing: 0.15em; font-weight: normal; margin-bottom: 10px;'>updated Jan-2024</div>
       </header>
       <span id="header_nothing"></span>
-      <ul style="display: inline-block; text-align: left;">
-        <li><a href='?p=about'>About</a></li>
-        <li><a href='?p=publications'>Publications</a></li>
-        <li><a href='?p=projects'>Projects</a></li>
+      
+      <!-- I'm always looking for a collaboration (and have a list of project ideas I'd like to move forward).
+      Please do <b>send me unsolicited emails</b> if you have a project you'd like to collaborate/work on.
+      Researchers, PhD & master students are welcome. -->
+
+      <ul style="display: inline-block; list-style-type: none;">
+        <li><a href="https://scholar.google.com/citations?user=2EUDwtkAAAAJ">Google Scholar</a></li>
+        <li><a href="https://www.semanticscholar.org/author/Vilém-Zouhar/1429837660">Semantic Scholar</a></li>
+      </ul>
+      <ul style="display: inline-block; list-style-type: none; margin-left: -10px; margin-right: -10px;">
+        <li><a href="https://github.com/zouharvi/vilda.net/raw/master/cv/cv.pdf">CV</a></li>
+        <li><a href="https://github.com/zouharvi/">GitHub</a></li>
+      </ul>
+      <ul style="display: inline-block; list-style-type: none;">
+            <li><a href='mailto:vilem.zouhar@gmail.com'>vilem.zouhar@gmail.com</a></li>
+            <li><a href='https://twitter.com/zouharvi'>@zouharvi</a></li>
       </ul>
       <img
         id="img_trees"
@@ -64,13 +75,7 @@
     <hr>
 
     <div style='width: 100%;'>
-      <?php
-          $allowed = array('about', 'projects', 'publications');
-          if(in_array($_GET['p'], $allowed))
-              include("pages/". $_GET['p'] . ".php");
-          else
-              include("pages/about.php");
-      ?>
+      <?php include("pages/about.php"); ?>
     </div>    
   </div>
 </body>
