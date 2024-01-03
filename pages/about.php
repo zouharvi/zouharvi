@@ -76,3 +76,10 @@ $(".paper_details_button").each((_, element) => {
   $("#paper_details_" + target_i).hide()
 })
 </script>
+
+<h3>Miscellaneous</h3>
+
+
+I'm currently advised by <a href="http://www.mrinmaya.io/">Mrinmaya Sachan</a> and <a href="https://el-assady.com/">Menna El-Assady</a>.
+Previously during my bachelor's and master's I was advised by <a href="https://www.lsv.uni-saarland.de/people/dietrich-klakow/">Dietrich Klakow</a>, and <a href="https://ufal.mff.cuni.cz/ondrej-bojar">Ondřej Bojar</a>.
+I had the privilige to supervise Yijie Tong, Haokun He, Abhinav Kumar, and David Gu.
