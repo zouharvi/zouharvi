@@ -5,6 +5,7 @@
 "Tokenization and the Noiseless Channel","Vilém Zouhar, Clara Meister, Juan Luis Gastaldi, Li Du, Mrinmaya Sachan, Ryan Cotterell","ACL 2023","https://aclanthology.org/2023.acl-long.284/"
 "A Formal Perspective on Byte-Pair Encoding","Vilém Zouhar, Clara Meister, Juan Luis Gastaldi, Li Du, Tim Vieira, Mrinmaya Sachan, Ryan Cotterell","ACL 2023","https://aclanthology.org/2023.findings-acl.38/"
 "Evaluating Optimal Reference Translations","Vilém Zouhar, Věra Kloudová, Martin Popel, Ondřej Bojar","JNLE, to appear 2024","http://arxiv.org/abs/2311.16787"
+"Navigating the Metrics Maze: Reconciling Score Magnitudes and Accuracies","Tom Kocmi, Vilém Zouhar, Christian Federmann, Matt Post","In review 2024","https://arxiv.org/abs/2401.06760"
 "Quality and Quantity of Machine Translation References for Automated Metrics","Vilém Zouhar, Ondřej Bojar","In review 2024","https://arxiv.org/abs/2401.01283"
 "RELIC: Investigating Large Language Model Responses using Self-Consistency","Furui Cheng, Vilém Zouhar, Simran Arora, Mrinmaya Sachan, Hendrik Strobelt, Mennatallah El-Assady","In review 2024","https://arxiv.org/abs/2311.16842"
 "PWESuite: Phonetic Word Embeddings and Tasks They Facilitate","Vilém Zouhar, Kalvin Chang, Chenxuan Cui, Nathaniel Carlson, Nathaniel Robinson, Mrinmaya Sachan, David Mortensen","In review 2024","https://arxiv.org/abs/2304.02541"
