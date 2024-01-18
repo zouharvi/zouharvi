@@ -10,29 +10,39 @@
   </ul>
 </p>
 
+<?php
+function publication_entry($line, $id) {
+  return "
+    <div class='paper_title' paper_target='" . $id . "'>"
+      . $line[0] . 
+      "<span class='venue'>" . $line[2] . 
+        "<a class='paper_details_button'>
+          <img src='src/expand_arrow.svg' class='paper_details_arrow' id='paper_details_arrow_" . $id . "'>" . 
+        "</a>" .
+      "</span>
+    </div>
+    <div class='paper_details' id='paper_details_" . $id . "'>
+      <span style='font-size: 0.8em;'>" . $line[1] . "</span>
+      <a href='" . $line[3] . "' class='paper_details_link'>[link]</a>
+    </div>
+  ";
+}
+?>
 
-<h3>Serious publications <span style="font-size: 0.7em">(click to expand)</span></h3>
+<h3>Serious publications
+  <span style="float: right; width: 200px; text-align: right;">
+    <span id="all_button_expand">expand all publication</span>
+    <span id="all_button_hide">collapse all publications</span>
+  </span>
+</h3>
 
 <?php
     $handle = fopen("pages/publications.csv", "r");
 
-    $_i = 0;
+    $i = 0;
     while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-        $_i += 1;
-        $i = "pu" . $_i;
-        echo "
-            <div class='paper_title'>
-              <a class='paper_details_button' paper_target='" . $i . "'>
-                <img src='src/expand_arrow.svg' class='paper_details_arrow' id='paper_details_arrow_" . $i . "'>" . 
-                $data[0] . 
-              "</a>
-              <span class='venue'>" . $data[2] . "</span>
-            </div>
-            <div class='paper_details' id='paper_details_" . $i . "'>
-              <span style='font-size: 0.8em;'>" . $data[1] . "</span>
-              <a href='" . $data[3] . "' class='paper_details_link'>[link]</a>
-            </div>
-          ";
+        $i += 1;
+        echo publication_entry($data, "pu" . $i);
     }
     fclose($handle);
 ?>
@@ -43,37 +53,47 @@
 <?php
     $handle = fopen("pages/projects.csv", "r");
 
-    $_i = 0;
+    $i = 0;
     while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-        $_i += 1;
-        $i = "pr" . $_i;
-        echo "
-            <div class='paper_title'>
-              <a class='paper_details_button' paper_target='" . $i . "'>
-                <img src='src/expand_arrow.svg' class='paper_details_arrow' id='paper_details_arrow_" . $i . "'>" . 
-                $data[0] . 
-              "</a>
-              <span class='venue'>" . $data[2] . "</span>
-            </div>
-            <div class='paper_details' id='paper_details_" . $i . "'>
-              <span style='font-size: 0.8em;'>" . $data[1] . "</span>
-              <a href='" . $data[3] . "' class='paper_details_link'>[link]</a>
-            </div>
-          ";
+        $i += 1;
+        echo publication_entry($data, "pr" . $i);
     }
     fclose($handle);
 ?>
 
 
 <script>
-$(".paper_details_button").each((_, element) => {
+$(".paper_title").each((_, element) => {
   let target_i = $(element).attr("paper_target")
   $(element).click(() => {
-    console.log(element, target_i)
     $("#paper_details_" + target_i).toggle();
     $("#paper_details_arrow_" + target_i).toggleClass("paper_details_arrow_up");
   })
   $("#paper_details_" + target_i).hide()
+})
+
+$("#all_button_expand").on("click", () => {
+  $("#all_button_expand").toggle(false)
+  $("#all_button_hide").toggle(true)
+
+  // open all
+  $(".paper_title").each((_, element) => {
+    let target_i = $(element).attr("paper_target")
+    $("#paper_details_" + target_i).toggle(true);
+    $("#paper_details_arrow_" + target_i).addClass("paper_details_arrow_up");
+  })
+})
+$("#all_button_hide").toggle(false)
+$("#all_button_hide").on("click", () => {
+  $("#all_button_expand").toggle(true)
+  $("#all_button_hide").toggle(false)
+
+  // open all
+  $(".paper_title").each((_, element) => {
+    let target_i = $(element).attr("paper_target")
+    $("#paper_details_" + target_i).toggle(false);
+    $("#paper_details_arrow_" + target_i).removeClass("paper_details_arrow_up");
+  })
 })
 </script>
 
