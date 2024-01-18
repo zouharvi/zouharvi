@@ -8,7 +8,7 @@
   <meta name="keywords" content="Vilém Zouhar is an PhD student at ETH Zürich working on user-centered NLP (trust, quality/complexity estimation).">
   <meta name="author" content="Vilém Zouhar">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans" rel="stylesheet">
-  <link rel='stylesheet' type='text/css'  href='src/style.css?v=6'>
+  <link rel='stylesheet' type='text/css'  href='src/style.css?v=8'>
   <link rel='icon'       type='image/png' href='src/favicon.png'>
   <title>(Vilda) Vilém Zouhar</title>
   <meta name="viewport" content="width=550px">
@@ -49,10 +49,6 @@
         <div style='font-size: 0.3em; color: gray; letter-spacing: 0.15em; font-weight: normal; margin-bottom: 10px;'>updated Jan-2024</div>
       </header>
       <span id="header_nothing"></span>
-      
-      <!-- I'm always looking for a collaboration (and have a list of project ideas I'd like to move forward).
-      Please do <b>send me unsolicited emails</b> if you have a project you'd like to collaborate/work on.
-      Researchers, PhD & master students are welcome. -->
 
       <ul style="display: inline-block; list-style-type: none;">
         <li><a href="https://scholar.google.com/citations?user=2EUDwtkAAAAJ">Google Scholar</a></li>
@@ -74,9 +70,26 @@
       >
     </div>
 
-    <div style='width: 100%;'>
-      <?php include("pages/about.php"); ?>
-    </div>    
+    <p style="margin-top: 20px;">
+      Hi, I'm Vilém/Vilda, a PhD student at ETH Zürich, Switzerland supervised by <a href="http://www.mrinmaya.io/">Mrinmaya Sachan</a> and <a href="https://el-assady.com/">Menna El-Assady</a>.
+      &nbsp;
+      &nbsp;
+      I have a passion for natural language processing research, especially:
+      <ul style="margin-top: -12px">
+        <li>NLP-oriented human-computer interaction (trust, confidence)</li>
+        <li>Non-mainstream machine translation (quality estimation)</li>
+        <li>Text qualities (simplicity/complexity, usefulness)</li>
+      </ul>
+    </p>
+
+    <?php include("publications.php"); ?>
+    
+    <h3>Miscellaneous</h3>
+    <br><br>
+    I'm currently advised by <a href="http://www.mrinmaya.io/">Mrinmaya Sachan</a> and <a href="https://el-assady.com/">Menna El-Assady</a>.
+    Previously during my bachelor's and master's I was advised by <a href="https://www.lsv.uni-saarland.de/people/dietrich-klakow/">Dietrich Klakow</a>, and <a href="https://ufal.mff.cuni.cz/ondrej-bojar">Ondřej Bojar</a>.
+    I had the privilige to supervise Yijie Tong, Haokun He, Abhinav Kumar, and David Gu.<br><br>
+    In my free time I'm interested in veganism, videogames and literature.
   </div>
 </body>
 </html>
