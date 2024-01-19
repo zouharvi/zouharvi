@@ -90,7 +90,7 @@ function publication_entry($line, $id) {
 
 
 <script>
-let OPEN_PAPERS = [1, 4];
+let OPEN_PAPERS = [2, 5];
 
 $(".paper_title").each((element_i, element) => {
   let target_i = $(element).attr("paper_target")
