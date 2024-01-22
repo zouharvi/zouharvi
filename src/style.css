@@ -19,15 +19,17 @@ a {
 }
 
 .venue {
-  float: right;
-  position: relative;
-  top: -5px;
+  /* float: right; */
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 
 .paper_title {
   padding: 5px;
   margin-top: 20px;
   cursor: pointer;
+  position: relative;
 }
 
 .paper_details {
@@ -38,10 +40,11 @@ a {
   border-radius: 5px;
   background-color: #ccc;
   text-align: justify;
+  hyphens: auto;
 }
 
 .paper_details_withimg {
-  min-height: 280px;
+  min-height: 230px;
 }
 
 .paper_title_active {
@@ -58,6 +61,8 @@ a {
   max-height: 200px;
   float: right;
   margin-left: 5px;
+  margin-right: 3px;
+  margin-top: 10px;
 }
 
 .paper_details_arrow { 
@@ -90,6 +95,7 @@ a {
   border-radius: 4px;
   cursor: pointer;
   margin-right: 5px;
+  position: relative;
 }
 
 #menu {

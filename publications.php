@@ -55,9 +55,9 @@ function publication_entry($line, $id) {
       "</span>
     </div>
     <div class='paper_details " . $extraclass . "' id='paper_details_" . $id . "'>" .
-      "<div>" . get_links($line[3]) . "</div><br>" .
-      "<span><b>" . $line[1] . "</b></span><br>" .
       $img . 
+      get_links($line[3]) . "<br><br>" .
+      "<span><b>" . $line[1] . "</b></span><br>" .
       "<span>" . $line[4] . "</span>" .
     "</div>
   ";
