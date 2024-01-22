@@ -40,9 +40,24 @@ a {
   text-align: justify;
 }
 
+.paper_details_withimg {
+  min-height: 280px;
+}
+
 .paper_title_active {
   border-radius: 5px;
   background-color: #ccc;
+}
+
+.paper_details_paragraph {
+  display: inline-block;
+}
+
+.paper_details img {
+  max-width: 350px;
+  max-height: 200px;
+  float: right;
+  margin-left: 5px;
 }
 
 .paper_details_arrow { 

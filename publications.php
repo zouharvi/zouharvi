@@ -38,7 +38,14 @@ function publication_entry($line, $id) {
   // 2 - venue
   // 3 - links
   // 4 - details
-  // 5 - img TODO
+  // 5 - img
+  if ($line[5] != "") {
+    $img = "<img src='pages/img/" . $line[5] . "'>";
+    $extraclass = "paper_details_withimg";
+  } else {
+    $img = "";
+    $extraclass = "";
+  }
 
   return "
     <div class='paper_title' paper_target='" . $id . "'>"
@@ -47,9 +54,10 @@ function publication_entry($line, $id) {
           "<img src='src/expand_button.svg' class='paper_details_arrow' id='paper_details_arrow_" . $id . "'>" . 
       "</span>
     </div>
-    <div class='paper_details' id='paper_details_" . $id . "'>" .
-      "<div>" . get_links($line[3]) . "</div>" .
+    <div class='paper_details " . $extraclass . "' id='paper_details_" . $id . "'>" .
+      "<div>" . get_links($line[3]) . "</div><br>" .
       "<span><b>" . $line[1] . "</b></span><br>" .
+      $img . 
       "<span>" . $line[4] . "</span>" .
     "</div>
   ";
