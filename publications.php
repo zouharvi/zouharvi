@@ -40,7 +40,7 @@ function publication_entry($line, $id) {
   // 4 - details
   // 5 - img
   if ($line[5] != "") {
-    $img = "<img src='pages/img/" . $line[5] . "'>";
+    $img = "<img src='pages/img/" . $line[5] . "'  loading='lazy'>";
     $extraclass = "paper_details_withimg";
   } else {
     $img = "";
