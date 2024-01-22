@@ -49,6 +49,7 @@ function publication_entry($line, $id) {
 
   $authors = str_replace(" ", "&nbsp;", $line[1]);
   $authors = str_replace(",&nbsp;", ", ", $authors);
+  $authors = str_replace(",<sup>=</sup>&nbsp;", ",<sup>=</sup> ", $authors);
 
   return "
     <div class='paper_title' paper_target='" . $id . "'>"
