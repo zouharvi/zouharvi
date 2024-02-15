@@ -46,7 +46,7 @@
           <br style="display: block; margin: -5px 0;">
           Zouhar
         </a>
-        <div style='font-size: 0.3em; color: gray; letter-spacing: 0.15em; font-weight: normal; margin-bottom: 10px;'>updated Jan-2024</div>
+        <div style='font-size: 0.3em; color: gray; letter-spacing: 0.15em; font-weight: normal; margin-bottom: 10px;'>updated Feb-2024</div>
       </header>
       <span id="header_nothing"></span>
 
@@ -78,7 +78,7 @@
       <ul style="margin-top: -12px">
         <li>NLP-oriented human-computer interaction (trust, confidence)</li>
         <li>Non-mainstream machine translation (quality estimation)</li>
-        <li>Text qualities (simplicity/complexity, usefulness)</li>
+        <li>NLP evaluation (model-human communication, metrics)</li>
       </ul>
     </p>
 
