@@ -21,7 +21,7 @@ function get_links($url_field) {
   if (sizeof($matches) >= 2) {
     $out .= "<a href='" . $matches[1] . "' class='paper_details_link'>video</a>";
   }
-  preg_match('/.*\|DATASET:([^|]*).*/', $url_field, $matches);
+  preg_match('/.*\|DATA:([^|]*).*/', $url_field, $matches);
   if (sizeof($matches) >= 2) {
     $out .= "<a href='" . $matches[1] . "' class='paper_details_link'>dataset</a>";
   }
