@@ -2,12 +2,13 @@
 
 <head>
 	<meta charset='utf-8'>
+	<meta name="keywords" content="Vilém Zouhar is an PhD student at ETH Zürich working on user-centered NLP (evaluation, quality estimation).">
 	<meta name="keywords" content="Vilém Zouhar, zouharvi, programmer, portfolio, student, mathematics, TypeScript, Python, Linguistics, Research">
 	<meta name="author" content="Vilém Zouhar">
 	<link href="https://fonts.googleapis.com/css2?family=Fira%20Mono&display=swap" rel="stylesheet">
-	<link rel='stylesheet' type='text/css'  href='/css/style.css?v=3'>
+	<link rel='stylesheet' type='text/css'  href='/css/style.css'>
 	<link rel='icon'       type='image/png' href='/src/favicon.png'>
-	<title>Vilda | Vilém Zouhar</title>
+	<title>(Vilda) Vilém Zouhar</title>
 	<meta name="viewport" content="width=device-width">
 	<style>
 		* {
