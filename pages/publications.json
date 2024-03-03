@@ -31,7 +31,7 @@
         "venue": "EMNLP 2023",
         "links": {
             "paper": "https://aclanthology.org/2023.wmt-1.54/",
-            "data": "https://github.com/wmt-terminology-task/data-2023",
+            "data": "https://huggingface.co/datasets/zouharvi/wmt-terminology-2023",
             "link": "https://wmt-terminology-task.github.io/"
         },
         "abstract": "The WMT 2023 Terminology Shared Task investigates progress in machine translation of texts with specialized vocabulary. The participants were given the source text and segment-level terminology dictionaries for three language pairs: Chinese→English, English→Czech, and German→English. We evaluate 21 submissions from 7 teams on two main criteria: general translation quality and the effectiveness of translating specialized terminology. Systems took varied approaches — incorporating terminology at inference time or weakly supervised training that uses terminology access. While incorporating terminology dictionaries leads to improvement in the translation quality, incorporating an equal amount of information from the reference leads to similar results. This challenges the position of terminologies being the crux of meaning in translation, it can also be explained by inadequate metrics which are not terminology-centric.",
@@ -47,7 +47,8 @@
             "paper": "https://aclanthology.org/2023.emnlp-main.339/",
             "code": "https://github.com/zouharvi/trust-intervention/",
             "demo": "https://vilda.net/s/trust-intervention/?uid=demo_paper",
-            "video": "https://www.youtube.com/watch?v=NrH3flpijDw"
+            "video": "https://www.youtube.com/watch?v=NrH3flpijDw",
+            "data": "https://huggingface.co/datasets/zouharvi/trust-intervention"
         },
         "abstract": "In human-AI collaboration, users typically form a mental model of the AI system, which captures the user’s beliefs about when the system performs well and when it does not. The construction of this mental model is guided by both the system’s veracity as well as the system output presented to the user e.g., the system’s confidence and an explanation for the prediction. However, modern NLP systems are seldom calibrated and are often confidently incorrect about their predictions, which violates users’ mental model and erodes their trust. In this work, we design a study where users bet on the correctness of an NLP system, and use it to study the evolution of user trust as a response to these trust-eroding events and how the user trust is rebuilt as a function of time after these events. We find that even a few highly inaccurate confidence estimation instances are enough to damage users’ trust in the system and performance, which does not easily recover over time. We further find that users are more forgiving to the NLP system if it is unconfidently correct rather than confidently incorrect, even though, from a game-theoretic perspective, their payoff is equivalent. Finally, we find that each user can entertain multiple mental models of the system based on the type of the question. These results highlight the importance of confidence calibration in developing user-centered NLP applications to avoid damaging user trust and compromising the collaboration performance.",
         "image": "trust_intervention.png",
@@ -117,7 +118,7 @@
         "links": {
             "paper": "https://arxiv.org/abs/2311.16787",
             "code": "https://github.com/ufal/optimal-reference-translations",
-            "data": "https://github.com/ufal/optimal-reference-translations"
+            "data": "https://huggingface.co/datasets/zouharvi/optimal-reference-translations"
         },
         "abstract": "The overall translation quality reached by current machine translation (MT) systems for high-resourced language pairs is remarkably good. Standard methods of evaluation are not suitable nor intended to uncover the many translation errors and quality deficiencies that still persist. Furthermore, the quality of standard reference translations is commonly questioned and comparable quality levels have been reached by MT alone in several language pairs. Navigating further research in these high-resource settings is thus difficult. In this article, we propose a methodology for creating more reliable document-level human reference translations, called 'optimal reference translations,' with the simple aim to raise the bar of what should be deemed 'human translation quality.' We evaluate the obtained document-level optimal reference translations in comparison with 'standard' ones, confirming a significant quality increase and also documenting the relationship between evaluation and translation editing.",
         "image": "ort.png",
@@ -361,6 +362,19 @@
         "image": "ptakopet_thesis.png",
         "type": "publication",
         "key": "ptakopet_thesis"
+    },
+    {
+        "title": "Machine Translation that Peeks at the Reference.",
+        "author": "",
+        "venue": "2023",
+        "links": {
+            "paper": "https://vilda.net/papers/mt_peek.pdf",
+            "code": "https://github.com/zouharvi/mt-peek"
+        },
+        "abstract": "Machine translation with lexical constraints is a popular research topic, especially for terminology translation. Existing approaches for lexical control in MT are usually complex and not easily applicable to all existing MT toolkits. We propose an off-the-shelf baseline approach, Peek MT, for lexical constraints. During training, the model is provided with access to some of the words in the reference, allowing it to produce better translations. During inference, the user can specify which words they would like the translation to contain. Depending on the amount of additional tokens, the MT performance is improved by 1.3-4.4 BLEU points per revealed token. Despite these being very soft constraints, they are fulfilled ≈66% of the time. Notably, the same approach can also be used to control the output translation length without tinkering with the decoder. Finally, from analysis point of view, this method allows us to establish that the knowledge of particular word in the reference, such as verbs and organization names boosts the MT performance the most.",
+        "image": "mt_peek.png",
+        "type": "project",
+        "key": "mt_peek"
     },
     {
         "title": "Metaphor Preservation in Machine Translation and Paraphrasing",
