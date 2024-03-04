@@ -318,7 +318,8 @@
         "venue": "WMT 2020",
         "links": {
             "paper": "https://aclanthology.org/2020.wmt-1.41/",
-            "code": "https://github.com/ELITR/wmt20-elitr-testsuite"
+            "code": "https://github.com/ELITR/wmt20-elitr-testsuite",
+            "data": "https://huggingface.co/datasets/zouharvi/wmt20-markables"
         },
         "abstract": "Even though sentence-centric metrics are used widely in machine translation evaluation, document-level performance is at least equally important for professional usage. In this paper, we bring attention to detailed document-level evaluation focused on markables (expressions bearing most of the document meaning) and the negative impact of various markable error phenomena on the translation. For an annotation experiment of two phases, we chose Czech and English documents translated by systems submitted to WMT20 News Translation Task. These documents are from the News, Audit and Lease domains. We show that the quality and also the kind of errors varies significantly among the domains. This systematic variance is in contrast to the automatic evaluation results. We inspect which specific markables are problematic for MT systems and conclude with an analysis of the effect of markable error types on the MT performance measured by humans and automatic evaluation tools.",
         "image": "wmt20_markable.png",
