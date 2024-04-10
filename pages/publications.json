@@ -14,6 +14,19 @@
         "key": "bio_mqm_metrics_bias"
     },
     {
+        "title": "Quality and Quantity of Machine Translation References for Automated Metrics",
+        "author": "Vilém Zouhar, Ondřej Bojar",
+        "venue": "HumEval 2024",
+        "links": {
+            "paper": "https://arxiv.org/abs/2401.01283",
+            "code": "https://github.com/ufal/optimal-reference-translations"
+        },
+        "abstract": "Automatic machine translation metrics often use human translations to determine the quality of system translations. Common wisdom in the field dictates that the human references should be of very high quality. However, there are no cost-benefit analyses that could be used to guide practitioners who plan to collect references for machine translation evaluation. We find that higher-quality references lead to better metric correlations with humans at the segment-level. Having up to 7 references per segment and taking their average helps all metrics. Interestingly, the references from vendors of different qualities can be mixed together and improve metric success. Higher quality references, however, cost more to create and we frame this as an optimization problem: given a specific budget, what references should be collected to maximize metric success. These findings can be used by evaluators of shared tasks when references need to be created under a certain budget.",
+        "image": "ortmt.png",
+        "type": "publication",
+        "key": "ortmt"
+    },
+    {
         "title": "RELIC: Investigating Large Language Model Responses using Self-Consistency",
         "author": "Furui Cheng, Vilém Zouhar, Simran Arora, Mrinmaya Sachan, Hendrik Strobelt, Mennatallah El-Assady",
         "venue": "CHI 2024",
@@ -24,20 +37,6 @@
         "image": "relic.png",
         "type": "publication",
         "key": "relic"
-    },
-    {
-        "title": "WMT 2023 Shared Task on Machine Translation with Terminologies",
-        "author": "Kirill Semenov, Vilém Zouhar, Tom Kocmi, Dongdong Zhang, Wangchunshu Zhou, Yuchen Eleanor Jiang",
-        "venue": "EMNLP 2023",
-        "links": {
-            "paper": "https://aclanthology.org/2023.wmt-1.54/",
-            "data": "https://huggingface.co/datasets/zouharvi/wmt-terminology-2023",
-            "link": "https://wmt-terminology-task.github.io/"
-        },
-        "abstract": "The WMT 2023 Terminology Shared Task investigates progress in machine translation of texts with specialized vocabulary. The participants were given the source text and segment-level terminology dictionaries for three language pairs: Chinese→English, English→Czech, and German→English. We evaluate 21 submissions from 7 teams on two main criteria: general translation quality and the effectiveness of translating specialized terminology. Systems took varied approaches — incorporating terminology at inference time or weakly supervised training that uses terminology access. While incorporating terminology dictionaries leads to improvement in the translation quality, incorporating an equal amount of information from the reference leads to similar results. This challenges the position of terminologies being the crux of meaning in translation, it can also be explained by inadequate metrics which are not terminology-centric.",
-        "image": "wmt23_terminology.png",
-        "type": "publication",
-        "key": "wmt23_terminology"
     },
     {
         "title": "A Diachronic Perspective on User Trust in AI under Uncertainty",
@@ -56,6 +55,20 @@
         "key": "trust_intervention"
     },
     {
+        "title": "WMT 2023 Shared Task on Machine Translation with Terminologies",
+        "author": "Kirill Semenov, Vilém Zouhar, Tom Kocmi, Dongdong Zhang, Wangchunshu Zhou, Yuchen Eleanor Jiang",
+        "venue": "EMNLP 2023",
+        "links": {
+            "paper": "https://aclanthology.org/2023.wmt-1.54/",
+            "data": "https://huggingface.co/datasets/zouharvi/wmt-terminology-2023",
+            "link": "https://wmt-terminology-task.github.io/"
+        },
+        "abstract": "The WMT 2023 Terminology Shared Task investigates progress in machine translation of texts with specialized vocabulary. The participants were given the source text and segment-level terminology dictionaries for three language pairs: Chinese→English, English→Czech, and German→English. We evaluate 21 submissions from 7 teams on two main criteria: general translation quality and the effectiveness of translating specialized terminology. Systems took varied approaches — incorporating terminology at inference time or weakly supervised training that uses terminology access. While incorporating terminology dictionaries leads to improvement in the translation quality, incorporating an equal amount of information from the reference leads to similar results. This challenges the position of terminologies being the crux of meaning in translation, it can also be explained by inadequate metrics which are not terminology-centric.",
+        "image": "wmt23_terminology.png",
+        "type": "publication",
+        "key": "wmt23_terminology"
+    },
+    {
         "title": "Enhancing Textbooks with Visuals from the Web for Improved Learning",
         "author": "Janvijay Singh, Vilém Zouhar, Mrinmaya Sachan",
         "venue": "EMNLP 2023",
@@ -68,20 +81,6 @@
         "image": "textbook_enhancement.png",
         "type": "publication",
         "key": "textbook_enhancement"
-    },
-    {
-        "title": "Re-visiting Automated Topic Model Evaluation with Large Language Models",
-        "author": "Dominik Stammbach, Vilém Zouhar, Alexander Hoyle, Mrinmaya Sachan, Elliott Ash",
-        "venue": "EMNLP 2023",
-        "links": {
-            "paper": "https://aclanthology.org/2023.emnlp-main.581/",
-            "video": "https://www.youtube.com/watch?v=qIDjtgWTgjs",
-            "code": "https://github.com/dominiksinsaarland/evaluating-topic-model-output"
-        },
-        "abstract": "Topic models help us make sense of large text collections. Automatically evaluating their output and determining the optimal number of topics are both longstanding challenges, with no effective automated solutions to date. This paper proposes using large language models (LLMs) for these tasks. We find that LLMs appropriately assess the resulting topics, correlating more strongly with human judgments than existing automated metrics. However, the setup of the evaluation task is crucial — LLMs perform better on coherence ratings of word sets than on intrustion detection. We find that LLMs can also assist us in guiding us towards a reasonable number of topics. In actual applications, topic models are typically used to answer a research question related to a collection of texts. We can incorporate this research question in the prompt to the LLM, which helps estimating the optimal number of topics.",
-        "image": "llm_topic_model_evaluation.png",
-        "type": "publication",
-        "key": "llm_topic_model_evaluation"
     },
     {
         "title": "Tokenization and the Noiseless Channel",
@@ -114,7 +113,7 @@
     {
         "title": "Evaluating Optimal Reference Translations",
         "author": "Vilém Zouhar, Věra Kloudová, Martin Popel, Ondřej Bojar",
-        "venue": "JNLE, to appear 2024",
+        "venue": "JNLE 2025",
         "links": {
             "paper": "https://arxiv.org/abs/2311.16787",
             "code": "https://github.com/ufal/optimal-reference-translations",
@@ -124,6 +123,20 @@
         "image": "ort.png",
         "type": "publication",
         "key": "ort"
+    },
+    {
+        "title": "Re-visiting Automated Topic Model Evaluation with Large Language Models",
+        "author": "Dominik Stammbach, Vilém Zouhar, Alexander Hoyle, Mrinmaya Sachan, Elliott Ash",
+        "venue": "EMNLP 2023",
+        "links": {
+            "paper": "https://aclanthology.org/2023.emnlp-main.581/",
+            "video": "https://www.youtube.com/watch?v=qIDjtgWTgjs",
+            "code": "https://github.com/dominiksinsaarland/evaluating-topic-model-output"
+        },
+        "abstract": "Topic models help us make sense of large text collections. Automatically evaluating their output and determining the optimal number of topics are both longstanding challenges, with no effective automated solutions to date. This paper proposes using large language models (LLMs) for these tasks. We find that LLMs appropriately assess the resulting topics, correlating more strongly with human judgments than existing automated metrics. However, the setup of the evaluation task is crucial — LLMs perform better on coherence ratings of word sets than on intrustion detection. We find that LLMs can also assist us in guiding us towards a reasonable number of topics. In actual applications, topic models are typically used to answer a research question related to a collection of texts. We can incorporate this research question in the prompt to the LLM, which helps estimating the optimal number of topics.",
+        "image": "llm_topic_model_evaluation.png",
+        "type": "publication",
+        "key": "llm_topic_model_evaluation"
     },
     {
         "title": "Navigating the Metrics Maze: Reconciling Score Magnitudes and Accuracies",
@@ -139,19 +152,6 @@
         "image": "metrics_maze.png",
         "type": "publication",
         "key": "metrics_maze"
-    },
-    {
-        "title": "Quality and Quantity of Machine Translation References for Automated Metrics",
-        "author": "Vilém Zouhar, Ondřej Bojar",
-        "venue": "In review 2024",
-        "links": {
-            "paper": "https://arxiv.org/abs/2401.01283",
-            "code": "https://github.com/ufal/optimal-reference-translations"
-        },
-        "abstract": "Automatic machine translation metrics often use human translations to determine the quality of system translations. Common wisdom in the field dictates that the human references should be of very high quality. However, there are no cost-benefit analyses that could be used to guide practitioners who plan to collect references for machine translation evaluation. We find that higher-quality references lead to better metric correlations with humans at the segment-level. Having up to 7 references per segment and taking their average helps all metrics. Interestingly, the references from vendors of different qualities can be mixed together and improve metric success. Higher quality references, however, cost more to create and we frame this as an optimization problem: given a specific budget, what references should be collected to maximize metric success. These findings can be used by evaluators of shared tasks when references need to be created under a certain budget.",
-        "image": "ortmt.png",
-        "type": "publication",
-        "key": "ortmt"
     },
     {
         "title": "PWESuite: Phonetic Word Embeddings and Tasks They Facilitate",
@@ -182,7 +182,7 @@
     {
         "title": "Scaling the Authoring of AutoTutors with Large Language Models",
         "author": "Sankalan Pal Chowdhury, Vilém Zouhar, Mrinmaya Sachan",
-        "venue": "In review 2024",
+        "venue": "Learning@Scale 2024",
         "links": {
             "paper": "https://arxiv.org/abs/2402.09216"
         },
@@ -236,7 +236,7 @@
         "author": "Vilém Zouhar, Marius Mosbach, Miaoran Zhang, Dietrich Klakow",
         "venue": "SpaNLP 2022",
         "links": {
-            "paper": "https://arxiv.org/pdf/2204.02906.pdf",
+            "paper": "https://aclanthology.org/2022.spanlp-1.5/",
             "code": "https://github.com/zouharvi/kb-shrink",
             "video": "https://www.youtube.com/watch?v=qczabc2oyMA"
         },
