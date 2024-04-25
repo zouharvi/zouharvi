@@ -71,9 +71,7 @@
     </div>
 
     <p style="margin-top: 20px;">
-      Hi, I'm Vilém/Vilda, a PhD student at ETH Zürich, Switzerland supervised by <a href="http://www.mrinmaya.io/">Mrinmaya Sachan</a> and <a href="https://el-assady.com/">Menna El-Assady</a>.
-      &nbsp;
-      &nbsp;
+      Hi, I'm Vilém (also Vilda), a PhD student at ETH Zürich, Switzerland supervised by Mrinmaya Sachan <a href="https://lre.inf.ethz.ch/">at LRE lab</a> and Menna El-Assady at <a href="https://ivia.ch/">IVIA lab</a>.
       I have a passion for natural language processing research, especially:
       <ul style="margin-top: -12px">
         <li>NLP-oriented human-computer interaction (trust, confidence)</li>
@@ -86,10 +84,10 @@
     
     <h3>Miscellaneous</h3>
     <br><br>
-    I'm currently advised by <a href="http://www.mrinmaya.io/">Mrinmaya Sachan</a> and <a href="https://el-assady.com/">Menna El-Assady</a>.
+    I'm currently advised by <a href="https://lre.inf.ethz.ch/">Mrinmaya Sachan</a> and <a href="https://el-assady.com/">Menna El-Assady</a>.
     Previously during my bachelor's and master's I was advised by <a href="https://www.lsv.uni-saarland.de/people/dietrich-klakow/">Dietrich Klakow</a>, and <a href="https://ufal.mff.cuni.cz/ondrej-bojar">Ondřej Bojar</a>.
     I had the privilige to supervise Yijie Tong, Haokun He, Abhinav Kumar, and David Gu.<br><br>
-    In my free time I'm interested in veganism, videogames and literature.
+    In my free time I'm interested in veganism, electric guitar, videogames and literature.
   </div>
 </body>
 </html>
