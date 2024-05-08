@@ -113,9 +113,9 @@
     {
         "title": "Evaluating Optimal Reference Translations",
         "author": "Vilém Zouhar, Věra Kloudová, Martin Popel, Ondřej Bojar",
-        "venue": "JNLE 2025",
+        "venue": "JNLE 2024",
         "links": {
-            "paper": "https://arxiv.org/abs/2311.16787",
+            "paper": "https://www.cambridge.org/core/journals/natural-language-processing/article/evaluating-optimal-reference-translations/C83BAB85527854228661D34F5065B897",
             "code": "https://github.com/ufal/optimal-reference-translations",
             "data": "https://huggingface.co/datasets/zouharvi/optimal-reference-translations"
         },
