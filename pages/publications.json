@@ -2,7 +2,7 @@
     {
         "title": "Fine-Tuned Machine Translation Metrics Struggle in Unseen Domains",
         "author": "Vilém Zouhar, Shuoyang Ding, Anna Currey, Tatyana Badeka, Jenyuan Wang, Brian Thompson",
-        "venue": "In review 2024",
+        "venue": "ACL 2024",
         "links": {
             "paper": "https://arxiv.org/abs/2402.18747",
             "data": "https://huggingface.co/datasets/zouharvi/bio-mqm-dataset",
@@ -155,7 +155,7 @@
     {
         "title": "Navigating the Metrics Maze: Reconciling Score Magnitudes and Accuracies",
         "author": "Tom Kocmi, Vilém Zouhar, Christian Federmann, Matt Post",
-        "venue": "In review 2024",
+        "venue": "ACL 2024",
         "links": {
             "paper": "https://arxiv.org/abs/2401.06760",
             "code": "https://github.com/kocmitom/MT-Thresholds",
