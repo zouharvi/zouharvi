@@ -18,7 +18,7 @@
         "author": "Vilém Zouhar, Ondřej Bojar",
         "venue": "HumEval 2024",
         "links": {
-            "paper": "https://arxiv.org/abs/2401.01283",
+            "paper": "https://aclanthology.org/2024.humeval-1.1",
             "code": "https://github.com/ufal/optimal-reference-translations"
         },
         "abstract": "Automatic machine translation metrics often use human translations to determine the quality of system translations. Common wisdom in the field dictates that the human references should be of very high quality. However, there are no cost-benefit analyses that could be used to guide practitioners who plan to collect references for machine translation evaluation. We find that higher-quality references lead to better metric correlations with humans at the segment-level. Having up to 7 references per segment and taking their average helps all metrics. Interestingly, the references from vendors of different qualities can be mixed together and improve metric success. Higher quality references, however, cost more to create and we frame this as an optimization problem: given a specific budget, what references should be collected to maximize metric success. These findings can be used by evaluators of shared tasks when references need to be created under a certain budget.",
@@ -172,7 +172,7 @@
         "author": "Vilém Zouhar, Kalvin Chang, Chenxuan Cui, Nathaniel Carlson, Nathaniel Robinson, Mrinmaya Sachan, David Mortensen",
         "venue": "LREC-COLING 2024",
         "links": {
-            "paper": "https://arxiv.org/abs/2304.02541",
+            "paper": "https://aclanthology.org/2024.lrec-main.1168/",
             "code": "https://github.com/zouharvi/pwesuite",
             "data": "https://huggingface.co/datasets/zouharvi/pwesuite-eval"
         },
@@ -186,7 +186,7 @@
         "author": "Marco Cognetta, Vilém Zouhar, Sangwhan Moon, Naoaki Okazaki",
         "venue": "LREC-COLING 2024",
         "links": {
-            "paper": "https://arxiv.org/abs/2402.14614"
+            "paper": "https://aclanthology.org/2024.lrec-main.1469/"
         },
         "abstract": "In Tokenization and the Noiseless Channel, Rényi efficiency is suggested as an intrinsic mechanism for evaluating a tokenizer: for NLP tasks, the tokenizer which leads to the highest Rényi efficiency of the unigram distribution should be chosen. The Rényi efficiency is thus treated as a predictor of downstream performance (e.g., predicting BLEU for machine translation task), without the expensive step of training multiple models with different tokenizers. Although useful, the predictive power of this metric is not perfect, and the authors note there are additional qualities of a good tokenization scheme that Rényi efficiency alone cannot capture. We describe two variants of BPE tokenization which can arbitrarily increase Rényi efficiency while decreasing the downstream model performance. These counterexamples expose cases where Rényi efficiency fails as an intrinsic tokenization metric and thus give insight for building more accurate predictors.",
         "image": "tokenization_counter.png",
