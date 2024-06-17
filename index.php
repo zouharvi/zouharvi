@@ -46,7 +46,7 @@
           <br style="display: block; margin: -5px 0;">
           Zouhar
         </a>
-        <div style='font-size: 0.3em; color: gray; letter-spacing: 0.15em; font-weight: normal; margin-bottom: 10px;'>updated Feb-2024</div>
+        <div style='font-size: 0.3em; color: gray; letter-spacing: 0.15em; font-weight: normal; margin-bottom: 10px;'>updated Jun-2024</div>
       </header>
       <span id="header_nothing"></span>
 
