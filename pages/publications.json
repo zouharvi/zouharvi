@@ -471,7 +471,7 @@
     {
         "title": "Multimodal Shannon Game with Images",
         "author": "Vilém Zouhar,<sup>=</sup> Sunit Bhattacharya,<sup>=</sup> Ondřej Bojar",
-        "venue": "Preprint 2022",
+        "venue": "ACAIN 2024",
         "links": {
             "paper": "https://arxiv.org/abs/2303.11192",
             "code": "https://github.com/zouharvi/mmsg",
