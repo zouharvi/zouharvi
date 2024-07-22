@@ -166,6 +166,19 @@
         "key": "ort"
     },
     {
+        "title": "How to Engage Your Readers? Generating Guiding Questions to Promote Active Reading",
+        "author": "Peng Cui, Vilém Zouhar, Xiaoyu Zhang, Mrinmaya Sachan",
+        "venue": "ACL 2024",
+        "links": {
+            "paper": "https://arxiv.org/abs/2407.14309",
+            "code": "https://github.com/eth-lre/engage-your-readers"
+        },
+        "abstract": "Using questions in written text is an effective strategy to enhance readability. However, what makes an active reading question good, what the linguistic role of these questions is, and what is their impact on human reading remains understudied. We introduce GuidingQ, a dataset of 10K in-text questions from textbooks and scientific articles. By analyzing the dataset, we present a comprehensive understanding of the use, distribution, and linguistic characteristics of these questions. Then, we explore various approaches to generate such questions using language models. Our results highlight the importance of capturing inter-question relationships and the challenge of question position identification in generating these questions. Finally, we conduct a human study to understand the implication of such questions on reading comprehension. We find that the generated questions are of high quality and are almost as effective as human-written questions in terms of improving readers' memorization and comprehension.",
+        "image": "engage_readers.png",
+        "type": "publication",
+        "key": "engage_readers"
+    },
+    {
         "title": "Re-visiting Automated Topic Model Evaluation with Large Language Models",
         "author": "Dominik Stammbach, Vilém Zouhar, Alexander Hoyle, Mrinmaya Sachan, Elliott Ash",
         "venue": "EMNLP 2023",
