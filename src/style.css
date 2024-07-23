@@ -110,7 +110,7 @@ a {
 
 #whole {
   max-width: 950px;
-  min-width: 350px;
+  min-width: 400px;
   margin: auto;
   border-radius: 10px;
   background-color: #fff;
@@ -140,8 +140,13 @@ a {
   vertical-align: bottom;
 }
 
+#menu ul {
+  margin-right: -10px;
+}
+
 #menu ul li {
   line-height: 1.6em;
+  text-align: left;
 }
 
 

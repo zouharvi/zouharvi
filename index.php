@@ -54,13 +54,17 @@
         <li><a href="https://scholar.google.com/citations?user=2EUDwtkAAAAJ">Google Scholar</a></li>
         <li><a href="https://www.semanticscholar.org/author/Vilém-Zouhar/1429837660">Semantic Scholar</a></li>
       </ul>
-      <ul style="display: inline-block; list-style-type: none; margin-left: -10px; margin-right: -10px;">
+      <ul style="display: inline-block; list-style-type: none;">
         <li><a href="https://github.com/zouharvi/vilda.net/raw/master/cv/cv.pdf">CV</a></li>
-        <li><a href="https://github.com/zouharvi/">GitHub</a></li>
+        <li><a href='mailto:vilem.zouhar@gmail.com'>Contact</a></li>
       </ul>
       <ul style="display: inline-block; list-style-type: none;">
-            <li><a href='mailto:vilem.zouhar@gmail.com'>vilem.zouhar@gmail.com</a></li>
-            <li><a href='https://twitter.com/zouharvi'>@zouharvi</a></li>
+        <li><a href="https://github.com/zouharvi/">GitHub</a></li>
+        <li><a href="https://huggingface.co/zouharvi">HuggingFace</a></li>
+      </ul>
+      <ul style="display: inline-block; list-style-type: none;">
+          <li><a href='https://twitter.com/zouharvi'>Twitter</a></li>
+          <li><a href='https://www.youtube.com/@zouharvi'>YouTube</a></li>
       </ul>
       <img
         id="img_trees"
@@ -87,7 +91,7 @@
     I'm currently advised by <a href="https://lre.inf.ethz.ch/">Mrinmaya Sachan</a> and <a href="https://el-assady.com/">Menna El-Assady</a>.
     Previously during my bachelor's and master's I was advised by <a href="https://www.lsv.uni-saarland.de/people/dietrich-klakow/">Dietrich Klakow</a>, and <a href="https://ufal.mff.cuni.cz/ondrej-bojar">Ondřej Bojar</a>.
     I had the privilige to supervise Yijie Tong, Haokun He, Abhinav Kumar, and David Gu.<br><br>
-    In my free time I'm interested in veganism, electric guitar, videogames and literature.
+    In my free time I'm interested in veganism, electric guitar, {video,board}games, and literature.
   </div>
 </body>
 </html>
