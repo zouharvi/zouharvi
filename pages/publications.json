@@ -287,18 +287,6 @@
         "key": "providing_backtranslation"
     },
     {
-        "title": "Artefact Retrieval: Overview of NLP Models with Knowledge Base Access",
-        "author": "Vilém Zouhar, Marius Mosbach, Debanjali Biswas, Dietrich Klakow",
-        "venue": "AKBC CSKB 2021",
-        "links": {
-            "paper": "https://openreview.net/forum?id=9_oCNR6R9l2"
-        },
-        "abstract": "Many NLP models gain performance by having access to a knowledge base. A lot of research has been devoted to devising and improving the way the knowledge base is accessed and incorporated into the model, resulting in a number of mechanisms and pipelines. Despite the diversity of proposed mechanisms, there are patterns in the designs of such systems. In this paper, we systematically describe the typology of *artefacts* (items retrieved from a knowledge base), retrieval mechanisms and the way these artefacts are *fused* into the model. This further allows us to uncover combinations of design decisions that had not yet been tried. Most of the focus is given to language models, though we also show how question answering, fact-checking and knowledgable dialogue models fit into this system as well. Having an abstract model which can describe the architecture of specific models also helps with transferring these architectures between multiple NLP tasks.",
-        "image": "artefact_retrieval.png",
-        "type": "publication",
-        "key": "artefact_retrieval"
-    },
-    {
         "title": "Sampling and Filtering of Neural Machine Translation Distillation Data",
         "author": "Vilém Zouhar",
         "venue": "NAACL SRW 2021",
@@ -310,19 +298,6 @@
         "image": "mt_filtering.png",
         "type": "publication",
         "key": "mt_filtering"
-    },
-    {
-        "title": "Leveraging Neural Machine Translation for Word Alignment",
-        "author": "Vilém Zouhar, Daria Pylypenko",
-        "venue": "PBML 116",
-        "links": {
-            "paper": "https://ufal.mff.cuni.cz/pbml/116/art-zouhar-pylypenko.pdf",
-            "code": "https://github.com/zouharvi/LeverageAlign"
-        },
-        "abstract": "The most common tools for word-alignment rely on a large amount of parallel sentences,which are then usually processed according to one of the IBM model algorithms. The trainingdata is, however, the same as for machine translation (MT) systems, especially for neural MT(NMT), which itself is able to produce word-alignments using the trained attention heads. Thisis convenient because word-alignment is theoretically a viable byproduct of any attention-basedNMT, which is also able to provide decoder scores for a translated sentence pair.We summarize different approaches on how word-alignment can be extracted from align-ment scores and then explore ways in which scores can be extracted from NMT, focusing oninferring the word-alignment scores based on output sentence and token probabilities. Wecompare this to the extraction of alignment scores from attention. We conclude with aggregat-ing all of the sources of alignment scores into a simple feed-forward network which achievesthe best results when combined alignment extractors are used.",
-        "image": "leverage_align.png",
-        "type": "publication",
-        "key": "leverage_align"
     },
     {
         "title": "WMT20 Document-Level Markable Error Exploration",
@@ -519,6 +494,31 @@
         "image": "rsp.png",
         "type": "project",
         "key": "rsp"
+    },
+    {
+        "title": "Artefact Retrieval: Overview of NLP Models with Knowledge Base Access",
+        "author": "Vilém Zouhar, Marius Mosbach, Debanjali Biswas, Dietrich Klakow",
+        "venue": "AKBC CSKB 2021",
+        "links": {
+            "paper": "https://openreview.net/forum?id=9_oCNR6R9l2"
+        },
+        "abstract": "Many NLP models gain performance by having access to a knowledge base. A lot of research has been devoted to devising and improving the way the knowledge base is accessed and incorporated into the model, resulting in a number of mechanisms and pipelines. Despite the diversity of proposed mechanisms, there are patterns in the designs of such systems. In this paper, we systematically describe the typology of *artefacts* (items retrieved from a knowledge base), retrieval mechanisms and the way these artefacts are *fused* into the model. This further allows us to uncover combinations of design decisions that had not yet been tried. Most of the focus is given to language models, though we also show how question answering, fact-checking and knowledgable dialogue models fit into this system as well. Having an abstract model which can describe the architecture of specific models also helps with transferring these architectures between multiple NLP tasks.",
+        "image": "artefact_retrieval.png",
+        "type": "project",
+        "key": "artefact_retrieval"
+    },
+    {
+        "title": "Leveraging Neural Machine Translation for Word Alignment",
+        "author": "Vilém Zouhar, Daria Pylypenko",
+        "venue": "PBML 116",
+        "links": {
+            "paper": "https://ufal.mff.cuni.cz/pbml/116/art-zouhar-pylypenko.pdf",
+            "code": "https://github.com/zouharvi/LeverageAlign"
+        },
+        "abstract": "The most common tools for word-alignment rely on a large amount of parallel sentences,which are then usually processed according to one of the IBM model algorithms. The trainingdata is, however, the same as for machine translation (MT) systems, especially for neural MT(NMT), which itself is able to produce word-alignments using the trained attention heads. Thisis convenient because word-alignment is theoretically a viable byproduct of any attention-basedNMT, which is also able to provide decoder scores for a translated sentence pair.We summarize different approaches on how word-alignment can be extracted from align-ment scores and then explore ways in which scores can be extracted from NMT, focusing oninferring the word-alignment scores based on output sentence and token probabilities. Wecompare this to the extraction of alignment scores from attention. We conclude with aggregat-ing all of the sources of alignment scores into a simple feed-forward network which achievesthe best results when combined alignment extractors are used.",
+        "image": "leverage_align.png",
+        "type": "publication",
+        "key": "leverage_align"
     },
     {
         "title": "Fusing Sentence Embeddings Into LSTM-based Autoregressive Language Models",

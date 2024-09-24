@@ -51,6 +51,7 @@ function publication_entry($item) {
     }
 ?>
 
+<br><br>
 <h3>Less-serious projects</h3>
 <?php
   foreach ($data as &$item) {
