@@ -1,5 +1,31 @@
 [
     {
+        "title": "Pitfalls and Outlooks in Using COMET",
+        "author": "Vilém Zouhar,<sup>=</sup> Pinzhen Chen,<sup>=</sup> Tsz Kin Lam, Nikita Moghe, Barry Haddow",
+        "venue":"WMT 2024",
+        "links": {
+            "paper": "https://arxiv.org/abs/2408.15366",
+            "tool": "https://pypi.org/project/sacrecomet/",
+            "code": "https://github.com/PinzhenChen/sacreCOMET"
+        },
+        "abstract": "Since its introduction, the COMET metric has blazed a trail in the machine translation community, given its strong correlation with human judgements of translation quality. Its success stems from being a modified pre-trained multilingual model finetuned for quality assessment. However, it being a machine learning model also gives rise to a new set of pitfalls that may not be widely known. We investigate these unexpected behaviours from three aspects: 1) technical: obsolete software versions and compute precision; 2) data: empty content, language mismatch, and translationese at test time as well as distribution and domain biases in training; 3) usage and reporting: multi-reference support and model referencing in the literature. All of these problems imply that COMET scores is not comparable between papers or even technical setups and we put forward our perspective on fixing each issue. Furthermore, we release the SacreCOMET package that can generate a signature for the software and model configuration as well as an appropriate citation. The goal of this work is to help the community make more sound use of the COMET metric.",
+        "image": "sacrecomet.png",
+        "type": "publication",
+        "key": "sacrecomet"
+    },
+    {
+        "title": "Error Span Annotation: A Balanced Approach for Human Evaluation of Machine Translation",
+        "author": "Tom Kocmi,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Eleftherios Avramidis, Roman Grundkiewicz, Marzena Karpinska, Maja Popović, Mrinmaya Sachan, Mariya Shmatova",
+        "venue":"WMT 2024",
+        "links": {
+            "paper": "https://arxiv.org/abs/2406.11580"
+        },
+        "abstract": "High-quality Machine Translation (MT) evaluation relies heavily on human judgments. Comprehensive error classification methods, such as Multidimensional Quality Metrics (MQM), are expensive as they are time-consuming and can only be done by experts, whose availability may be limited especially for low-resource languages. On the other hand, just assigning overall scores, like Direct Assessment (DA), is simpler and faster and can be done by translators of any level, but are less reliable. In this paper, we introduce Error Span Annotation (ESA), a human evaluation protocol which combines the continuous rating of DA with the high-level error severity span marking of MQM. We validate ESA by comparing it to MQM and DA for 12 MT systems and one human reference translation (English to German) from WMT23. The results show that ESA offers faster and cheaper annotations than MQM at the same quality level, without the requirement of expensive MQM experts.",
+        "image": "esa.png",
+        "type": "publication",
+        "key": "esa"
+    },
+    {
         "title": "Fine-Tuned Machine Translation Metrics Struggle in Unseen Domains",
         "author": "Vilém Zouhar, Shuoyang Ding, Anna Currey, Tatyana Badeka, Jenyuan Wang, Brian Thompson",
         "venue": "ACL 2024",
@@ -56,18 +82,6 @@
         "key": "relic"
     },
     {
-        "title": "Error Span Annotation: A Balanced Approach for Human Evaluation of Machine Translation",
-        "author": "Tom Kocmi,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Eleftherios Avramidis, Roman Grundkiewicz, Marzena Karpinska, Maja Popović, Mrinmaya Sachan, Mariya Shmatova",
-        "venue":"In review 2024",
-        "links": {
-            "paper": "https://arxiv.org/abs/2406.11580"
-        },
-        "abstract": "High-quality Machine Translation (MT) evaluation relies heavily on human judgments. Comprehensive error classification methods, such as Multidimensional Quality Metrics (MQM), are expensive as they are time-consuming and can only be done by experts, whose availability may be limited especially for low-resource languages. On the other hand, just assigning overall scores, like Direct Assessment (DA), is simpler and faster and can be done by translators of any level, but are less reliable. In this paper, we introduce Error Span Annotation (ESA), a human evaluation protocol which combines the continuous rating of DA with the high-level error severity span marking of MQM. We validate ESA by comparing it to MQM and DA for 12 MT systems and one human reference translation (English to German) from WMT23. The results show that ESA offers faster and cheaper annotations than MQM at the same quality level, without the requirement of expensive MQM experts.",
-        "image": "esa.png",
-        "type": "publication",
-        "key": "esa"
-    },
-    {
         "title": "AI-Assisted Human Evaluation of Machine Translation",
         "author": "Vilém Zouhar,<sup>=</sup> Tom Kocmi,<sup>=</sup> Mrinmaya Sachan",
         "venue":"In review 2024",
@@ -80,23 +94,9 @@
         "key": "esaai"
     },
     {
-        "title": "Pitfalls and Outlooks in Using COMET",
-        "author": "Vilém Zouhar,<sup>=</sup> Pinzhen Chen,<sup>=</sup> Tsz Kin Lam, Nikita Moghe, Barry Haddow",
-        "venue":"In review 2024",
-        "links": {
-            "paper": "https://arxiv.org/abs/2408.15366",
-            "tool": "https://pypi.org/project/sacrecomet/",
-            "code": "https://github.com/PinzhenChen/sacreCOMET"
-        },
-        "abstract": "Since its introduction, the COMET metric has blazed a trail in the machine translation community, given its strong correlation with human judgements of translation quality. Its success stems from being a modified pre-trained multilingual model finetuned for quality assessment. However, it being a machine learning model also gives rise to a new set of pitfalls that may not be widely known. We investigate these unexpected behaviours from three aspects: 1) technical: obsolete software versions and compute precision; 2) data: empty content, language mismatch, and translationese at test time as well as distribution and domain biases in training; 3) usage and reporting: multi-reference support and model referencing in the literature. All of these problems imply that COMET scores is not comparable between papers or even technical setups and we put forward our perspective on fixing each issue. Furthermore, we release the SacreCOMET package that can generate a signature for the software and model configuration as well as an appropriate citation. The goal of this work is to help the community make more sound use of the COMET metric.",
-        "image": "sacrecomet.png",
-        "type": "publication",
-        "key": "sacrecomet"
-    },
-    {
         "title": "Distributional Properties of Subword Regularization ",
         "author": "Marco Cognetta, Vilém Zouhar, Naoaki Okazaki",
-        "venue":"In review 2024",
+        "venue":"EMNLP 2024",
         "links": {
             "paper": "https://arxiv.org/abs/2408.11443"
         },
@@ -134,20 +134,6 @@
         "image": "wmt23_terminology.png",
         "type": "publication",
         "key": "wmt23_terminology"
-    },
-    {
-        "title": "Enhancing Textbooks with Visuals from the Web for Improved Learning",
-        "author": "Janvijay Singh, Vilém Zouhar, Mrinmaya Sachan",
-        "venue": "EMNLP 2023",
-        "links": {
-            "paper": "https://aclanthology.org/2023.emnlp-main.731/",
-            "code": "https://github.com/eth-nlped/textbook-enrichment",
-            "video": "https://www.youtube.com/watch?v=zjKayShiBxc"
-        },
-        "abstract": "Textbooks are one of the main mediums for delivering high-quality education to students. In particular, explanatory and illustrative visuals play a key role in retention, comprehension and general transfer of knowledge. However, many textbooks lack these interesting visuals to support student learning. In this paper, we investigate the effectiveness of vision-language models to automatically enhance textbooks with images from the web. We collect a dataset of e-textbooks in the math, science, social science and business domains. We then set up a text-image matching task that involves retrieving and appropriately assigning web images to textbooks, which we frame as a matching optimization problem. Through a crowd-sourced evaluation, we verify that (1) while the original textbook images are rated higher, automatically assigned ones are not far behind, and (2) the precise formulation of the optimization problem matters. We release the dataset of textbooks with an associated image bank to inspire further research in this intersectional area of computer vision and NLP for education.",
-        "image": "textbook_enhancement.png",
-        "type": "publication",
-        "key": "textbook_enhancement"
     },
     {
         "title": "Tokenization and the Noiseless Channel",
@@ -190,19 +176,6 @@
         "image": "ort.png",
         "type": "publication",
         "key": "ort"
-    },
-    {
-        "title": "How to Engage Your Readers? Generating Guiding Questions to Promote Active Reading",
-        "author": "Peng Cui, Vilém Zouhar, Xiaoyu Zhang, Mrinmaya Sachan",
-        "venue": "ACL 2024",
-        "links": {
-            "paper": "https://aclanthology.org/2024.acl-long.632/",
-            "code": "https://github.com/eth-lre/engage-your-readers"
-        },
-        "abstract": "Using questions in written text is an effective strategy to enhance readability. However, what makes an active reading question good, what the linguistic role of these questions is, and what is their impact on human reading remains understudied. We introduce GuidingQ, a dataset of 10K in-text questions from textbooks and scientific articles. By analyzing the dataset, we present a comprehensive understanding of the use, distribution, and linguistic characteristics of these questions. Then, we explore various approaches to generate such questions using language models. Our results highlight the importance of capturing inter-question relationships and the challenge of question position identification in generating these questions. Finally, we conduct a human study to understand the implication of such questions on reading comprehension. We find that the generated questions are of high quality and are almost as effective as human-written questions in terms of improving readers' memorization and comprehension.",
-        "image": "engage_readers.png",
-        "type": "publication",
-        "key": "engage_readers"
     },
     {
         "title": "Re-visiting Automated Topic Model Evaluation with Large Language Models",
@@ -257,18 +230,6 @@
         "key": "tokenization_counter"
     },
     {
-        "title": "Scaling the Authoring of AutoTutors with Large Language Models",
-        "author": "Sankalan Pal Chowdhury, Vilém Zouhar, Mrinmaya Sachan",
-        "venue": "Learning@Scale 2024",
-        "links": {
-            "paper": "https://arxiv.org/abs/2402.09216"
-        },
-        "abstract": "Large Language Models (LLMs) have found several use cases in education, ranging from automatic question generation to essay evaluation. In this paper, we explore the potential of using Large Language Models (LLMs) to author Intelligent Tutoring Systems. A common pitfall of LLMs is their straying from desired pedagogical strategies such as leaking the answer to the student, and in general, providing no guarantees. We posit that while LLMs with certain guardrails can take the place of subject experts, the overall pedagogical design still needs to be handcrafted for the best learning results. Based on this principle, we create a sample end-to-end tutoring system named MWPTutor, which uses LLMs to fill in the state space of a pre-defined finite state transducer. This approach retains the structure and the pedagogy of traditional tutoring systems that has been developed over the years by learning scientists but brings in additional flexibility of LLM-based approaches. Through a human evaluation study on two datasets based on math word problems, we show that our hybrid approach achieves a better overall tutoring score than an instructed, but otherwise free-form, GPT-4. MWPTutor is completely modular and opens up the scope for the community to improve its performance by improving individual modules or using different teaching strategies that it can follow.",
-        "image": "mwptutor.png",
-        "type": "publication",
-        "key": "mwptutor"
-    },
-    {
         "title": "Poor Man's Quality Estimation: Predicting Ref.-Based MT Metrics Without Reference",
         "author": "Vilém Zouhar, Shehzaad Dhuliawala, Wangchunshu Zhou, Nico Daheim, Tom Kocmi, Yuchen Eleanor Jiang, Mrinmaya Sachan",
         "venue": "EACL 2023",
@@ -281,32 +242,6 @@
         "image": "mt_metrics_estimation.png",
         "type": "publication",
         "key": "mt_metrics_estimation"
-    },
-    {
-        "title": "Sentence Ambiguity, Grammaticality and Complexity Probes",
-        "author": "Sunit Bhattacharya,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Ondřej Bojar",
-        "venue": "BlackboxNLP 2022",
-        "links": {
-            "paper": "https://aclanthology.org/2022.blackboxnlp-1.4/",
-            "code": "https://github.com/ufal/ambiguity-grammaticality-complexity"
-        },
-        "abstract": "It is unclear whether, how and where large pre-trained language models capture subtle linguistic traits like ambiguity, grammaticality and sentence complexity. We present results of automatic classification of these traits and compare their viability and patterns across representation types. We demonstrate that template-based datasets with surface-level artifacts should not be used for probing, careful comparisons with baselines should be done and that t-SNE plots should not be used to determine the presence of a feature among dense vectors representations. We also show how features might be highly localized in the layers for these models and get lost in the upper layers.",
-        "image": "sentence_ambiguity.png",
-        "type": "publication",
-        "key": "sentence_ambiguity"
-    },
-    {
-        "title": "Shrinking Knowledge Base Size: Dimension Reduction, Splitting & Filtering",
-        "author": "Vilém Zouhar",
-        "venue": "Master thesis 2022",
-        "links": {
-            "link": "https://raw.githubusercontent.com/zouharvi/kb-shrink/main/meta/thesis/zouhar_thesis_lct.pdf",
-            "code": "https://github.com/zouharvi/kb-shrink"
-        },
-        "abstract": "ecently neural network based approaches to knowledge-intensive NLP tasks, such asquestion answering, started to rely heavily on the combination of neural retrievers andreaders. Retrieval is typically performed over a large textual knowledge base whichrequires significant memory and compute resources, especially when scaled up. OnHotpotQA we explore various filtering & splitting criteria. Primarily, we systematicallyinvestigate reducing the size of the KB index by means of dimensionality (sparse randomprojections, PCA, autoencoders) and numerical precision reduction.Our results show that PCA is an easy solution that requires very little data and is onlyslightly worse than autoencoders, which are less stable. All methods are sensitive to pre-and post-processing and data should always be centered and normalized both before andafter dimension reduction. Finally, we show that it is possible to combine PCA withusing 1bit per dimension. Overall we achieve (1) 100× compression with 75%, and (2)24× compression with 92% original retrieval performance.",
-        "image": "kbshrink_thesis.png",
-        "type": "publication",
-        "key": "kbshrink_thesis"
     },
     {
         "title": "Knowledge Base Index Compression via Dimensionality and Precision Reduction",
@@ -404,43 +339,56 @@
         "key": "wmt20_markable"
     },
     {
-        "title": "Extending Ptakopět for MT User Interaction Experiments",
-        "author": "Vilém Zouhar, Michal Novák",
-        "venue": "PBML 115",
+        "title": "How to Engage Your Readers? Generating Guiding Questions to Promote Active Reading",
+        "author": "Peng Cui, Vilém Zouhar, Xiaoyu Zhang, Mrinmaya Sachan",
+        "venue": "ACL 2024",
         "links": {
-            "paper": "https://ufal.mff.cuni.cz/pbml/115/art-zouhar-novak.pdf",
-            "code": "https://github.com/zouharvi/ptakopet"
+            "paper": "https://aclanthology.org/2024.acl-long.632/",
+            "code": "https://github.com/eth-lre/engage-your-readers"
         },
-        "abstract": "The problems of outbound translation, machine translation user confidence and user inter-action are not yet fully explored. The goal of the online modular system Ptakopět is to providetools for studying these phenomena. Ptakopět is a proof-of-concept system for examining userinteraction with enhanced machine translation. It can be used either for actual translation orrunning experiments on human annotators. In this article, we aim to describe its main com-ponents and to show how to use Ptakopět for further research. We also share tips for runningexperiments and setting up a similar online annotation environment.Ptakopět was already used for outbound machine translation experiments, and we cover theresults of the latest experiment in a demonstration to show the research potential of this tool.We show quantitatively that even though backward translation improves machine-translationuser experience, it mainly increases users’ confidence and not the translation quality.",
-        "image": "extending_ptakopet.png",
-        "type": "publication",
-        "key": "extending_ptakopet"
+        "abstract": "Using questions in written text is an effective strategy to enhance readability. However, what makes an active reading question good, what the linguistic role of these questions is, and what is their impact on human reading remains understudied. We introduce GuidingQ, a dataset of 10K in-text questions from textbooks and scientific articles. By analyzing the dataset, we present a comprehensive understanding of the use, distribution, and linguistic characteristics of these questions. Then, we explore various approaches to generate such questions using language models. Our results highlight the importance of capturing inter-question relationships and the challenge of question position identification in generating these questions. Finally, we conduct a human study to understand the implication of such questions on reading comprehension. We find that the generated questions are of high quality and are almost as effective as human-written questions in terms of improving readers' memorization and comprehension.",
+        "image": "engage_readers.png",
+        "type": "project",
+        "key": "engage_readers"
     },
     {
-        "title": "Outbound Translation User Interface Ptakopět: A Pilot Study",
-        "author": "Vilém Zouhar, Ondřej Bojar",
-        "venue": "LREC 2020",
+        "title": "Scaling the Authoring of AutoTutors with Large Language Models",
+        "author": "Sankalan Pal Chowdhury, Vilém Zouhar, Mrinmaya Sachan",
+        "venue": "Learning@Scale 2024",
         "links": {
-            "paper": "https://aclanthology.org/2020.lrec-1.860/",
-            "code": "https://github.com/zouharvi/ptakopet"
+            "paper": "https://arxiv.org/abs/2402.09216"
         },
-        "abstract": "It is not uncommon for Internet users to have to produce a text in a foreign language they have very little knowledge of and are unable to verify the translation quality. We call the task “outbound translation” and explore it by introducing an open-source modular system Ptakopět. Its main purpose is to inspect human interaction with MT systems enhanced with additional subsystems, such as backward translation and quality estimation. We follow up with an experiment on (Czech) human annotators tasked to produce questions in a language they do not speak (German), with the help of Ptakopět. We focus on three real-world use cases (communication with IT support, describing administrative issues and asking encyclopedic questions) from which we gain insight into different strategies users take when faced with outbound translation tasks. Round trip translation is known to be unreliable for evaluating MT systems but our experimental evaluation documents that it works very well for users, at least on MT systems of mid-range quality.",
-        "image": "ptakopet_paper.png",
-        "type": "publication",
-        "key": "ptakopet_paper"
+        "abstract": "Large Language Models (LLMs) have found several use cases in education, ranging from automatic question generation to essay evaluation. In this paper, we explore the potential of using Large Language Models (LLMs) to author Intelligent Tutoring Systems. A common pitfall of LLMs is their straying from desired pedagogical strategies such as leaking the answer to the student, and in general, providing no guarantees. We posit that while LLMs with certain guardrails can take the place of subject experts, the overall pedagogical design still needs to be handcrafted for the best learning results. Based on this principle, we create a sample end-to-end tutoring system named MWPTutor, which uses LLMs to fill in the state space of a pre-defined finite state transducer. This approach retains the structure and the pedagogy of traditional tutoring systems that has been developed over the years by learning scientists but brings in additional flexibility of LLM-based approaches. Through a human evaluation study on two datasets based on math word problems, we show that our hybrid approach achieves a better overall tutoring score than an instructed, but otherwise free-form, GPT-4. MWPTutor is completely modular and opens up the scope for the community to improve its performance by improving individual modules or using different teaching strategies that it can follow.",
+        "image": "mwptutor.png",
+        "type": "project",
+        "key": "mwptutor"
     },
     {
-        "title": "Enabling Outbound Machine Translation",
+        "title": "Enhancing Textbooks with Visuals from the Web for Improved Learning",
+        "author": "Janvijay Singh, Vilém Zouhar, Mrinmaya Sachan",
+        "venue": "EMNLP 2023",
+        "links": {
+            "paper": "https://aclanthology.org/2023.emnlp-main.731/",
+            "code": "https://github.com/eth-nlped/textbook-enrichment",
+            "video": "https://www.youtube.com/watch?v=zjKayShiBxc"
+        },
+        "abstract": "Textbooks are one of the main mediums for delivering high-quality education to students. In particular, explanatory and illustrative visuals play a key role in retention, comprehension and general transfer of knowledge. However, many textbooks lack these interesting visuals to support student learning. In this paper, we investigate the effectiveness of vision-language models to automatically enhance textbooks with images from the web. We collect a dataset of e-textbooks in the math, science, social science and business domains. We then set up a text-image matching task that involves retrieving and appropriately assigning web images to textbooks, which we frame as a matching optimization problem. Through a crowd-sourced evaluation, we verify that (1) while the original textbook images are rated higher, automatically assigned ones are not far behind, and (2) the precise formulation of the optimization problem matters. We release the dataset of textbooks with an associated image bank to inspire further research in this intersectional area of computer vision and NLP for education.",
+        "image": "textbook_enhancement.png",
+        "type": "project",
+        "key": "textbook_enhancement"
+    },
+    {
+        "title": "Shrinking Knowledge Base Size: Dimension Reduction, Splitting & Filtering",
         "author": "Vilém Zouhar",
-        "venue": "Bachelor thesis 2020",
+        "venue": "Master thesis 2022",
         "links": {
-            "link": "https://dspace.cuni.cz/bitstream/handle/20.500.11956/119400/130284419.pdf?sequence=1",
-            "code": "https://github.com/zouharvi/ptakopet"
+            "link": "https://raw.githubusercontent.com/zouharvi/kb-shrink/main/meta/thesis/zouhar_thesis_lct.pdf",
+            "code": "https://github.com/zouharvi/kb-shrink"
         },
-        "abstract": "It is not uncommon for Internet users to have to produce text in aforeign language they have very little knowledge of and are unable to verify thetranslation quality. We call the task “outbound translation” and explore it byintroducing an open-source modular system Ptakopět. Its main purpose is toinspect human interaction with machine translation systems enhanced by ad-ditional subsystems, such as backward translation and quality estimation. Wefollow up with an experiment on (Czech) human annotators tasked to producequestions in a language they do not speak (German), with the help of Ptakopět.We focus on three real-world use cases (communication with IT support, describ-ing administrative issues and asking encyclopedic questions) from which we gaininsight into different strategies users take when faced with outbound translationtasks. Round trip translation is known to be unreliable for evaluating MT sys-tems but our experimental evaluation documents that it works very well for users,at least on MT systems of mid-range quality.",
-        "image": "ptakopet_thesis.png",
-        "type": "publication",
-        "key": "ptakopet_thesis"
+        "abstract": "ecently neural network based approaches to knowledge-intensive NLP tasks, such asquestion answering, started to rely heavily on the combination of neural retrievers andreaders. Retrieval is typically performed over a large textual knowledge base whichrequires significant memory and compute resources, especially when scaled up. OnHotpotQA we explore various filtering & splitting criteria. Primarily, we systematicallyinvestigate reducing the size of the KB index by means of dimensionality (sparse randomprojections, PCA, autoencoders) and numerical precision reduction.Our results show that PCA is an easy solution that requires very little data and is onlyslightly worse than autoencoders, which are less stable. All methods are sensitive to pre-and post-processing and data should always be centered and normalized both before andafter dimension reduction. Finally, we show that it is possible to combine PCA withusing 1bit per dimension. Overall we achieve (1) 100× compression with 75%, and (2)24× compression with 92% original retrieval performance.",
+        "image": "kbshrink_thesis.png",
+        "type": "project",
+        "key": "kbshrink_thesis"
     },
     {
         "title": "Machine Translation that Peeks at the Reference",
@@ -599,18 +547,6 @@
         "key": "eyetracked_multimodal_translation_2"
     },
     {
-        "title": "Deep Molecule QSPR",
-        "author": "Nikola Kalábová, Vilém Zouhar",
-        "venue": "2021",
-        "links": {
-            "code": "https://github.com/zouharvi/deep-molecule-qspr"
-        },
-        "abstract": "The goal of Deep Molecule QSPR (Quantitative Structure-Property Relationships) is to predict several key temperature points of a molecule. The input is a graph of the given molecule and the output a single number: the predicted boiling or melting point. The model uses graph-informed feature extraction, which is then used as an input to simple feed-forward neural networks and achieves a significant performance, or a simple linear regression model, which allows for a degree of explainability. The novel contributions include the feature extraction itself (various atom weighting and structural functions), applicability to a wide range of molecule classes and the combination with a neural network to gain better performance compared to widely used linear regression models.",
-        "image": "",
-        "type": "project",
-        "key": "deepmoleculeqspr"
-    },
-    {
         "title": "Statistical Natural Language Processing Tutorials",
         "author": "Vilém Zouhar, Awantee Deshpande, Julius Steuer",
         "venue": "Teaching material 2021",
@@ -634,6 +570,19 @@
         "image": "fact_learning_colors.png",
         "type": "project",
         "key": "fact_learning_colors"
+    },
+    {
+        "title": "Sentence Ambiguity, Grammaticality and Complexity Probes",
+        "author": "Sunit Bhattacharya,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Ondřej Bojar",
+        "venue": "BlackboxNLP 2022",
+        "links": {
+            "paper": "https://aclanthology.org/2022.blackboxnlp-1.4/",
+            "code": "https://github.com/ufal/ambiguity-grammaticality-complexity"
+        },
+        "abstract": "It is unclear whether, how and where large pre-trained language models capture subtle linguistic traits like ambiguity, grammaticality and sentence complexity. We present results of automatic classification of these traits and compare their viability and patterns across representation types. We demonstrate that template-based datasets with surface-level artifacts should not be used for probing, careful comparisons with baselines should be done and that t-SNE plots should not be used to determine the presence of a feature among dense vectors representations. We also show how features might be highly localized in the layers for these models and get lost in the upper layers.",
+        "image": "sentence_ambiguity.png",
+        "type": "project",
+        "key": "sentence_ambiguity"
     },
     {
         "title": "Hyperparameters of RNN Architectures for POS Tagging using Surface-Level BERT Embeddings",
@@ -675,66 +624,43 @@
         "key": "slowalign_displayer"
     },
     {
-        "title": "MosQEto",
-        "author": "Vilém Zouhar, Ondřej Měkota",
-        "venue": "2019",
+        "title": "Enabling Outbound Machine Translation",
+        "author": "Vilém Zouhar",
+        "venue": "Bachelor thesis 2020",
         "links": {
-            "code": "https://github.com/zouharvi/MosQEto",
-            "link": "https://raw.githubusercontent.com/zouharvi/MosQEto/master/report/MosQEto.pdf"
+            "link": "https://dspace.cuni.cz/bitstream/handle/20.500.11956/119400/130284419.pdf?sequence=1",
+            "code": "https://github.com/zouharvi/ptakopet"
         },
-        "abstract": "Word level quality estimation (QE) of machine translation is a task aiming to identify badly translated words and spaces between words. We propose a framework for experiment replication of QE systems MosQEto. We were also experimenting with several methods, trying to improve the quality estimation of systems implemented in OpenKiwi by smartly preprocessing and synthesizing training data.",
-        "image": "",
+        "abstract": "It is not uncommon for Internet users to have to produce text in aforeign language they have very little knowledge of and are unable to verify thetranslation quality. We call the task “outbound translation” and explore it byintroducing an open-source modular system Ptakopět. Its main purpose is toinspect human interaction with machine translation systems enhanced by ad-ditional subsystems, such as backward translation and quality estimation. Wefollow up with an experiment on (Czech) human annotators tasked to producequestions in a language they do not speak (German), with the help of Ptakopět.We focus on three real-world use cases (communication with IT support, describ-ing administrative issues and asking encyclopedic questions) from which we gaininsight into different strategies users take when faced with outbound translationtasks. Round trip translation is known to be unreliable for evaluating MT sys-tems but our experimental evaluation documents that it works very well for users,at least on MT systems of mid-range quality.",
+        "image": "ptakopet_thesis.png",
         "type": "project",
-        "key": "mosqeto"
+        "key": "ptakopet_thesis"
     },
     {
-        "title": "Dorfromantik solver",
-        "author": "",
-        "venue": "2023",
+        "title": "Extending Ptakopět for MT User Interaction Experiments",
+        "author": "Vilém Zouhar, Michal Novák",
+        "venue": "PBML 115",
         "links": {
-            "tool": "https://vilda.net/s/dorfromantik-solver",
-            "code": "https://github.com/zouharvi/dorfromantik-solver"
+            "paper": "https://ufal.mff.cuni.cz/pbml/115/art-zouhar-novak.pdf",
+            "code": "https://github.com/zouharvi/ptakopet"
         },
-        "abstract": "A tool to help with a small game.",
-        "image": "dorfromantik.png",
+        "abstract": "The problems of outbound translation, machine translation user confidence and user inter-action are not yet fully explored. The goal of the online modular system Ptakopět is to providetools for studying these phenomena. Ptakopět is a proof-of-concept system for examining userinteraction with enhanced machine translation. It can be used either for actual translation orrunning experiments on human annotators. In this article, we aim to describe its main com-ponents and to show how to use Ptakopět for further research. We also share tips for runningexperiments and setting up a similar online annotation environment.Ptakopět was already used for outbound machine translation experiments, and we cover theresults of the latest experiment in a demonstration to show the research potential of this tool.We show quantitatively that even though backward translation improves machine-translationuser experience, it mainly increases users’ confidence and not the translation quality.",
+        "image": "extending_ptakopet.png",
         "type": "project",
-        "key": "dorfromantik"
+        "key": "extending_ptakopet"
     },
     {
-        "title": "Call for Menza",
-        "author": "",
-        "venue": "2019",
+        "title": "Outbound Translation User Interface Ptakopět: A Pilot Study",
+        "author": "Vilém Zouhar, Ondřej Bojar",
+        "venue": "LREC 2020",
         "links": {
-            "code": "https://github.com/zouharvi/cfm"
+            "paper": "https://aclanthology.org/2020.lrec-1.860/",
+            "code": "https://github.com/zouharvi/ptakopet"
         },
-        "abstract": "Aggregator of daily menus around Charles University. Unmaintained since I moved out of Prague.",
-        "image": "",
+        "abstract": "It is not uncommon for Internet users to have to produce a text in a foreign language they have very little knowledge of and are unable to verify the translation quality. We call the task “outbound translation” and explore it by introducing an open-source modular system Ptakopět. Its main purpose is to inspect human interaction with MT systems enhanced with additional subsystems, such as backward translation and quality estimation. We follow up with an experiment on (Czech) human annotators tasked to produce questions in a language they do not speak (German), with the help of Ptakopět. We focus on three real-world use cases (communication with IT support, describing administrative issues and asking encyclopedic questions) from which we gain insight into different strategies users take when faced with outbound translation tasks. Round trip translation is known to be unreliable for evaluating MT systems but our experimental evaluation documents that it works very well for users, at least on MT systems of mid-range quality.",
+        "image": "ptakopet_paper.png",
         "type": "project",
-        "key": "call_for_menza"
-    },
-    {
-        "title": "SMAKE",
-        "author": "Vilém Zouhar, Petr Houška",
-        "venue": "2019",
-        "links": {
-            "code": "https://github.com/zouharvi/SMAKE"
-        },
-        "abstract": "Simple Markable And Keyword Extraction.",
-        "image": "",
-        "type": "project",
-        "key": "smake"
-    },
-    {
-        "title": "TNTranslator",
-        "author": "",
-        "venue": "2019",
-        "links": {
-            "code": "https://github.com/zouharvi/TNTranslator"
-        },
-        "abstract": "Translation inspector for n-best list navigator.",
-        "image": "",
-        "type": "project",
-        "key": "tntranslator"
+        "key": "ptakopet_paper"
     },
     {
         "title": "A Collection of Machine Learning Excercises",
@@ -747,42 +673,5 @@
         "image": "",
         "type": "project",
         "key": "iml_exercises"
-    },
-    {
-        "title": "ZimaDB",
-        "author": "Vilém Zouhar, Petr Chmel",
-        "venue": "2018",
-        "links": {
-            "code": "https://github.com/zouharvi/ZimaDB"
-        },
-        "abstract": "SQLite-like database implementation from scratch.",
-        "image": "",
-        "type": "project",
-        "key": "zimadb"
-    },
-    {
-        "title": "ASM Hell",
-        "author": "",
-        "venue": "2017",
-        "links": {
-            "code": "https://github.com/zouharvi/asm-hell",
-            "demo": "https://zouharvi.itch.io/asm-hell"
-        },
-        "abstract": "Learn basic assembly instructions through a game (LD41 submission).",
-        "image": "asm_hell.png",
-        "type": "project",
-        "key": "asm_hell"
-    },
-    {
-        "title": "Prolog KNN",
-        "author": "",
-        "venue": "2017",
-        "links": {
-            "code": "https://github.com/zouharvi/prolog-knn"
-        },
-        "abstract": "Implementation of kNN in Prolog, a language the least suited for this.",
-        "image": "",
-        "type": "project",
-        "key": "prolog_knn"
     }
 ]
