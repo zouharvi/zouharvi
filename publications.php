@@ -64,9 +64,9 @@ function publication_entry($item) {
 
 <script>
 let OPEN_PAPERS = [
+  "sacrecomet",
+  "esa",
   "bio_mqm_metrics_bias",
-  "trust_intervention",
-  "tokenization_principle"
 ];
 
 $(".paper_title").each((_, element) => {
