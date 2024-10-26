@@ -323,6 +323,19 @@
         "type": "publication",
         "key": "wmt20_markable"
     },
+    
+    {
+        "title": "Harmonizing Assistance: Moderating Visual andTextual Aids in AI-Enhanced Textbook Readingwith IRead",
+        "author": "Xiaoyu Zhang, Vincent Dörig, Peng Cui, Vilém Zouhar, Torbjorn Netland, Mrinmaya Sachan",
+        "venue": "Preprint 2024",
+        "links": {
+            "paper": "https://www.researchsquare.com/article/rs-4770422/v1"
+        },
+        "abstract": "Textbooks continue to be one of primary mediums of learning. Students often need additional support during the process of reading textbooks leading to several research efforts that aim to increase student engagement and provide tailored experiences in textbook reading. However, providing excessive information beyond the textbook can also distract students from the reading task. When enhancing the reading experience, one has to strike a delicate balance between providing sufficient informational support and maintaining students’ focus on textbook reading. Fusing together latest developments in large language models (LLMs), their applications in education and several pedagogical theories, we design a textbook reading guidance mechanism. We introduce IRead, an interactive tool for textbook reading which uses LLMs with visualization and interaction techniques, to enhance students’ reading and learning experiences. IRead incorporates conceptual visualizations that reflect the textbook’s content and features an AI-driven question bot that generates questions and offers hints in response to student reading and interaction history. We evaluate IRead with a between-subject user study and measure the effectiveness of our methodology in supporting the students’ reading experience based on the Bloom’s Taxonomy and the ARCS model. We collect feedback from participants ranging from undergraduate to doctorate students. The results highlight the effectiveness of simple yet intuitive visualizations, such as the concept tree in IRead. We also derive general insights for the development of tools that enhance educational reading experiences.",
+        "image": "",
+        "type": "project",
+        "key": "iread"
+    },
     {
         "title": "How to Engage Your Readers? Generating Guiding Questions to Promote Active Reading",
         "author": "Peng Cui, Vilém Zouhar, Xiaoyu Zhang, Mrinmaya Sachan",
