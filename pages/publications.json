@@ -1,15 +1,5 @@
 [
     {
-        "title": "Findings of the WMT24 General Machine Translation Shared Task: The LLM Era is Here but MT is Not Solved Yet",
-        "author": "Tom Kocmi, Eleftherios Avramidis, Rachel Bawden, Ondřej Bojar, Anton Dvorkovich, Christian Federmann, Mark Fishel, Markus Freitag, Thamme Gowda, Roman Grundkiewicz, Barry Haddow, Marzena Karpinska, Philipp Koehn, Benjamin Marie, Christof Monz, Kenton Murray, Masaaki Nagata, Martin Popel, Maja Popović, Mariya Shmatova, Steinþór Steingrímsson, Vilém Zouhar",
-        "venue":"WMT 2024",
-        "abstract": "This overview paper presents the results of the General Machine Translation Task organised as part of the 2024 Conference on Machine Translation (WMT). In the general MT task, participants were asked to build machine translation systems for any of 11 language pairs, to be evaluated on test sets consisting of three to five different domains. In addition to participating systems, we collected translations from 8 different large language models (LLMs) and 4 online translation providers. We evaluate system outputs with professional human annotators using a new protocol called Error Span Annotations (ESA).",
-        "links": {},
-        "image": "",
-        "type": "publication",
-        "key": "wmt24"
-    },
-    {
         "title": "Pitfalls and Outlooks in Using COMET",
         "author": "Vilém Zouhar,<sup>=</sup> Pinzhen Chen,<sup>=</sup> Tsz Kin Lam, Nikita Moghe, Barry Haddow",
         "venue":"WMT 2024",
@@ -61,6 +51,19 @@
         "image": "ortmt.png",
         "type": "publication",
         "key": "ortmt"
+    },
+    {
+        "title": "WMT24 General Machine Translation Shared Task: The LLM Era is Here but MT is Not Solved Yet",
+        "author": "Tom Kocmi, Eleftherios Avramidis, Rachel Bawden, Ondřej Bojar, Anton Dvorkovich, Christian Federmann, Mark Fishel, Markus Freitag, Thamme Gowda, Roman Grundkiewicz, Barry Haddow, Marzena Karpinska, Philipp Koehn, Benjamin Marie, Christof Monz, Kenton Murray, Masaaki Nagata, Martin Popel, Maja Popović, Mariya Shmatova, Steinþór Steingrímsson, Vilém Zouhar",
+        "venue":"WMT 2024",
+        "abstract": "This overview paper presents the results of the General Machine Translation Task organised as part of the 2024 Conference on Machine Translation (WMT). In the general MT task, participants were asked to build machine translation systems for any of 11 language pairs, to be evaluated on test sets consisting of three to five different domains. In addition to participating systems, we collected translations from 8 different large language models (LLMs) and 4 online translation providers. We evaluate system outputs with professional human annotators using a new protocol called Error Span Annotations (ESA).",
+        "links": {
+            "paper": "https://www2.statmt.org/wmt24/pdf/2024.wmt-1.1.pdf",
+            "data": "https://github.com/wmt-conference/wmt24-news-systems"
+        },
+        "image": "",
+        "type": "publication",
+        "key": "wmt24"
     },
     {
         "title": "Navigating the Metrics Maze: Reconciling Score Magnitudes and Accuracies",
