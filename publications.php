@@ -19,10 +19,12 @@ function publication_entry($item) {
 
   return "
     <div class='paper_title' paper_target='" . $item["key"] . "'>"
-      . $item["title"] . 
-      "<span class='venue'>" . $item["venue"] . 
-          "<img src='src/expand_button.svg' class='paper_details_arrow' id='paper_details_arrow_" . $item["key"] . "'>" . 
-      "</span>
+      . "<table><tr><td width='100%'>" . $item["title"] . "</td>" .
+      "<td width='220px' class='venue'>" .
+        "<img src='src/expand_button.svg' class='paper_details_arrow' id='paper_details_arrow_" . $item["key"] . "'>" . 
+        $item["venue"] . 
+      "</td>
+      </tr></table>
     </div>
     <div class='paper_details " . $extraclass . "' id='paper_details_" . $item["key"] . "'>" .
       $links .
