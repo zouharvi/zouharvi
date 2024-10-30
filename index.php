@@ -9,7 +9,7 @@
   <meta name="author" content="Vilém Zouhar">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans" rel="stylesheet">
   
-  <link rel='stylesheet' type='text/css'  href='src/style.css?v=9'>
+  <link rel='stylesheet' type='text/css'  href='src/style_v10.css'>
   <link rel='icon'       type='image/png' href='src/favicon.png'>
   <title>(Vilda) Vilém Zouhar</title>
   <meta name="viewport" content="width=550px">
