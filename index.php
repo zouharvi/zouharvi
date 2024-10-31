@@ -30,28 +30,19 @@
 <body style='padding-top: 50px; padding-bottom: 50px;'>
   <div id='whole'> 
     <div id='menu' style="width: 100%;">
-      <img
-        src='src/portrait_1.webp'
-        alt='photo of Vilém'
-        style='width: 100px; margin-left: 15px;'
-        onmouseover="this.src='src/portrait_3.webp'"
-        onmouseout="this.src='src/portrait_1.webp'" 
-      >
-      <img
-        src='src/portrait_3.webp'
-        style="width:0px"
-      >
-      <header id='name' style='font-size: 2em; display: inline-block; margin-left: 10px; vertical-align: bottom;'>
-        <a href="/" style="color: black;">
-          <span style="letter-spacing: 0.15em;">Vilém</span>
-          <br style="display: block; margin: -5px 0;">
-          Zouhar
-        </a>
-        <div style='font-size: 0.3em; color: gray; letter-spacing: 0.15em; font-weight: normal; margin-bottom: 10px;'>updated Jun-2024</div>
+      <header id='name' style='font-size: 2em; display: inline-block; font-weight: bold; border: 2px solid black; padding: 2px;'>
+          Vilém Zouhar
       </header>
-      <span id="header_nothing"></span>
+      <img
+        id='portrait'
+        src='src/portrait.jpg'
+        alt='photo of Vilém'
+        style='width: 300px; float: right; margin-top: 10px;'
+      >
+      <br>
 
-      <ul style="display: inline-block; list-style-type: none;">
+      <span id="header_nothing"></span>
+      <ul style="display: inline-block; list-style-type: none; margin-top: 10px;">
         <li><a href="https://scholar.google.com/citations?user=2EUDwtkAAAAJ">Google Scholar</a></li>
         <li><a href="https://www.semanticscholar.org/author/Vilém-Zouhar/1429837660">Semantic Scholar</a></li>
       </ul>
@@ -67,30 +58,23 @@
           <li><a href='https://twitter.com/zouharvi'>Twitter</a></li>
           <li><a href='https://www.youtube.com/@zouharvi'>YouTube</a></li>
       </ul>
-      <img
-        id="img_trees"
-        src='src/portrait_2.webp'
-        alt='photo of mountains and trees'
-        style='width: 100px; margin-left: 15px; margin-top: 0px; margin-right: 15px; float: right;'
-      >
+      <p style="margin-top: 10px;">
+        Hi, I'm Vilém (also Vilda), a PhD student at ETH Zürich, Switzerland.
+        I have a passion for natural language processing research, especially:
+          <ul style="margin-top: -12px; margin-left: -23px; margin-right: 0px;">
+            <li>Non-mainstream machine translation (quality estimation)</li>
+            <li>NLP/MT evaluation (model-human communication, metrics)</li>
+            <li>NLP-oriented human-computer interaction (confidence, annotations)</li>
+          </ul>
+          </p>
     </div>
-
-    <p style="margin-top: 20px;">
-      Hi, I'm Vilém (also Vilda), a PhD student at ETH Zürich, Switzerland supervised by Mrinmaya Sachan <a href="https://lre.inf.ethz.ch/">at LRE lab</a> and Menna El-Assady at <a href="https://ivia.ch/">IVIA lab</a>.
-      I have a passion for natural language processing research, especially:
-      <ul style="margin-top: -12px">
-        <li>NLP-oriented human-computer interaction (trust, confidence)</li>
-        <li>Non-mainstream machine translation (quality estimation)</li>
-        <li>NLP evaluation (model-human communication, metrics)</li>
-      </ul>
-    </p>
 
     <?php include("publications.php"); ?>
     
     <h3>Miscellaneous</h3>
-    <br><br>
-    I'm currently advised by <a href="https://lre.inf.ethz.ch/">Mrinmaya Sachan</a> and <a href="https://el-assady.com/">Menna El-Assady</a>.
-    Previously during my bachelor's and master's I was advised by <a href="https://www.lsv.uni-saarland.de/people/dietrich-klakow/">Dietrich Klakow</a>, and <a href="https://ufal.mff.cuni.cz/ondrej-bojar">Ondřej Bojar</a>.
+    <br>
+    I'm currently advised byMrinmaya Sachan at <a href="https://lre.inf.ethz.ch/">LRE lab</a> and Menna El-Assady at <a href="https://ivia.ch/">IVIA lab</a>.
+    Previously during my bachelor's and master's I was advised by Dietrich Klakow, and Ondřej Bojar.
     I had the privilige to supervise Yijie Tong, Haokun He, Abhinav Kumar, and David Gu.<br><br>
     In my free time I'm interested in veganism, electric guitar, {video,board}games, and literature.
   </div>
