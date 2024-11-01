@@ -1,7 +1,7 @@
 <?php
 function publication_entry($item) {
   if ($item["image"] != "") {
-    $img = "<img src='pages/img/" . $item["image"] . "'  loading='lazy'>";
+    $img = "<img src='img/" . $item["image"] . "'  loading='lazy'>";
     $extraclass = "paper_details_withimg";
   } else {
     $img = "";
@@ -45,7 +45,7 @@ function publication_entry($item) {
 </h3>
 
 <?php
-    $data = json_decode(file_get_contents("pages/publications.json"),TRUE);
+    $data = json_decode(file_get_contents("publications.json"),TRUE);
     foreach ($data as &$item) {
       if ($item["type"] == "publication") {
         echo publication_entry($item);

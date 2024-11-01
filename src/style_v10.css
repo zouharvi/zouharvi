@@ -3,7 +3,7 @@
 }
 
 body {
-  font-size: 14pt;
+  font-size: 16pt;
 }
 
 a {
@@ -111,7 +111,7 @@ a:hover {
 }
 
 #whole {
-  max-width: 950px;
+  max-width: 1200px;
   min-width: 400px;
   margin: auto;
   background-color: #fff;

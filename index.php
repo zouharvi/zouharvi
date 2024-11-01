@@ -4,15 +4,15 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv="Cache-control" content="public">
-  <meta name="description" content=", Vilém Zouhar (Vilda).">
+  <meta name="description" content="Vilém Zouhar is an PhD student at ETH Zürich working on user-centered NLP (evaluation, quality estimation).">
   <meta name="keywords" content="Vilém Zouhar is an PhD student at ETH Zürich working on user-centered NLP (evaluation, quality estimation).">
   <meta name="author" content="Vilém Zouhar">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans" rel="stylesheet">
   
   <link rel='stylesheet' type='text/css'  href='src/style_v10.css'>
   <link rel='icon'       type='image/png' href='src/favicon.png'>
-  <title>(Vilda) Vilém Zouhar</title>
-  <meta name="viewport" content="width=550px">
+  <title>Vilém Zouhar</title>
+  <meta name="viewport" content="width=700px">
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
 </head>
@@ -37,7 +37,7 @@
         id='portrait'
         src='src/portrait.jpg'
         alt='photo of Vilém'
-        style='width: 300px; float: right; margin-top: 10px;'
+        style='width: 330px; float: right; margin-top: 10px; border: 2px solid black;'
       >
       <br>
 
@@ -58,6 +58,9 @@
           <li><a href='https://twitter.com/zouharvi'>Twitter</a></li>
           <li><a href='https://www.youtube.com/@zouharvi'>YouTube</a></li>
       </ul>
+
+      <br>
+      <br>
       <p style="margin-top: 10px;">
         Hi, I'm Vilém (also Vilda), a PhD student at ETH Zürich, Switzerland.
         I have a passion for natural language processing research, especially:
