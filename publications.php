@@ -39,7 +39,7 @@ function publication_entry($item) {
 
 <h3>Serious publications
   <span style="float: right; width: 200px; text-align: right;">
-    <span id="all_button_expand">expand all publication</span>
+    <span id="all_button_expand">expand all publications</span>
     <span id="all_button_hide">collapse all publications</span>
   </span>
 </h3>

@@ -112,20 +112,10 @@ a:hover {
 
 #whole {
   max-width: 1200px;
-  min-width: 400px;
+  min-width: 530px;
   margin: auto;
   background-color: #fff;
   padding: 10px;
-}
-
-@media only screen and (max-width: 570px) {
-  #whole {
-    margin-top: -30px;
-  }
-
-  #header_nothing {
-    display: block;
-  }
 }
 
 #menu ul {
@@ -134,9 +124,18 @@ a:hover {
   margin-top: -10px;;
 }
 
+
 #menu ul li {
   line-height: 1.4em;
   text-align: left;
+}
+
+#menu #links ul {
+  margin-top: -18px;
+}
+
+#menu #links ul li {
+  margin-top: 12px;
 }
 
 

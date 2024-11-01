@@ -8,11 +8,10 @@
   <meta name="keywords" content="Vilém Zouhar is an PhD student at ETH Zürich working on user-centered NLP (evaluation, quality estimation).">
   <meta name="author" content="Vilém Zouhar">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans" rel="stylesheet">
-  
-  <link rel='stylesheet' type='text/css'  href='src/style_v10.css'>
+  <link rel='stylesheet' type='text/css'  href='src/style_v11.css'>
   <link rel='icon'       type='image/png' href='src/favicon.png'>
   <title>Vilém Zouhar</title>
-  <meta name="viewport" content="width=700px">
+  <meta name="viewport" content="width=530px">
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
 </head>
@@ -30,40 +29,39 @@
 <body style='padding-top: 50px; padding-bottom: 50px;'>
   <div id='whole'> 
     <div id='menu' style="width: 100%;">
-      <header id='name' style='font-size: 2em; display: inline-block; font-weight: bold; border: 2px solid black; padding: 2px;'>
+      <header id='name' style='font-size: 2em; display: inline-block; font-weight: bold; border: 2px solid black; padding: 2px; margin-bottom: 15px'>
           Vilém Zouhar
       </header>
       <img
         id='portrait'
         src='src/portrait.jpg'
         alt='photo of Vilém'
-        style='width: 330px; float: right; margin-top: 10px; border: 2px solid black;'
+        style='width: 330px; float: right; border: 2px solid black;'
       >
       <br>
 
-      <span id="header_nothing"></span>
-      <ul style="display: inline-block; list-style-type: none; margin-top: 10px;">
-        <li><a href="https://scholar.google.com/citations?user=2EUDwtkAAAAJ">Google Scholar</a></li>
-        <li><a href="https://www.semanticscholar.org/author/Vilém-Zouhar/1429837660">Semantic Scholar</a></li>
-      </ul>
-      <ul style="display: inline-block; list-style-type: none;">
-        <li><a href="https://github.com/zouharvi/vilda.net/raw/master/cv/cv.pdf">CV</a></li>
-        <li><a href='mailto:vilem.zouhar@gmail.com'>Contact</a></li>
-      </ul>
-      <ul style="display: inline-block; list-style-type: none;">
-        <li><a href="https://github.com/zouharvi/">GitHub</a></li>
-        <li><a href="https://huggingface.co/zouharvi">HuggingFace</a></li>
-      </ul>
-      <ul style="display: inline-block; list-style-type: none;">
-          <li><a href='https://twitter.com/zouharvi'>Twitter</a></li>
-          <li><a href='https://www.youtube.com/@zouharvi'>YouTube</a></li>
-      </ul>
+      <div id="links">
+        <ul style="display: inline-block; list-style-type: none; margin-top: -5px;">
+          <li><a href="https://scholar.google.com/citations?user=2EUDwtkAAAAJ">Google Scholar</a></li>
+          <li><a href="https://www.semanticscholar.org/author/Vilém-Zouhar/1429837660">Semantic Scholar</a></li>
+        </ul>
+        <ul style="display: inline-block; list-style-type: none;">
+          <li><a href="https://github.com/zouharvi/vilda.net/raw/master/cv/cv.pdf">CV</a></li>
+          <li><a href='mailto:vilem.zouhar@gmail.com'>Contact</a></li>
+        </ul>
+        <ul style="display: inline-block; list-style-type: none;">
+          <li><a href="https://github.com/zouharvi/">GitHub</a></li>
+          <li><a href="https://huggingface.co/zouharvi">HuggingFace</a></li>
+        </ul>
+        <ul style="display: inline-block; list-style-type: none;">
+            <li><a href='https://twitter.com/zouharvi'>Twitter</a></li>
+            <li><a href='https://www.youtube.com/@zouharvi'>YouTube</a></li>
+        </ul>
+      </div>
 
-      <br>
-      <br>
       <p style="margin-top: 10px;">
         Hi, I'm Vilém (also Vilda), a PhD student at ETH Zürich, Switzerland.
-        I have a passion for natural language processing research, especially:
+        I'm passionate about natural language processing research, especially:
           <ul style="margin-top: -12px; margin-left: -23px; margin-right: 0px;">
             <li>Non-mainstream machine translation (quality estimation)</li>
             <li>NLP/MT evaluation (model-human communication, metrics)</li>

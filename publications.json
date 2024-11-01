@@ -19,7 +19,8 @@
         "author": "Tom Kocmi,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Eleftherios Avramidis, Roman Grundkiewicz, Marzena Karpinska, Maja Popović, Mrinmaya Sachan, Mariya Shmatova",
         "venue":"WMT 2024",
         "links": {
-            "paper": "https://arxiv.org/abs/2406.11580"
+            "paper": "https://arxiv.org/abs/2406.11580",
+            "code": "https://github.com/wmt-conference/ErrorSpanAnnotation"
         },
         "abstract": "High-quality Machine Translation (MT) evaluation relies heavily on human judgments. Comprehensive error classification methods, such as Multidimensional Quality Metrics (MQM), are expensive as they are time-consuming and can only be done by experts, whose availability may be limited especially for low-resource languages. On the other hand, just assigning overall scores, like Direct Assessment (DA), is simpler and faster and can be done by translators of any level, but are less reliable. In this paper, we introduce Error Span Annotation (ESA), a human evaluation protocol which combines the continuous rating of DA with the high-level error severity span marking of MQM. We validate ESA by comparing it to MQM and DA for 12 MT systems and one human reference translation (English to German) from WMT23. The results show that ESA offers faster and cheaper annotations than MQM at the same quality level, without the requirement of expensive MQM experts.",
         "image": "esa.png",
@@ -103,7 +104,8 @@
         "author": "Vilém Zouhar,<sup>=</sup> Tom Kocmi,<sup>=</sup> Mrinmaya Sachan",
         "venue":"In review 2024",
         "links": {
-            "paper": "https://arxiv.org/abs/2406.12419"
+            "paper": "https://arxiv.org/abs/2406.12419",
+            "code": "https://github.com/wmt-conference/ErrorSpanAnnotation"
         },
         "abstract": "Annually, research teams spend large amounts of money to evaluate the quality of machine translation systems (WMT, inter alia). This is expensive because it requires detailed human labor. The recently proposed annotation protocol, Error Span Annotation (ESA), has annotators marking erroneous parts of the translation. In our work, we help the annotators by pre-filling the span annotations with automatic quality estimation. With AI assistance, we obtain more detailed annotations while cutting down the time per span annotation by half (71s/error span → 31s/error span). The biggest advantage of ESA<sup>AI</sup> protocol is an accurate priming of annotators (pre-filled error spans) before they assign the final score as opposed to starting from scratch. In addition, the annotation budget can be reduced by up to 24% with filtering of examples that the AI deems to be very likely to be correct.",
         "image": "esaai.png",
