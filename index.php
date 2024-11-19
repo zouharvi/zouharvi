@@ -74,7 +74,7 @@
     
     <h3>Miscellaneous</h3>
     <br>
-    I'm currently advised byMrinmaya Sachan at <a href="https://lre.inf.ethz.ch/">LRE lab</a> and Menna El-Assady at <a href="https://ivia.ch/">IVIA lab</a>.
+    I'm currently advised by Mrinmaya Sachan at <a href="https://lre.inf.ethz.ch/">LRE lab</a> and Menna El-Assady at <a href="https://ivia.ch/">IVIA lab</a>.
     Previously during my bachelor's and master's I was advised by Dietrich Klakow, and Ondřej Bojar.
     I had the privilige to supervise Yijie Tong, Haokun He, Abhinav Kumar, and David Gu.<br><br>
     In my free time I'm interested in veganism, electric guitar, {video,board}games, and literature.
