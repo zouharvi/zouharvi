@@ -78,6 +78,25 @@
     Previously during my bachelor's and master's I was advised by Dietrich Klakow, and Ondřej Bojar.
     I had the privilige to supervise Yijie Tong, Haokun He, Abhinav Kumar, and David Gu.<br><br>
     In my free time I'm interested in veganism, electric guitar, {video,board}games, and literature.
+
+    <br>
+    <br>
+    <br>
+    <h3>Talks</h3>
+    <br>
+    I enjoy socializing and am grateful to have been invited to give the following talks:
+    <ul style="padding-left: 1em;">
+    <?php
+      function talk_entry($item) {
+        return "<li>" . $item["title"] . " at " . $item["venue"] . " (" . $item["date"] . ")</li>";
+      }
+
+      $data = json_decode(file_get_contents("talks.json"),TRUE);
+      foreach ($data as &$item) {
+          echo talk_entry($item);
+      }
+    ?>
+    </ul>
   </div>
 </body>
 </html>

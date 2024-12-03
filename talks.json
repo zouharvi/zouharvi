@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Prudent MT Evaluation",
+        "venue": "Cardiff NLP Seminars",
+        "link": "https://cardiffnlp.github.io/event/",
+        "date": "TBD 2025"
+    },
+    {
+        "title": "Prudent MT Evaluation",
+        "venue": "Google Translate",
+        "link": "",
+        "date": "November 2024"
+    },
+    {
+        "title": "Token(s) of Appreciation for BPE",
+        "venue": "MT Marathon",
+        "link": "https://ufal.mff.cuni.cz/mtm24/programme.html",
+        "date": "Seprember 2024"
+    },
+    {
+        "title": "ESA and ESA<sup>AI</sup>",
+        "venue": "Microsoft Translate",
+        "link": "",
+        "date": "August 2024"
+    },
+    {
+        "title": "How we solved tokenization but got it wrong",
+        "venue": "ZurichNLP Meetup #9",
+        "link": "https://zurich-nlp.ch/event/zurichnlp-meetup-9/",
+        "date": "April 2024"
+    },
+    {
+        "title": "Quality and Quantity of Machine Translation References for Automated Metrics",
+        "venue": "IST/Unbabel seminar",
+        "link": "https://ist-unbabel-seminars.github.io/",
+        "date": "January 2024"
+    },
+    {
+        "title": "Poor Man's Quality Estimation",
+        "venue": "IST/Unbabel seminar",
+        "link": "https://ist-unbabel-seminars.github.io/past_seminars",
+        "date": "February 2024"
+    }
+]
