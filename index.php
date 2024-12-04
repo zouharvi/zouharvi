@@ -36,7 +36,7 @@
         id='portrait'
         src='src/portrait.jpg'
         alt='photo of Vilém'
-        style='width: 330px; float: right; border: 2px solid black;'
+        style='width: 330px; float: right; border: 2px solid black; margin-top: 60px;'
       >
       <br>
 
@@ -67,7 +67,8 @@
             <li>NLP/MT evaluation (model-human communication, metrics)</li>
             <li>NLP-oriented human-computer interaction (confidence, annotations)</li>
           </ul>
-          </p>
+        Let me know if you're interested in any of these topics!
+      </p>
     </div>
 
     <?php include("publications.php"); ?>
@@ -76,6 +77,7 @@
     <br>
     I'm currently advised by Mrinmaya Sachan at <a href="https://lre.inf.ethz.ch/">LRE lab</a> and Menna El-Assady at <a href="https://ivia.ch/">IVIA lab</a>.
     Previously during my bachelor's and master's I was advised by Dietrich Klakow, and Ondřej Bojar.
+    In 2023 I got to intern at Amazon Translate.
     I had the privilige to supervise Yijie Tong, Haokun He, Abhinav Kumar, and David Gu.<br><br>
     In my free time I'm interested in veganism, electric guitar, {video,board}games, and literature.
 
