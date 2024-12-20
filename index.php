@@ -54,7 +54,7 @@
           <li><a href="https://huggingface.co/zouharvi">HuggingFace</a></li>
         </ul>
         <ul style="display: inline-block; list-style-type: none;">
-            <li><a href='https://twitter.com/zouharvi'>Twitter</a></li>
+            <li><a href='https://bsky.app/profile/zouharvi.bsky.social'>Bluesky</a></li>
             <li><a href='https://www.youtube.com/@zouharvi'>YouTube</a></li>
         </ul>
       </div>

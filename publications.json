@@ -286,7 +286,7 @@
         },
         "abstract": "Recently neural network based approaches to knowledge-intensive NLP tasks, such as question answering, started to rely heavily on the combination of neural retrievers and readers. Retrieval is typically performed over a large textual knowledge base (KB) which requires significant memory and compute resources, especially when scaled up. On HotpotQA we systematically investigate reducing the size of the KB index by means of dimensionality (sparse random projections, PCA, autoencoders) and numerical precision reduction. Our results show that PCA is an easy solution that requires very little data and is only slightly worse than autoencoders, which are less stable. All methods are sensitive to pre- and post-processing and data should always be centered and normalized both before and after dimension reduction. Finally, we show that it is possible to combine PCA with using 1bit per dimension. Overall we achieve (1) 100× compression with 75%, and (2) 24× compression with 92% original retrieval performance.",
         "image": "kbshrink_paper.png",
-        "type": "publication",
+        "type": "project",
         "key": "kbshrink_paper"
     },
     {
@@ -328,7 +328,7 @@
         },
         "abstract": "In most of neural machine translation distillation or stealing scenarios, the highest-scoring hypothesis of the target model (teacher) is used to train a new model (student). If reference translations are also available, then better hypotheses (with respect to the references) can be oversampled and poor hypotheses either removed or undersampled. This paper explores the sampling method landscape (pruning, hypothesis oversampling and undersampling, deduplication and their combination) with English to Czech and English to German MT models using standard MT evaluation metrics. We show that careful oversampling and combination with the original data leads to better performance when compared to training only on the original or synthesized data or their direct combination.",
         "image": "mt_filtering.png",
-        "type": "publication",
+        "type": "project",
         "key": "mt_filtering"
     },
     {
@@ -419,7 +419,7 @@
         },
         "abstract": "Machine translation with lexical constraints is a popular research topic, especially for terminology translation. Existing approaches for lexical control in MT are usually complex and not easily applicable to all existing MT toolkits. We propose an off-the-shelf baseline approach, Peek MT, for lexical constraints. During training, the model is provided with access to some of the words in the reference, allowing it to produce better translations. During inference, the user can specify which words they would like the translation to contain. Depending on the amount of additional tokens, the MT performance is improved by 1.3-4.4 BLEU points per revealed token. Despite these being very soft constraints, they are fulfilled ≈66% of the time. Notably, the same approach can also be used to control the output translation length without tinkering with the decoder. Finally, from analysis point of view, this method allows us to establish that the knowledge of particular word in the reference, such as verbs and organization names boosts the MT performance the most.",
         "image": "mt_peek.png",
-        "type": "project",
+        "type": "project_hide",
         "key": "mt_peek"
     },
     {
@@ -471,7 +471,7 @@
         },
         "abstract": "In learning-based functionality stealing, the attacker is trying to build a local model based on the victim's outputs. The attacker has to make choices regarding the local model's architecture, optimization method and, specifically for NLP models, subword vocabulary, such as BPE. On the machine translation task, we explore (1) whether the choice of the vocabulary plays a role in model stealing scenarios and (2) if it is possible to extract the victim's vocabulary. We find that the vocabulary itself does not have a large effect on the local model's performance. Given gray-box model access, it is possible to collect the victim's vocabulary by collecting the outputs (detokenized subwords on the output). The results of the minimum effect of vocabulary choice are important more broadly for black-box knowledge distillation.",
         "image": "stolen_subwords.png",
-        "type": "project",
+        "type": "project_hide",
         "key": "stolen_subwords"
     },
     {
@@ -485,7 +485,7 @@
         },
         "abstract": "The Shannon game has long been used as a thought experiment in linguistics and NLP, asking participants to guess the next letter in a sentence based on its preceding context. We extend the game by introducing an optional extra modality in the form of image information. To investigate the impact of multimodal information in this game, we use human participants and a language model (LM, GPT-2). We show that the addition of image information improves both self-reported confidence and accuracy for both humans and LM. Certain word classes, such as nouns and determiners, benefit more from the additional modality information. The priming effect in both humans and the LM becomes more apparent as the context size (extra modality information + sentence context) increases. These findings highlight the potential of multimodal information in improving language understanding and modeling.",
         "image": "mmsg.png",
-        "type": "project",
+        "type": "project_hide",
         "key": "mmsg"
     },
     {
@@ -536,7 +536,7 @@
         },
         "abstract": "Little tool to generate practice guitar strum patterns.",
         "image": "rsp.png",
-        "type": "project",
+        "type": "project_hide",
         "key": "rsp"
     },
     {
@@ -561,7 +561,7 @@
         },
         "abstract": "The most common tools for word-alignment rely on a large amount of parallel sentences,which are then usually processed according to one of the IBM model algorithms. The trainingdata is, however, the same as for machine translation (MT) systems, especially for neural MT(NMT), which itself is able to produce word-alignments using the trained attention heads. Thisis convenient because word-alignment is theoretically a viable byproduct of any attention-basedNMT, which is also able to provide decoder scores for a translated sentence pair.We summarize different approaches on how word-alignment can be extracted from align-ment scores and then explore ways in which scores can be extracted from NMT, focusing oninferring the word-alignment scores based on output sentence and token probabilities. Wecompare this to the extraction of alignment scores from attention. We conclude with aggregat-ing all of the sources of alignment scores into a simple feed-forward network which achievesthe best results when combined alignment extractors are used.",
         "image": "leverage_align.png",
-        "type": "publication",
+        "type": "project",
         "key": "leverage_align"
     },
     {
@@ -587,7 +587,7 @@
         },
         "abstract": "We present the Eyetracked Multi-Modal Translation (EMMT) corpus, a dataset containing monocular eye movement recordings, audio and 4-electrode electroencephalogram (EEG) data of 43 participants. The objective was to collect cognitive signals as responses of participants engaged in a number of language intensive tasks involving different text-image stimuli settings when translating from English to Czech.Each participant was exposed to 32 text-image stimuli pairs and asked to (1) read the English sentence, (2) translate it into Czech, (3) consult the image, (4) translate again, either updating or repeating the previous translation. The text stimuli consisted of 200 unique sentences with 616 unique words coupled with 200 unique images as the visual stimuli.The recordings were collected over a two week period and all the participants included in the study were Czech natives with strong English skills. Due to the nature of the tasks involved in the study and the relatively large number of participants involved, the corpus is well suited for research in Translation Process Studies, Cognitive Sciences among other disciplines.",
         "image": "eyetracked_multimodal_translation_2.png",
-        "type": "project",
+        "type": "project_hide",
         "key": "eyetracked_multimodal_translation_2"
     },
     {
@@ -690,7 +690,7 @@
         },
         "abstract": "The problems of outbound translation, machine translation user confidence and user inter-action are not yet fully explored. The goal of the online modular system Ptakopět is to providetools for studying these phenomena. Ptakopět is a proof-of-concept system for examining userinteraction with enhanced machine translation. It can be used either for actual translation orrunning experiments on human annotators. In this article, we aim to describe its main com-ponents and to show how to use Ptakopět for further research. We also share tips for runningexperiments and setting up a similar online annotation environment.Ptakopět was already used for outbound machine translation experiments, and we cover theresults of the latest experiment in a demonstration to show the research potential of this tool.We show quantitatively that even though backward translation improves machine-translationuser experience, it mainly increases users’ confidence and not the translation quality.",
         "image": "extending_ptakopet.png",
-        "type": "project",
+        "type": "project_hide",
         "key": "extending_ptakopet"
     },
     {
@@ -703,7 +703,7 @@
         },
         "abstract": "It is not uncommon for Internet users to have to produce a text in a foreign language they have very little knowledge of and are unable to verify the translation quality. We call the task “outbound translation” and explore it by introducing an open-source modular system Ptakopět. Its main purpose is to inspect human interaction with MT systems enhanced with additional subsystems, such as backward translation and quality estimation. We follow up with an experiment on (Czech) human annotators tasked to produce questions in a language they do not speak (German), with the help of Ptakopět. We focus on three real-world use cases (communication with IT support, describing administrative issues and asking encyclopedic questions) from which we gain insight into different strategies users take when faced with outbound translation tasks. Round trip translation is known to be unreliable for evaluating MT systems but our experimental evaluation documents that it works very well for users, at least on MT systems of mid-range quality.",
         "image": "ptakopet_paper.png",
-        "type": "project",
+        "type": "project_hide",
         "key": "ptakopet_paper"
     },
     {
