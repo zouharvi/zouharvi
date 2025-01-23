@@ -37,7 +37,7 @@ function publication_entry($item) {
 }
 ?>
 
-<h3>Serious publications
+<h3>Selected publications
   <span style="float: right; width: 200px; text-align: right;">
     <span id="all_button_expand">expand all publications</span>
     <span id="all_button_hide">collapse all publications</span>
@@ -54,7 +54,7 @@ function publication_entry($item) {
 ?>
 
 <br><br>
-<h3>Less-serious projects</h3>
+<h3>Less-selected publications/projects</h3>
 <?php
   foreach ($data as &$item) {
     if ($item["type"] == "project") {
@@ -66,7 +66,7 @@ function publication_entry($item) {
 
 <script>
 let OPEN_PAPERS = [
-  "sacrecomet",
+  "esaai",
 ];
 
 $(".paper_title").each((_, element) => {

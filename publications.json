@@ -1,5 +1,18 @@
 [
     {
+        "title": "AI-Assisted Human Evaluation of Machine Translation",
+        "author": "Vilém Zouhar,<sup>=</sup> Tom Kocmi,<sup>=</sup> Mrinmaya Sachan",
+        "venue":"NAACL 2025",
+        "links": {
+            "paper": "https://arxiv.org/abs/2406.12419",
+            "code": "https://github.com/wmt-conference/ErrorSpanAnnotation"
+        },
+        "abstract": "Annually, research teams spend large amounts of money to evaluate the quality of machine translation systems (WMT, inter alia). This is expensive because it requires detailed human labor. The recently proposed annotation protocol, Error Span Annotation (ESA), has annotators marking erroneous parts of the translation. In our work, we help the annotators by pre-filling the span annotations with automatic quality estimation. With AI assistance, we obtain more detailed annotations while cutting down the time per span annotation by half (71s/error span → 31s/error span). The biggest advantage of ESA<sup>AI</sup> protocol is an accurate priming of annotators (pre-filled error spans) before they assign the final score as opposed to starting from scratch. In addition, the annotation budget can be reduced by up to 24% with filtering of examples that the AI deems to be very likely to be correct.",
+        "image": "esaai.png",
+        "type": "publication",
+        "key": "esaai"
+    },
+    {
         "title": "Pitfalls and Outlooks in Using COMET",
         "author": "Vilém Zouhar,<sup>=</sup> Pinzhen Chen,<sup>=</sup> Tsz Kin Lam, Nikita Moghe, Barry Haddow",
         "venue":"WMT 2024",
@@ -41,6 +54,18 @@
         "image": "bio_mqm_metrics_bias.png",
         "type": "publication",
         "key": "bio_mqm_metrics_bias"
+    },
+    {
+        "title": "A Bayesian Optimization Approach to Machine Translation Reranking",
+        "author": "Julius Cheng, Maike Züfle, Vilém Zouhar, Andreas Vlachos",
+        "venue": "NAACL 2025",
+        "links": {
+            "paper": "https://arxiv.org/abs/2411.09694"
+        },
+        "abstract": "Reranking a list of candidates from a machine translation system with an external scoring model and returning the highest-scoring candidate remains a simple and effective method for improving the overall output quality. Translation scoring models continue to grow in size, with the best models being comparable to generation models. Thus, reranking can add substantial computational cost to the translation pipeline. In this work, we pose reranking as a Bayesian optimization (BayesOpt) problem. By strategically selecting candidates to score based on a balance of exploration and exploitation, we show that it is possible to find top-scoring candidates when scoring only a fraction of the candidate list. For instance, our method achieves the same CometKiwi score using only 70 scoring evaluations compared a baseline system using 180. We present a multi-fidelity setting for BayesOpt, where the candidates are first scored with a cheaper but noisier proxy scoring model, which further improves the cost-performance tradeoff when using smaller but well-trained distilled proxy scorers.",
+        "image": "bayesian_comet.png",
+        "type": "project",
+        "key": "bayesian_comet"
     },
     {
         "title": "Quality and Quantity of Machine Translation References for Automated Metrics",
@@ -100,31 +125,6 @@
         "key": "relic"
     },
     {
-        "title": "AI-Assisted Human Evaluation of Machine Translation",
-        "author": "Vilém Zouhar,<sup>=</sup> Tom Kocmi,<sup>=</sup> Mrinmaya Sachan",
-        "venue":"In review 2024",
-        "links": {
-            "paper": "https://arxiv.org/abs/2406.12419",
-            "code": "https://github.com/wmt-conference/ErrorSpanAnnotation"
-        },
-        "abstract": "Annually, research teams spend large amounts of money to evaluate the quality of machine translation systems (WMT, inter alia). This is expensive because it requires detailed human labor. The recently proposed annotation protocol, Error Span Annotation (ESA), has annotators marking erroneous parts of the translation. In our work, we help the annotators by pre-filling the span annotations with automatic quality estimation. With AI assistance, we obtain more detailed annotations while cutting down the time per span annotation by half (71s/error span → 31s/error span). The biggest advantage of ESA<sup>AI</sup> protocol is an accurate priming of annotators (pre-filled error spans) before they assign the final score as opposed to starting from scratch. In addition, the annotation budget can be reduced by up to 24% with filtering of examples that the AI deems to be very likely to be correct.",
-        "image": "esaai.png",
-        "type": "publication",
-        "key": "esaai"
-    },
-    {
-        "title": "A Bayesian Optimization Approach to Machine Translation Reranking",
-        "author": "Julius Cheng, Maike Züfle, Vilém Zouhar, Andreas Vlachos",
-        "venue": "In review 2024",
-        "links": {
-            "paper": "https://arxiv.org/abs/2411.09694"
-        },
-        "abstract": "Reranking a list of candidates from a machine translation system with an external scoring model and returning the highest-scoring candidate remains a simple and effective method for improving the overall output quality. Translation scoring models continue to grow in size, with the best models being comparable to generation models. Thus, reranking can add substantial computational cost to the translation pipeline. In this work, we pose reranking as a Bayesian optimization (BayesOpt) problem. By strategically selecting candidates to score based on a balance of exploration and exploitation, we show that it is possible to find top-scoring candidates when scoring only a fraction of the candidate list. For instance, our method achieves the same CometKiwi score using only 70 scoring evaluations compared a baseline system using 180. We present a multi-fidelity setting for BayesOpt, where the candidates are first scored with a cheaper but noisier proxy scoring model, which further improves the cost-performance tradeoff when using smaller but well-trained distilled proxy scorers.",
-        "image": "bayesian_comet.png",
-        "type": "publication",
-        "key": "bayesian_comet"
-    },
-    {
         "title": "Distributional Properties of Subword Regularization",
         "author": "Marco Cognetta, Vilém Zouhar, Naoaki Okazaki",
         "venue":"EMNLP 2024",
@@ -135,6 +135,20 @@
         "image": "distributional_tokenization.png",
         "type": "publication",
         "key": "distributional_tokenization"
+    },
+    {
+        "title": "Evaluating Optimal Reference Translations",
+        "author": "Vilém Zouhar, Věra Kloudová, Martin Popel, Ondřej Bojar",
+        "venue": "JNLE 2024",
+        "links": {
+            "paper": "https://www.cambridge.org/core/journals/natural-language-processing/article/evaluating-optimal-reference-translations/C83BAB85527854228661D34F5065B897",
+            "code": "https://github.com/ufal/optimal-reference-translations",
+            "data": "https://huggingface.co/datasets/zouharvi/optimal-reference-translations"
+        },
+        "abstract": "The overall translation quality reached by current machine translation (MT) systems for high-resourced language pairs is remarkably good. Standard methods of evaluation are not suitable nor intended to uncover the many translation errors and quality deficiencies that still persist. Furthermore, the quality of standard reference translations is commonly questioned and comparable quality levels have been reached by MT alone in several language pairs. Navigating further research in these high-resource settings is thus difficult. In this article, we propose a methodology for creating more reliable document-level human reference translations, called 'optimal reference translations,' with the simple aim to raise the bar of what should be deemed 'human translation quality.' We evaluate the obtained document-level optimal reference translations in comparison with 'standard' ones, confirming a significant quality increase and also documenting the relationship between evaluation and translation editing.",
+        "image": "ort.png",
+        "type": "publication",
+        "key": "ort"
     },
     {
         "title": "A Diachronic Perspective on User Trust in AI under Uncertainty",
@@ -195,20 +209,6 @@
         "key": "formal_bpe"
     },
     {
-        "title": "Evaluating Optimal Reference Translations",
-        "author": "Vilém Zouhar, Věra Kloudová, Martin Popel, Ondřej Bojar",
-        "venue": "JNLE 2024",
-        "links": {
-            "paper": "https://www.cambridge.org/core/journals/natural-language-processing/article/evaluating-optimal-reference-translations/C83BAB85527854228661D34F5065B897",
-            "code": "https://github.com/ufal/optimal-reference-translations",
-            "data": "https://huggingface.co/datasets/zouharvi/optimal-reference-translations"
-        },
-        "abstract": "The overall translation quality reached by current machine translation (MT) systems for high-resourced language pairs is remarkably good. Standard methods of evaluation are not suitable nor intended to uncover the many translation errors and quality deficiencies that still persist. Furthermore, the quality of standard reference translations is commonly questioned and comparable quality levels have been reached by MT alone in several language pairs. Navigating further research in these high-resource settings is thus difficult. In this article, we propose a methodology for creating more reliable document-level human reference translations, called 'optimal reference translations,' with the simple aim to raise the bar of what should be deemed 'human translation quality.' We evaluate the obtained document-level optimal reference translations in comparison with 'standard' ones, confirming a significant quality increase and also documenting the relationship between evaluation and translation editing.",
-        "image": "ort.png",
-        "type": "publication",
-        "key": "ort"
-    },
-    {
         "title": "Re-visiting Automated Topic Model Evaluation with Large Language Models",
         "author": "Dominik Stammbach, Vilém Zouhar, Alexander Hoyle, Mrinmaya Sachan, Elliott Ash",
         "venue": "EMNLP 2023",
@@ -231,7 +231,7 @@
         },
         "abstract": "Counterfactual examples are useful for exploring the decision boundaries of machine learning models and determining feature attributions. How can we apply counterfactual-based methods to analyze and explain LLMs? We identify the following key challenges. First, the generated textual counterfactuals should be meaningful and readable to users and thus can be mentally compared to draw conclusions. Second, to make the solution scalable to long-form text, users should be equipped with tools to create batches of counterfactuals from perturbations at various granularity levels and interactively analyze the results. In this paper, we tackle the above challenges and contribute 1) a novel algorithm for generating batches of complete and meaningful textual counterfactuals by removing and replacing text segments in different granularities, and 2) LLM Analyzer, an interactive visualization tool to help users understand an LLM's behaviors by interactively inspecting and aggregating meaningful counterfactuals. We evaluate the proposed algorithm by the grammatical correctness of its generated counterfactuals using 1,000 samples from medical, legal, finance, education, and news datasets. In our experiments, 97.2% of the counterfactuals are grammatically correct. Through a use case, user studies, and feedback from experts, we demonstrate the usefulness and usability of the proposed interactive visualization tool. ",
         "image": "meaningful_counterfactuals.png",
-        "type": "publication",
+        "type": "project",
         "key": "meaningful_counterfactuals"
     },
     {
@@ -246,7 +246,7 @@
         },
         "abstract": "Word embeddings that map words into a fixed-dimensional vector space are the backbone of modern NLP. Most word embedding methods encode semantic information. However, phonetic information, which is important for some tasks, is often overlooked. In this work, we develop several novel methods which leverage articulatory features to build phonetically informed word embeddings, and present a set of phonetic word embeddings to encourage their community development, evaluation and use. While several methods for learning phonetic word embeddings already exist, there is a lack of consistency in evaluating their effectiveness. Thus, we also proposes several ways to evaluate both intrinsic aspects of phonetic word embeddings, such as word retrieval and correlation with sound similarity, and extrinsic performances, such as rhyme and cognate detection and sound analogies. We hope that our suite of tasks will promote reproducibility and provide direction for future research on phonetic word embeddings.",
         "image": "pwesuite.png",
-        "type": "publication",
+        "type": "project",
         "key": "pwesuite"
     },
     {
@@ -258,7 +258,7 @@
         },
         "abstract": "In Tokenization and the Noiseless Channel, Rényi efficiency is suggested as an intrinsic mechanism for evaluating a tokenizer: for NLP tasks, the tokenizer which leads to the highest Rényi efficiency of the unigram distribution should be chosen. The Rényi efficiency is thus treated as a predictor of downstream performance (e.g., predicting BLEU for machine translation task), without the expensive step of training multiple models with different tokenizers. Although useful, the predictive power of this metric is not perfect, and the authors note there are additional qualities of a good tokenization scheme that Rényi efficiency alone cannot capture. We describe two variants of BPE tokenization which can arbitrarily increase Rényi efficiency while decreasing the downstream model performance. These counterexamples expose cases where Rényi efficiency fails as an intrinsic tokenization metric and thus give insight for building more accurate predictors.",
         "image": "tokenization_counter.png",
-        "type": "publication",
+        "type": "project",
         "key": "tokenization_counter"
     },
     {
