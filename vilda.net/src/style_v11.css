@@ -1,0 +1,157 @@
+* {
+  font-family: 'Fira Sans';
+}
+
+body {
+  font-size: 16pt;
+}
+
+a {
+  text-decoration: underline;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.venue {
+  text-align: right;
+  display: block;
+  width: max-content;
+}
+
+.paper_title {
+  padding: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  position: relative;
+  border-left: 2pt solid black;
+  border-right: 2pt solid black;
+  border-top: 2pt solid black;
+  border-bottom: 2pt solid black;
+}
+
+.paper_details {
+  margin-bottom: 10px;
+  padding: 5px;
+  margin-top: -8px;
+  font-size: 11pt;
+  text-align: justify;
+  hyphens: auto;
+  border-left: 2pt solid black;
+  border-right: 2pt solid black;
+  border-bottom: 2pt solid black;
+}
+
+.paper_details_withimg {
+  min-height: 230px;
+}
+
+.paper_title_active {
+  border-bottom: none;
+}
+
+.paper_details_paragraph {
+  display: inline-block;
+}
+
+.paper_details img {
+  max-width: 350px;
+  max-height: 200px;
+  float: right;
+  margin-left: 5px;
+  margin-right: 3px;
+  margin-top: -10px;
+  margin-bottom: -5px;
+}
+
+.paper_details_arrow { 
+  height: 8pt;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: #000;
+  padding: 5px;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  user-select: none;
+}
+
+.authors_span {
+  text-align: left;
+  width:initial;
+  display: flex;
+}
+
+.paper_details_arrow_up {
+  -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+          transform: rotate(180deg);
+               zoom: 1;
+  }
+
+.paper_details_link {
+  display: inline-block;
+  padding: 5px;
+  font-size: 10pt;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+  position: relative;
+  text-decoration: none;
+}
+
+#menu {
+  width: 160px;
+  margin-right: 20px; 
+  display: inline-block;
+}
+
+#whole {
+  max-width: 1200px;
+  min-width: 530px;
+  margin: auto;
+  background-color: #fff;
+  padding: 10px;
+}
+
+#menu ul {
+  margin-left: -40px;
+  margin-right: 20px;
+  margin-top: -10px;;
+}
+
+
+#menu ul li {
+  line-height: 1.4em;
+  text-align: left;
+}
+
+#menu #links ul {
+  margin-top: -18px;
+}
+
+#menu #links ul li {
+  margin-top: 12px;
+}
+
+
+h3 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#all_button_expand, #all_button_hide {
+  padding: 5px;
+  font-size: 10pt;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  top: -3px;
+}

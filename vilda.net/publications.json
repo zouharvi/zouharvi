@@ -1,0 +1,721 @@
+[
+    {
+        "title": "AI-Assisted Human Evaluation of Machine Translation",
+        "author": "Vilém Zouhar,<sup>=</sup> Tom Kocmi,<sup>=</sup> Mrinmaya Sachan",
+        "venue":"NAACL 2025",
+        "links": {
+            "paper": "https://arxiv.org/abs/2406.12419",
+            "code": "https://github.com/wmt-conference/ErrorSpanAnnotation"
+        },
+        "abstract": "Annually, research teams spend large amounts of money to evaluate the quality of machine translation systems (WMT, inter alia). This is expensive because it requires detailed human labor. The recently proposed annotation protocol, Error Span Annotation (ESA), has annotators marking erroneous parts of the translation. In our work, we help the annotators by pre-filling the span annotations with automatic quality estimation. With AI assistance, we obtain more detailed annotations while cutting down the time per span annotation by half (71s/error span → 31s/error span). The biggest advantage of ESA<sup>AI</sup> protocol is an accurate priming of annotators (pre-filled error spans) before they assign the final score as opposed to starting from scratch. In addition, the annotation budget can be reduced by up to 24% with filtering of examples that the AI deems to be very likely to be correct.",
+        "image": "esaai.png",
+        "type": "publication",
+        "key": "esaai"
+    },
+    {
+        "title": "Pitfalls and Outlooks in Using COMET",
+        "author": "Vilém Zouhar,<sup>=</sup> Pinzhen Chen,<sup>=</sup> Tsz Kin Lam, Nikita Moghe, Barry Haddow",
+        "venue":"WMT 2024",
+        "links": {
+            "paper": "https://aclanthology.org/2024.wmt-1.121/",
+            "tool": "https://pypi.org/project/sacrecomet/",
+            "code": "https://github.com/PinzhenChen/sacreCOMET",
+            "video": "https://www.youtube.com/watch?v=jDMvueySuPo"
+        },
+        "abstract": "Since its introduction, the COMET metric has blazed a trail in the machine translation community, given its strong correlation with human judgements of translation quality. Its success stems from being a modified pre-trained multilingual model finetuned for quality assessment. However, it being a machine learning model also gives rise to a new set of pitfalls that may not be widely known. We investigate these unexpected behaviours from three aspects: 1) technical: obsolete software versions and compute precision; 2) data: empty content, language mismatch, and translationese at test time as well as distribution and domain biases in training; 3) usage and reporting: multi-reference support and model referencing in the literature. All of these problems imply that COMET scores is not comparable between papers or even technical setups and we put forward our perspective on fixing each issue. Furthermore, we release the SacreCOMET package that can generate a signature for the software and model configuration as well as an appropriate citation. The goal of this work is to help the community make more sound use of the COMET metric.",
+        "image": "sacrecomet.png",
+        "type": "publication",
+        "key": "sacrecomet"
+    },
+    {
+        "title": "Error Span Annotation: A Balanced Approach for Human Evaluation of Machine Translation",
+        "author": "Tom Kocmi,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Eleftherios Avramidis, Roman Grundkiewicz, Marzena Karpinska, Maja Popović, Mrinmaya Sachan, Mariya Shmatova",
+        "venue":"WMT 2024",
+        "links": {
+            "paper": "https://aclanthology.org/2024.wmt-1.131/",
+            "code": "https://github.com/wmt-conference/ErrorSpanAnnotation"
+        },
+        "abstract": "High-quality Machine Translation (MT) evaluation relies heavily on human judgments. Comprehensive error classification methods, such as Multidimensional Quality Metrics (MQM), are expensive as they are time-consuming and can only be done by experts, whose availability may be limited especially for low-resource languages. On the other hand, just assigning overall scores, like Direct Assessment (DA), is simpler and faster and can be done by translators of any level, but are less reliable. In this paper, we introduce Error Span Annotation (ESA), a human evaluation protocol which combines the continuous rating of DA with the high-level error severity span marking of MQM. We validate ESA by comparing it to MQM and DA for 12 MT systems and one human reference translation (English to German) from WMT23. The results show that ESA offers faster and cheaper annotations than MQM at the same quality level, without the requirement of expensive MQM experts.",
+        "image": "esa.png",
+        "type": "publication",
+        "key": "esa"
+    },
+    {
+        "title": "Fine-Tuned Machine Translation Metrics Struggle in Unseen Domains",
+        "author": "Vilém Zouhar, Shuoyang Ding, Anna Currey, Tatyana Badeka, Jenyuan Wang, Brian Thompson",
+        "venue": "ACL 2024",
+        "links": {
+            "paper": "https://aclanthology.org/2024.acl-short.45/",
+            "data": "https://huggingface.co/datasets/zouharvi/bio-mqm-dataset",
+            "code": "https://github.com/amazon-science/bio-mqm-dataset",
+            "video": "https://youtu.be/BG_xAqMNsqY"
+        },
+        "abstract": "We introduce a new, extensive multidimensional quality metrics (MQM) annotated dataset covering 11 language pairs in the biomedical domain. We use this dataset to investigate whether machine translation (MT) metrics which are fine-tuned on human-generated MT quality judgements are robust to domain shifts between training and inference. We find that fine-tuned metrics exhibit a substantial performance drop in the unseen domain scenario relative to metrics that rely on the surface form, as well as pre-trained metrics which are not fine-tuned on MT quality judgments.",
+        "image": "bio_mqm_metrics_bias.png",
+        "type": "publication",
+        "key": "bio_mqm_metrics_bias"
+    },
+    {
+        "title": "A Bayesian Optimization Approach to Machine Translation Reranking",
+        "author": "Julius Cheng, Maike Züfle, Vilém Zouhar, Andreas Vlachos",
+        "venue": "NAACL 2025",
+        "links": {
+            "paper": "https://arxiv.org/abs/2411.09694"
+        },
+        "abstract": "Reranking a list of candidates from a machine translation system with an external scoring model and returning the highest-scoring candidate remains a simple and effective method for improving the overall output quality. Translation scoring models continue to grow in size, with the best models being comparable to generation models. Thus, reranking can add substantial computational cost to the translation pipeline. In this work, we pose reranking as a Bayesian optimization (BayesOpt) problem. By strategically selecting candidates to score based on a balance of exploration and exploitation, we show that it is possible to find top-scoring candidates when scoring only a fraction of the candidate list. For instance, our method achieves the same CometKiwi score using only 70 scoring evaluations compared a baseline system using 180. We present a multi-fidelity setting for BayesOpt, where the candidates are first scored with a cheaper but noisier proxy scoring model, which further improves the cost-performance tradeoff when using smaller but well-trained distilled proxy scorers.",
+        "image": "bayesian_comet.png",
+        "type": "project",
+        "key": "bayesian_comet"
+    },
+    {
+        "title": "Quality and Quantity of Machine Translation References for Automated Metrics",
+        "author": "Vilém Zouhar, Ondřej Bojar",
+        "venue": "HumEval 2024",
+        "links": {
+            "paper": "https://aclanthology.org/2024.humeval-1.1",
+            "code": "https://github.com/ufal/optimal-reference-translations",
+            "video": "https://youtu.be/n4WlmyIX5LE"
+        },
+        "abstract": "Automatic machine translation metrics often use human translations to determine the quality of system translations. Common wisdom in the field dictates that the human references should be of very high quality. However, there are no cost-benefit analyses that could be used to guide practitioners who plan to collect references for machine translation evaluation. We find that higher-quality references lead to better metric correlations with humans at the segment-level. Having up to 7 references per segment and taking their average helps all metrics. Interestingly, the references from vendors of different qualities can be mixed together and improve metric success. Higher quality references, however, cost more to create and we frame this as an optimization problem: given a specific budget, what references should be collected to maximize metric success. These findings can be used by evaluators of shared tasks when references need to be created under a certain budget.",
+        "image": "ortmt.png",
+        "type": "publication",
+        "key": "ortmt"
+    },
+    {
+        "title": "WMT24 General Machine Translation Shared Task: The LLM Era is Here but MT is Not Solved Yet",
+        "author": "Tom Kocmi, Eleftherios Avramidis, Rachel Bawden, Ondřej Bojar, Anton Dvorkovich, Christian Federmann, Mark Fishel, Markus Freitag, Thamme Gowda, Roman Grundkiewicz, Barry Haddow, Marzena Karpinska, Philipp Koehn, Benjamin Marie, Christof Monz, Kenton Murray, Masaaki Nagata, Martin Popel, Maja Popović, Mariya Shmatova, Steinþór Steingrímsson, Vilém Zouhar",
+        "venue":"WMT 2024",
+        "abstract": "This overview paper presents the results of the General Machine Translation Task organised as part of the 2024 Conference on Machine Translation (WMT). In the general MT task, participants were asked to build machine translation systems for any of 11 language pairs, to be evaluated on test sets consisting of three to five different domains. In addition to participating systems, we collected translations from 8 different large language models (LLMs) and 4 online translation providers. We evaluate system outputs with professional human annotators using a new protocol called Error Span Annotations (ESA).",
+        "links": {
+            "paper": "https://aclanthology.org/2024.wmt-1.1/",
+            "data": "https://github.com/wmt-conference/wmt24-news-systems"
+        },
+        "image": "",
+        "type": "publication",
+        "key": "wmt24"
+    },
+    {
+        "title": "Navigating the Metrics Maze: Reconciling Score Magnitudes and Accuracies",
+        "author": "Tom Kocmi, Vilém Zouhar, Christian Federmann, Matt Post",
+        "venue": "ACL 2024",
+        "links": {
+            "paper": "https://aclanthology.org/2024.acl-long.110/",
+            "code": "https://github.com/kocmitom/MT-Thresholds",
+            "demo": "https://kocmitom.github.io/MT-Thresholds/",
+            "tool": "https://pypi.org/project/mt-thresholds/",
+            "video": "https://youtu.be/itZ96W5KVcI"
+        },
+        "abstract": "Ten years ago a single metric, BLEU, governed progress in machine translation research. For better or worse, there is no such consensus today, and consequently it is difficult for researchers to develop and retain the kinds of heuristic intuitions about metric deltas that drove earlier research and deployment decisions. This paper investigates the 'dynamic range' of a number of modern metrics in an effort to provide a collective understanding of the meaning of differences in scores both within and among metrics; in other words, we ask what point difference X in metric Y is required between two systems for humans to notice? We conduct our evaluation on a new large dataset, ToShip23, using it to discover deltas at which metrics achieve system-level differences that are meaningful to humans, which we measure by pairwise system accuracy. We additionally show that this method of establishing delta-accuracy is more stable than the standard use of statistical p-values in regards to testset size. Where data size permits, we also explore the effect of metric deltas and accuracy across finer-grained features such as translation direction, domain, and system closeness.",
+        "image": "metrics_maze.png",
+        "type": "publication",
+        "key": "metrics_maze"
+    },
+    {
+        "title": "RELIC: Investigating Large Language Model Responses using Self-Consistency",
+        "author": "Furui Cheng, Vilém Zouhar, Simran Arora, Mrinmaya Sachan, Hendrik Strobelt, Mennatallah El-Assady",
+        "venue": "CHI 2024",
+        "links": {
+            "paper": "https://dl.acm.org/doi/pdf/10.1145/3613904.3641904",
+            "video": "https://www.youtube.com/watch?v=ABjTdtd4lsw",
+            "link": "https://relic.ivia.ch/"
+        },
+        "abstract": "Large Language Models (LLMs) are notorious for blending fact with fiction and generating non-factual content, known as hallucinations. To tackle this challenge, we propose an interactive system that helps users obtain insights into the reliability of the generated text. Our approach is based on the idea that the self-consistency of multiple samples generated by the same LLM relates to its confidence in individual claims in the generated texts. Using this idea, we design RELIC, an interactive system that enables users to investigate and verify semantic-level variations in multiple long-form responses. This allows users to recognize potentially inaccurate information in the generated text and make necessary corrections. From a user study with ten participants, we demonstrate that our approach helps users better verify the reliability of the generated text. We further summarize the design implications and lessons learned from this research for inspiring future studies on reliable human-LLM interactions.",
+        "image": "relic.png",
+        "type": "publication",
+        "key": "relic"
+    },
+    {
+        "title": "Distributional Properties of Subword Regularization",
+        "author": "Marco Cognetta, Vilém Zouhar, Naoaki Okazaki",
+        "venue":"EMNLP 2024",
+        "links": {
+            "paper": "https://aclanthology.org/2024.emnlp-main.600/"
+        },
+        "abstract": "Subword regularization, used widely in NLP, improves model performance by reducing the dependency on exact tokenizations, augmenting the training corpus, and exposing the model to more unique contexts during training. BPE and MaxMatch, two popular subword tokenization schemes, have stochastic dropout regularization variants. However, there has not been an analysis of the distributions formed by them. We show that these stochastic variants are heavily biased towards a small set of tokenizations per word. If the benefits of subword regularization are as mentioned, we hypothesize that biasedness artificially limits the effectiveness of these schemes. Thus, we propose an algorithm to uniformly sample tokenizations that we use as a drop-in replacement for the stochastic aspects of existing tokenizers, and find that it improves machine translation quality.",
+        "image": "distributional_tokenization.png",
+        "type": "publication",
+        "key": "distributional_tokenization"
+    },
+    {
+        "title": "Evaluating Optimal Reference Translations",
+        "author": "Vilém Zouhar, Věra Kloudová, Martin Popel, Ondřej Bojar",
+        "venue": "JNLE 2024",
+        "links": {
+            "paper": "https://www.cambridge.org/core/journals/natural-language-processing/article/evaluating-optimal-reference-translations/C83BAB85527854228661D34F5065B897",
+            "code": "https://github.com/ufal/optimal-reference-translations",
+            "data": "https://huggingface.co/datasets/zouharvi/optimal-reference-translations"
+        },
+        "abstract": "The overall translation quality reached by current machine translation (MT) systems for high-resourced language pairs is remarkably good. Standard methods of evaluation are not suitable nor intended to uncover the many translation errors and quality deficiencies that still persist. Furthermore, the quality of standard reference translations is commonly questioned and comparable quality levels have been reached by MT alone in several language pairs. Navigating further research in these high-resource settings is thus difficult. In this article, we propose a methodology for creating more reliable document-level human reference translations, called 'optimal reference translations,' with the simple aim to raise the bar of what should be deemed 'human translation quality.' We evaluate the obtained document-level optimal reference translations in comparison with 'standard' ones, confirming a significant quality increase and also documenting the relationship between evaluation and translation editing.",
+        "image": "ort.png",
+        "type": "publication",
+        "key": "ort"
+    },
+    {
+        "title": "A Diachronic Perspective on User Trust in AI under Uncertainty",
+        "author": "Shehzaad Dhuliawala,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Mennatallah El-Assady, Mrinmaya Sachan",
+        "venue": "EMNLP 2023",
+        "links": {
+            "paper": "https://aclanthology.org/2023.emnlp-main.339/",
+            "code": "https://github.com/zouharvi/trust-intervention/",
+            "demo": "https://vilda.net/s/trust-intervention/?uid=demo_paper",
+            "video": "https://www.youtube.com/watch?v=NrH3flpijDw",
+            "data": "https://huggingface.co/datasets/zouharvi/trust-intervention"
+        },
+        "abstract": "In human-AI collaboration, users typically form a mental model of the AI system, which captures the user’s beliefs about when the system performs well and when it does not. The construction of this mental model is guided by both the system’s veracity as well as the system output presented to the user e.g., the system’s confidence and an explanation for the prediction. However, modern NLP systems are seldom calibrated and are often confidently incorrect about their predictions, which violates users’ mental model and erodes their trust. In this work, we design a study where users bet on the correctness of an NLP system, and use it to study the evolution of user trust as a response to these trust-eroding events and how the user trust is rebuilt as a function of time after these events. We find that even a few highly inaccurate confidence estimation instances are enough to damage users’ trust in the system and performance, which does not easily recover over time. We further find that users are more forgiving to the NLP system if it is unconfidently correct rather than confidently incorrect, even though, from a game-theoretic perspective, their payoff is equivalent. Finally, we find that each user can entertain multiple mental models of the system based on the type of the question. These results highlight the importance of confidence calibration in developing user-centered NLP applications to avoid damaging user trust and compromising the collaboration performance.",
+        "image": "trust_intervention.png",
+        "type": "publication",
+        "key": "trust_intervention"
+    },
+    {
+        "title": "WMT 2023 Shared Task on Machine Translation with Terminologies",
+        "author": "Kirill Semenov, Vilém Zouhar, Tom Kocmi, Dongdong Zhang, Wangchunshu Zhou, Yuchen Eleanor Jiang",
+        "venue": "EMNLP 2023",
+        "links": {
+            "paper": "https://aclanthology.org/2023.wmt-1.54/",
+            "data": "https://huggingface.co/datasets/zouharvi/wmt-terminology-2023",
+            "link": "https://wmt-terminology-task.github.io/"
+        },
+        "abstract": "The WMT 2023 Terminology Shared Task investigates progress in machine translation of texts with specialized vocabulary. The participants were given the source text and segment-level terminology dictionaries for three language pairs: Chinese→English, English→Czech, and German→English. We evaluate 21 submissions from 7 teams on two main criteria: general translation quality and the effectiveness of translating specialized terminology. Systems took varied approaches — incorporating terminology at inference time or weakly supervised training that uses terminology access. While incorporating terminology dictionaries leads to improvement in the translation quality, incorporating an equal amount of information from the reference leads to similar results. This challenges the position of terminologies being the crux of meaning in translation, it can also be explained by inadequate metrics which are not terminology-centric.",
+        "image": "wmt23_terminology.png",
+        "type": "publication",
+        "key": "wmt23_terminology"
+    },
+    {
+        "title": "Tokenization and the Noiseless Channel",
+        "author": "Vilém Zouhar, Clara Meister, Juan Luis Gastaldi, Li Du, Mrinmaya Sachan, Ryan Cotterell",
+        "venue": "ACL 2023",
+        "links": {
+            "paper": "https://aclanthology.org/2023.acl-long.284/",
+            "tool": "https://github.com/zouharvi/tokenization-scorer",
+            "video": "https://www.youtube.com/watch?v=rCBDcKD8UEg"
+        },
+        "abstract": "Subword tokenization is a key part of most NLP pipelines. However, little is known about why some tokenizer and hyperparameter combinations lead to improved downstream model performance over others. We propose that good tokenizers lead to efficient channel usage, where the channel is the means by which some input is conveyed to the model and efficiency can be quantified in information-theoretic terms as the ratio of the Shannon entropy to the maximum entropy of the subword distribution. Nevertheless, an optimal encoding according to Shannon entropy assigns extremely long codes to low-frequency subwords and very short codes to high-frequency subwords.Defining efficiency in terms of Rényi entropy, on the other hand, penalizes distributions with either very high or very low-frequency subwords.We posit that (1) extremely high-frequency subwords are problematic because their meaning is not distinct and (2) that low-frequency subwords may not appear frequently enough for their meaning to be learned properly; encodings that induce unigram distributions with either can harm model performance. In machine translation, we find that across multiple tokenizers, the Rényi entropy has a very strong correlation with BLEU: 0.82 in comparison to just -0.30 for compressed length.",
+        "image": "tokenization_principle.png",
+        "type": "publication",
+        "key": "tokenization_principle"
+    },
+    {
+        "title": "A Formal Perspective on Byte-Pair Encoding",
+        "author": "Vilém Zouhar, Clara Meister, Juan Luis Gastaldi, Li Du, Tim Vieira, Mrinmaya Sachan, Ryan Cotterell",
+        "venue": "ACL 2023",
+        "links": {
+            "paper": "https://aclanthology.org/2023.findings-acl.38/",
+            "code": "https://github.com/zouharvi/formal-bpe",
+            "video": "https://www.youtube.com/watch?v=aB7oaS0rlvI"
+        },
+        "abstract": "Byte-Pair Encoding (BPE) is a popular algorithm used for tokenizing data in NLP, despite being devised initially as a compression method. BPE appears to be a greedy algorithm at face value, but the underlying optimization problem that BPE seeks to solve has not yet been laid down. We formalize BPE as a combinatorial optimization problem. Via submodular functions, we prove that the iterative greedy version is a 1/sigma*(1-e(-sigma))-approximation of an optimal merge sequence, where sigma is the total backward curvature with respect to the optimal merge sequence. Empirically the lower bound of the approximation is ~0.37.We provide a faster implementation of BPE which improves the runtime complexity from O(NM) to O(N log M), where N is the sequence length and M is the merge count. Finally, we optimize the brute-force algorithm for optimal BPE using memoization.",
+        "image": "formal_bpe.png",
+        "type": "publication",
+        "key": "formal_bpe"
+    },
+    {
+        "title": "Re-visiting Automated Topic Model Evaluation with Large Language Models",
+        "author": "Dominik Stammbach, Vilém Zouhar, Alexander Hoyle, Mrinmaya Sachan, Elliott Ash",
+        "venue": "EMNLP 2023",
+        "links": {
+            "paper": "https://aclanthology.org/2023.emnlp-main.581/",
+            "video": "https://www.youtube.com/watch?v=qIDjtgWTgjs",
+            "code": "https://github.com/dominiksinsaarland/evaluating-topic-model-output"
+        },
+        "abstract": "Topic models help us make sense of large text collections. Automatically evaluating their output and determining the optimal number of topics are both longstanding challenges, with no effective automated solutions to date. This paper proposes using large language models (LLMs) for these tasks. We find that LLMs appropriately assess the resulting topics, correlating more strongly with human judgments than existing automated metrics. However, the setup of the evaluation task is crucial — LLMs perform better on coherence ratings of word sets than on intrustion detection. We find that LLMs can also assist us in guiding us towards a reasonable number of topics. In actual applications, topic models are typically used to answer a research question related to a collection of texts. We can incorporate this research question in the prompt to the LLM, which helps estimating the optimal number of topics.",
+        "image": "llm_topic_model_evaluation.png",
+        "type": "publication",
+        "key": "llm_topic_model_evaluation"
+    },
+    {
+        "title": "Interactive Analysis of LLMs using Meaningful Counterfactuals",
+        "author": "Furui Cheng, Vilém Zouhar, Robin Shing Moon Chan, Daniel Fürst, Hendrik Strobelt, Mennatallah El-Assady",
+        "venue": "In review 2024",
+        "links": {
+            "paper": "https://arxiv.org/abs/2405.00708"
+        },
+        "abstract": "Counterfactual examples are useful for exploring the decision boundaries of machine learning models and determining feature attributions. How can we apply counterfactual-based methods to analyze and explain LLMs? We identify the following key challenges. First, the generated textual counterfactuals should be meaningful and readable to users and thus can be mentally compared to draw conclusions. Second, to make the solution scalable to long-form text, users should be equipped with tools to create batches of counterfactuals from perturbations at various granularity levels and interactively analyze the results. In this paper, we tackle the above challenges and contribute 1) a novel algorithm for generating batches of complete and meaningful textual counterfactuals by removing and replacing text segments in different granularities, and 2) LLM Analyzer, an interactive visualization tool to help users understand an LLM's behaviors by interactively inspecting and aggregating meaningful counterfactuals. We evaluate the proposed algorithm by the grammatical correctness of its generated counterfactuals using 1,000 samples from medical, legal, finance, education, and news datasets. In our experiments, 97.2% of the counterfactuals are grammatically correct. Through a use case, user studies, and feedback from experts, we demonstrate the usefulness and usability of the proposed interactive visualization tool. ",
+        "image": "meaningful_counterfactuals.png",
+        "type": "project",
+        "key": "meaningful_counterfactuals"
+    },
+    {
+        "title": "PWESuite: Phonetic Word Embeddings and Tasks They Facilitate",
+        "author": "Vilém Zouhar, Kalvin Chang, Chenxuan Cui, Nathaniel Carlson, Nathaniel Robinson, Mrinmaya Sachan, David Mortensen",
+        "venue": "LREC-COLING 2024",
+        "links": {
+            "paper": "https://aclanthology.org/2024.lrec-main.1168/",
+            "code": "https://github.com/zouharvi/pwesuite",
+            "data": "https://huggingface.co/datasets/zouharvi/pwesuite-eval",
+            "video": "https://youtu.be/XJ9bAPaJlyc"
+        },
+        "abstract": "Word embeddings that map words into a fixed-dimensional vector space are the backbone of modern NLP. Most word embedding methods encode semantic information. However, phonetic information, which is important for some tasks, is often overlooked. In this work, we develop several novel methods which leverage articulatory features to build phonetically informed word embeddings, and present a set of phonetic word embeddings to encourage their community development, evaluation and use. While several methods for learning phonetic word embeddings already exist, there is a lack of consistency in evaluating their effectiveness. Thus, we also proposes several ways to evaluate both intrinsic aspects of phonetic word embeddings, such as word retrieval and correlation with sound similarity, and extrinsic performances, such as rhyme and cognate detection and sound analogies. We hope that our suite of tasks will promote reproducibility and provide direction for future research on phonetic word embeddings.",
+        "image": "pwesuite.png",
+        "type": "project",
+        "key": "pwesuite"
+    },
+    {
+        "title": "Two Counterexamples to Tokenization and the Noiseless Channel",
+        "author": "Marco Cognetta, Vilém Zouhar, Sangwhan Moon, Naoaki Okazaki",
+        "venue": "LREC-COLING 2024",
+        "links": {
+            "paper": "https://aclanthology.org/2024.lrec-main.1469/"
+        },
+        "abstract": "In Tokenization and the Noiseless Channel, Rényi efficiency is suggested as an intrinsic mechanism for evaluating a tokenizer: for NLP tasks, the tokenizer which leads to the highest Rényi efficiency of the unigram distribution should be chosen. The Rényi efficiency is thus treated as a predictor of downstream performance (e.g., predicting BLEU for machine translation task), without the expensive step of training multiple models with different tokenizers. Although useful, the predictive power of this metric is not perfect, and the authors note there are additional qualities of a good tokenization scheme that Rényi efficiency alone cannot capture. We describe two variants of BPE tokenization which can arbitrarily increase Rényi efficiency while decreasing the downstream model performance. These counterexamples expose cases where Rényi efficiency fails as an intrinsic tokenization metric and thus give insight for building more accurate predictors.",
+        "image": "tokenization_counter.png",
+        "type": "project",
+        "key": "tokenization_counter"
+    },
+    {
+        "title": "Poor Man's Quality Estimation: Predicting Ref.-Based MT Metrics Without Reference",
+        "author": "Vilém Zouhar, Shehzaad Dhuliawala, Wangchunshu Zhou, Nico Daheim, Tom Kocmi, Yuchen Eleanor Jiang, Mrinmaya Sachan",
+        "venue": "EACL 2023",
+        "links": {
+            "paper": "https://aclanthology.org/2023.eacl-main.95/",
+            "code": "https://github.com/zouharvi/mt-metric-estimation",
+            "video": "https://www.youtube.com/watch?v=feMWDVylhac"
+        },
+        "abstract": "Machine translation quality estimation (QE) predicts human judgements of a translation hypothesis without seeing the reference. State-of-the-art QE systems based on pretrained language models have been achieving remarkable correlations with human judgements yet they are computationally heavy and require human annotations, which are slow and expensive to create. To address these limitations, we define the problem of metric estimation (ME) where one predicts the automated metric scores also without the reference. We show that even without access to the reference, our model can estimate automated metrics (ρ = 60% for BLEU, ρ = 51% for other metrics) at the sentence-level. Because automated metrics correlate with human judgements, we can leverage the ME task for pre-training a QE model. For the QE task, we find that pre-training on TER is better (ρ = 23%) than training for scratch (ρ = 20%).",
+        "image": "mt_metrics_estimation.png",
+        "type": "publication",
+        "key": "mt_metrics_estimation"
+    },
+    {
+        "title": "Knowledge Base Index Compression via Dimensionality and Precision Reduction",
+        "author": "Vilém Zouhar, Marius Mosbach, Miaoran Zhang, Dietrich Klakow",
+        "venue": "SpaNLP 2022",
+        "links": {
+            "paper": "https://aclanthology.org/2022.spanlp-1.5/",
+            "code": "https://github.com/zouharvi/kb-shrink",
+            "video": "https://www.youtube.com/watch?v=qczabc2oyMA"
+        },
+        "abstract": "Recently neural network based approaches to knowledge-intensive NLP tasks, such as question answering, started to rely heavily on the combination of neural retrievers and readers. Retrieval is typically performed over a large textual knowledge base (KB) which requires significant memory and compute resources, especially when scaled up. On HotpotQA we systematically investigate reducing the size of the KB index by means of dimensionality (sparse random projections, PCA, autoencoders) and numerical precision reduction. Our results show that PCA is an easy solution that requires very little data and is only slightly worse than autoencoders, which are less stable. All methods are sensitive to pre- and post-processing and data should always be centered and normalized both before and after dimension reduction. Finally, we show that it is possible to combine PCA with using 1bit per dimension. Overall we achieve (1) 100× compression with 75%, and (2) 24× compression with 92% original retrieval performance.",
+        "image": "kbshrink_paper.png",
+        "type": "project",
+        "key": "kbshrink_paper"
+    },
+    {
+        "title": "Neural Machine Translation Quality and Post-Editing Performance",
+        "author": "Vilém Zouhar, Ondřej Bojar, Martin Popel, Aleš Tamchyna",
+        "venue": "EMNLP 2021",
+        "links": {
+            "paper": "https://aclanthology.org/2021.emnlp-main.801/",
+            "code": "https://github.com/ufal/nmt-pe-effects-2021",
+            "video": "https://www.youtube.com/watch?v=rCuoUbmJ5Uk",
+            "data": "https://huggingface.co/datasets/zouharvi/nmt-pe-effects"
+        },
+        "abstract": "We test the natural expectation that using MT in professional translation saves human processing time. The last such study was carried out by Sanchez-Torron and Koehn (2016) with phrase-based MT, artificially reducing the translation quality. In contrast, we focus on neural MT (NMT) of high quality, which has become the state-of-the-art approach since then and also got adopted by most translation companies. Through an experimental study involving over 30 professional translators for English -> Czech translation, we examine the relationship between NMT performance and post-editing time and quality. Across all models, we found that better MT systems indeed lead to fewer changes in the sentences in this industry setting. The relation between system quality and post-editing time is however not straightforward and, contrary to the results on phrase-based MT, BLEU is definitely not a stable predictor of the time or final output quality.",
+        "image": "nmtpe.png",
+        "type": "publication",
+        "key": "nmtpe"
+    },
+    {
+        "title": "Providing Backtranslation Improves Users Confidence in MT, Not Quality",
+        "author": "V. Zouhar, M. Novák, M. Žilinec, O. Bojar, M. Obregón, R. L. Hill, F. Blain, M. Fomicheva, L. Specia, L. Yankovskaya",
+        "venue": "NAACL 2021",
+        "links": {
+            "paper": "https://aclanthology.org/2021.naacl-main.14/",
+            "code": "https://github.com/zouharvi/ptakopet",
+            "video": "https://www.youtube.com/watch?v=9V7VSYspdtQ"
+        },
+        "abstract": "Translating text into a language unknown to the text’s author, dubbed outbound translation, is a modern need for which the user experience has significant room for improvement, beyond the basic machine translation facility. We demonstrate this by showing three ways in which user confidence in the outbound translation, as well as its overall final quality, can be affected: backward translation, quality estimation (with alignment) and source paraphrasing. In this paper, we describe an experiment on outbound translation from English to Czech and Estonian. We examine the effects of each proposed feedback module and further focus on how the quality of machine translation systems influence these findings and the user perception of success. We show that backward translation feedback has a mixed effect on the whole process: it increases user confidence in the produced translation, but not the objective quality.",
+        "image": "providing_backtranslation.png",
+        "type": "publication",
+        "key": "providing_backtranslation"
+    },
+    {
+        "title": "Sampling and Filtering of Neural Machine Translation Distillation Data",
+        "author": "Vilém Zouhar",
+        "venue": "NAACL SRW 2021",
+        "links": {
+            "paper": "https://aclanthology.org/2021.naacl-srw.1/",
+            "code": "https://github.com/zouharvi/reference-mt-distill"
+        },
+        "abstract": "In most of neural machine translation distillation or stealing scenarios, the highest-scoring hypothesis of the target model (teacher) is used to train a new model (student). If reference translations are also available, then better hypotheses (with respect to the references) can be oversampled and poor hypotheses either removed or undersampled. This paper explores the sampling method landscape (pruning, hypothesis oversampling and undersampling, deduplication and their combination) with English to Czech and English to German MT models using standard MT evaluation metrics. We show that careful oversampling and combination with the original data leads to better performance when compared to training only on the original or synthesized data or their direct combination.",
+        "image": "mt_filtering.png",
+        "type": "project",
+        "key": "mt_filtering"
+    },
+    {
+        "title": "WMT20 Document-Level Markable Error Exploration",
+        "author": "Vilém Zouhar, Tereza Vojtěchová, Ondřej Bojar",
+        "venue": "WMT 2020",
+        "links": {
+            "paper": "https://aclanthology.org/2020.wmt-1.41/",
+            "code": "https://github.com/ELITR/wmt20-elitr-testsuite",
+            "data": "https://huggingface.co/datasets/zouharvi/wmt20-markables"
+        },
+        "abstract": "Even though sentence-centric metrics are used widely in machine translation evaluation, document-level performance is at least equally important for professional usage. In this paper, we bring attention to detailed document-level evaluation focused on markables (expressions bearing most of the document meaning) and the negative impact of various markable error phenomena on the translation. For an annotation experiment of two phases, we chose Czech and English documents translated by systems submitted to WMT20 News Translation Task. These documents are from the News, Audit and Lease domains. We show that the quality and also the kind of errors varies significantly among the domains. This systematic variance is in contrast to the automatic evaluation results. We inspect which specific markables are problematic for MT systems and conclude with an analysis of the effect of markable error types on the MT performance measured by humans and automatic evaluation tools.",
+        "image": "wmt20_markable.png",
+        "type": "publication",
+        "key": "wmt20_markable"
+    },
+    {
+        "title": "Harmonizing Assistance: Moderating Visual andTextual Aids in AI-Enhanced Textbook Readingwith IRead",
+        "author": "Xiaoyu Zhang, Vincent Dörig, Peng Cui, Vilém Zouhar, Torbjorn Netland, Mrinmaya Sachan",
+        "venue": "In review 2024",
+        "links": {
+            "paper": "https://www.researchsquare.com/article/rs-4770422/v1"
+        },
+        "abstract": "Textbooks continue to be one of primary mediums of learning. Students often need additional support during the process of reading textbooks leading to several research efforts that aim to increase student engagement and provide tailored experiences in textbook reading. However, providing excessive information beyond the textbook can also distract students from the reading task. When enhancing the reading experience, one has to strike a delicate balance between providing sufficient informational support and maintaining students’ focus on textbook reading. Fusing together latest developments in large language models (LLMs), their applications in education and several pedagogical theories, we design a textbook reading guidance mechanism. We introduce IRead, an interactive tool for textbook reading which uses LLMs with visualization and interaction techniques, to enhance students’ reading and learning experiences. IRead incorporates conceptual visualizations that reflect the textbook’s content and features an AI-driven question bot that generates questions and offers hints in response to student reading and interaction history. We evaluate IRead with a between-subject user study and measure the effectiveness of our methodology in supporting the students’ reading experience based on the Bloom’s Taxonomy and the ARCS model. We collect feedback from participants ranging from undergraduate to doctorate students. The results highlight the effectiveness of simple yet intuitive visualizations, such as the concept tree in IRead. We also derive general insights for the development of tools that enhance educational reading experiences.",
+        "image": "",
+        "type": "project",
+        "key": "iread"
+    },
+    {
+        "title": "How to Engage Your Readers? Generating Guiding Questions to Promote Active Reading",
+        "author": "Peng Cui, Vilém Zouhar, Xiaoyu Zhang, Mrinmaya Sachan",
+        "venue": "ACL 2024",
+        "links": {
+            "paper": "https://aclanthology.org/2024.acl-long.632/",
+            "code": "https://github.com/eth-lre/engage-your-readers"
+        },
+        "abstract": "Using questions in written text is an effective strategy to enhance readability. However, what makes an active reading question good, what the linguistic role of these questions is, and what is their impact on human reading remains understudied. We introduce GuidingQ, a dataset of 10K in-text questions from textbooks and scientific articles. By analyzing the dataset, we present a comprehensive understanding of the use, distribution, and linguistic characteristics of these questions. Then, we explore various approaches to generate such questions using language models. Our results highlight the importance of capturing inter-question relationships and the challenge of question position identification in generating these questions. Finally, we conduct a human study to understand the implication of such questions on reading comprehension. We find that the generated questions are of high quality and are almost as effective as human-written questions in terms of improving readers' memorization and comprehension.",
+        "image": "engage_readers.png",
+        "type": "project",
+        "key": "engage_readers"
+    },
+    {
+        "title": "Scaling the Authoring of AutoTutors with Large Language Models",
+        "author": "Sankalan Pal Chowdhury, Vilém Zouhar, Mrinmaya Sachan",
+        "venue": "Learning@Scale 2024",
+        "links": {
+            "paper": "https://arxiv.org/abs/2402.09216"
+        },
+        "abstract": "Large Language Models (LLMs) have found several use cases in education, ranging from automatic question generation to essay evaluation. In this paper, we explore the potential of using Large Language Models (LLMs) to author Intelligent Tutoring Systems. A common pitfall of LLMs is their straying from desired pedagogical strategies such as leaking the answer to the student, and in general, providing no guarantees. We posit that while LLMs with certain guardrails can take the place of subject experts, the overall pedagogical design still needs to be handcrafted for the best learning results. Based on this principle, we create a sample end-to-end tutoring system named MWPTutor, which uses LLMs to fill in the state space of a pre-defined finite state transducer. This approach retains the structure and the pedagogy of traditional tutoring systems that has been developed over the years by learning scientists but brings in additional flexibility of LLM-based approaches. Through a human evaluation study on two datasets based on math word problems, we show that our hybrid approach achieves a better overall tutoring score than an instructed, but otherwise free-form, GPT-4. MWPTutor is completely modular and opens up the scope for the community to improve its performance by improving individual modules or using different teaching strategies that it can follow.",
+        "image": "mwptutor.png",
+        "type": "project",
+        "key": "mwptutor"
+    },
+    {
+        "title": "Enhancing Textbooks with Visuals from the Web for Improved Learning",
+        "author": "Janvijay Singh, Vilém Zouhar, Mrinmaya Sachan",
+        "venue": "EMNLP 2023",
+        "links": {
+            "paper": "https://aclanthology.org/2023.emnlp-main.731/",
+            "code": "https://github.com/eth-nlped/textbook-enrichment",
+            "video": "https://www.youtube.com/watch?v=zjKayShiBxc"
+        },
+        "abstract": "Textbooks are one of the main mediums for delivering high-quality education to students. In particular, explanatory and illustrative visuals play a key role in retention, comprehension and general transfer of knowledge. However, many textbooks lack these interesting visuals to support student learning. In this paper, we investigate the effectiveness of vision-language models to automatically enhance textbooks with images from the web. We collect a dataset of e-textbooks in the math, science, social science and business domains. We then set up a text-image matching task that involves retrieving and appropriately assigning web images to textbooks, which we frame as a matching optimization problem. Through a crowd-sourced evaluation, we verify that (1) while the original textbook images are rated higher, automatically assigned ones are not far behind, and (2) the precise formulation of the optimization problem matters. We release the dataset of textbooks with an associated image bank to inspire further research in this intersectional area of computer vision and NLP for education.",
+        "image": "textbook_enhancement.png",
+        "type": "project",
+        "key": "textbook_enhancement"
+    },
+    {
+        "title": "Shrinking Knowledge Base Size: Dimension Reduction, Splitting & Filtering",
+        "author": "Vilém Zouhar",
+        "venue": "Master thesis 2022",
+        "links": {
+            "link": "https://raw.githubusercontent.com/zouharvi/kb-shrink/main/meta/thesis/zouhar_thesis_lct.pdf",
+            "code": "https://github.com/zouharvi/kb-shrink"
+        },
+        "abstract": "ecently neural network based approaches to knowledge-intensive NLP tasks, such asquestion answering, started to rely heavily on the combination of neural retrievers andreaders. Retrieval is typically performed over a large textual knowledge base whichrequires significant memory and compute resources, especially when scaled up. OnHotpotQA we explore various filtering & splitting criteria. Primarily, we systematicallyinvestigate reducing the size of the KB index by means of dimensionality (sparse randomprojections, PCA, autoencoders) and numerical precision reduction.Our results show that PCA is an easy solution that requires very little data and is onlyslightly worse than autoencoders, which are less stable. All methods are sensitive to pre-and post-processing and data should always be centered and normalized both before andafter dimension reduction. Finally, we show that it is possible to combine PCA withusing 1bit per dimension. Overall we achieve (1) 100× compression with 75%, and (2)24× compression with 92% original retrieval performance.",
+        "image": "kbshrink_thesis.png",
+        "type": "project",
+        "key": "kbshrink_thesis"
+    },
+    {
+        "title": "Machine Translation that Peeks at the Reference",
+        "author": "",
+        "venue": "2023",
+        "links": {
+            "paper": "https://vilda.net/papers/mt_peek.pdf",
+            "code": "https://github.com/zouharvi/mt-peek"
+        },
+        "abstract": "Machine translation with lexical constraints is a popular research topic, especially for terminology translation. Existing approaches for lexical control in MT are usually complex and not easily applicable to all existing MT toolkits. We propose an off-the-shelf baseline approach, Peek MT, for lexical constraints. During training, the model is provided with access to some of the words in the reference, allowing it to produce better translations. During inference, the user can specify which words they would like the translation to contain. Depending on the amount of additional tokens, the MT performance is improved by 1.3-4.4 BLEU points per revealed token. Despite these being very soft constraints, they are fulfilled ≈66% of the time. Notably, the same approach can also be used to control the output translation length without tinkering with the decoder. Finally, from analysis point of view, this method allows us to establish that the knowledge of particular word in the reference, such as verbs and organization names boosts the MT performance the most.",
+        "image": "mt_peek.png",
+        "type": "project_hide",
+        "key": "mt_peek"
+    },
+    {
+        "title": "Metaphor Preservation in Machine Translation and Paraphrasing",
+        "author": "",
+        "venue": "2023",
+        "links": {
+            "paper": "https://vilda.net/papers/metaphor_preservation.pdf",
+            "code": "https://github.com/zouharvi/metaphor-preservation"
+        },
+        "abstract": "Metaphors play a crucial role in human communication. Improving the handling of metaphors in NLP will enhance the quality and accuracy of cross-lingual communication, benefiting various applications such as multilingual chatbots, localization, and cross-cultural understanding. This paper reports an evaluation that focuses on the analysis of metaphor presence and preservation in machine-translated and paraphrased texts. The results suggest that textual language models do not have access to the metaphorical meaning and do not fully understand this literal device. They are not sensitive to the subtle differences between various paraphrases but can be used for the rudimentary analysis of machine translation output, which varies greatly with respect to metaphor preservation.",
+        "image": "metaphor_preservation.png",
+        "type": "project_hide",
+        "key": "metaphor_preservation"
+    },
+    {
+        "title": "Ryanize bib",
+        "author": "",
+        "venue": "2023",
+        "links": {
+            "tool": "https://vilda.net/s/ryanize-bib",
+            "code": "https://github.com/zouharvi/ryanize-bib"
+        },
+        "abstract": "Tool to check for common BibTeX best practice violations",
+        "image": "ryanize_bib.png",
+        "type": "project",
+        "key": "ryanize_bib"
+    },
+    {
+        "title": "Poetry, Songs, Literature, Legalese and Translationese",
+        "author": "",
+        "venue": "2023",
+        "links": {
+            "paper": "https://vilda.net/papers/automated_sentence_complexity_perspective.pdf",
+            "code": "https://github.com/zouharvi/genre-complexity"
+        },
+        "abstract": "Although non-trivial to measure, natural texts come in varying complexities. As a result, multiple domains and genres can be compared based on their complexities. In this study, focused on measuring sentence complexity, I use automated methods of complexity estimation to compare poetry, natural prose, literary prose and machine and human translation. The conclusion is that old poetry and old literature is more complex than their modern counterparts, as measured by language model complexity, Flesch Reading Ease and syntactic depth. Furthermore, we observe that machine translations are faithful to human references in terms of sentence complexity, which is a positive result for the translation industry. Most importantly, this paper discusses the reason for different complexities across varying text domains, which is framed as ''form (complexity) follows function and aesthetics with least effort.''",
+        "image": "genre_complexity.png",
+        "type": "project_hide",
+        "key": "genre_complexity"
+    },
+    {
+        "title": "Stolen Subwords",
+        "author": "",
+        "venue": "2023",
+        "links": {
+            "paper": "https://arxiv.org/abs/2401.16055",
+            "code": "https://github.com/zouharvi/stolen-subwords"
+        },
+        "abstract": "In learning-based functionality stealing, the attacker is trying to build a local model based on the victim's outputs. The attacker has to make choices regarding the local model's architecture, optimization method and, specifically for NLP models, subword vocabulary, such as BPE. On the machine translation task, we explore (1) whether the choice of the vocabulary plays a role in model stealing scenarios and (2) if it is possible to extract the victim's vocabulary. We find that the vocabulary itself does not have a large effect on the local model's performance. Given gray-box model access, it is possible to collect the victim's vocabulary by collecting the outputs (detokenized subwords on the output). The results of the minimum effect of vocabulary choice are important more broadly for black-box knowledge distillation.",
+        "image": "stolen_subwords.png",
+        "type": "project_hide",
+        "key": "stolen_subwords"
+    },
+    {
+        "title": "Multimodal Shannon Game with Images",
+        "author": "Vilém Zouhar,<sup>=</sup> Sunit Bhattacharya,<sup>=</sup> Ondřej Bojar",
+        "venue": "ACAIN 2024",
+        "links": {
+            "paper": "https://arxiv.org/abs/2303.11192",
+            "code": "https://github.com/zouharvi/mmsg",
+            "demo": "https://vilda.net/s/mmsg/?uid=demo"
+        },
+        "abstract": "The Shannon game has long been used as a thought experiment in linguistics and NLP, asking participants to guess the next letter in a sentence based on its preceding context. We extend the game by introducing an optional extra modality in the form of image information. To investigate the impact of multimodal information in this game, we use human participants and a language model (LM, GPT-2). We show that the addition of image information improves both self-reported confidence and accuracy for both humans and LM. Certain word classes, such as nouns and determiners, benefit more from the additional modality information. The priming effect in both humans and the LM becomes more apparent as the context size (extra modality information + sentence context) increases. These findings highlight the potential of multimodal information in improving language understanding and modeling.",
+        "image": "mmsg.png",
+        "type": "project_hide",
+        "key": "mmsg"
+    },
+    {
+        "title": "ÚFAL Bilingual scientific abstracts corpus",
+        "author": "Rudolf Rosa, Vilém Zouhar",
+        "venue": "2022",
+        "links": {
+            "data": "https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-4922",
+            "code": "https://github.com/ufal/bilingual-abstracts-corpus"
+        },
+        "abstract": "This is a parallel corpus of Czech and mostly English abstracts of scientific papers and presentations published by authors from the Institute of Formal and Applied Linguistics, Charles University in Prague. For each publication record, the authors are obliged to provide both the original abstract (in Czech or English), and its translation (English or Czech) in the internal Biblio system. The data was filtered for duplicates and missing entries, ensuring that every record is bilingual. Additionally, records of published papers which are indexed by SemanticScholar contain the respective link. The dataset was created from September 2022 image of the Biblio database and is stored in JSONL format, with each line corresponding to one record.",
+        "image": "ufal_bilingual_dataset.png",
+        "type": "project",
+        "key": "ufal_bilingual_dataset"
+    },
+    {
+        "title": "Stroop Effect in Multi-Modal Sight Translation",
+        "author": "Sunit Bhattacharya, Vilém Zouhar, Věra Kloudová, Ondřej Bojar",
+        "venue": "Preprint 2022",
+        "links": {
+            "paper": "https://psyarxiv.com/5qdgr",
+            "code": "https://github.com/ufal/eyetracked-multi-modal-translation"
+        },
+        "abstract": "This study investigates the human translation process from English to Czech in a multi-modal scenario (images) using reaction times. We make a distinction between ambiguous and unambiguous sentences where in the former, more information would be needed in order to make a proper translation (e.g. gender of the subject). Simultaneously, we also provide visual aid to help in disambiguation, which is necessary for the ambiguous sentences. We confirm that ambiguous sentences take longer to translate and the provision of disambiguating visual aid slows the translation process. When provided with an unrelated visual aid, humans are able to recognize and spend less time on it but still significantly more than in other conditions. These findings are a clear manifestation of the Stroop effect (longer processing times for incongruent combinations).",
+        "image": "eyetracked_multimodal_translation_1.png",
+        "type": "project_hide",
+        "key": "eyetracked_multimodal_translation_1"
+    },
+    {
+        "title": "Machine Translate",
+        "author": "",
+        "venue": "2022",
+        "links": {
+            "link": "https://machinetranslate.org/",
+            "code": "https://github.com/machinetranslate/machinetranslate.org"
+        },
+        "abstract": "Open resources and community for machine translation",
+        "image": "",
+        "type": "project_hide",
+        "key": "machinetranslateorg"
+    },
+    {
+        "title": "Random Strum Pattern Generator",
+        "author": "",
+        "venue": "2022",
+        "links": {
+            "tool": "https://vilda.net/s/rsp/"
+        },
+        "abstract": "Little tool to generate practice guitar strum patterns.",
+        "image": "rsp.png",
+        "type": "project_hide",
+        "key": "rsp"
+    },
+    {
+        "title": "Artefact Retrieval: Overview of NLP Models with Knowledge Base Access",
+        "author": "Vilém Zouhar, Marius Mosbach, Debanjali Biswas, Dietrich Klakow",
+        "venue": "AKBC CSKB 2021",
+        "links": {
+            "paper": "https://openreview.net/forum?id=9_oCNR6R9l2"
+        },
+        "abstract": "Many NLP models gain performance by having access to a knowledge base. A lot of research has been devoted to devising and improving the way the knowledge base is accessed and incorporated into the model, resulting in a number of mechanisms and pipelines. Despite the diversity of proposed mechanisms, there are patterns in the designs of such systems. In this paper, we systematically describe the typology of *artefacts* (items retrieved from a knowledge base), retrieval mechanisms and the way these artefacts are *fused* into the model. This further allows us to uncover combinations of design decisions that had not yet been tried. Most of the focus is given to language models, though we also show how question answering, fact-checking and knowledgable dialogue models fit into this system as well. Having an abstract model which can describe the architecture of specific models also helps with transferring these architectures between multiple NLP tasks.",
+        "image": "artefact_retrieval.png",
+        "type": "project",
+        "key": "artefact_retrieval"
+    },
+    {
+        "title": "Leveraging Neural Machine Translation for Word Alignment",
+        "author": "Vilém Zouhar, Daria Pylypenko",
+        "venue": "PBML 116",
+        "links": {
+            "paper": "https://ufal.mff.cuni.cz/pbml/116/art-zouhar-pylypenko.pdf",
+            "code": "https://github.com/zouharvi/LeverageAlign"
+        },
+        "abstract": "The most common tools for word-alignment rely on a large amount of parallel sentences,which are then usually processed according to one of the IBM model algorithms. The trainingdata is, however, the same as for machine translation (MT) systems, especially for neural MT(NMT), which itself is able to produce word-alignments using the trained attention heads. Thisis convenient because word-alignment is theoretically a viable byproduct of any attention-basedNMT, which is also able to provide decoder scores for a translated sentence pair.We summarize different approaches on how word-alignment can be extracted from align-ment scores and then explore ways in which scores can be extracted from NMT, focusing oninferring the word-alignment scores based on output sentence and token probabilities. Wecompare this to the extraction of alignment scores from attention. We conclude with aggregat-ing all of the sources of alignment scores into a simple feed-forward network which achievesthe best results when combined alignment extractors are used.",
+        "image": "leverage_align.png",
+        "type": "project",
+        "key": "leverage_align"
+    },
+    {
+        "title": "Fusing Sentence Embeddings Into LSTM-based Autoregressive Language Models",
+        "author": "Vilém Zouhar, Marius Mosbach, Dietrich Klakow",
+        "venue": "Preprint 2021",
+        "links": {
+            "paper": "https://arxiv.org/abs/2208.02402",
+            "code": "https://github.com/zouharvi/sentence-embd-fusion"
+        },
+        "abstract": "Although masked language models are highly performant and widely adopted by NLP practitioners, they can not be easily used for autoregressive language modelling (next word prediction and sequence probability estimation). We present an LSTM-based autoregressive language model which uses prefix embeddings (from a pretrained masked language model) via fusion (e.g. concatenation) to obtain a richer context representation for language modelling. We find that fusion helps reliably in lowering the perplexity (16.74 → 15.80), which is even preserved after a transfer to a dataset from a different domain than the training data. We also evaluate the best-performing fusion model by correlating its next word surprisal estimates with human reading times. Contradicting our expectation, and despite the improvement in perplexity overall, the correlation remains the same as for the baseline model. Lastly, while we focus on language models pre-trained on text as the sources for the fusion, our approach can be possibly extended to fuse any information represented as a fixed-size vector into an auto-regressive language model. These include e.g. sentence external information retrieved for a knowledge base or representations of multi-modal encoders.",
+        "image": "sentence_embd_fusion.png",
+        "type": "project_hide",
+        "key": "sentence_embd_fusion"
+    },
+    {
+        "title": "EMMT: An eye-tracking, EEG and audio corpus for multi-modal reading and translation",
+        "author": "Sunit Bhattacharya, Vilém Zouhar, Věra Kloudová, Ondřej Bojar",
+        "venue": "Preprint 2021",
+        "links": {
+            "paper": "https://arxiv.org/abs/2204.02905",
+            "code": "https://github.com/ufal/eyetracked-multi-modal-translation"
+        },
+        "abstract": "We present the Eyetracked Multi-Modal Translation (EMMT) corpus, a dataset containing monocular eye movement recordings, audio and 4-electrode electroencephalogram (EEG) data of 43 participants. The objective was to collect cognitive signals as responses of participants engaged in a number of language intensive tasks involving different text-image stimuli settings when translating from English to Czech.Each participant was exposed to 32 text-image stimuli pairs and asked to (1) read the English sentence, (2) translate it into Czech, (3) consult the image, (4) translate again, either updating or repeating the previous translation. The text stimuli consisted of 200 unique sentences with 616 unique words coupled with 200 unique images as the visual stimuli.The recordings were collected over a two week period and all the participants included in the study were Czech natives with strong English skills. Due to the nature of the tasks involved in the study and the relatively large number of participants involved, the corpus is well suited for research in Translation Process Studies, Cognitive Sciences among other disciplines.",
+        "image": "eyetracked_multimodal_translation_2.png",
+        "type": "project_hide",
+        "key": "eyetracked_multimodal_translation_2"
+    },
+    {
+        "title": "Statistical Natural Language Processing Tutorials",
+        "author": "Vilém Zouhar, Awantee Deshpande, Julius Steuer",
+        "venue": "Teaching material 2021",
+        "links": {
+            "link": "https://github.com/zouharvi/uds-snlp-tutorial"
+        },
+        "abstract": "",
+        "image": "snlp_tutorial.png",
+        "type": "project_hide",
+        "key": "snlp_tutorial"
+    },
+    {
+        "title": "Fact Learning with Adaptive Color Palette: Effect of Stimuli-Independent Hints",
+        "author": "Vilém Zouhar, Leander van Boven, Tianyi Li, Anjali Nair",
+        "venue": "2021",
+        "links": {
+            "code": "https://github.com/zouharvi/fact-learning-colors",
+            "report": "https://raw.githubusercontent.com/zouharvi/fact-learning-colors/main/meta/paper_vilem/Fact_Learning_with_Adaptive_Color_Palette.pdf"
+        },
+        "abstract": "This paper focuses on fact learning and potential improvements via color feedback. In one setting, the users see a color based on the estimated difficulty by SlimStampen. In another setting, each stimulus is mapped to a random but constant color. We find that a key property of the task is the high individual variance which prevents statistically significant conclusions. The results however suggest that certain conditions can increase learning speed, though this improvement is not retained during testing. The results also change when viewed from the perspective of test accuracy or number of learned words.",
+        "image": "fact_learning_colors.png",
+        "type": "project_hide",
+        "key": "fact_learning_colors"
+    },
+    {
+        "title": "Sentence Ambiguity, Grammaticality and Complexity Probes",
+        "author": "Sunit Bhattacharya,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Ondřej Bojar",
+        "venue": "BlackboxNLP 2022",
+        "links": {
+            "paper": "https://aclanthology.org/2022.blackboxnlp-1.4/",
+            "code": "https://github.com/ufal/ambiguity-grammaticality-complexity"
+        },
+        "abstract": "It is unclear whether, how and where large pre-trained language models capture subtle linguistic traits like ambiguity, grammaticality and sentence complexity. We present results of automatic classification of these traits and compare their viability and patterns across representation types. We demonstrate that template-based datasets with surface-level artifacts should not be used for probing, careful comparisons with baselines should be done and that t-SNE plots should not be used to determine the presence of a feature among dense vectors representations. We also show how features might be highly localized in the layers for these models and get lost in the upper layers.",
+        "image": "sentence_ambiguity.png",
+        "type": "project",
+        "key": "sentence_ambiguity"
+    },
+    {
+        "title": "Hyperparameters of RNN Architectures for POS Tagging using Surface-Level BERT Embeddings",
+        "author": "",
+        "venue": "2020",
+        "links": {
+            "code": "https://github.com/zouharvi/rnn-bert-pos",
+            "paper": "https://github.com/zouharvi/rnn-bert-pos/blob/main/meta/paper.pdf"
+        },
+        "abstract": "Contextual embeddings from pretrained BERTmodels have been useful in a variety of natural language processing tasks. This paper focuses on one of the basic of those tasks, Part of Speech tagging, and compares several simple recurrent neural network models (vanilla RNN, GRU, LSTM) and their hyperparameters (hidden state size, recurrent layers and dropout, bidirectional, dense layers). While stacking recurrent layers or densely connected output layers negatively affects the performance, adding bidirectionality and increasing hidden state size improve it significantly.",
+        "image": "",
+        "type": "project_hide",
+        "key": "bert_pos_hyperparameters"
+    },
+    {
+        "title": "SlowAlign",
+        "author": "",
+        "venue": "2020",
+        "links": {
+            "code": "https://github.com/zouharvi/SlowAlign",
+            "report": "https://raw.githubusercontent.com/zouharvi/SlowAlign/main/meta/REPORT.pdf"
+        },
+        "abstract": "Word alignment is a well-established task, which found its use mostly in PBMT. This report presents SlowAlign, a system combining multiple hard alignment extracting strategies, which are determined by a small number of parameters. The main functionalities of SlowAlign are (1) heuristic parameter estimation in a supervised fashion using gridsearch, (2) combination of multiple soft alignments and (3) data-less alignment based on diagonal alignment, Levenstein distance and blurring.",
+        "image": "slowalign.png",
+        "type": "project_hide",
+        "key": "slowalign"
+    },
+    {
+        "title": "Slow Align Displayer",
+        "author": "",
+        "venue": "2020",
+        "links": {
+            "link": "https://vilda.net/s/slowalign/",
+            "code": "https://github.com/zouharvi/SlowAlignDisplayer"
+        },
+        "abstract": "Creates quick graphs given word alignment.",
+        "image": "slowalign_displayer.png",
+        "type": "project",
+        "key": "slowalign_displayer"
+    },
+    {
+        "title": "Enabling Outbound Machine Translation",
+        "author": "Vilém Zouhar",
+        "venue": "Bachelor thesis 2020",
+        "links": {
+            "link": "https://dspace.cuni.cz/bitstream/handle/20.500.11956/119400/130284419.pdf?sequence=1",
+            "code": "https://github.com/zouharvi/ptakopet"
+        },
+        "abstract": "It is not uncommon for Internet users to have to produce text in aforeign language they have very little knowledge of and are unable to verify thetranslation quality. We call the task “outbound translation” and explore it byintroducing an open-source modular system Ptakopět. Its main purpose is toinspect human interaction with machine translation systems enhanced by ad-ditional subsystems, such as backward translation and quality estimation. Wefollow up with an experiment on (Czech) human annotators tasked to producequestions in a language they do not speak (German), with the help of Ptakopět.We focus on three real-world use cases (communication with IT support, describ-ing administrative issues and asking encyclopedic questions) from which we gaininsight into different strategies users take when faced with outbound translationtasks. Round trip translation is known to be unreliable for evaluating MT sys-tems but our experimental evaluation documents that it works very well for users,at least on MT systems of mid-range quality.",
+        "image": "ptakopet_thesis.png",
+        "type": "project",
+        "key": "ptakopet_thesis"
+    },
+    {
+        "title": "Extending Ptakopět for MT User Interaction Experiments",
+        "author": "Vilém Zouhar, Michal Novák",
+        "venue": "PBML 115",
+        "links": {
+            "paper": "https://ufal.mff.cuni.cz/pbml/115/art-zouhar-novak.pdf",
+            "code": "https://github.com/zouharvi/ptakopet"
+        },
+        "abstract": "The problems of outbound translation, machine translation user confidence and user inter-action are not yet fully explored. The goal of the online modular system Ptakopět is to providetools for studying these phenomena. Ptakopět is a proof-of-concept system for examining userinteraction with enhanced machine translation. It can be used either for actual translation orrunning experiments on human annotators. In this article, we aim to describe its main com-ponents and to show how to use Ptakopět for further research. We also share tips for runningexperiments and setting up a similar online annotation environment.Ptakopět was already used for outbound machine translation experiments, and we cover theresults of the latest experiment in a demonstration to show the research potential of this tool.We show quantitatively that even though backward translation improves machine-translationuser experience, it mainly increases users’ confidence and not the translation quality.",
+        "image": "extending_ptakopet.png",
+        "type": "project_hide",
+        "key": "extending_ptakopet"
+    },
+    {
+        "title": "Outbound Translation User Interface Ptakopět: A Pilot Study",
+        "author": "Vilém Zouhar, Ondřej Bojar",
+        "venue": "LREC 2020",
+        "links": {
+            "paper": "https://aclanthology.org/2020.lrec-1.860/",
+            "code": "https://github.com/zouharvi/ptakopet"
+        },
+        "abstract": "It is not uncommon for Internet users to have to produce a text in a foreign language they have very little knowledge of and are unable to verify the translation quality. We call the task “outbound translation” and explore it by introducing an open-source modular system Ptakopět. Its main purpose is to inspect human interaction with MT systems enhanced with additional subsystems, such as backward translation and quality estimation. We follow up with an experiment on (Czech) human annotators tasked to produce questions in a language they do not speak (German), with the help of Ptakopět. We focus on three real-world use cases (communication with IT support, describing administrative issues and asking encyclopedic questions) from which we gain insight into different strategies users take when faced with outbound translation tasks. Round trip translation is known to be unreliable for evaluating MT systems but our experimental evaluation documents that it works very well for users, at least on MT systems of mid-range quality.",
+        "image": "ptakopet_paper.png",
+        "type": "project_hide",
+        "key": "ptakopet_paper"
+    },
+    {
+        "title": "A Collection of Machine Learning Excercises",
+        "author": "Martin Holub, Barbora Vidová Hladká, Vilém Zouhar",
+        "venue": "Teaching material 2018",
+        "links": {
+            "link": "https://ufal.mff.cuni.cz/courses/npfl054"
+        },
+        "abstract": "",
+        "image": "",
+        "type": "project_hide",
+        "key": "iml_exercises"
+    }
+]
