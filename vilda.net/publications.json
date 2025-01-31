@@ -13,6 +13,20 @@
         "key": "esaai"
     },
     {
+        "title": "How to Select Datapoints to Efficiently (Human-)Evaluate NLG Models?",
+        "author": "Vilém Zouhar, Peng Cui, Mrinmaya Sachan",
+        "venue":"In review 2025",
+        "links": {
+            "paper": "http://arxiv.org/abs/2501.18251",
+            "tool": "https://pypi.org/project/subset2evaluate/",
+            "code": "https://github.com/zouharvi/subset2evaluate"
+        },
+        "abstract": "Human evaluation is the gold-standard for evaluating text generation models. It is also expensive, and to fit budgetary constraints, a random subset of the test data is often chosen in practice. The randomly selected data may not accurately represent test performance, making this approach economically inefficient for model comparison. Thus, in this work, we develop a suite of selectors to get the most informative datapoints for human evaluation while taking the evaluation costs into account. We show that selectors based on variance in automated metric scores, diversity in model outputs, or Item Response Theory outperform random selection. We further develop an approach to distill these selectors to the scenario where the model outputs are not yet available. In particular, we introduce source-based estimators, which predict item usefulness for human evaluation just based on the source texts. We demonstrate the efficacy of our selectors in two common NLG tasks, machine translation and summarization, and show that up to only ~50% of the test data is needed to produce the same evaluation result as the entire data. Our implementations are published in the <a href='https://github.com/zouharvi/subset2evaluate'>subset2evaluate</a> package.",
+        "image": "subset2evaluate.png",
+        "type": "publication",
+        "key": "subset2evaluate"
+    },
+    {
         "title": "Pitfalls and Outlooks in Using COMET",
         "author": "Vilém Zouhar,<sup>=</sup> Pinzhen Chen,<sup>=</sup> Tsz Kin Lam, Nikita Moghe, Barry Haddow",
         "venue":"WMT 2024",
