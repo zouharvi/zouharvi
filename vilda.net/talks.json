@@ -1,7 +1,12 @@
 [
     {
-        "title": "Prudent MT Evaluation",
+        "title": "Prudent NLG Evaluation",
         "venues": [
+            {
+                "venue": "Karlsruhe Institute of Technology",
+                "link": "",
+                "date": "2025"
+            },
             {
                 "venue": "Cardiff NLP Seminars",
                 "link": "https://cardiffnlp.github.io/event/2025-01-16/",
