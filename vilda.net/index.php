@@ -46,7 +46,7 @@
           <li><a href="https://www.semanticscholar.org/author/Vilém-Zouhar/1429837660">Semantic Scholar</a></li>
         </ul>
         <ul style="display: inline-block; list-style-type: none;">
-          <li><a href="https://github.com/zouharvi/vilda.net/raw/master/cv/cv.pdf">CV</a></li>
+          <li><a href="https://raw.githubusercontent.com/zouharvi/zouharvi/main/vilda.net/cv/cv.pdf">CV</a></li>
           <li><a href='mailto:vilem.zouhar@gmail.com'>Contact</a></li>
         </ul>
         <ul style="display: inline-block; list-style-type: none;">
