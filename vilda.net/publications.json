@@ -19,12 +19,27 @@
         "links": {
             "paper": "http://arxiv.org/abs/2501.18251",
             "tool": "https://pypi.org/project/subset2evaluate/",
+            "models": "https://huggingface.co/collections/zouharvi/precomet-67b5e9ce9782a5e2fd289268",
             "code": "https://github.com/zouharvi/subset2evaluate"
         },
         "abstract": "Human evaluation is the gold-standard for evaluating text generation models. It is also expensive, and to fit budgetary constraints, a random subset of the test data is often chosen in practice. The randomly selected data may not accurately represent test performance, making this approach economically inefficient for model comparison. Thus, in this work, we develop a suite of selectors to get the most informative datapoints for human evaluation while taking the evaluation costs into account. We show that selectors based on variance in automated metric scores, diversity in model outputs, or Item Response Theory outperform random selection. We further develop an approach to distill these selectors to the scenario where the model outputs are not yet available. In particular, we introduce source-based estimators, which predict item usefulness for human evaluation just based on the source texts. We demonstrate the efficacy of our selectors in two common NLG tasks, machine translation and summarization, and show that up to only ~50% of the test data is needed to produce the same evaluation result as the entire data. Our implementations are published in the <a href='https://github.com/zouharvi/subset2evaluate'>subset2evaluate</a> package.",
         "image": "subset2evaluate.png",
         "type": "publication",
         "key": "subset2evaluate"
+    },
+    {
+        "title": "Early-Exit and Instant Confidence Translation Quality Estimation",
+        "author": "Vilém Zouhar, Maike Züfle, Beni Egressy, Julius Cheng, Jan Niehues",
+        "venue":"In review 2025",
+        "links": {
+            "paper": "https://arxiv.org/abs/2502.14429",
+            "models": "https://huggingface.co/collections/zouharvi/comet-early-exit-67b5fc5db24bf87803cdb346",
+            "code": "https://github.com/zouharvi/COMET-early-exit"
+        },
+        "abstract": "Quality estimation is omnipresent in machine translation, for both evaluation and generation. Unfortunately, quality estimation models are often opaque and computationally expensive, making them impractical to be part of large-scale pipelines. In this work, we tackle two connected challenges: (1) reducing the cost of quality estimation at scale, and (2) developing an inexpensive uncertainty estimation method for quality estimation. To address the latter, we introduce Instant Confidence COMET, an uncertainty-aware quality estimation model that matches the performance of previous approaches at a fraction of their costs. We extend this to Early-Exit COMET, a quality estimation model that can compute quality scores and associated confidences already at early model layers, allowing us to early-exit computations and reduce evaluation costs. We also apply our model to machine translation reranking. We combine Early-Exit COMET with an upper confidence bound bandit algorithm to find the best candidate from a large pool without having to run the full evaluation model on all candidates. In both cases (evaluation and reranking) our methods reduce the required compute by 50% with very little degradation in performance.",
+        "image": "comet_earlyexit.svg",
+        "type": "publication",
+        "key": "comet_earlyexit"
     },
     {
         "title": "Pitfalls and Outlooks in Using COMET",
@@ -256,6 +271,7 @@
             "paper": "https://aclanthology.org/2024.lrec-main.1168/",
             "code": "https://github.com/zouharvi/pwesuite",
             "data": "https://huggingface.co/datasets/zouharvi/pwesuite-eval",
+            "models": "https://huggingface.co/zouharvi/PWESuite-metric_learner",
             "video": "https://youtu.be/XJ9bAPaJlyc"
         },
         "abstract": "Word embeddings that map words into a fixed-dimensional vector space are the backbone of modern NLP. Most word embedding methods encode semantic information. However, phonetic information, which is important for some tasks, is often overlooked. In this work, we develop several novel methods which leverage articulatory features to build phonetically informed word embeddings, and present a set of phonetic word embeddings to encourage their community development, evaluation and use. While several methods for learning phonetic word embeddings already exist, there is a lack of consistency in evaluating their effectiveness. Thus, we also proposes several ways to evaluate both intrinsic aspects of phonetic word embeddings, such as word retrieval and correlation with sound similarity, and extrinsic performances, such as rhyme and cognate detection and sound analogies. We hope that our suite of tasks will promote reproducibility and provide direction for future research on phonetic word embeddings.",
