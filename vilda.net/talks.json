@@ -1,5 +1,15 @@
 [
     {
+        "title": "Selecting Examples to Human-Evaluate NLG Models",
+        "venues": [
+            {
+                "venue": "Charles University",
+                "link": "",
+                "date": "2025"
+            }
+        ]
+    },
+    {
         "title": "Prudent NLG Evaluation",
         "venues": [
             {
