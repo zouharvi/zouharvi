@@ -42,6 +42,19 @@
         "key": "comet_earlyexit"
     },
     {
+        "title": "QE4PE: Word-level Quality Estimation for Human Post-Editing",
+        "author": "Gabriele Sarti, Vilém Zouhar, Grzegorz Chrupała, Ana Guerberof Arenas, Malvina Nissim, Arianna Bisazza",
+        "venue":"In review 2025",
+        "links": {
+            "paper": "http://arxiv.org/abs/2501.18251",
+            "code": "https://github.com/gsarti/qe4pe"
+        },
+        "abstract": "Word-level quality estimation (QE) detects erroneous spans in machine translations, which can direct and facilitate human post-editing. While the accuracy of word-level QE systems has been assessed extensively, their usability and downstream influence on the speed, quality and editing choices of human post-editing remain understudied. Our QE4PE study investigates the impact of word-level QE on machine translation (MT) post-editing in a realistic setting involving 42 professional post-editors across two translation directions. We compare four error-span highlight modalities, including supervised and uncertainty-based word-level QE methods, for identifying potential errors in the outputs of a state-of-the-art neural MT model. Post-editing effort and productivity are estimated by behavioral logs, while quality improvements are assessed by word- and segment-level human annotation. We find that domain, language and editors' speed are critical factors in determining highlights' effectiveness, with modest differences between human-made and automated QE highlights underlining a gap between accuracy and usability in professional workflows.",
+        "image": "qe4pe.svg",
+        "type": "project",
+        "key": "qe4pe"
+    },
+    {
         "title": "Pitfalls and Outlooks in Using COMET",
         "author": "Vilém Zouhar,<sup>=</sup> Pinzhen Chen,<sup>=</sup> Tsz Kin Lam, Nikita Moghe, Barry Haddow",
         "venue":"WMT 2024",
