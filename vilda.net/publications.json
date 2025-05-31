@@ -42,6 +42,19 @@
         "key": "comet_earlyexit"
     },
     {
+        "title": "Unsupervised Word-level Quality Estimation for Machine Translation Through the Lens of Annotators (Dis)agreement",
+        "author": "Gabriele Sarti, Vilém Zouhar, Malvina Nissim, Arianna Bisazza",
+        "venue": "In review 2025",
+        "links": {
+            "paper": "https://arxiv.org/abs/2505.23183",
+            "code": "https://github.com/gsarti/labl/tree/main/examples/unsup_wqe"
+        },
+        "abstract": "Word-level quality estimation (WQE) aims to automatically identify fine-grained error spans in machine-translated outputs and has found many uses, including assisting translators during post-editing. Modern WQE techniques are often expensive, involving prompting of large language models or ad-hoc training on large amounts of human-labeled data. In this work, we investigate efficient alternatives exploiting recent advances in language model interpretability and uncertainty quantification to identify translation errors from the inner workings of translation models. In our evaluation spanning 14 metrics across 12 translation directions, we quantify the impact of human label variation on metric performance by using multiple sets of human labels. Our results highlight the untapped potential of unsupervised metrics, the shortcomings of supervised methods when faced with label uncertainty, and the brittleness of single-annotator evaluation practices.",
+        "image": "unsup_wqe.svg",
+        "type": "project",
+        "key": "unsup_wqe"
+    },
+    {
         "title": "Large Language Models as Span Annotators",
         "author": "Zdeněk Kasner, Vilém Zouhar, Patrícia Schmidtová, Ivan Kartáč, Kristýna Onderková, Ondřej Plátek, Dimitra Gkatzia, Saad Mahamood, Ondřej Dušek, Simone Balloccu",
         "venue":"In review 2025",
