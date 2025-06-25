@@ -42,6 +42,19 @@
         "key": "comet_earlyexit"
     },
     {
+        "title": "Can Large Language Models Capture Human Annotator Disagreements?",
+        "author": "Jingwei Ni, Yu Fan, Vilém Zouhar, Donya Rooein, Alexander Hoyle, Mrinmaya Sachan, Markus Leippold, Dirk Hovy, Elliott Ash",
+        "venue": "In review 2025",
+        "links": {
+            "paper": "https://arxiv.org/abs/2506.19467",
+            "code": "https://github.com/EdisonNi-hku/Disagreement_Prediction"
+        },
+        "abstract": "Human annotation variation (i.e., annotation disagreements) is common in NLP and often reflects important information such as task subjectivity and sample ambiguity. While Large Language Models (LLMs) are increasingly used for automatic annotation to reduce human effort, their evaluation often focuses on predicting the majority-voted \"ground truth\" labels. It is still unclear, however, whether these models also capture informative human annotation variation. Our work addresses this gap by extensively evaluating LLMs' ability to predict annotation disagreements without access to repeated human labels. Our results show that LLMs struggle with modeling disagreements, which can be overlooked by majority label-based evaluations. Notably, while RLVR-style (Reinforcement learning with verifiable rewards) reasoning generally boosts LLM performance, it degrades performance in disagreement prediction. Our findings highlight the critical need for evaluating and improving LLM annotators in disagreement modeling.",
+        "image": "disagreement_prediction.svg",
+        "type": "project",
+        "key": "disagreement_prediction"
+    },
+    {
         "title": "Unsupervised Word-level Quality Estimation for Machine Translation Through the Lens of Annotators (Dis)agreement",
         "author": "Gabriele Sarti, Vilém Zouhar, Malvina Nissim, Arianna Bisazza",
         "venue": "In review 2025",
