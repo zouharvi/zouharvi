@@ -42,6 +42,20 @@
         "key": "comet_earlyexit"
     },
     {
+        "title": "Co-DETECT: Collaborative Discovery of Edge Cases in Text Classification",
+        "author": "Chenfei Xiong, Jingwei Ni, Yu Fan, Vilém Zouhar, Donya Rooein, Lorena Calvo-Bartolomé, Alexander Hoyle, Zhijing Jin, Mrinmaya Sachan, Markus Leippold, Dirk Hovy, Mennatallah El-Assady, Elliott Ash",
+        "venue": "In review 2025",
+        "links": {
+            "paper": "https://arxiv.org/abs/2507.05010",
+            "demo": "https://codetect.vercel.app/",
+            "code": "https://github.com/EdisonNi-hku/Co-DETECT/",
+            "video": "https://www.youtube.com/watch?v=jR66Idbd-1I"
+        },
+        "abstract": "We introduce Co-DETECT (Collaborative Discovery of Edge cases in TExt ClassificaTion), a novel mixed-initiative annotation framework that integrates human expertise with automatic annotation guided by large language models (LLMs). Co-DETECT starts with an initial, sketch-level codebook and dataset provided by a domain expert, then leverages the LLM to annotate the data and identify edge cases that are not well described by the initial codebook. Specifically, Co-DETECT flags challenging examples, induces high-level, generalizable descriptions of edge cases, and assists user in incorporating edge case handling rules to improve the codebook. This iterative process enables more effective handling of nuanced phenomena through compact, generalizable annotation rules. Extensive user study, qualitative and quantitative analyses prove the effectiveness of Co-DETECT.",
+        "type": "project",
+        "key": "codetect"
+    },
+    {
         "title": "Can Large Language Models Capture Human Annotator Disagreements?",
         "author": "Jingwei Ni, Yu Fan, Vilém Zouhar, Donya Rooein, Alexander Hoyle, Mrinmaya Sachan, Markus Leippold, Dirk Hovy, Elliott Ash",
         "venue": "In review 2025",
