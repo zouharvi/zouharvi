@@ -42,6 +42,20 @@
         "key": "comet_earlyexit"
     },
     {
+        "title": "How Important is `Perfect' English for Machine Translation Prompts?",
+        "author": "Patrícia Schmidtová, Niyati Bafna, Seth Aycock, Gianluca Vico, Wiktor Kamzela, Katharina Hämmerl, Vilém Zouhar",
+        "venue": "In review 2025",
+        "links": {
+            "paper": "https://arxiv.org/abs/2507.09509",
+            "code": "https://github.com/patuchen/imperfect_english_prompts",
+            "data": "https://huggingface.co/datasets/niyati13/imperfect_english_prompts"
+        },
+        "abstract": "Large language models (LLMs) have achieved top results in recent machine translation evaluations, but they are also known to be sensitive to errors and perturbations in their prompts. We systematically evaluate how both humanly plausible and synthetic errors in user prompts affect LLMs' performance on two related tasks: Machine translation and machine translation evaluation. We provide both a quantitative analysis and qualitative insights into how the models respond to increasing noise in the user prompt. The prompt quality strongly affects the translation performance: With many errors, even a good prompt can underperform a minimal or poor prompt without errors. However, different noise types impact translation quality differently, with character-level and combined noisers degrading performance more than phrasal perturbations. Qualitative analysis reveals that lower prompt quality largely leads to poorer instruction following, rather than directly affecting translation quality itself. Further, LLMs can still translate in scenarios with overwhelming random noise that would make the prompt illegible to humans.",
+        "image": "imperfect_english_prompts.svg",
+        "type": "project",
+        "key": "imperfect_english_prompts"
+    },
+    {
         "title": "Co-DETECT: Collaborative Discovery of Edge Cases in Text Classification",
         "author": "Chenfei Xiong, Jingwei Ni, Yu Fan, Vilém Zouhar, Donya Rooein, Lorena Calvo-Bartolomé, Alexander Hoyle, Zhijing Jin, Mrinmaya Sachan, Markus Leippold, Dirk Hovy, Mennatallah El-Assady, Elliott Ash",
         "venue": "In review 2025",
