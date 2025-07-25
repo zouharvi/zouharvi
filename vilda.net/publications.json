@@ -334,6 +334,29 @@
         "key": "llm_topic_model_evaluation"
     },
     {
+        "title": "Findings of the IWSLT 2025 Evaluation Campaign",
+        "venue": "IWSLT 2025",
+        "author": "Victor Agostinelli, Tanel Alumäe, Antonios Anastasopoulos, Luisa Bentivogli, Ondřej Bojar, Claudia Borg, Fethi Bougares, Roldano Cattoni, Mauro Cettolo, Lizhong Chen, William Chen, Raj Dabre, Yannick Estève, Marcello Federico, Mark Fishel, Marco Gaido, Dávid Javorský, Marek Kasztelnik, Fortuné Kponou, Mateusz Krubiński, Tsz Kin Lam, Danni Liu, Evgeny Matusov, Chandresh Kumar Maurya, John P. McCrae, Salima Mdhaffar, Yasmin Moslem, Kenton Murray, Satoshi Nakamura, Matteo Negri, Jan Niehues, Atul Kr. Ojha, John E. Ortega, Sara Papi, Pavel Pecina, Peter Polák, Piotr Połeć, Ashwin Sankar, Beatrice Savoldi, Nivedita Sethiya, Claytone Sikasote, Matthias Sperber, Sebastian Stüker, Katsuhito Sudoh, Brian Thompson, Marco Turchi, Alex Waibel, Patrick Wilken, Rodolfo Zevallos, Vilém Zouhar, Maike Züfle",
+        "links": {
+            "paper": "https://aclanthology.org/2025.iwslt-1.44/"
+        },
+        "abstract": "This paper presents the outcomes of the shared tasks conducted at the 22nd International Workshop on Spoken Language Translation (IWSLT). The workshop addressed seven critical challenges in spoken language translation: simultaneous and offline translation, automatic subtitling and dubbing, model compression, speech-to-speech translation, dialect and low-resource speech translation, and Indic languages. The shared tasks garnered significant participation, with 32 teams submitting their runs. The field’s growing importance is reflected in the increasing diversity of shared task organizers and contributors to this overview paper, representing a balanced mix of industrial and academic institutions. This broad participation demonstrates the rising prominence of spoken language translation in both research and practical applications.",
+        "type": "project",
+        "key": "iwlst_2025"
+    },
+    {
+        "title": "Are Large Language Models for Education Reliable for All Languages?",
+        "author": "Vansh Gupta, Sankalan Pal Chowdhury, Vilém Zouhar, Donya Rooein, Mrinmaya Sachan",
+        "venue": "BEA 2025",
+        "links": {
+            "paper": "https://aclanthology.org/anthology-files/pdf/bea/2025.bea-1.44.pdf",
+            "code": "https://github.com/eth-lre/multilingual-educational-llm-bias"
+        },
+        "abstract": "Large language models (LLMs) are increasingly being adopted in educational settings. These applications expand beyond English, though current LLMs remain primarily English-centric. In this work, we ascertain if their use in education settings in non-English languages is warranted. We evaluated the performance of popular LLMs on four educational tasks: identifying student misconceptions, providing targeted feedback, interactive tutoring, and grading translations in eight languages (Mandarin, Hindi, Arabic, German, Farsi, Telugu, Ukrainian, Czech) in addition to English. We find that the performance on these tasks somewhat corresponds to the amount of language represented in training data, with lower-resource languages having poorer task performance. However, at least some models are able to more or less maintain their levels of performance across all languages. Thus, we recommend that practitioners first verify that the LLM works well in the target language for their educational task before deployment.",
+        "type": "project",
+        "key": "llm_education_bias"
+    },
+    {
         "title": "Interactive Analysis of LLMs using Meaningful Counterfactuals",
         "author": "Furui Cheng, Vilém Zouhar, Robin Shing Moon Chan, Daniel Fürst, Hendrik Strobelt, Mennatallah El-Assady",
         "venue": "In review 2025",
