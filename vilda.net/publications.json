@@ -15,7 +15,7 @@
     {
         "title": "How to Select Datapoints for Efficient Human Evaluation of NLG Models?",
         "author": "Vilém Zouhar, Peng Cui, Mrinmaya Sachan",
-        "venue":"In review 2025",
+        "venue":"TACL 2025",
         "links": {
             "paper": "http://arxiv.org/abs/2501.18251",
             "tool": "https://pypi.org/project/subset2evaluate/",
@@ -112,7 +112,7 @@
     {
         "title": "QE4PE: Word-level Quality Estimation for Human Post-Editing",
         "author": "Gabriele Sarti, Vilém Zouhar, Grzegorz Chrupała, Ana Guerberof Arenas, Malvina Nissim, Arianna Bisazza",
-        "venue":"In review 2025",
+        "venue":"TACL 2025",
         "links": {
             "paper": "http://arxiv.org/abs/2503.03044",
             "code": "https://github.com/gsarti/qe4pe"
@@ -359,7 +359,7 @@
     {
         "title": "Interactive Analysis of LLMs using Meaningful Counterfactuals",
         "author": "Furui Cheng, Vilém Zouhar, Robin Shing Moon Chan, Daniel Fürst, Hendrik Strobelt, Mennatallah El-Assady",
-        "venue": "In review 2025",
+        "venue": "IEEEvis 2025",
         "links": {
             "paper": "https://arxiv.org/abs/2405.00708"
         },
