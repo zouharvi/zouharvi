@@ -1,18 +1,5 @@
 [
     {
-        "title": "AI-Assisted Human Evaluation of Machine Translation",
-        "author": "Vilém Zouhar,<sup>=</sup> Tom Kocmi,<sup>=</sup> Mrinmaya Sachan",
-        "venue":"NAACL 2025",
-        "links": {
-            "paper": "https://aclanthology.org/2025.naacl-long.255/",
-            "code": "https://github.com/wmt-conference/ErrorSpanAnnotation"
-        },
-        "abstract": "Annually, research teams spend large amounts of money to evaluate the quality of machine translation systems (WMT, inter alia). This is expensive because it requires detailed human labor. The recently proposed annotation protocol, Error Span Annotation (ESA), has annotators marking erroneous parts of the translation. In our work, we help the annotators by pre-filling the span annotations with automatic quality estimation. With AI assistance, we obtain more detailed annotations while cutting down the time per span annotation by half (71s/error span → 31s/error span). The biggest advantage of ESA<sup>AI</sup> protocol is an accurate priming of annotators (pre-filled error spans) before they assign the final score as opposed to starting from scratch. In addition, the annotation budget can be reduced by up to 24% with filtering of examples that the AI deems to be very likely to be correct.",
-        "image": "esaai.png",
-        "type": "publication",
-        "key": "esaai"
-    },
-    {
         "title": "How to Select Datapoints for Efficient Human Evaluation of NLG Models?",
         "author": "Vilém Zouhar, Peng Cui, Mrinmaya Sachan",
         "venue":"TACL 2025",
@@ -26,6 +13,33 @@
         "image": "subset2evaluate.png",
         "type": "publication",
         "key": "subset2evaluate"
+    },
+    {
+        "title": "AI-Assisted Human Evaluation of Machine Translation",
+        "author": "Vilém Zouhar,<sup>=</sup> Tom Kocmi,<sup>=</sup> Mrinmaya Sachan",
+        "venue":"NAACL 2025",
+        "links": {
+            "paper": "https://aclanthology.org/2025.naacl-long.255/",
+            "code": "https://github.com/wmt-conference/ErrorSpanAnnotation"
+        },
+        "abstract": "Annually, research teams spend large amounts of money to evaluate the quality of machine translation systems (WMT, inter alia). This is expensive because it requires detailed human labor. The recently proposed annotation protocol, Error Span Annotation (ESA), has annotators marking erroneous parts of the translation. In our work, we help the annotators by pre-filling the span annotations with automatic quality estimation. With AI assistance, we obtain more detailed annotations while cutting down the time per span annotation by half (71s/error span → 31s/error span). The biggest advantage of ESA<sup>AI</sup> protocol is an accurate priming of annotators (pre-filled error spans) before they assign the final score as opposed to starting from scratch. In addition, the annotation budget can be reduced by up to 24% with filtering of examples that the AI deems to be very likely to be correct.",
+        "image": "esaai.png",
+        "type": "publication",
+        "key": "esaai"
+    },
+    {
+        "title": "Estimating Machine Translation Difficulty",
+        "author": "Lorenzo Proietti,<sup>=</sup> Stefano Perrella,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Roberto Navigli, Tom Kocmi",
+        "venue": "In review 2025",
+        "links": {
+            "paper": "https://arxiv.org/abs/2508.10175",
+            "code": "https://github.com/zouharvi/translation-difficulty-estimation",
+            "models": "https://huggingface.co/collections/Prosho/translation-difficulty-estimators-6816665c008e1d22426eb6c4"
+        },
+        "abstract": "Machine translation quality has began achieving near-perfect translations in some setups. These high-quality outputs make it difficult to distinguish between state-of-the-art models and to identify areas for future improvement. Automatically identifying texts where machine translation systems struggle holds promise for developing more discriminative evaluations and guiding future research. We formalize the task of translation difficulty estimation, defining a text's difficulty based on the expected quality of its translations. We introduce a new metric to evaluate difficulty estimators and use it to assess both baselines and novel approaches. Finally, we demonstrate the practical utility of difficulty estimators by using them to construct more challenging machine translation benchmarks. Our results show that dedicated models (dubbed Sentinel-src) outperform both heuristic-based methods (e.g. word rarity or syntactic complexity) and LLM-as-a-judge approaches. We release two improved models for difficulty estimation, Sentinel-src-24 and Sentinel-src-25, which can be used to scan large collections of texts and select those most likely to challenge contemporary machine translation systems.",
+        "image": "translation_difficulty_estimation.svg",
+        "type": "publication",
+        "key": "translation_difficulty_estimation"
     },
     {
         "title": "Early-Exit and Instant Confidence Translation Quality Estimation",
