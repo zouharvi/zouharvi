@@ -15,6 +15,34 @@
         "key": "subset2evaluate"
     },
     {
+        "title": "Estimating Machine Translation Difficulty",
+        "author": "Lorenzo Proietti,<sup>=</sup> Stefano Perrella,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Roberto Navigli, Tom Kocmi",
+        "venue": "EMNLP 2025",
+        "links": {
+            "paper": "https://arxiv.org/abs/2508.10175",
+            "code": "https://github.com/zouharvi/translation-difficulty-estimation",
+            "models": "https://huggingface.co/collections/Prosho/translation-difficulty-estimators-6816665c008e1d22426eb6c4"
+        },
+        "abstract": "Machine translation quality has began achieving near-perfect translations in some setups. These high-quality outputs make it difficult to distinguish between state-of-the-art models and to identify areas for future improvement. Automatically identifying texts where machine translation systems struggle holds promise for developing more discriminative evaluations and guiding future research. We formalize the task of translation difficulty estimation, defining a text's difficulty based on the expected quality of its translations. We introduce a new metric to evaluate difficulty estimators and use it to assess both baselines and novel approaches. Finally, we demonstrate the practical utility of difficulty estimators by using them to construct more challenging machine translation benchmarks. Our results show that dedicated models (dubbed Sentinel-src) outperform both heuristic-based methods (e.g. word rarity or syntactic complexity) and LLM-as-a-judge approaches. We release two improved models for difficulty estimation, Sentinel-src-24 and Sentinel-src-25, which can be used to scan large collections of texts and select those most likely to challenge contemporary machine translation systems.",
+        "image": "translation_difficulty_estimation.svg",
+        "type": "publication",
+        "key": "translation_difficulty_estimation"
+    },
+    {
+        "title": "COMET-poly: Machine Translation Metric Grounded in Other Candidates",
+        "author": "Maike Züfle,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Tu Anh Dinh,<sup>=</sup> Felipe Maia Polo, Jan Niehues, Mrinmaya Sachan",
+        "venue": "In review 2025",
+        "links": {
+            "paper": "https://arxiv.org/abs/2508.18549",
+            "code": "github.com/zouharvi/COMET-poly/",
+            "models": "https://huggingface.co/collections/zouharvi/comet-poly-687036a351c42f3ef89ebcce"
+        },
+        "abstract": "Automated metrics for machine translation attempt to replicate human judgment. Unlike humans, who often assess a translation in the context of multiple alternatives, these metrics typically consider only the source sentence and a single translation. This discrepancy in the evaluation setup may negatively impact the performance of automated metrics. We propose two automated metrics that incorporate additional information beyond the single translation. COMET-polycand uses alternative translations of the same source sentence to compare and contrast with the translation at hand, thereby providing a more informed assessment of its quality. COMET-polyic, inspired by retrieval-based in-context learning, takes in translations of similar source texts along with their human-labeled quality scores to guide the evaluation. We find that including a single additional translation in COMET-polycand improves the segment-level metric performance (0.079 to 0.118 Kendall's tau-b correlation), with further gains when more translations are added. Incorporating retrieved examples in COMET-polyic yields similar improvements (0.079 to 0.116 Kendall's tau-b correlation). We release our models publicly.",
+        "image": "comet_poly.svg",
+        "type": "project",
+        "key": "comet_poly"
+    },
+    {
         "title": "AI-Assisted Human Evaluation of Machine Translation",
         "author": "Vilém Zouhar,<sup>=</sup> Tom Kocmi,<sup>=</sup> Mrinmaya Sachan",
         "venue":"NAACL 2025",
@@ -26,20 +54,6 @@
         "image": "esaai.png",
         "type": "publication",
         "key": "esaai"
-    },
-    {
-        "title": "Estimating Machine Translation Difficulty",
-        "author": "Lorenzo Proietti,<sup>=</sup> Stefano Perrella,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Roberto Navigli, Tom Kocmi",
-        "venue": "In review 2025",
-        "links": {
-            "paper": "https://arxiv.org/abs/2508.10175",
-            "code": "https://github.com/zouharvi/translation-difficulty-estimation",
-            "models": "https://huggingface.co/collections/Prosho/translation-difficulty-estimators-6816665c008e1d22426eb6c4"
-        },
-        "abstract": "Machine translation quality has began achieving near-perfect translations in some setups. These high-quality outputs make it difficult to distinguish between state-of-the-art models and to identify areas for future improvement. Automatically identifying texts where machine translation systems struggle holds promise for developing more discriminative evaluations and guiding future research. We formalize the task of translation difficulty estimation, defining a text's difficulty based on the expected quality of its translations. We introduce a new metric to evaluate difficulty estimators and use it to assess both baselines and novel approaches. Finally, we demonstrate the practical utility of difficulty estimators by using them to construct more challenging machine translation benchmarks. Our results show that dedicated models (dubbed Sentinel-src) outperform both heuristic-based methods (e.g. word rarity or syntactic complexity) and LLM-as-a-judge approaches. We release two improved models for difficulty estimation, Sentinel-src-24 and Sentinel-src-25, which can be used to scan large collections of texts and select those most likely to challenge contemporary machine translation systems.",
-        "image": "translation_difficulty_estimation.svg",
-        "type": "publication",
-        "key": "translation_difficulty_estimation"
     },
     {
         "title": "Early-Exit and Instant Confidence Translation Quality Estimation",
@@ -99,7 +113,7 @@
     {
         "title": "Unsupervised Word-level Quality Estimation for Machine Translation Through the Lens of Annotators (Dis)agreement",
         "author": "Gabriele Sarti, Vilém Zouhar, Malvina Nissim, Arianna Bisazza",
-        "venue": "In review 2025",
+        "venue": "EMNLP 2025",
         "links": {
             "paper": "https://arxiv.org/abs/2505.23183",
             "code": "https://github.com/gsarti/labl/tree/main/examples/unsup_wqe"

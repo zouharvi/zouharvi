@@ -26,7 +26,7 @@ function publication_entry($item) {
       "</td>
       </tr></table>
     </div>
-    <div class='paper_details " . $extraclass . "' id='paper_details_" . $item["key"] . "'>" .
+    <div class='paper_details " . $extraclass . "' id='paper_details_" . $item["key"] . "' style='display: none;'>" .
       $links .
       "<br><br>" .
       $img . 
@@ -66,7 +66,8 @@ function publication_entry($item) {
 
 <script>
 let OPEN_PAPERS = [
-  "esaai",
+  "subset2evaluate",
+  "translation_difficulty_estimation",
 ];
 
 $(".paper_title").each((_, element) => {
@@ -76,7 +77,7 @@ $(".paper_title").each((_, element) => {
     $("#paper_details_arrow_" + target_key).toggleClass("paper_details_arrow_up");
     $(element).toggleClass("paper_title_active");
   })
-  $("#paper_details_" + target_key).hide()
+  // $("#paper_details_" + target_key).hide()
 
   if (OPEN_PAPERS.includes(target_key)) {
     $(element).trigger("click");
