@@ -124,6 +124,21 @@
         "key": "unsup_wqe"
     },
     {
+        "title": "Biased Tales: Cultural and Topic Bias in Generating Children's Stories",
+        "author": "Donya Rooein, Vilém Zouhar, Debora Nozza, Dirk Hovy",
+        "venue": "EMNLP 2025",
+        "links": {
+            "paper": "https://arxiv.org/abs/2509.07908",
+            "code": "https://github.com/donya-rooein/biased_tales",
+            "data": "https://huggingface.co/datasets/Donya/biased_tales",
+            "demo": "https://donya-rooein.github.io/files/biased-tales-demo/index.html"
+        },
+        "abstract": "Stories play a pivotal role in human communication, shaping beliefs and morals, particularly in children. As parents increasingly rely on large language models (LLMs) to craft bedtime stories, the presence of cultural and gender stereotypes in these narratives raises significant concerns. To address this issue, we present Biased Tales, a comprehensive dataset designed to analyze how biases influence protagonists' attributes and story elements in LLM-generated stories. Our analysis uncovers striking disparities. When the protagonist is described as a girl (as compared to a boy), appearance-related attributes increase by 55.26%. Stories featuring non-Western children disproportionately emphasize cultural heritage, tradition, and family themes far more than those for Western children. Our findings highlight the role of sociocultural bias in making creative AI use more equitable and diverse.",
+        "image": "biased_tales.svg",
+        "type": "project",
+        "key": "biased_tales"
+    },
+    {
         "title": "Large Language Models as Span Annotators",
         "author": "Zdeněk Kasner, Vilém Zouhar, Patrícia Schmidtová, Ivan Kartáč, Kristýna Onderková, Ondřej Plátek, Dimitra Gkatzia, Saad Mahamood, Ondřej Dušek, Simone Balloccu",
         "venue":"In review 2025",
