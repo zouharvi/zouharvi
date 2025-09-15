@@ -31,7 +31,7 @@
     {
         "title": "COMET-poly: Machine Translation Metric Grounded in Other Candidates",
         "author": "Maike Züfle,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Tu Anh Dinh,<sup>=</sup> Felipe Maia Polo, Jan Niehues, Mrinmaya Sachan",
-        "venue": "In review 2025",
+        "venue": "WMT 2025",
         "links": {
             "paper": "https://arxiv.org/abs/2508.18549",
             "code": "github.com/zouharvi/COMET-poly/",
@@ -86,7 +86,7 @@
     {
         "title": "Co-DETECT: Collaborative Discovery of Edge Cases in Text Classification",
         "author": "Chenfei Xiong, Jingwei Ni, Yu Fan, Vilém Zouhar, Donya Rooein, Lorena Calvo-Bartolomé, Alexander Hoyle, Zhijing Jin, Mrinmaya Sachan, Markus Leippold, Dirk Hovy, Mennatallah El-Assady, Elliott Ash",
-        "venue": "In review 2025",
+        "venue": "EMNLP 2025 Demo",
         "links": {
             "paper": "https://arxiv.org/abs/2507.05010",
             "demo": "https://codetect.vercel.app/",
@@ -526,7 +526,7 @@
     {
         "title": "Harmonizing Assistance: Moderating Visual andTextual Aids in AI-Enhanced Textbook Readingwith IRead",
         "author": "Xiaoyu Zhang, Vincent Dörig, Peng Cui, Vilém Zouhar, Torbjorn Netland, Mrinmaya Sachan",
-        "venue": "In review 2025",
+        "venue": "IJAIED 2025",
         "links": {
             "paper": "https://www.researchsquare.com/article/rs-4770422/v1"
         },
