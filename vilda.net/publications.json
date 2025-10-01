@@ -1,4 +1,4 @@
-[
+    [
     {
         "title": "How to Select Datapoints for Efficient Human Evaluation of NLG Models?",
         "author": "Vilém Zouhar, Peng Cui, Mrinmaya Sachan",
@@ -29,6 +29,30 @@
         "key": "translation_difficulty_estimation"
     },
     {
+        "title": "Generating Difficult-to-Translate Texts",
+        "author": "Vilém Zouhar, Wenda Xu, Parker Riley, Juraj Juraska, Mara Finkelstein, Markus Freitag, Dan Deutsch",
+        "venue": "In review 2025",
+        "links": {
+            "paper": "https://arxiv.org/abs/2509.26592"
+        },
+        "abstract": "Machine translation benchmarks sourced from the real world are quickly obsoleted, due to most examples being easy for state-of-the-art translation models. This limits the benchmark's ability to distinguish which model is better or to reveal models' weaknesses. Current methods for creating difficult test cases, such as subsampling or from-scratch synthesis, either fall short of identifying difficult examples or suffer from a lack of diversity and naturalness. Inspired by the iterative process of human experts probing for model failures, we propose MT-breaker, a method where a large language model iteratively refines a source text to increase its translation difficulty. The LLM iteratively queries a target machine translation model to guide its generation of difficult examples. Our approach generates examples that are more challenging for the target MT model while preserving the diversity of natural texts. While the examples are tailored to a particular machine translation model during the generation, the difficulty also transfers to other models and languages.",
+        "image": "mt_breaker.svg",
+        "type": "publication",
+        "key": "mt_breaker"
+    },
+    {
+        "title": "Searching for Difficult-to-Translate Test Examples at Scale",
+        "author": "Wenda Xu,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Parker Riley, Mara Finkelstein, Markus Freitag, Daniel Deutsch",
+        "venue": "In review 2025",
+        "links": {
+            "paper": "https://arxiv.org/abs/2509.26619"
+        },
+        "abstract": " NLP models require test data that are sufficiently challenging. The difficulty of an example is linked to the topic it originates from (''seed topic''). The relationship between the topic and the difficulty of its instances is stochastic in nature: an example about a difficult topic can happen to be easy, and vice versa. At the scale of the Internet, there are tens of thousands of potential topics, and finding the most difficult one by drawing and evaluating a large number of examples across all topics is computationally infeasible. We formalize this task and treat it as a multi-armed bandit problem. In this framework, each topic is an ''arm,'' and pulling an arm (at a cost) involves drawing a single example, evaluating it, and measuring its difficulty. The goal is to efficiently identify the most difficult topics within a fixed computational budget. We illustrate the bandit problem setup of finding difficult examples for the task of machine translation. We find that various bandit strategies vastly outperform baseline methods like brute-force searching the most challenging topics.",
+        "image": "difficulty_search.svg",
+        "type": "publication",
+        "key": "difficulty_search"
+    },
+    {
         "title": "COMET-poly: Machine Translation Metric Grounded in Other Candidates",
         "author": "Maike Züfle,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Tu Anh Dinh,<sup>=</sup> Felipe Maia Polo, Jan Niehues, Mrinmaya Sachan",
         "venue": "WMT 2025",
@@ -41,6 +65,17 @@
         "image": "comet_poly.svg",
         "type": "project",
         "key": "comet_poly"
+    },
+    {
+        "title": "Deconstructing Self-Bias in LLM-generated Translation Benchmarks",
+        "author": "Wenda Xu, Sweta Agrawal, Vilém Zouhar, Markus Freitag, Daniel Deutsch",
+        "venue": "In review 2025",
+        "links": {
+            "paper": "https://arxiv.org/abs/2509.26600"
+        },
+        "abstract": "As large language models (LLMs) begin to saturate existing benchmarks, automated benchmark creation using LLMs (LLM as a benchmark) has emerged as a scalable alternative to slow and costly human curation. While these generated test sets have to potential to cheaply rank models, we demonstrate a critical flaw. LLM generated benchmarks systematically favor the model that created the benchmark, they exhibit self bias on low resource languages to English translation tasks. We show three key findings on automatic benchmarking of LLMs for translation: First, this bias originates from two sources: the generated test data (LLM as a testset) and the evaluation method (LLM as an evaluator), with their combination amplifying the effect. Second, self bias in LLM as a benchmark is heavily influenced by the model's generation capabilities in the source language. For instance, we observe more pronounced bias in into English translation, where the model's generation system is developed, than in out of English translation tasks. Third, we observe that low diversity in source text is one attribution to self bias. Our results suggest that improving the diversity of these generated source texts can mitigate some of the observed self bias.",
+        "type": "project",
+        "key": "self_bias"
     },
     {
         "title": "AI-Assisted Human Evaluation of Machine Translation",
