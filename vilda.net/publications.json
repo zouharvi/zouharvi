@@ -29,6 +29,55 @@
         "key": "translation_difficulty_estimation"
     },
     {
+        "title": "Findings of the WMT25 general machine translation shared task: Time to stop evaluating on easy test sets",
+        "author": "Tom Kocmi, Ekaterina Artemova, Eleftherios Avramidis, Rachel Bawden, Ondrej Bojar, Konstantin Dranch, Anton Dvorkovich, Sergey Dukanov, Mark Fishel, Markus Freitag, Thamme Gowda, Roman Grundkiewicz, Barry Haddow, Marzena Karpinska, Philipp Koehn, Howard Lakougna, Jessica M Lundin, Christof Monz, Kenton Murray, Masaaki Nagata, Stefano Perrella, Lorenzo Proietti, Martin Popel, Maja Popovic, Parker Riley, Mariya Shmatova, Steinþór Steingrímsson, Lisa Yankovskaya, Vilém Zouhar",
+        "venue": "WMT 2025",
+        "links": {
+            "paper": "https://www2.statmt.org/wmt25/pdf/2025.wmt-1.22.pdf",
+            "data": "https://github.com/wmt-conference/wmt25-general-mt",
+            "code": "https://github.com/wmt-conference/wmt25-general-mt"
+        },
+        "abstract": "This paper presents the results of the General Machine Translation Task organized as part of the 2025 Conference on Machine Translation (WMT). Participants were invited to build systems for any of the 30 language pairs. For half of these pairs, we conducted a human evaluation on test sets spanning four to five different domains. We evaluated 60 systems in total: 36 submitted by participants and 24 consisting of translations we collected from large language models (LLMs) and popular online translation providers. This year, we focused on creating challenging test sets by developing a difficulty sampling technique and using more complex source data. We evaluated system outputs with professional annotators using the Error Span Annotation (ESA) protocol, except for two language pairs, for which we used Multidimensional Quality Metrics (MQM) instead. We continued the trend of increasingly shifting towards document-level translation, providing the source texts as whole documents containing multiple paragraphs.",
+        "type": "publication",
+        "key": "wmt25_general_mt"
+    },
+    {
+        "title": "Findings of the WMT25 Multilingual Instruction Shared Task: Persistent Hurdles in Reasoning, Generation, and Evaluation",
+        "author": "Tom Kocmi, Ekaterina Artemova, AI Toloka, Eleftherios Avramidis, Eleftheria Briakou, Pinzhen Chen, Marzieh Fadaee, Markus Freitag, Roman Grundkiewicz, Yupeng Hou, Philipp Koehn, Julia Kreutzer, Saab Mansour, Stefano Perrella, Lorenzo Proietti, Parker Riley, Eduardo Sánchez, Patrícia Schmidtová, Mariya Shmatova, Vilém Zouhar",
+        "venue": "WMT 2025",
+        "links": {
+            "paper": "https://www2.statmt.org/wmt25/pdf/2025.wmt-1.24.pdf"
+        },
+        "abstract": "The WMT25 Multilingual Instruction Shared Task (MIST) introduces a benchmark to evaluate large language models (LLMs) across 30 languages. The benchmark covers five types of problems: machine translation, linguistic reasoning, open-ended generation, cross-lingual summarization, and LLM-as-a-judge. We provide automatic evaluation and collect human annotations, which highlight the limitations of automatic evaluation and allow further research into metric meta-evaluation. We run on our benchmark a diverse set of open-and closedweight LLMs, providing a broad assessment of the multilingual capabilities of current LLMs. Results highlight substantial variation across sub-tasks and languages, revealing persistent challenges in reasoning, cross-lingual generation, and evaluation reliability. This work establishes a standardized framework for measuring future progress in multilingual LLM development.",
+        "type": "project",
+        "key": "wmt25_mist"
+    },
+    {
+        "title": "Findings of the WMT25 shared task on automated translation evaluation systems: Linguistic diversity is challenging and references still help",
+        "author": "Alon Lavie, Greg Hanneman, Sweta Agrawal, Diptesh Kanojia, Chi kiu Lo, Vilém Zouhar, Frédéric Blain, Chrysoula Zerva, Eleftherios Avramidis, Sourabh Deoghare, Archchana Sindhujan, Jiayi Wang, David I Adelani, Brian Thompson, Tom Kocmi, Markus Freitag, Daniel Deutsch",
+        "venue": "WMT 2025",
+        "links": {
+            "paper": "https://www2.statmt.org/wmt25/pdf/2025.wmt-1.23.pdf",
+            "code": "https://github.com/wmt-conference/wmt25-mteval"
+        },
+        "abstract": "The WMT25 Shared Task on Automated Translation Evaluation Systems evaluates metrics and quality estimation systems that assess the quality of language translation systems. This task unifies and consolidates the separate WMT shared tasks on Machine Translation Evaluation Metrics and Quality Estimation from previous years. Our primary goal is to encourage the development and assessment of new state-of-the-art translation quality evaluation systems. The shared task this year consisted of three subtasks:(1) segment-level quality score prediction,(2) span-level translation error annotation, and (3) quality-informed segment-level error correction. The evaluation data for the shared task were provided by the General MT shared task and were complemented by “challenge sets” from both the organizers and participants. Task 1 results indicate the strong performance of large LLMs at the system level, while reference-based baseline metrics outperform LLMs at the segment level. Task 2 results indicate that accurate error detection and balancing precision and recall are persistent challenges. Task 3 results show that minimal editing is challenging even when informed by quality indicators. Robustness across the broad diversity of languages remains a major challenge across all three subtasks.",
+        "type": "project",
+        "key": "wmt25_mteval"
+    },
+    {
+        "title": "Findings of the WMT25 Terminology Translation Task: Terminology is Useful Especially for Good MTs",
+        "author": "Kirill Semenov, Xu Huang, Vilém Zouhar, Nathaniel Berger, Dawei Zhu, Arturo Oncevay, Pinzhen Chen",
+        "venue": "WMT 2025",
+        "links": {
+            "paper": "https://www2.statmt.org/wmt25/pdf/2025.wmt-1.30.pdf",
+            "data": "https://github.com/wmt-conference/wmt25-terminology/",
+            "code": "https://github.com/wmt-conference/wmt25-terminology/"
+        },
+        "abstract": "The WMT25 Terminology Translation Task releases new resources in high-stakes domains and investigates the capabilities of translation systems to accurately and consistently translate specialized terms. This year, we feature new domain and language coverage over previous editions, introducing two distinct tracks:(1) sentence-level translation in the information technology domain for English→ German, English→ Russian, and English→ Spanish, and (2) document-level translation in the finance domain for English↔ Traditional Chinese with a document-level one-to-many dictionary. Participants are challenged to translate texts under three modes: no terminology, proper terminology, and random terminology, allowing for a causal analysis of terminology utility. Evaluation combines overall quality, terminology accuracy, and terminology consistency. This shared task attracted broad participation, with 13 teams submitting 20 systems in Track 1 and 4 teams participating in Track 2. The results show that providing proper terminology consistently boosts both overall translation quality and term accuracy, whereas reliance on random terminology yields smaller gains. Despite the near-saturation of sentence-level benchmarks, document-level finance translation still falls short, indicating an urgent need for long-form evaluation and more robust metrics tailored to professional domains.",
+        "type": "project",
+        "key": "wmt25_terminology"
+    },
+    {
         "title": "Generating Difficult-to-Translate Texts",
         "author": "Vilém Zouhar, Wenda Xu, Parker Riley, Juraj Juraska, Mara Finkelstein, Markus Freitag, Dan Deutsch",
         "venue": "In review 2025",
