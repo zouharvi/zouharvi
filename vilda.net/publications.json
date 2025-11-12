@@ -19,7 +19,7 @@
         "author": "Lorenzo Proietti,<sup>=</sup> Stefano Perrella,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Roberto Navigli, Tom Kocmi",
         "venue": "EMNLP 2025",
         "links": {
-            "paper": "https://arxiv.org/abs/2508.10175",
+            "paper": "https://aclanthology.org/2025.findings-emnlp.1317/",
             "code": "https://github.com/zouharvi/translation-difficulty-estimation",
             "models": "https://huggingface.co/collections/Prosho/translation-difficulty-estimators-6816665c008e1d22426eb6c4"
         },
@@ -33,7 +33,7 @@
         "author": "Tom Kocmi, Ekaterina Artemova, Eleftherios Avramidis, Rachel Bawden, Ondrej Bojar, Konstantin Dranch, Anton Dvorkovich, Sergey Dukanov, Mark Fishel, Markus Freitag, Thamme Gowda, Roman Grundkiewicz, Barry Haddow, Marzena Karpinska, Philipp Koehn, Howard Lakougna, Jessica M Lundin, Christof Monz, Kenton Murray, Masaaki Nagata, Stefano Perrella, Lorenzo Proietti, Martin Popel, Maja Popovic, Parker Riley, Mariya Shmatova, Steinþór Steingrímsson, Lisa Yankovskaya, Vilém Zouhar",
         "venue": "WMT 2025",
         "links": {
-            "paper": "https://www2.statmt.org/wmt25/pdf/2025.wmt-1.22.pdf",
+            "paper": "https://aclanthology.org/2025.wmt-1.22/",
             "data": "https://github.com/wmt-conference/wmt25-general-mt",
             "code": "https://github.com/wmt-conference/wmt25-general-mt"
         },
@@ -46,7 +46,9 @@
         "author": "Tom Kocmi, Ekaterina Artemova, AI Toloka, Eleftherios Avramidis, Eleftheria Briakou, Pinzhen Chen, Marzieh Fadaee, Markus Freitag, Roman Grundkiewicz, Yupeng Hou, Philipp Koehn, Julia Kreutzer, Saab Mansour, Stefano Perrella, Lorenzo Proietti, Parker Riley, Eduardo Sánchez, Patrícia Schmidtová, Mariya Shmatova, Vilém Zouhar",
         "venue": "WMT 2025",
         "links": {
-            "paper": "https://www2.statmt.org/wmt25/pdf/2025.wmt-1.24.pdf"
+            "paper": "https://aclanthology.org/2025.wmt-1.23/",
+            "code": "https://github.com/wmt-conference/wmt-mist",
+            "data": "https://github.com/wmt-conference/wmt-mist"
         },
         "abstract": "The WMT25 Multilingual Instruction Shared Task (MIST) introduces a benchmark to evaluate large language models (LLMs) across 30 languages. The benchmark covers five types of problems: machine translation, linguistic reasoning, open-ended generation, cross-lingual summarization, and LLM-as-a-judge. We provide automatic evaluation and collect human annotations, which highlight the limitations of automatic evaluation and allow further research into metric meta-evaluation. We run on our benchmark a diverse set of open-and closedweight LLMs, providing a broad assessment of the multilingual capabilities of current LLMs. Results highlight substantial variation across sub-tasks and languages, revealing persistent challenges in reasoning, cross-lingual generation, and evaluation reliability. This work establishes a standardized framework for measuring future progress in multilingual LLM development.",
         "type": "project",
@@ -57,7 +59,7 @@
         "author": "Alon Lavie, Greg Hanneman, Sweta Agrawal, Diptesh Kanojia, Chi kiu Lo, Vilém Zouhar, Frédéric Blain, Chrysoula Zerva, Eleftherios Avramidis, Sourabh Deoghare, Archchana Sindhujan, Jiayi Wang, David I Adelani, Brian Thompson, Tom Kocmi, Markus Freitag, Daniel Deutsch",
         "venue": "WMT 2025",
         "links": {
-            "paper": "https://www2.statmt.org/wmt25/pdf/2025.wmt-1.23.pdf",
+            "paper": "https://aclanthology.org/2025.wmt-1.24/",
             "code": "https://github.com/wmt-conference/wmt25-mteval"
         },
         "abstract": "The WMT25 Shared Task on Automated Translation Evaluation Systems evaluates metrics and quality estimation systems that assess the quality of language translation systems. This task unifies and consolidates the separate WMT shared tasks on Machine Translation Evaluation Metrics and Quality Estimation from previous years. Our primary goal is to encourage the development and assessment of new state-of-the-art translation quality evaluation systems. The shared task this year consisted of three subtasks:(1) segment-level quality score prediction,(2) span-level translation error annotation, and (3) quality-informed segment-level error correction. The evaluation data for the shared task were provided by the General MT shared task and were complemented by “challenge sets” from both the organizers and participants. Task 1 results indicate the strong performance of large LLMs at the system level, while reference-based baseline metrics outperform LLMs at the segment level. Task 2 results indicate that accurate error detection and balancing precision and recall are persistent challenges. Task 3 results show that minimal editing is challenging even when informed by quality indicators. Robustness across the broad diversity of languages remains a major challenge across all three subtasks.",
@@ -69,7 +71,7 @@
         "author": "Kirill Semenov, Xu Huang, Vilém Zouhar, Nathaniel Berger, Dawei Zhu, Arturo Oncevay, Pinzhen Chen",
         "venue": "WMT 2025",
         "links": {
-            "paper": "https://www2.statmt.org/wmt25/pdf/2025.wmt-1.30.pdf",
+            "paper": "https://aclanthology.org/2025.wmt-1.30/",
             "data": "https://github.com/wmt-conference/wmt25-terminology/",
             "code": "https://github.com/wmt-conference/wmt25-terminology/"
         },
@@ -106,7 +108,7 @@
         "author": "Maike Züfle,<sup>=</sup> Vilém Zouhar,<sup>=</sup> Tu Anh Dinh,<sup>=</sup> Felipe Maia Polo, Jan Niehues, Mrinmaya Sachan",
         "venue": "WMT 2025",
         "links": {
-            "paper": "https://arxiv.org/abs/2508.18549",
+            "paper": "https://aclanthology.org/2025.wmt-1.63/",
             "code": "github.com/zouharvi/COMET-poly/",
             "models": "https://huggingface.co/collections/zouharvi/comet-poly-687036a351c42f3ef89ebcce"
         },
@@ -172,7 +174,7 @@
         "author": "Chenfei Xiong, Jingwei Ni, Yu Fan, Vilém Zouhar, Donya Rooein, Lorena Calvo-Bartolomé, Alexander Hoyle, Zhijing Jin, Mrinmaya Sachan, Markus Leippold, Dirk Hovy, Mennatallah El-Assady, Elliott Ash",
         "venue": "EMNLP 2025 Demo",
         "links": {
-            "paper": "https://arxiv.org/abs/2507.05010",
+            "paper": "https://aclanthology.org/2025.emnlp-demos.25/",
             "demo": "https://codetect.vercel.app/",
             "code": "https://github.com/EdisonNi-hku/Co-DETECT/",
             "video": "https://www.youtube.com/watch?v=jR66Idbd-1I"
@@ -199,7 +201,7 @@
         "author": "Gabriele Sarti, Vilém Zouhar, Malvina Nissim, Arianna Bisazza",
         "venue": "EMNLP 2025",
         "links": {
-            "paper": "https://arxiv.org/abs/2505.23183",
+            "paper": "https://aclanthology.org/2025.emnlp-main.924/",
             "code": "https://github.com/gsarti/labl/tree/main/examples/unsup_wqe"
         },
         "abstract": "Word-level quality estimation (WQE) aims to automatically identify fine-grained error spans in machine-translated outputs and has found many uses, including assisting translators during post-editing. Modern WQE techniques are often expensive, involving prompting of large language models or ad-hoc training on large amounts of human-labeled data. In this work, we investigate efficient alternatives exploiting recent advances in language model interpretability and uncertainty quantification to identify translation errors from the inner workings of translation models. In our evaluation spanning 14 metrics across 12 translation directions, we quantify the impact of human label variation on metric performance by using multiple sets of human labels. Our results highlight the untapped potential of unsupervised metrics, the shortcomings of supervised methods when faced with label uncertainty, and the brittleness of single-annotator evaluation practices.",
@@ -212,7 +214,7 @@
         "author": "Donya Rooein, Vilém Zouhar, Debora Nozza, Dirk Hovy",
         "venue": "EMNLP 2025",
         "links": {
-            "paper": "https://arxiv.org/abs/2509.07908",
+            "paper": "https://aclanthology.org/2025.emnlp-main.3/",
             "code": "https://github.com/donya-rooein/biased_tales",
             "data": "https://huggingface.co/datasets/Donya/biased_tales",
             "demo": "https://donya-rooein.github.io/files/biased-tales-demo/index.html"
@@ -612,7 +614,8 @@
         "author": "Xiaoyu Zhang, Vincent Dörig, Peng Cui, Vilém Zouhar, Torbjorn Netland, Mrinmaya Sachan",
         "venue": "IJAIED 2025",
         "links": {
-            "paper": "https://www.researchsquare.com/article/rs-4770422/v1"
+            "arxiv": "https://www.researchsquare.com/article/rs-4770422/v1",
+            "article": "https://link.springer.com/article/10.1007/s40593-025-00515-4"
         },
         "abstract": "Textbooks continue to be one of primary mediums of learning. Students often need additional support during the process of reading textbooks leading to several research efforts that aim to increase student engagement and provide tailored experiences in textbook reading. However, providing excessive information beyond the textbook can also distract students from the reading task. When enhancing the reading experience, one has to strike a delicate balance between providing sufficient informational support and maintaining students’ focus on textbook reading. Fusing together latest developments in large language models (LLMs), their applications in education and several pedagogical theories, we design a textbook reading guidance mechanism. We introduce IRead, an interactive tool for textbook reading which uses LLMs with visualization and interaction techniques, to enhance students’ reading and learning experiences. IRead incorporates conceptual visualizations that reflect the textbook’s content and features an AI-driven question bot that generates questions and offers hints in response to student reading and interaction history. We evaluate IRead with a between-subject user study and measure the effectiveness of our methodology in supporting the students’ reading experience based on the Bloom’s Taxonomy and the ARCS model. We collect feedback from participants ranging from undergraduate to doctorate students. The results highlight the effectiveness of simple yet intuitive visualizations, such as the concept tree in IRead. We also derive general insights for the development of tools that enhance educational reading experiences.",
         "image": "",
