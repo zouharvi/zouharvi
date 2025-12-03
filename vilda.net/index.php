@@ -63,9 +63,8 @@
         Hi, I'm Vilém (also Vilda), a PhD student at ETH Zürich, Switzerland.
         I'm passionate about natural language processing research, especially:
           <ul style="margin-top: -12px; margin-left: -23px; margin-right: 0px;">
-            <li>Non-mainstream machine translation (quality estimation)</li>
-            <li>NLP/MT evaluation (model-human communication, metrics)</li>
-            <li>NLP-oriented human-computer interaction (confidence, annotations)</li>
+            <li>NLP/MT/NLG evaluation (human annotations, automated metrics)</li>
+            <li>NLP-oriented human-computer interaction (confidence, model-human communication)</li>
           </ul>
         Let me know if you're interested in any of these topics!
       </p>
