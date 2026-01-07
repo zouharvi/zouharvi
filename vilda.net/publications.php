@@ -66,8 +66,8 @@ function publication_entry($item) {
 
 <script>
 let OPEN_PAPERS = [
+  "pearmut",
   "subset2evaluate",
-  "translation_difficulty_estimation",
 ];
 
 $(".paper_title").each((_, element) => {
