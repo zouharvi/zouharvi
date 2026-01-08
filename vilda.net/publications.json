@@ -43,19 +43,6 @@
             "key": "translation_difficulty_estimation"
         },
         {
-            "title": "Findings of the WMT25 general machine translation shared task: Time to stop evaluating on easy test sets",
-            "author": "Tom Kocmi, Ekaterina Artemova, Eleftherios Avramidis, Rachel Bawden, Ondrej Bojar, Konstantin Dranch, Anton Dvorkovich, Sergey Dukanov, Mark Fishel, Markus Freitag, Thamme Gowda, Roman Grundkiewicz, Barry Haddow, Marzena Karpinska, Philipp Koehn, Howard Lakougna, Jessica M Lundin, Christof Monz, Kenton Murray, Masaaki Nagata, Stefano Perrella, Lorenzo Proietti, Martin Popel, Maja Popovic, Parker Riley, Mariya Shmatova, Steinþór Steingrímsson, Lisa Yankovskaya, Vilém Zouhar",
-            "venue": "WMT 2025",
-            "links": {
-                "paper": "https://aclanthology.org/2025.wmt-1.22/",
-                "data": "https://github.com/wmt-conference/wmt25-general-mt",
-                "code": "https://github.com/wmt-conference/wmt25-general-mt"
-            },
-            "abstract": "This paper presents the results of the General Machine Translation Task organized as part of the 2025 Conference on Machine Translation (WMT). Participants were invited to build systems for any of the 30 language pairs. For half of these pairs, we conducted a human evaluation on test sets spanning four to five different domains. We evaluated 60 systems in total: 36 submitted by participants and 24 consisting of translations we collected from large language models (LLMs) and popular online translation providers. This year, we focused on creating challenging test sets by developing a difficulty sampling technique and using more complex source data. We evaluated system outputs with professional annotators using the Error Span Annotation (ESA) protocol, except for two language pairs, for which we used Multidimensional Quality Metrics (MQM) instead. We continued the trend of increasingly shifting towards document-level translation, providing the source texts as whole documents containing multiple paragraphs.",
-            "type": "publication",
-            "key": "wmt25_general_mt"
-        },
-        {
             "title": "Early-Exit and Instant Confidence Translation Quality Estimation",
             "author": "Vilém Zouhar, Maike Züfle, Beni Egressy, Julius Cheng, Jan Niehues",
             "venue": "EACL 2026",
@@ -70,6 +57,19 @@
             "key": "comet_earlyexit"
         },
         {
+            "title": "Findings of the WMT25 general machine translation shared task: Time to stop evaluating on easy test sets",
+            "author": "Tom Kocmi, Ekaterina Artemova, Eleftherios Avramidis, Rachel Bawden, Ondrej Bojar, Konstantin Dranch, Anton Dvorkovich, Sergey Dukanov, Mark Fishel, Markus Freitag, Thamme Gowda, Roman Grundkiewicz, Barry Haddow, Marzena Karpinska, Philipp Koehn, Howard Lakougna, Jessica M Lundin, Christof Monz, Kenton Murray, Masaaki Nagata, Stefano Perrella, Lorenzo Proietti, Martin Popel, Maja Popovic, Parker Riley, Mariya Shmatova, Steinþór Steingrímsson, Lisa Yankovskaya, Vilém Zouhar",
+            "venue": "WMT 2025",
+            "links": {
+                "paper": "https://aclanthology.org/2025.wmt-1.22/",
+                "data": "https://github.com/wmt-conference/wmt25-general-mt",
+                "code": "https://github.com/wmt-conference/wmt25-general-mt"
+            },
+            "abstract": "This paper presents the results of the General Machine Translation Task organized as part of the 2025 Conference on Machine Translation (WMT). Participants were invited to build systems for any of the 30 language pairs. For half of these pairs, we conducted a human evaluation on test sets spanning four to five different domains. We evaluated 60 systems in total: 36 submitted by participants and 24 consisting of translations we collected from large language models (LLMs) and popular online translation providers. This year, we focused on creating challenging test sets by developing a difficulty sampling technique and using more complex source data. We evaluated system outputs with professional annotators using the Error Span Annotation (ESA) protocol, except for two language pairs, for which we used Multidimensional Quality Metrics (MQM) instead. We continued the trend of increasingly shifting towards document-level translation, providing the source texts as whole documents containing multiple paragraphs.",
+            "type": "publication",
+            "key": "wmt25_general_mt"
+        },
+        {
             "title": "How Important is `Perfect' English for Machine Translation Prompts?",
             "author": "Patrícia Schmidtová, Niyati Bafna, Seth Aycock, Gianluca Vico, Wiktor Kamzela, Katharina Hämmerl, Vilém Zouhar",
             "venue": "EACL 2026",
@@ -82,6 +82,19 @@
             "image": "imperfect_english_prompts.svg",
             "type": "project",
             "key": "imperfect_english_prompts"
+        },
+        {
+            "title": "Can Large Language Models Capture Human Annotator Disagreements?",
+            "author": "Jingwei Ni, Yu Fan, Vilém Zouhar, Donya Rooein, Alexander Hoyle, Mrinmaya Sachan, Markus Leippold, Dirk Hovy, Elliott Ash",
+            "venue": "EACL 2026",
+            "links": {
+                "paper": "https://arxiv.org/abs/2506.19467",
+                "code": "https://github.com/EdisonNi-hku/Disagreement_Prediction"
+            },
+            "abstract": "Human annotation variation (i.e., annotation disagreements) is common in NLP and often reflects important information such as task subjectivity and sample ambiguity. While Large Language Models (LLMs) are increasingly used for automatic annotation to reduce human effort, their evaluation often focuses on predicting the majority-voted \"ground truth\" labels. It is still unclear, however, whether these models also capture informative human annotation variation. Our work addresses this gap by extensively evaluating LLMs' ability to predict annotation disagreements without access to repeated human labels. Our results show that LLMs struggle with modeling disagreements, which can be overlooked by majority label-based evaluations. Notably, while RLVR-style (Reinforcement learning with verifiable rewards) reasoning generally boosts LLM performance, it degrades performance in disagreement prediction. Our findings highlight the critical need for evaluating and improving LLM annotators in disagreement modeling.",
+            "image": "disagreement_prediction.svg",
+            "type": "project",
+            "key": "disagreement_prediction"
         },
         {
             "title": "Hearing to Translate: The Effectiveness of Speech Modality Integration into LLMs",
@@ -208,19 +221,6 @@
             "abstract": "We introduce Co-DETECT (Collaborative Discovery of Edge cases in TExt ClassificaTion), a novel mixed-initiative annotation framework that integrates human expertise with automatic annotation guided by large language models (LLMs). Co-DETECT starts with an initial, sketch-level codebook and dataset provided by a domain expert, then leverages the LLM to annotate the data and identify edge cases that are not well described by the initial codebook. Specifically, Co-DETECT flags challenging examples, induces high-level, generalizable descriptions of edge cases, and assists user in incorporating edge case handling rules to improve the codebook. This iterative process enables more effective handling of nuanced phenomena through compact, generalizable annotation rules. Extensive user study, qualitative and quantitative analyses prove the effectiveness of Co-DETECT.",
             "type": "project",
             "key": "codetect"
-        },
-        {
-            "title": "Can Large Language Models Capture Human Annotator Disagreements?",
-            "author": "Jingwei Ni, Yu Fan, Vilém Zouhar, Donya Rooein, Alexander Hoyle, Mrinmaya Sachan, Markus Leippold, Dirk Hovy, Elliott Ash",
-            "venue": "EACL 2026",
-            "links": {
-                "paper": "https://arxiv.org/abs/2506.19467",
-                "code": "https://github.com/EdisonNi-hku/Disagreement_Prediction"
-            },
-            "abstract": "Human annotation variation (i.e., annotation disagreements) is common in NLP and often reflects important information such as task subjectivity and sample ambiguity. While Large Language Models (LLMs) are increasingly used for automatic annotation to reduce human effort, their evaluation often focuses on predicting the majority-voted \"ground truth\" labels. It is still unclear, however, whether these models also capture informative human annotation variation. Our work addresses this gap by extensively evaluating LLMs' ability to predict annotation disagreements without access to repeated human labels. Our results show that LLMs struggle with modeling disagreements, which can be overlooked by majority label-based evaluations. Notably, while RLVR-style (Reinforcement learning with verifiable rewards) reasoning generally boosts LLM performance, it degrades performance in disagreement prediction. Our findings highlight the critical need for evaluating and improving LLM annotators in disagreement modeling.",
-            "image": "disagreement_prediction.svg",
-            "type": "project",
-            "key": "disagreement_prediction"
         },
         {
             "title": "Unsupervised Word-level Quality Estimation for Machine Translation Through the Lens of Annotators (Dis)agreement",
