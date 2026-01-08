@@ -170,7 +170,7 @@
         {
             "title": "Early-Exit and Instant Confidence Translation Quality Estimation",
             "author": "Vilém Zouhar, Maike Züfle, Beni Egressy, Julius Cheng, Jan Niehues",
-            "venue": "In review 2026",
+            "venue": "EACL 2026",
             "links": {
                 "paper": "https://arxiv.org/abs/2502.14429",
                 "models": "https://huggingface.co/collections/zouharvi/comet-early-exit-67b5fc5db24bf87803cdb346",
@@ -184,7 +184,7 @@
         {
             "title": "How Important is `Perfect' English for Machine Translation Prompts?",
             "author": "Patrícia Schmidtová, Niyati Bafna, Seth Aycock, Gianluca Vico, Wiktor Kamzela, Katharina Hämmerl, Vilém Zouhar",
-            "venue": "In review 2026",
+            "venue": "EACL 2026",
             "links": {
                 "paper": "https://arxiv.org/abs/2507.09509",
                 "code": "https://github.com/patuchen/imperfect_english_prompts",
@@ -212,7 +212,7 @@
         {
             "title": "Can Large Language Models Capture Human Annotator Disagreements?",
             "author": "Jingwei Ni, Yu Fan, Vilém Zouhar, Donya Rooein, Alexander Hoyle, Mrinmaya Sachan, Markus Leippold, Dirk Hovy, Elliott Ash",
-            "venue": "In review 2026",
+            "venue": "EACL 2026",
             "links": {
                 "paper": "https://arxiv.org/abs/2506.19467",
                 "code": "https://github.com/EdisonNi-hku/Disagreement_Prediction"
