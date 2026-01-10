@@ -1,12 +1,12 @@
-ErrorDocument 404 /error_pages/404.php
-ErrorDocument 403 /error_pages/403.php
+ErrorDocument 404 /pages/404.php
+ErrorDocument 403 /pages/403.php
 
 <Files "list_files.php">
     Order Allow,Deny
     Deny from all
 </Files>
 
-<Files "error_pages/main.php">
+<Files "pages/main_error.php">
     Order Allow,Deny
     Deny from all
 </Files>

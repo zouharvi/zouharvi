@@ -2,5 +2,5 @@
 header("HTTP/1.1 404 Not Found"); 
 
 $WHATERROR="404 Not Found";
-include "main.php";
+include "main_error.php";
 ?>

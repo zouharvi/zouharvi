@@ -1,9 +1,11 @@
-* {
-  font-family: 'Fira Sans';
+body {
+  font-family: 'Inter';
+  font-size: 15pt;
+  text-align: justify;
 }
 
-body {
-  font-size: 16pt;
+h1, h2, h3, h4, .paper_title {
+  font-family: 'Merriweather';
 }
 
 a {
@@ -29,7 +31,7 @@ a:hover {
   border-left: 2pt solid black;
   border-right: 2pt solid black;
   border-top: 2pt solid black;
-  border-bottom: 2pt solid black;
+  border-bottom: none;
 }
 
 .paper_details {
@@ -48,10 +50,6 @@ a:hover {
   min-height: 230px;
 }
 
-.paper_title_active {
-  border-bottom: none;
-}
-
 .paper_details_paragraph {
   display: inline-block;
 }
@@ -66,32 +64,12 @@ a:hover {
   margin-bottom: -5px;
 }
 
-.paper_details_arrow { 
-  height: 8pt;
-  margin-right: 5px;
-  margin-left: 5px;
-  background-color: #000;
-  padding: 5px;
-  display: inline-block;
-  position: relative;
-  top: 5px;
-  user-select: none;
-}
-
 .authors_span {
   text-align: left;
-  width:initial;
+  width: initial;
   display: flex;
 }
 
-.paper_details_arrow_up {
-  -webkit-transform: rotate(180deg);
-     -moz-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-       -o-transform: rotate(180deg);
-          transform: rotate(180deg);
-               zoom: 1;
-  }
 
 .paper_details_link {
   display: inline-block;
@@ -105,48 +83,42 @@ a:hover {
   text-decoration: none;
 }
 
+
 #menu {
-  width: 160px;
-  margin-right: 20px; 
-  display: inline-block;
+  margin-bottom: 100px;
+  padding-left: 120px;
 }
 
 #whole {
-  max-width: 1200px;
-  min-width: 530px;
+  width: 1000px;
   margin: auto;
   background-color: #fff;
   padding: 10px;
 }
 
-#menu ul {
-  margin-left: -40px;
-  margin-right: 20px;
-  margin-top: -10px;;
+#navmenu {
+  vertical-align: top;
+  margin-right: 10px;
 }
 
-
-#menu ul li {
-  line-height: 1.4em;
-  text-align: left;
+#navmenu > a {
+  display: block;
+  text-decoration: none;
+  width: 100px;
 }
 
-#menu #links ul {
-  margin-top: -18px;
+#navmenu > a:hover {
+  background-color: #e8b77e;
+  cursor: pointer;
 }
 
-#menu #links ul li {
-  margin-top: 12px;
+#navmenu > a.active {
+  background-color: #e09a4a;
+  cursor: pointer;
 }
 
-
-h3 {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 0px;
-}
-
-#all_button_expand, #all_button_hide {
+#all_button_expand,
+#all_button_hide {
   padding: 5px;
   font-size: 10pt;
   background-color: #000;
@@ -154,4 +126,18 @@ h3 {
   cursor: pointer;
   position: relative;
   top: -3px;
+}
+
+#content {
+  display: inline-block;
+  width: calc(100% - 120px);
+}
+
+ul, ol {
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+h4 {
+  margin-bottom: 5px;
 }
