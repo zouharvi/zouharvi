@@ -11,7 +11,7 @@
   <meta name="author" content="Vilém Zouhar">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Merriweather&display=swap" rel="stylesheet">
 
-  <link rel='stylesheet' type='text/css' href='src/style.css?v=12'>
+  <link rel='stylesheet' type='text/css' href='src/style.css?v=13'>
   <link rel='icon' type='image/png' href='src/favicon.png'>
   <title>Vilém Zouhar</title>
   <meta name="viewport" content="width=900px">
@@ -30,7 +30,7 @@
 <body style='padding-top: 50px; padding-bottom: 50px;'>
   <div id='whole'>
     <div id='menu'>
-      <img id='portrait' src='src/portrait.jpg' alt='photo of Vilém' style='width: 201px; border: 2px solid black;'>
+      <img id='portrait' src='src/portrait.jpg?v=1' alt='photo of Vilém' style='width: 201px; border: 2px solid black;'>
       <div style="display: inline-block; vertical-align: top; margin-top: -27px;">
         <h1
           style='font-size: 2em; display: inline-block; font-weight: bold; border: 2px solid black; padding: 2px;'>

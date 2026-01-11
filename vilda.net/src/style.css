@@ -4,6 +4,9 @@ body {
   text-align: justify;
   /* never rescale for phone */
   text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -moz-text-size-adjust: none;
 }
 
 h1,
