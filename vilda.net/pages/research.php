@@ -1,7 +1,9 @@
 <div style="height: 6px;"></div>
-I work broadly on problems related to evaluation and multilinguality in natural language processing.
-Oftentimes, this includes machine translation, which serves as a good testbed, though my interests go beyond MT.
-I deeply enjoy research that invents new methods that are simple or applies known methods to new problems cleverly.
+I work on problems related to evaluation and multilinguality in natural language processing.
+Without evaluation, science is limited to blind exploration.
+Big part of this research includes machine translation, which serves as a good testbed, though my interests go beyond MT.
+I deeply enjoy research that invents new methods that are simple or applies known methods or formalisms to new problems cleverly.
+I focus a lot on the economy and quality of evaluation, such that they can be applied in practice.
 
 <?php
 function publication_entry($item) {
