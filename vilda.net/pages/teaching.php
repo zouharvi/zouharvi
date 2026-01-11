@@ -1,4 +1,3 @@
-<div style="margin-top: -20px"></div>
 <h4>Courses</h4>
 
 I was involved in teaching the following courses:

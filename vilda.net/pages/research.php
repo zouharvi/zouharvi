@@ -1,9 +1,7 @@
-<div style="height: 6px;"></div>
+<i>Without evaluation, science is limited to blind exploration.</i>
 I work on problems related to evaluation and multilinguality in natural language processing.
-Without evaluation, science is limited to blind exploration.
-Big part of this research includes machine translation, which serves as a good testbed, though my interests go beyond MT.
-I deeply enjoy research that invents new methods that are simple or applies known methods or formalisms to new problems cleverly.
-I focus a lot on the economy and quality of evaluation, such that they can be applied in practice.
+I value research that prioritizes simplicity and the creative application of known methods to novel problems.
+I believe that for evaluation research to truly drive progress, it must be high-standard and rigorous, yet practical enough to be useful.
 
 <?php
 function publication_entry($item) {

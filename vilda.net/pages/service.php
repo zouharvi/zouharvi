@@ -1,5 +1,3 @@
-<div style="margin-top: -20px"></div>
-
 <h4>Commmunity</h4>
 <ul>
     <li>I am heavily involved in various shared tasks of the WMT conference (<a href="https://www2.statmt.org/wmt25/terminology.html">Terminology</a>, <a href="https://www2.statmt.org/wmt25/mteval-subtask.html">Evaluation</a>, <a href="https://www2.statmt.org/wmt25/multilingual-instruction.html">Multilingual Instruction</a>), primarily leading the human evaluation of the <a href="https://www2.statmt.org/wmt25/translation-task.html">General Translation Shared Task</a>.</li>

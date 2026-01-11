@@ -1,6 +1,5 @@
-<div style="height: 6px;"></div>
 Hi, I'm Vilém (colloquially Vilda), a final-year PhD at ETH Zürich, Switzerland.
-I'm passionate about natural language processing research.
+I do research on natural language processing.
 Let me know if you're interested in any of these topics!
 <ul style="margin-bottom: 5px;">
     <li>(Multilingual) NLP evaluation (human annotations, automated metrics, methods)</li>
