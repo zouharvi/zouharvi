@@ -2,9 +2,15 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 15pt;
   text-align: justify;
+  /* never rescale for phone */
+  text-size-adjust: none;
 }
 
-h1, h2, h3, h4, .paper_title {
+h1,
+h2,
+h3,
+h4,
+.paper_title {
   font-family: 'Merriweather', serif;
 }
 
@@ -95,7 +101,7 @@ a:hover {
   font-family: "Merriweather";
 }
 
-#navmenu > a {
+#navmenu>a {
   display: inline-block;
   text-decoration: none;
   width: 130px;
@@ -104,17 +110,17 @@ a:hover {
   text-align: center;
 }
 
-#navmenu > a {
+#navmenu>a {
   background-color: #e6d0d2;
   cursor: pointer;
 }
 
-#navmenu > a:hover {
+#navmenu>a:hover {
   background-color: #e0a6aa;
   cursor: pointer;
 }
 
-#navmenu > a.active {
+#navmenu>a.active {
   background-color: #ba727f;
   cursor: pointer;
 }
@@ -123,7 +129,8 @@ a:hover {
   width: 100%;
 }
 
-ul, ol {
+ul,
+ol {
   margin-top: 5px;
   padding-left: 20px;
 }
