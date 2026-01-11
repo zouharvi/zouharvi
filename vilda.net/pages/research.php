@@ -1,3 +1,8 @@
+<div style="height: 6px;"></div>
+I work broadly on problems related to evaluation and multilinguality in natural language processing.
+Oftentimes, this includes machine translation, which serves as a good testbed, though my interests go beyond MT.
+I deeply enjoy research that invents new methods that are simple or applies known methods to new problems cleverly.
+
 <?php
 function publication_entry($item) {
   if ($item["image"] != "") {

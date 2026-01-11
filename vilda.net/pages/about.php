@@ -1,38 +1,39 @@
-<div style="height: 5px;"></div>
+<div style="height: 6px;"></div>
 Hi, I'm Vilém (colloquially Vilda), a PhD student at ETH Zürich, Switzerland.
-I'm passionate about natural language processing research, especially:
+I'm passionate about natural language processing research.
+Let me know if you're interested in any of these topics!
 <ul style="margin-bottom: 5px;">
     <li>(Multilingual) NLP evaluation (human annotations, automated metrics, methods)</li>
     <li>NLP-oriented human-computer interaction (confidence, quality)</li>
 </ul>
-Let me know if you're interested in any of these topics!
-<!-- TODO: reserach statement, talk about quality -->
+
 
 <h4>News</h4>
 <ul>
-    <li>I am on the academic job market. I welcome opportunities for research visits, talks, and collaborations. Please reach out!</li>
+    <li>2026: I am on the academic job market. I welcome opportunities for research visits, talks, and collaborations. Please reach out!</li>
+    <li>2026: We are organizing the first Multilingual Multicultural Evaluation workshop at EACL. <a href="https://multilingual-multicultural-evaluation.github.io/">Participate!</a></li>
 </ul>
 
 
-<h4>Miscellaneous</h4>
-I'm currently advised by Mrinmaya Sachan at <a href="https://lre.inf.ethz.ch/">LRE lab</a> and Menna El-Assady at <a
+<h4>Experience</h4>
+I'm advised by Mrinmaya Sachan at <a href="https://lre.inf.ethz.ch/">LRE lab</a> and Menna El-Assady at <a
     href="https://ivia.ch/">IVIA lab</a>.
 Previously during my bachelor's and master's I was advised by Dietrich Klakow, and Ondřej Bojar.
 
-<h4>Industry experience</h4>
-I got to intern at Amazon Translate and Google Translate.
+<br>
+<br>
+I got to intern at Amazon Science and Google Translate as a PhD researcher.
+Before, I worked as a student research assistant at Saarland University and Charles University.
+I also interned at Previo and BIM Project as a developer.
 
 <h4>Awards</h4>
 <ul>
     <li>2025: My PhD is now funded by a Google PhD Fellowship in Natural Language Processing</li>
     <li>2025: EAMT grant for research on compute-efficient evaluation</li>
     <li>2025: EAMT grant for research on LLM brittleness</li>
-    <li>2020-2022: Full MSc Erasmus Mundus scholarship for Language & Communication Technologies</li>
+    <li>2020-2022: Full Masters Erasmus Mundus scholarship for Language & Communication Technologies</li>
     <li>2018: Student faculty grant for learning materials for Machine Learning Excercises in R</li>
 </ul>
-
-<h4>Miscellaneous</h4>
-In my free time I'm interested in veganism, electric guitar, modern minimalist classical, {video,board}games, and literature.
 
 
 <h4>Links</h4>

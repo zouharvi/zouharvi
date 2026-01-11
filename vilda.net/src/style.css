@@ -1,16 +1,16 @@
 body {
-  font-family: 'Inter';
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 15pt;
   text-align: justify;
 }
 
 h1, h2, h3, h4, .paper_title {
-  font-family: 'Merriweather';
+  font-family: 'Merriweather', serif;
 }
 
 a {
   text-decoration: underline;
-  color: #000;
+  color: #ba727f;
 }
 
 a:hover {
@@ -83,14 +83,8 @@ a:hover {
   text-decoration: none;
 }
 
-
-#menu {
-  margin-bottom: 100px;
-  padding-left: 120px;
-}
-
 #whole {
-  width: 1000px;
+  width: 880px;
   margin: auto;
   background-color: #fff;
   padding: 10px;
@@ -98,39 +92,35 @@ a:hover {
 
 #navmenu {
   vertical-align: top;
-  margin-right: 10px;
+  font-family: "Merriweather";
 }
 
 #navmenu > a {
-  display: block;
+  display: inline-block;
   text-decoration: none;
-  width: 100px;
+  width: 130px;
+  color: black;
+  margin: 0px;
+  text-align: center;
+}
+
+#navmenu > a {
+  background-color: #e6d0d2;
+  cursor: pointer;
 }
 
 #navmenu > a:hover {
-  background-color: #e8b77e;
+  background-color: #e0a6aa;
   cursor: pointer;
 }
 
 #navmenu > a.active {
-  background-color: #e09a4a;
+  background-color: #ba727f;
   cursor: pointer;
-}
-
-#all_button_expand,
-#all_button_hide {
-  padding: 5px;
-  font-size: 10pt;
-  background-color: #000;
-  color: white;
-  cursor: pointer;
-  position: relative;
-  top: -3px;
 }
 
 #content {
-  display: inline-block;
-  width: calc(100% - 120px);
+  width: 100%;
 }
 
 ul, ol {
