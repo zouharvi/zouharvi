@@ -1,5 +1,5 @@
 <div style="height: 6px;"></div>
-Hi, I'm Vilém (colloquially Vilda), a PhD student at ETH Zürich, Switzerland.
+Hi, I'm Vilém (colloquially Vilda), a final-year PhD at ETH Zürich, Switzerland.
 I'm passionate about natural language processing research.
 Let me know if you're interested in any of these topics!
 <ul style="margin-bottom: 5px;">
