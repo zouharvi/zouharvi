@@ -26,6 +26,7 @@ I also interned at Previo and BIM Project as a developer.
 
 <h4>Awards</h4>
 <ul>
+    <li>2026: Cohere Labs Catalyst grant for efficient evaluation</li>
     <li>2025: My PhD is now funded by a Google PhD Fellowship in Natural Language Processing</li>
     <li>2025: EAMT grant for research on compute-efficient evaluation</li>
     <li>2025: EAMT grant for research on LLM brittleness</li>
