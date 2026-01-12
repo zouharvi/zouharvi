@@ -11,7 +11,7 @@
   <meta name="author" content="Vilém Zouhar">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Merriweather&display=swap" rel="stylesheet">
 
-  <link rel='stylesheet' type='text/css' href='src/style.css?v=13'>
+  <link rel='stylesheet' type='text/css' href='src/style.css?v=14'>
   <link rel='icon' type='image/png' href='src/favicon.png'>
   <title>Vilém Zouhar</title>
   <meta name="viewport" content="width=900px">

@@ -42,6 +42,7 @@ I also interned at Previo and BIM Project as a developer.
     <li><a href="https://github.com/zouharvi/">GitHub</a></li>
     <li><a href="https://huggingface.co/zouharvi">HuggingFace</a></li>
     <li><a href='https://bsky.app/profile/zouharvi.bsky.social'>Bluesky</a></li>
+    <li><a href='https://twitter.com/zouharvi'>Twitter/X</a></li>
     <li><a href='https://www.youtube.com/@zouharvi'>YouTube</a></li>
     <li><a href='mailto:vilem.zouhar@gmail.com'>Email</a></li>
 </ul>

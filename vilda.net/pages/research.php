@@ -1,8 +1,10 @@
-<i>Without evaluation, science is limited to blind exploration.</i>
-I work on problems related to evaluation and multilinguality in natural language processing.
+<i>„Without evaluation, science is limited to blind exploration.“</i>
+I work on natural language processing problems related to evaluation and multilinguality.
 I value research that prioritizes simplicity and the creative application of known methods to novel problems.
 I believe that for evaluation research to truly drive progress, it must be high-standard and rigorous, yet practical enough to be useful.
 
+<br>
+<br>
 <?php
 function publication_entry($item) {
   if ($item["image"] != "") {
@@ -21,21 +23,14 @@ function publication_entry($item) {
   foreach ($item["links"] as $key => $value) {
       $links .= "<a href='" . $value . "' class='paper_details_link'>" . $key . "</a>";
   }
-
+  
   return "
-    <div class='paper_title' paper_target='" . $item["key"] . "'>"
-      . "<table><tr><td width='100%'>" . $item["title"] . "</td>" .
-      "<td width='220px' class='venue'>" .
-        $item["venue"] . 
-      "</td>
-      </tr></table>
-    </div>
-    <div class='paper_details " . $extraclass . "' id='paper_details_" . $item["key"] . "'>" .
-      $links .
-      "<br><br>" .
+      <div class='paper_details " . $extraclass . "'>" .
+      "<div class='paper_title'>" . $item["title"] . "</div>" .
+      "<span class='authors_span'>" . $item["venue"] . ";&nbsp;&nbsp;&nbsp;" . $author . "</span>" .
+      "<div style='margin-top: 5px;'>" . $links . "</div>" .
       $img . 
-        "<span class='authors_span'><b>" . $author . "</b></span><br>" .
-        "<span>" . $item["abstract"] . "</span>" .
+        "<div style='margin-top: 5px;'>" . $item["abstract"] . "</div>" .
     "</div>
   ";
 }
