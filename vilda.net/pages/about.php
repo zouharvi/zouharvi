@@ -16,8 +16,7 @@ Let me know if you're interested in any of these topics!
 
 <h4>Experience</h4>
 I'm advised by Mrinmaya Sachan at <a href="https://lre.inf.ethz.ch/">LRE lab</a> and Menna El-Assady at <a
-    href="https://ivia.ch/">IVIA lab</a>.
-Previously during my bachelor's and master's I was advised by Dietrich Klakow, and Ondřej Bojar.
+    href="https://ivia.ch/">IVIA lab</a> for my PhD and during previous studies I was advised by Dietrich Klakow, and Ondřej Bojar.
 
 <br>
 <br>
