@@ -48,11 +48,11 @@
         <a href="https://scholar.google.com/citations?user=2EUDwtkAAAAJ">Google Scholar</a>
         <br>
         <div id="navmenu" style="margin-top: 40px; margin-bottom: 50px;">
-          <a href="?page=about">About</a>
-          <a href="?page=research">Research</a>
-          <a href="?page=teaching">Teaching</a>
-          <a href="?page=service">Service</a>
-          <a href="?page=misc">Typesetting</a>
+          <a href="?page=about">about</a>
+          <a href="?page=research">research</a>
+          <a href="?page=teaching">teaching</a>
+          <a href="?page=service">service</a>
+          <a href="?page=misc">typesetting</a>
         </div>
       </div>
     </div>
