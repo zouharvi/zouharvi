@@ -82,15 +82,17 @@ a:hover {
 }
 
 #whole {
-  width: 880px;
+  width: 830px;
   margin: auto;
   background-color: #fff;
-  padding: 10px;
+  padding: 5px;
 }
 
 #navmenu {
   vertical-align: top;
   font-family: "Merriweather";
+  display: flex;
+  gap: 4px;
 }
 
 #navmenu>a {
