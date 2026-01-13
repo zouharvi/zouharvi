@@ -1,4 +1,4 @@
-In my free time I'm interested in typesetting (big fan of <a href="https://github.com/typst/typst/">Typst</a>), and poster design.
+In my free time I'm interested in typesetting (<a href="https://github.com/typst/typst/">Typst</a> adopter), and poster design.
 I am a big fan of the work of <a href="https://www.edwardtufte.com/books/">Edward Tufte</a> on visual communication of information.
 For academic posters, I enjoy experimenting with layouts and colors to engagingly communicate research findings.
 Some of the posters I designed or was involved in designing:

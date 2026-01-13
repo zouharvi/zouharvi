@@ -15,7 +15,7 @@
   <link rel='stylesheet' type='text/css' href='src/style.css?v=14'>
   <link rel='icon' type='image/png' href='src/favicon.png'>
   <title>Vilém Zouhar</title>
-  <meta name="viewport" content="width=900px">
+  <meta name="viewport" content="width=840px">
 </head>
 
 <!-- Google tag (gtag.js) -->

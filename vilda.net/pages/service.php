@@ -1,6 +1,6 @@
 <h4>Commmunity</h4>
 <ul>
-    <li>I am heavily involved in various shared tasks of the WMT conference (<a href="https://www2.statmt.org/wmt25/terminology.html">Terminology</a>, <a href="https://www2.statmt.org/wmt25/mteval-subtask.html">Evaluation</a>, <a href="https://www2.statmt.org/wmt25/multilingual-instruction.html">Multilingual Instruction</a>), primarily leading the human evaluation of the <a href="https://www2.statmt.org/wmt25/translation-task.html">General Translation Shared Task</a>.</li>
+    <li>I co-organize various shared tasks of the WMT conference (<a href="https://www2.statmt.org/wmt25/multilingual-instruction.html">Multilingual Instruction</a>, <a href="https://www2.statmt.org/wmt25/mteval-subtask.html">Automatic Evaluation</a>, <a href="https://www2.statmt.org/wmt25/terminology.html">Terminology</a>). Primarily I lead the human evaluation of the <a href="https://www2.statmt.org/wmt25/translation-task.html">General Translation Task</a>.</li>
     <li>I co-organized the first <a href="https://multilingual-multicultural-evaluation.github.io/">Multilingual Multicultural Evaluation workshop</a> at EACL 2026.</li>
     <li>I review at almost every ACL/ARR since 2023. Despite its criticisms, I find it to be enjoyable personally and also vital for the community.</li>
     <li>Many times I was a committee member for granting university accreditations in Czechia.</li>
