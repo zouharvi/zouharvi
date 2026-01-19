@@ -15,11 +15,15 @@ I was involved in teaching the following courses:
 <h4>Students</h4>
 I had the privilige to work with and supervise the following:
 <ul>
-      <li>Victor Zarzu @ ETH: Speech Translation Quality Estimation</li>
-      <li>Chenfei Xiong @ ETH: Collaborative Discovery of Edge Cases in Text Classification</li>
-      <li>Yijie Tong, Haokun He @ UZH: Quality Estimation and Machine Translation in One Model</li>
-      <li>Abhinav Kumar @ UZH: Data Augmentation for Text Complexity Prediction</li>
-      <li>David Gu @ ETH: Manifestation of Image Complexity</li>
+      <li>ETH 2026; Šimon Sukup, William Kalikman, Michal Tešnar; Augmenting Texts to Increase Difficulty</li>
+      <li>ETH 2026; Victor Zarzu; Speech Translation Quality Estimation</li>
+      <li>ETH 2025; Chenfei Xiong; Collaborative Discovery of Edge Cases in Text Classification</li>
+      <li>ETH 2025; Oymak Gül, Hatipoglu Öykü, Garries Urbina Oscar, Victor Zarzu; Interactive Visualization of
+            Chain-of-Thought Reasoning in Large Language Models</li>
+      <li>UZH 2025; Yijie Tong, Haokun He; Quality Estimation and Machine Translation in One Model</li>
+      <li>ETH 2025; Vincent Dörig; AI-Enhanced Textbook Reading</li>
+      <li>UZH 2024; Abhinav Kumar; Data Augmentation for Text Complexity Prediction</li>
+      <li>ETH 2024; David Gu; Manifestation of Image Complexity</li>
 </ul>
 
 I am always looking for motivated students to work with!
