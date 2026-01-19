@@ -2,14 +2,14 @@
 
 I was involved in teaching the following courses:
 <ul>
-      <li>2026 @ ETH: Large Language Models</li>
-      <li>2025 @ ETH: Deep learning</li>
-      <li>2025 @ ETH: Interactive Machine Learning Visualization and Explainability</li>
-      <li>2025 @ ETH: Large Language Models</li>
-      <li>2024 @ ETH: Large Language Models</li>
-      <li>2023 @ ETH: Large Language Models</li>
-      <li>2021 @ UdS: Neural Networks Implementation and Applications</li>
-      <li>2021 @ UdS: Statistical Natural Language Processing</li>
+      <li>ETH 2026: Large Language Models</li>
+      <li>ETH 2025: Deep learning</li>
+      <li>ETH 2025: Interactive Machine Learning Visualization and Explainability</li>
+      <li>ETH 2025: Large Language Models</li>
+      <li>ETH 2024: Large Language Models</li>
+      <li>ETH 2023: Large Language Models</li>
+      <li>UdS 2021: Neural Networks Implementation and Applications</li>
+      <li>UdS 2021: Statistical Natural Language Processing</li>
 </ul>
 
 <h4>Students</h4>
