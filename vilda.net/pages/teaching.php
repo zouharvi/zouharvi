@@ -15,6 +15,7 @@ I was involved in teaching the following courses:
 <h4>Students</h4>
 I had the privilige to work with and supervise the following:
 <ul>
+      <li>ETH 2026; Rosamund Ang; Sample-Efficient Aligning of Automatic Metrics</li>
       <li>ETH 2026; Šimon Sukup, William Kalikman, Michal Tešnar; Augmenting Texts to Increase Difficulty</li>
       <li>ETH 2026; Victor Zarzu; Speech Translation Quality Estimation</li>
       <li>ETH 2025; Chenfei Xiong; Collaborative Discovery of Edge Cases in Text Classification</li>

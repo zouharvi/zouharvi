@@ -423,7 +423,7 @@
             "links": {
                 "paper": "https://aclanthology.org/2023.emnlp-main.339/",
                 "code": "https://github.com/zouharvi/trust-intervention/",
-                "demo": "https://vilda.net/s/trust-intervention/?uid=demo_paper",
+                "demo": "https://vilda.net/trust-intervention/?uid=demo_paper",
                 "video": "https://www.youtube.com/watch?v=NrH3flpijDw",
                 "data": "https://huggingface.co/datasets/zouharvi/trust-intervention"
             },
@@ -731,12 +731,12 @@
             "author": "",
             "venue": "2023",
             "links": {
-                "tool": "https://vilda.net/s/ryanize-bib",
+                "tool": "https://vilda.net/ryanize-bib",
                 "code": "https://github.com/zouharvi/ryanize-bib"
             },
             "abstract": "Tool to check for common BibTeX best practice violations",
             "image": "ryanize_bib.png",
-            "type": "project",
+            "type": "project_hide",
             "key": "ryanize_bib"
         },
         {
@@ -772,7 +772,7 @@
             "links": {
                 "paper": "https://arxiv.org/abs/2303.11192",
                 "code": "https://github.com/zouharvi/mmsg",
-                "demo": "https://vilda.net/s/mmsg/?uid=demo"
+                "demo": "https://vilda.net/mmsg/?uid=demo"
             },
             "abstract": "The Shannon game has long been used as a thought experiment in linguistics and NLP, asking participants to guess the next letter in a sentence based on its preceding context. We extend the game by introducing an optional extra modality in the form of image information. To investigate the impact of multimodal information in this game, we use human participants and a language model (LM, GPT-2). We show that the addition of image information improves both self-reported confidence and accuracy for both humans and LM. Certain word classes, such as nouns and determiners, benefit more from the additional modality information. The priming effect in both humans and the LM becomes more apparent as the context size (extra modality information + sentence context) increases. These findings highlight the potential of multimodal information in improving language understanding and modeling.",
             "image": "mmsg.png",
@@ -789,7 +789,7 @@
             },
             "abstract": "This is a parallel corpus of Czech and mostly English abstracts of scientific papers and presentations published by authors from the Institute of Formal and Applied Linguistics, Charles University in Prague. For each publication record, the authors are obliged to provide both the original abstract (in Czech or English), and its translation (English or Czech) in the internal Biblio system. The data was filtered for duplicates and missing entries, ensuring that every record is bilingual. Additionally, records of published papers which are indexed by SemanticScholar contain the respective link. The dataset was created from September 2022 image of the Biblio database and is stored in JSONL format, with each line corresponding to one record.",
             "image": "ufal_bilingual_dataset.png",
-            "type": "project",
+            "type": "project_hide",
             "key": "ufal_bilingual_dataset"
         },
         {
@@ -823,7 +823,7 @@
             "author": "",
             "venue": "2022",
             "links": {
-                "tool": "https://vilda.net/s/rsp/"
+                "tool": "https://vilda.net/rsp/"
             },
             "abstract": "Little tool to generate practice guitar strum patterns.",
             "image": "rsp.png",
@@ -950,12 +950,12 @@
             "author": "",
             "venue": "2020",
             "links": {
-                "link": "https://vilda.net/s/slowalign/",
+                "link": "https://vilda.net/slowalign/",
                 "code": "https://github.com/zouharvi/SlowAlignDisplayer"
             },
             "abstract": "Creates quick graphs given word alignment.",
             "image": "slowalign_displayer.png",
-            "type": "project",
+            "type": "project_hide",
             "key": "slowalign_displayer"
         },
         {

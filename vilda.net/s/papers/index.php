@@ -1,4 +1,4 @@
 <?php
-$WHATFILES = 'semi-academic papers';
+$WHATFILES = 'papers';
 include '../../list_files.php';
 ?>
