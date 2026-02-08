@@ -18,7 +18,8 @@
             "author": "Vilém Zouhar, Peng Cui, Mrinmaya Sachan",
             "venue": "TACL 2025",
             "links": {
-                "paper": "http://arxiv.org/abs/2501.18251",
+                "arxiv": "http://arxiv.org/abs/2501.18251",
+                "paper": "https://direct.mit.edu/tacl/article/doi/10.1162/TACL.a.60/134535/How-to-Select-Datapoints-for-Efficient-Human",
                 "tool": "https://pypi.org/project/subset2evaluate/",
                 "models": "https://huggingface.co/collections/zouharvi/precomet-67b5e9ce9782a5e2fd289268",
                 "code": "https://github.com/zouharvi/subset2evaluate"
@@ -149,7 +150,7 @@
         {
             "title": "Generating Difficult-to-Translate Texts",
             "author": "Vilém Zouhar, Wenda Xu, Parker Riley, Juraj Juraska, Mara Finkelstein, Markus Freitag, Dan Deutsch",
-            "venue": "In review 2026",
+            "venue": "MME at EACL 2026",
             "links": {
                 "paper": "https://arxiv.org/abs/2509.26592"
             },
@@ -253,7 +254,7 @@
         {
             "title": "Large Language Models as Span Annotators",
             "author": "Zdeněk Kasner, Vilém Zouhar, Patrícia Schmidtová, Ivan Kartáč, Kristýna Onderková, Ondřej Plátek, Dimitra Gkatzia, Saad Mahamood, Ondřej Dušek, Simone Balloccu",
-            "venue": "In review 2026",
+            "venue": "MME at EACL 2026",
             "links": {
                 "paper": "https://arxiv.org/abs/2504.08697",
                 "data": "https://github.com/llm-span-annotators/span-annotation",
@@ -795,7 +796,7 @@
         {
             "title": "Stroop Effect in Multi-Modal Sight Translation",
             "author": "Sunit Bhattacharya, Vilém Zouhar, Věra Kloudová, Ondřej Bojar",
-            "venue": "Preprint 2022",
+            "venue": "2022",
             "links": {
                 "paper": "https://psyarxiv.com/5qdgr",
                 "code": "https://github.com/ufal/eyetracked-multi-modal-translation"
@@ -858,7 +859,7 @@
         {
             "title": "Fusing Sentence Embeddings Into LSTM-based Autoregressive Language Models",
             "author": "Vilém Zouhar, Marius Mosbach, Dietrich Klakow",
-            "venue": "Preprint 2021",
+            "venue": "2021",
             "links": {
                 "paper": "https://arxiv.org/abs/2208.02402",
                 "code": "https://github.com/zouharvi/sentence-embd-fusion"
@@ -871,7 +872,7 @@
         {
             "title": "EMMT: An eye-tracking, EEG and audio corpus for multi-modal reading and translation",
             "author": "Sunit Bhattacharya, Vilém Zouhar, Věra Kloudová, Ondřej Bojar",
-            "venue": "Preprint 2021",
+            "venue": "2021",
             "links": {
                 "paper": "https://arxiv.org/abs/2204.02905",
                 "code": "https://github.com/ufal/eyetracked-multi-modal-translation"

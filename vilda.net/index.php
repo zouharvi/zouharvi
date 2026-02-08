@@ -54,7 +54,7 @@
           <a href="?page=research">research</a>
           <a href="?page=teaching">teaching</a>
           <a href="?page=service">service</a>
-          <a href="?page=misc">typesetting</a>
+          <a href="?page=typesetting">typesetting</a>
         </div>
       </div>
     </div>
@@ -67,7 +67,7 @@
         $page = $_GET["page"];
       }
       // check that it's an allowed page
-      $allowed_pages = array("about", "research", "teaching", "service", "misc");
+      $allowed_pages = array("about", "research", "teaching", "service", "typesetting");
       if (!in_array($page, $allowed_pages)) {
         $page = "about";
       }
