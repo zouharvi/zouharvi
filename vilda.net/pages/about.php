@@ -9,14 +9,17 @@ Let me know if you're interested in any of these topics!
 
 <h4>News</h4>
 <ul>
-    <li>2026: I am on the academic job market. I welcome opportunities for research visits, talks, and collaborations. Please reach out!</li>
-    <li>2026: We are organizing the first Multilingual Multicultural Evaluation workshop at EACL. <a href="https://multilingual-multicultural-evaluation.github.io/">Participate!</a></li>
+    <li>2026: I am on the academic job market. I welcome opportunities for research visits, talks, and collaborations.
+        Please reach out!</li>
+    <li>2026: We are organizing the first Multilingual Multicultural Evaluation workshop at EACL. <a
+            href="https://multilingual-multicultural-evaluation.github.io/">Participate!</a></li>
 </ul>
 
 
 <h4>Experience</h4>
 I'm advised by Mrinmaya Sachan at <a href="https://lre.inf.ethz.ch/">LRE lab</a> and Menna El-Assady at <a
-    href="https://ivia.ch/">IVIA lab</a> for my PhD and during previous studies I was advised by Dietrich Klakow, and Ondřej Bojar.
+    href="https://ivia.ch/">IVIA lab</a> for my PhD and during previous studies I was advised by Dietrich Klakow, and
+Ondřej Bojar.
 
 <br>
 <br>
@@ -44,6 +47,7 @@ I also interned at Previo and BIM Project as a developer.
     <li><a href="https://huggingface.co/zouharvi">HuggingFace</a></li>
     <li><a href='https://bsky.app/profile/zouharvi.bsky.social'>Bluesky</a></li>
     <li><a href='https://twitter.com/zouharvi'>Twitter/X</a></li>
+    <li><a href="https://www.linkedin.com/in/vil%C3%A9m-zouhar-192988288/">LinkedIn</a></li>
     <li><a href='https://www.youtube.com/@zouharvi'>YouTube</a></li>
     <li><a href='mailto:vilem.zouhar@gmail.com'>Email</a></li>
 </ul>
