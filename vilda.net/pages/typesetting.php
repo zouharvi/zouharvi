@@ -7,6 +7,7 @@ Some of the posters I designed or was involved in designing:
 <br>
 <br>
 
+<img class="poster" src="https://github.com/zouharvi/COMET-early-exit/raw/main/meta/poster_nofont.svg">
 <img class="poster"
     src="https://raw.githubusercontent.com/zouharvi/subset2evaluate/refs/heads/main/misc/poster_nofont.svg">
 <img class="poster" src="https://github.com/zouharvi/COMET-poly/raw/main/meta/poster_nofont.svg">
