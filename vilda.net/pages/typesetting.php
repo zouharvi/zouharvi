@@ -21,7 +21,7 @@ Some of the posters I designed or was involved in designing:
 <img class="poster"
     src="https://raw.githubusercontent.com/mcognetta/distributional-properties-of-subword-regularization/315e21da30c4e2a8b647cdce1ee041f21531fb76/misc/poster_path.svg">
 <img class="poster" src="https://github.com/zouharvi/bio-mqm-dataset/blob/main/poster.png?raw=true">
-<img class="poster" src="https://github.com/zouharvi/trust-intervention/raw/main/meta/poster.svg">
+<img class="poster" src="https://github.com/zouharvi/trust-intervention/raw/main/meta/poster_nofont.svg">
 
 
 <br>
