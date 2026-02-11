@@ -2,7 +2,8 @@ Hi, I'm Vilém (colloquially Vilda), a final-year PhD at ETH Zürich, Switzerlan
 I do research on natural language processing.
 Let me know if you're interested in any of these topics!
 <ul style="margin-bottom: 5px;">
-    <li>(Multilingual) NLP evaluation (human annotations, automated metrics, methods)</li>
+    <li>Evaluation (human annotations, automated metrics, methods)</li>
+    <li>Multilingual NLP</li>
     <li>NLP-oriented human-computer interaction (confidence, quality)</li>
 </ul>
 
@@ -11,8 +12,10 @@ Let me know if you're interested in any of these topics!
 <ul>
     <li>2026: I am on the academic job market. I welcome opportunities for research visits, talks, and collaborations.
         Please reach out!</li>
-    <li>2026: We are organizing the first Multilingual Multicultural Evaluation workshop at EACL. <a
-            href="https://multilingual-multicultural-evaluation.github.io/">Participate!</a></li>
+    <li>
+        2026: We are organizing the first Multilingual Multicultural Evaluation workshop at EACL.
+        <a href="https://multilingual-multicultural-evaluation.github.io/">Participate!</a>
+    </li>
 </ul>
 
 
