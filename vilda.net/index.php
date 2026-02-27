@@ -35,21 +35,22 @@
       <img id='portrait' src='src/portrait.jpg?v=1' alt='photo of Vilém'
         style='width: 201px; min-height: 268px; border: 2px solid black;'>
       <div style="display: inline-block; vertical-align: top; margin-top: -27px;">
+        <img src="src/icon.svg"
+          style="height: 100px; border: 2px solid black; display: inline-block; vertical-align: top; margin-top: 27px;">
         <h1 style='font-size: 2em; display: inline-block; font-weight: bold; border: 2px solid black; padding: 2px;'>
           Vilém Zouhar
         </h1>
         <br>
         PhD at ETH Zurich<br>
         Natural Language Processing<br>
-        <span style="font-weight: bold;">
+        <span style="font-weight: bold; ">
           On the academic job market!
         </span>
-        <br>
         <br>
         <a href="mailto:vzouhar@ethz.ch">vzouhar@ethz.ch</a>&nbsp;
         <a href="https://scholar.google.com/citations?user=2EUDwtkAAAAJ">Google Scholar</a>
         <br>
-        <div id="navmenu" style="margin-top: 40px; margin-bottom: 50px;">
+        <div id="navmenu" style="margin-top: 45px; margin-bottom: 50px;">
           <a href="?page=about">about</a>
           <a href="?page=research">research</a>
           <a href="?page=teaching">teaching</a>
