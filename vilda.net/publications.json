@@ -1,5 +1,18 @@
     [
         {
+            "title": "Dynamically Allocating Evaluation Effort for Model Ranking",
+            "author": "Vilém Zouhar, Julia Kreutzer, Alon Lavie, Tom Kocmi, Matt Post, Ondřej Bojar, Mrinmaya Sachan",
+            "venue": "in review 2026",
+            "links": {
+                "paper": "https://www.vilda.net/papers/evaluation_bandit.pdf",
+                "code": "https://github.com/zouharvi/evaluation-bandit"
+            },
+            "abstract": "While human evaluation is the gold standard in many NLP tasks, it suffers from prohibitive costs and poor scalability. When identifying top-performing models, typical evaluation protocols waste effort by exhaustively evaluating all models on the entire benchmark, a safe but inefficient approach. In this work, we formalize multi-model human evaluation as a best-arm identification problem in a multi-armed bandit setup with correlated arms, where pulling an arm corresponds to human-evaluating a model. By sampling adaptively based on the intermediate model rankings obtained on the samples so far, we can focus the annotation budget on the most competitive models. We prove the optimality of the proposed algorithms and show that it improves discrimination between top-performing models. This makes evaluations faster, cheaper and more aligned with large-scale competition evaluation goals.",
+            "key": "evaluation_bandit",
+            "type": "publication",
+            "image": "evaluation_bandit.svg"
+        },
+        {
             "title": "🍐 Pearmut: Human Evaluation of Translation Made Trivial",
             "author": "Vilém Zouhar, Tom Kocmi",
             "venue": "in review 2026",

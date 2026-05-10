@@ -1,5 +1,15 @@
 [
     {
+        "title": "Theory of Efficient Evaluation",
+        "venues": [
+            {
+                "venue": "Google Gboard",
+                "link": "",
+                "date": "2026"
+            }
+        ]
+    },
+    {
         "title": "Selecting Examples to Human-Evaluate NLG Models",
         "venues": [
             {

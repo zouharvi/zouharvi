@@ -1,0 +1,30 @@
+ErrorDocument 404 /pages/404.php
+ErrorDocument 403 /pages/403.php
+
+<Files "list_files.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "pages/main_error.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+RewriteEngine On
+
+# Redirect added here
+RewriteRule ^last-translation-benchmark/?$ https://quest.ms.mff.cuni.cz/ltb/ [L,R=301]
+
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/s%{REQUEST_URI} -f [OR]
+RewriteCond %{DOCUMENT_ROOT}/s%{REQUEST_URI} -d
+RewriteRule ^(.*)$ /s/$1 [L]
+
+# allow CORS
+Header add Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Methods: "GET,POST,OPTIONS,DELETE,PUT"
