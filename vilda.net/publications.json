@@ -57,11 +57,22 @@
             "key": "translation_difficulty_estimation"
         },
         {
+            "title": "When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation",
+            "author": "Mubashara Akhtar, Anka Reuel, Prajna Soni, Sanchit Ahuja, Pawan Sasanka Ammanamanchi, Ruchit Rawal, Vilém Zouhar, Srishti Yadav, Chenxi Whitehouse, Dayeon Ki, Jennifer Mickel, Leshem Choshen, Marek Šuppa, Jan Batzner, Jenny Chim, Jeba Sania, Yanan Long, Hossein A Rahmani, Christina Knight, Yiyang Nan, Jyoutir Raj, Yu Fan, Shubham Singh, Subramanyam Sahoo, Eliya Habba, Usman Gohar, Siddhesh Pawar, Robert Scholz, Arjun Subramonian, Jingwei Ni, Mykel Kochenderfer, Sanmi Koyejo, Mrinmaya Sachan, Stella Biderman, Zeerak Talat, Avijit Ghosh, Irene Solaiman",
+            "venue": "ICML 2026",
+            "links": {
+                "paper": "https://arxiv.org/abs/2602.16763"
+            },
+            "abstract": "Artificial Intelligence (AI) benchmarks play a central role in measuring progress in model development and guiding deployment decisions. However, many benchmarks quickly become saturated, meaning that they can no longer differentiate between the best-performing models, diminishing their long-term value. In this study, we analyze benchmark saturation across 60 Large Language Model (LLM) benchmarks selected from technical reports by major model developers. To identify factors driving saturation, we characterize benchmarks along 14 properties spanning task design, data construction, and evaluation format. We test five hypotheses examining how each property contributes to saturation rates. Our analysis reveals that nearly half of the benchmarks exhibit saturation, with rates increasing as benchmarks age. Notably, hiding test data (i.e., public vs. private) shows no protective effect, while expert-curated benchmarks resist saturation better than crowdsourced ones. Our findings highlight which design choices extend benchmark longevity and inform strategies for more durable evaluation.",
+            "type": "project",
+            "key": "benchmark_saturation"
+        },
+        {
             "title": "Early-Exit and Instant Confidence Translation Quality Estimation",
             "author": "Vilém Zouhar, Maike Züfle, Beni Egressy, Julius Cheng, Jan Niehues",
             "venue": "EACL 2026",
             "links": {
-                "paper": "https://arxiv.org/abs/2502.14429",
+                "paper": "https://aclanthology.org/2026.eacl-long.4/",
                 "models": "https://huggingface.co/collections/zouharvi/comet-early-exit-67b5fc5db24bf87803cdb346",
                 "code": "https://github.com/zouharvi/COMET-early-exit"
             },
@@ -88,7 +99,7 @@
             "author": "Patrícia Schmidtová, Niyati Bafna, Seth Aycock, Gianluca Vico, Wiktor Kamzela, Katharina Hämmerl, Vilém Zouhar",
             "venue": "EACL 2026",
             "links": {
-                "paper": "https://arxiv.org/abs/2507.09509",
+                "paper": "https://aclanthology.org/2026.findings-eacl.38/",
                 "code": "https://github.com/patuchen/imperfect_english_prompts",
                 "data": "https://huggingface.co/datasets/niyati13/imperfect_english_prompts"
             },
@@ -102,7 +113,7 @@
             "author": "Jingwei Ni, Yu Fan, Vilém Zouhar, Donya Rooein, Alexander Hoyle, Mrinmaya Sachan, Markus Leippold, Dirk Hovy, Elliott Ash",
             "venue": "EACL 2026",
             "links": {
-                "paper": "https://arxiv.org/abs/2506.19467",
+                "paper": "https://aclanthology.org/2026.eacl-long.3/",
                 "code": "https://github.com/EdisonNi-hku/Disagreement_Prediction"
             },
             "abstract": "Human annotation variation (i.e., annotation disagreements) is common in NLP and often reflects important information such as task subjectivity and sample ambiguity. While Large Language Models (LLMs) are increasingly used for automatic annotation to reduce human effort, their evaluation often focuses on predicting the majority-voted \"ground truth\" labels. It is still unclear, however, whether these models also capture informative human annotation variation. Our work addresses this gap by extensively evaluating LLMs' ability to predict annotation disagreements without access to repeated human labels. Our results show that LLMs struggle with modeling disagreements, which can be overlooked by majority label-based evaluations. Notably, while RLVR-style (Reinforcement learning with verifiable rewards) reasoning generally boosts LLM performance, it degrades performance in disagreement prediction. Our findings highlight the critical need for evaluating and improving LLM annotators in disagreement modeling.",
@@ -113,7 +124,7 @@
         {
             "title": "Hearing to Translate: The Effectiveness of Speech Modality Integration into LLMs",
             "author": "Sara Papi, Javier Garcia Gilabert, Zachary Hopton, Vilém Zouhar, Carlos Escolano, Gerard I. Gállego, Jorge Iranzo-Sánchez, Ahrii Kim, Dominik Macháček, Patricia Schmidtova, Maike Züfle",
-            "venue": "In review 2026",
+            "venue": "TACL 2026",
             "links": {
                 "paper": "https://arxiv.org/abs/2512.16378",
                 "code": "https://github.com/sarapapi/hearing2translate"
@@ -165,7 +176,7 @@
             "author": "Vilém Zouhar, Wenda Xu, Parker Riley, Juraj Juraska, Mara Finkelstein, Markus Freitag, Dan Deutsch",
             "venue": "MME at EACL 2026",
             "links": {
-                "paper": "https://arxiv.org/abs/2509.26592"
+                "paper": "https://aclanthology.org/2026.mme-main.14/"
             },
             "abstract": "Machine translation benchmarks sourced from the real world are quickly obsoleted, due to most examples being easy for state-of-the-art translation models. This limits the benchmark's ability to distinguish which model is better or to reveal models' weaknesses. Current methods for creating difficult test cases, such as subsampling or from-scratch synthesis, either fall short of identifying difficult examples or suffer from a lack of diversity and naturalness. Inspired by the iterative process of human experts probing for model failures, we propose MT-breaker, a method where a large language model iteratively refines a source text to increase its translation difficulty. The LLM iteratively queries a target machine translation model to guide its generation of difficult examples. Our approach generates examples that are more challenging for the target MT model while preserving the diversity of natural texts. While the examples are tailored to a particular machine translation model during the generation, the difficulty also transfers to other models and languages.",
             "image": "mt_breaker.svg",
@@ -269,7 +280,7 @@
             "author": "Zdeněk Kasner, Vilém Zouhar, Patrícia Schmidtová, Ivan Kartáč, Kristýna Onderková, Ondřej Plátek, Dimitra Gkatzia, Saad Mahamood, Ondřej Dušek, Simone Balloccu",
             "venue": "MME at EACL 2026",
             "links": {
-                "paper": "https://arxiv.org/abs/2504.08697",
+                "paper": "https://aclanthology.org/2026.mme-main.1/",
                 "data": "https://github.com/llm-span-annotators/span-annotation",
                 "web": "https://llm-span-annotators.github.io/"
             },
@@ -283,7 +294,7 @@
             "author": "Gabriele Sarti, Vilém Zouhar, Grzegorz Chrupała, Ana Guerberof Arenas, Malvina Nissim, Arianna Bisazza",
             "venue": "TACL 2025",
             "links": {
-                "paper": "http://arxiv.org/abs/2503.03044",
+                "paper": "https://aclanthology.org/2025.tacl-1.64/",
                 "code": "https://github.com/gsarti/qe4pe"
             },
             "abstract": "Word-level quality estimation (QE) detects erroneous spans in machine translations, which can direct and facilitate human post-editing. While the accuracy of word-level QE systems has been assessed extensively, their usability and downstream influence on the speed, quality and editing choices of human post-editing remain understudied. Our QE4PE study investigates the impact of word-level QE on machine translation (MT) post-editing in a realistic setting involving 42 professional post-editors across two translation directions. We compare four error-span highlight modalities, including supervised and uncertainty-based word-level QE methods, for identifying potential errors in the outputs of a state-of-the-art neural MT model. Post-editing effort and productivity are estimated by behavioral logs, while quality improvements are assessed by word- and segment-level human annotation. We find that domain, language and editors' speed are critical factors in determining highlights' effectiveness, with modest differences between human-made and automated QE highlights underlining a gap between accuracy and usability in professional workflows.",
@@ -526,11 +537,12 @@
             "key": "llm_education_bias"
         },
         {
-            "title": "Interactive Analysis of LLMs using Meaningful Counterfactuals",
+            "title": "Understanding Large Language Model Behaviors Through Interactive Counterfactual Generation and Analysis",
             "author": "Furui Cheng, Vilém Zouhar, Robin Shing Moon Chan, Daniel Fürst, Hendrik Strobelt, Mennatallah El-Assady",
             "venue": "IEEEvis 2025",
             "links": {
-                "paper": "https://arxiv.org/abs/2405.00708"
+                "arxiv": "https://arxiv.org/abs/2405.00708",
+                "paper": "https://ieeexplore.ieee.org/abstract/document/11264023"
             },
             "abstract": "Counterfactual examples are useful for exploring the decision boundaries of machine learning models and determining feature attributions. How can we apply counterfactual-based methods to analyze and explain LLMs? We identify the following key challenges. First, the generated textual counterfactuals should be meaningful and readable to users and thus can be mentally compared to draw conclusions. Second, to make the solution scalable to long-form text, users should be equipped with tools to create batches of counterfactuals from perturbations at various granularity levels and interactively analyze the results. In this paper, we tackle the above challenges and contribute 1) a novel algorithm for generating batches of complete and meaningful textual counterfactuals by removing and replacing text segments in different granularities, and 2) LLM Analyzer, an interactive visualization tool to help users understand an LLM's behaviors by interactively inspecting and aggregating meaningful counterfactuals. We evaluate the proposed algorithm by the grammatical correctness of its generated counterfactuals using 1,000 samples from medical, legal, finance, education, and news datasets. In our experiments, 97.2% of the counterfactuals are grammatically correct. Through a use case, user studies, and feedback from experts, we demonstrate the usefulness and usability of the proposed interactive visualization tool. ",
             "image": "meaningful_counterfactuals.png",
@@ -646,7 +658,7 @@
             },
             "abstract": "Even though sentence-centric metrics are used widely in machine translation evaluation, document-level performance is at least equally important for professional usage. In this paper, we bring attention to detailed document-level evaluation focused on markables (expressions bearing most of the document meaning) and the negative impact of various markable error phenomena on the translation. For an annotation experiment of two phases, we chose Czech and English documents translated by systems submitted to WMT20 News Translation Task. These documents are from the News, Audit and Lease domains. We show that the quality and also the kind of errors varies significantly among the domains. This systematic variance is in contrast to the automatic evaluation results. We inspect which specific markables are problematic for MT systems and conclude with an analysis of the effect of markable error types on the MT performance measured by humans and automatic evaluation tools.",
             "image": "wmt20_markable.png",
-            "type": "publication",
+            "type": "project",
             "key": "wmt20_markable"
         },
         {
@@ -655,7 +667,7 @@
             "venue": "IJAIED 2025",
             "links": {
                 "arxiv": "https://www.researchsquare.com/article/rs-4770422/v1",
-                "article": "https://link.springer.com/article/10.1007/s40593-025-00515-4"
+                "paper": "https://link.springer.com/article/10.1007/s40593-025-00515-4"
             },
             "abstract": "Textbooks continue to be one of primary mediums of learning. Students often need additional support during the process of reading textbooks leading to several research efforts that aim to increase student engagement and provide tailored experiences in textbook reading. However, providing excessive information beyond the textbook can also distract students from the reading task. When enhancing the reading experience, one has to strike a delicate balance between providing sufficient informational support and maintaining students’ focus on textbook reading. Fusing together latest developments in large language models (LLMs), their applications in education and several pedagogical theories, we design a textbook reading guidance mechanism. We introduce IRead, an interactive tool for textbook reading which uses LLMs with visualization and interaction techniques, to enhance students’ reading and learning experiences. IRead incorporates conceptual visualizations that reflect the textbook’s content and features an AI-driven question bot that generates questions and offers hints in response to student reading and interaction history. We evaluate IRead with a between-subject user study and measure the effectiveness of our methodology in supporting the students’ reading experience based on the Bloom’s Taxonomy and the ARCS model. We collect feedback from participants ranging from undergraduate to doctorate students. The results highlight the effectiveness of simple yet intuitive visualizations, such as the concept tree in IRead. We also derive general insights for the development of tools that enhance educational reading experiences.",
             "image": "",
