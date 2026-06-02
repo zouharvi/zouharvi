@@ -1,11 +1,16 @@
 [
     {
-        "title": "Theory of Efficient Evaluation",
+        "title": "Theory and Practice of of Efficient Evaluation",
         "venues": [
             {
                 "venue": "Google Gboard",
                 "link": "",
                 "date": "2026"
+            },
+            {
+            	"venue": "SICSA",
+            	"link": "",
+            	"date": "2026",
             }
         ]
     },
@@ -27,11 +32,6 @@
                 "link": "",
                 "date": "2026"
             },
-            {
-                "venue": "SICSA",
-                "link": "",
-                "date": "2026"
-            }
         ]
     },
     {
