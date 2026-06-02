@@ -57,6 +57,16 @@
             "key": "translation_difficulty_estimation"
         },
         {
+            "title": "Last Translation Benchmark",
+            "author": "",
+            "venue": "in progress 2026",
+            "links": {
+                "web": "https://last-translation-benchmark.vilda.net/"
+            },
+            "type": "project",
+            "key": "last_translation_benchmark"
+        },
+        {
             "title": "When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation",
             "author": "Mubashara Akhtar, Anka Reuel, Prajna Soni, Sanchit Ahuja, Pawan Sasanka Ammanamanchi, Ruchit Rawal, Vilém Zouhar, Srishti Yadav, Chenxi Whitehouse, Dayeon Ki, Jennifer Mickel, Leshem Choshen, Marek Šuppa, Jan Batzner, Jenny Chim, Jeba Sania, Yanan Long, Hossein A Rahmani, Christina Knight, Yiyang Nan, Jyoutir Raj, Yu Fan, Shubham Singh, Subramanyam Sahoo, Eliya Habba, Usman Gohar, Siddhesh Pawar, Robert Scholz, Arjun Subramonian, Jingwei Ni, Mykel Kochenderfer, Sanmi Koyejo, Mrinmaya Sachan, Stella Biderman, Zeerak Talat, Avijit Ghosh, Irene Solaiman",
             "venue": "ICML 2026",
