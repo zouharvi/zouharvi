@@ -524,6 +524,28 @@
             "key": "llm_topic_model_evaluation"
         },
         {
+            "title": "Hurdles of Automatic Metric for Speech Translation Evaluation",
+            "author": "Victor Zarzu, Vilém Zouhar",
+            "venue": "IWSLT 2026",
+            "links": {
+                "paper": "https://aclanthology.org/2026.iwslt-1.34/"
+            },
+            "type": "project",
+            "key": "speech_hurdles"
+        },
+        {
+            "title": "Speech Translation and Metrics in 2026: Findings of the IWSLT Campaign",
+            "author": "David Ifeoluwa Adelani, Victor Agostinelli, Antonios Anastasopoulos, Luisa Bentivogli, Ondřej Bojar, Sébastien Bratières, Marine Carpuat, Fabrício Carraro, Roldano Cattoni, Mauro Cettolo, Lizhong Chen, Marcello Federico, Marco Gaido, Mahendra Gupta, HyoJung Han, Ali Hatami, Lewis C. Howe, Dávid Javorský, Yejin Jeon, Marek Kasztelnik, Antoine Laurent, Danni Liu, Nam Luu, Min Ma, Dominik Macháček, Marie Maltais, Evgeny Matusov, John McCrae, Chutong Meng, Chandresh Kumar Maurya, Mohammad Mohammadamini, Yasmin Moslem, Kenton Murray, Satoshi Nakamura, Matteo Negri, Jan Niehues, Atul Kr. Ojha, John E. Ortega, Siqi Ouyang, Sara Papi, Peter Polák, Fabian Retkowski, Stephanny Sánchez, Beatrice Savoldi, Claytone Sikasote, Matthias Sperber, Sebastian Stüker, Katsuhito Sudoh, Marie Tahon, Marco Turchi, Alexander Waibel, Patrick Wilken, Rodolfo Joel Zevallos, Vilem Zouhar, Maike Züfle",
+            "venue": "IWSLT 2026",
+            "links": {
+                "paper": "https://aclanthology.org/2026.iwslt-1.39/",
+                "code": "https://github.com/zouharvi/iwslt26-metrics"
+            },
+            "abstract": "This paper reports on the outcomes of the shared tasks organized as part of the 23rd International Workshop on Spoken Language Translation (IWSLT). The workshop covered ten major challenges in spoken language translation, including speech-to-text translation for both high-resource and low-resource language pairs, customized speech translation, speech generation, instruction-following speech processing, and the evaluation of speech translation systems. The shared tasks received strong participation, with more than 30 teams submitting runs. This year’s edition broadened the range of tasks, placing particular emphasis on speech generation and evaluation metrics.",
+            "type": "project",
+            "key": "iwlst_2026"
+        },
+        {
             "title": "Findings of the IWSLT 2025 Evaluation Campaign",
             "venue": "IWSLT 2025",
             "author": "Victor Agostinelli, Tanel Alumäe, Antonios Anastasopoulos, Luisa Bentivogli, Ondřej Bojar, Claudia Borg, Fethi Bougares, Roldano Cattoni, Mauro Cettolo, Lizhong Chen, William Chen, Raj Dabre, Yannick Estève, Marcello Federico, Mark Fishel, Marco Gaido, Dávid Javorský, Marek Kasztelnik, Fortuné Kponou, Mateusz Krubiński, Tsz Kin Lam, Danni Liu, Evgeny Matusov, Chandresh Kumar Maurya, John P. McCrae, Salima Mdhaffar, Yasmin Moslem, Kenton Murray, Satoshi Nakamura, Matteo Negri, Jan Niehues, Atul Kr. Ojha, John E. Ortega, Sara Papi, Pavel Pecina, Peter Polák, Piotr Połeć, Ashwin Sankar, Beatrice Savoldi, Nivedita Sethiya, Claytone Sikasote, Matthias Sperber, Sebastian Stüker, Katsuhito Sudoh, Brian Thompson, Marco Turchi, Alex Waibel, Patrick Wilken, Rodolfo Zevallos, Vilém Zouhar, Maike Züfle",
