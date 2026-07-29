@@ -98,7 +98,7 @@
         },
         {
             "title": "Augmenting Text to Increase Translation Difficulty",
-            "author": "William Kalikman, Šimon Sukup, Michal Tešnar, Vilém Zouhar",
+            "author": "William Kalikman,<sup>=</sup> Šimon Sukup,<sup>=</sup> Michal Tešnar, Vilém Zouhar",
             "venue": "EAMT 2026",
             "links": {
                 "paper": "https://will.kalikman.com/pdfs/augmenting-text-translation-difficulty.pdf",
