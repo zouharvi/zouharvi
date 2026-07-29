@@ -86,7 +86,7 @@
         {
             "title": "Why We Need Speech to Evaluate Speech Translation",
             "author": "Maike Züfle, Danni Liu, Vilém Zouhar, Jan Niehues",
-            "venue": "in progress 2026",
+            "venue": "in review 2026",
             "links": {
                 "paper": "https://arxiv.org/abs/2605.28227",
                 "code": "https://github.com/MaikeZuefle/speechCOMET"
