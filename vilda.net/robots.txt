@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /s/
+Disallow: /t/
+Disallow: /list_files.php
