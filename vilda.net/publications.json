@@ -569,6 +569,7 @@
             "title": "Hurdles of Automatic Metric for Speech Translation Evaluation",
             "author": "Victor Zarzu, Vilém Zouhar",
             "venue": "IWSLT 2026",
+            "abstract": "Automatic evaluation of speech translation has so far relied on text-only automated metrics that ignore speech phenomena. One would expect that incorporating the source audio modality would improve the performance of automatic metrics. We implement two standard metric paradigms: a COMET-audio regression model using audio and text encoders, and one based on prompting a speech large language model. Surprisingly, both audio-infused models fail to reliably surpass text-only baselines. We attribute this failure to the noise pollution and audio-transcript mismatches present in the audio signal, which makes the modality unreliable from the metric’s perspective. Furthermore, we argue that current human-annotated evaluation datasets for automated metrics predominantly feature technical content or short texts where paralinguistic features like prosody lack importance, rendering the extra audio information unhelpful for quality estimation (QE).",
             "links": {
                 "paper": "https://aclanthology.org/2026.iwslt-1.34/"
             },
