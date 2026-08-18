@@ -101,7 +101,7 @@
             "author": "William Kalikman,<sup>=</sup> Šimon Sukup,<sup>=</sup> Michal Tešnar, Vilém Zouhar",
             "venue": "EAMT 2026",
             "links": {
-                "paper": "https://will.kalikman.com/pdfs/augmenting-text-translation-difficulty.pdf",
+                "paper": "https://arxiv.org/abs/2608.15932",
                 "code": "https://github.com/BreakingMT/ATO"
             },
             "type": "project",
