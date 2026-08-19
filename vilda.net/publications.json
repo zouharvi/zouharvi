@@ -42,6 +42,19 @@
             "key": "pearmut"
         },
         {
+            "title": "Last Translation Benchmark",
+            "author": "Vilém Zouhar and >200 co-authors",
+            "venue": "in progress 2026",
+            "links": {
+                "web": "https://last-translation-benchmark.vilda.net/",
+                "code": "https://github.com/zouharvi/last-translation-benchmark/"
+            },
+            "type": "publication",
+            "abstract": " To make progress in any AI task, we need cases where models fail and to be able to detect them.   Standard translation benchmarks are often either trivial (having few authentic mistakes) or unrealistic (overly synthetically contrived).   Furthermore, automatic translation metrics can be hijacked, are not reliable, and the output is not interpretable with high confidence.   Even gold human evaluation is not problem-free: it often lacks reproducibility, objectivity and scalability.   This prevents us from tracking objective progress in the field and from informing where we should focus next.   We introduce the Last Translation Benchmark, which contains human-authored inputs (texts, images, audio, videos) which break state-of-the-art machine translation models across many language pairs.   Each input is peer-reviewed and also paired with one or more handcrafted verification rules, which allow for reproducible objective evaluation of future models under the same conditions.   The Last Translation Benchmark is a live dataset that accepts contributions.   The latest version is `LTBv1`, containing accepted contributions up to September 1st 2026, with future releases planned with subsequent contributions.",
+            "key": "last_translation_benchmark",
+            "image": "last_translation_benchmark.svg"
+        },
+        {
             "title": "How to Select Datapoints for Efficient Human Evaluation of NLG Models?",
             "author": "Vilém Zouhar, Peng Cui, Mrinmaya Sachan",
             "venue": "TACL 2025",
@@ -72,16 +85,16 @@
             "key": "translation_difficulty_estimation"
         },
         {
-            "title": "Last Translation Benchmark",
-            "author": "Vilém Zouhar and >200 co-authors",
-            "venue": "in progress 2026",
+            "title": "There is No Theoretical Curse of Multilinguality For Embedding Space Structure",
+            "author": "Niyati Bafna, Neha Verma, Vilém Zouhar, Philipp Koehn, David Yarowsky",
+            "venue": "in review 2026",
             "links": {
-                "web": "https://last-translation-benchmark.vilda.net/"
+                "paper": "https://arxiv.org/abs/2608.17088"
             },
             "type": "project",
-            "abstract": "To progress in any NLP task, we need cases where models fail and to be able to detect them. Standard benchmarks are either trivial or unrealistic, by having few authentic mistakes. Furthermore, automatic metrics can be hijacked, are not reliable, and the output is not interpretable with high confidence. Even human evaluation, in addition to not being reproducible and scalable, similarly do not provide satisfying answers. This prevents us from tracking objective progress in the field and to inform where we should focus next. We introduce the Last Translation Benchmark. We collect a large amount of inputs (texts, images, audio, videos) which break state-of-the-art machine translation models. Each input is also paired with a handcrafted verification rule, which allows for reproducible evaluation of future models in the same conditions.",
-            "key": "last_translation_benchmark",
-            "image": "last_translation_benchmark.svg"
+            "abstract": "A central goal of multilingual NLP is to achieve high monolingual performance per language and cross-lingual alignment for large-scale language coverage with a multilingual model. The curse of multilinguality describes the phenomenon of degradation in multilingual model performance as we increase language coverage, posing a threat to the above goal. This paper asks whether multilingual embedding spaces are inherently incapable of achieving perfect multilinguality without a prohibitive increase in required capacity. We first formalize the goal of \"perfect multilinguality\", embodied in two multilinguality conditions. We then prove that the minimum dimensionality required for perfect multilinguality grows only logarithmically in the number of languages. That is, we show that there is no theoretical curse of multilinguality for embedding space structure. This suggests that the empirical curse of multilinguality is a result of real world data and training conditions. We back this understanding with a small-scale empirical study. Our paper provides the first theoretical and intrinsic perspective on the curse of multilinguality, with implications for the scientific understanding of this phenomenon.",
+            "key": "curse_of_multilinguality",
+            "image": "curse_of_multilinguality.svg"
         },
         {
             "title": "Why We Need Speech to Evaluate Speech Translation",
