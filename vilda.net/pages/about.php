@@ -53,10 +53,10 @@ I also interned at Previo and BIM Project as a developer.
     <li><a href="https://www.semanticscholar.org/author/Vilém-Zouhar/1429837660">Semantic Scholar</a></li>
     <li><a href="https://raw.githubusercontent.com/zouharvi/zouharvi/main/vilda.net/cv/cv.pdf">CV</a></li>
     <li><a href="https://github.com/zouharvi/">GitHub</a></li>
-    <li><a href="https://huggingface.co/zouharvi">HuggingFace</a></li>
-    <li><a href='https://bsky.app/profile/zouharvi.bsky.social'>Bluesky</a></li>
+    <li><a href="https://huggingface.co/zouhar">HuggingFace</a></li>
+    <li><a href='https://bsky.app/profile/zouhar.bsky.social'>Bluesky</a></li>
     <li><a href='https://twitter.com/zouharvi'>Twitter/X</a></li>
     <li><a href="https://www.linkedin.com/in/vil%C3%A9m-zouhar-192988288/">LinkedIn</a></li>
-    <li><a href='https://www.youtube.com/@zouharvi'>YouTube</a></li>
+    <li><a href='https://www.youtube.com/@VilemZouhar'>YouTube</a></li>
     <li><a href='mailto:vilem.zouhar@gmail.com'>Email</a></li>
 </ul>
