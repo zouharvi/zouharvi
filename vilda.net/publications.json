@@ -86,6 +86,19 @@
             "key": "translation_difficulty_estimation"
         },
         {
+            "title": "Generating Adversarial Texts for Machine Translation via GRPO",
+            "author": "Florian Zogaj, Jakob Hütteneder, Giovanni De Muri, Federico Villa, Aryan Sood, Vilém Zouhar",
+            "venue": "KONVENS 2026",
+            "links": {
+                "paper": "https://arxiv.org/abs/2609.06048",
+                "code": "https://github.com/FlorianZogaj/Breaking-MT"
+            },
+            "abstract": "As machine translation (MT) systems continue to improve, standard benchmarks become less informative for exposing remaining weaknesses. Traditional methods for creating challenging test sets rely on expensive manual creation or curation, while automated approaches struggle to produce sets with the necessary translation difficulty and linguistic diversity. We propose a scalable reinforcement-learning-based approach for rewriting existing source texts into instances that are more difficult to translate for MT systems. We fine-tune a large language model with Group Relative Policy Optimization (GRPO), using reward signals based on translation difficulty together with constraints for semantic similarity, grammaticality, and approximate length preservation. On WMT25, our approach substantially reduces average COMET translation quality from 0.63 to 0.48, while preserving grammaticality and readability, whereas the base model remains at 0.64. Evaluations on the unseen WMT19-WMT24 benchmarks confirm that this behavior generalizes beyond the training data, and human evaluation further shows that the rewrites substantially lower translation quality while incurring a moderate drop in naturalness and only a small change in grammaticality. We release our code to support reproducibility.",
+            "type": "project",
+            "key": "grpo_text_translation_difficulty",
+            "image": "grpo_text_translation_difficulty.svg"
+        },
+        {
             "title": "There is No Theoretical Curse of Multilinguality For Embedding Space Structure",
             "author": "Niyati Bafna, Neha Verma, Vilém Zouhar, Philipp Koehn, David Yarowsky",
             "venue": "in review 2026",
