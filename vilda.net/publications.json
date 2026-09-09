@@ -2,7 +2,7 @@
         {
             "title": "Contrastive ESA: Human Evaluation of Multiple Translations at Once",
             "author": "Vilém Zouhar, Roman Grundkiewicz, Sara Rajaee, Parker Riley, Martin Popel, Rachel Bawden, Philipp Koehn, Marine Carpuat, Tom Kocmi",
-            "venue": "in review 2026",
+            "venue": "WMT 2026",
             "abstract": "Current human evaluation of machine translation typically assesses single outputs in isolation, a paradigm that suffers from high annotator noise and cost. We introduce Contrastive Error Span Annotation (cESA), a protocol that presents multiple translations of the source input (text, video, audio, image). In cESA, the annotator sees multiple translations of the same document, marks #major and #minor error spans, and then assigns a score from 0% to 100% on absolute scale. By allowing annotators to access the shared context across multiple outputs, cESA facilitates more consistent and efficient judgments. We validate cESA using a large-scale human evaluation of English$arrow$Japanese translations of 12 models, demonstrating reductions in annotation time and noise compared to standard pointwise evaluation. Unlike existing contrastive ranking methods, cESA yields absolute quality judgments that enable simple, interpretable non-parametric model rankings without the need for post-hoc corrections.",
             "links": {
                 "paper": "https://arxiv.org/abs/2607.26640",
@@ -17,7 +17,7 @@
         {
             "title": "Dynamically Allocating Evaluation Effort for Model Ranking",
             "author": "Vilém Zouhar, Julia Kreutzer, Alon Lavie, Tom Kocmi, Matt Post, Ondřej Bojar, Mrinmaya Sachan",
-            "venue": "in review 2026",
+            "venue": "EMNLP 2026",
             "links": {
                 "paper": "http://arxiv.org/abs/2608.03437",
                 "code": "https://github.com/zouharvi/evaluation-bandit"
@@ -30,7 +30,7 @@
         {
             "title": "🍐 Pearmut: Human Evaluation of Translation Made Trivial",
             "author": "Vilém Zouhar, Tom Kocmi",
-            "venue": "in review 2026",
+            "venue": "EMNLP 2026 Demo",
             "links": {
                 "paper": "http://arxiv.org/abs/2601.02933",
                 "code": "https://github.com/zouharvi/pearmut",
@@ -113,7 +113,7 @@
         {
             "title": "Why We Need Speech to Evaluate Speech Translation",
             "author": "Maike Züfle, Danni Liu, Vilém Zouhar, Jan Niehues",
-            "venue": "in review 2026",
+            "venue": "EMNLP 2026",
             "links": {
                 "paper": "https://arxiv.org/abs/2605.28227",
                 "code": "https://github.com/MaikeZuefle/speechCOMET"
@@ -303,7 +303,7 @@
         {
             "title": "Deconstructing Self-Bias in LLM-generated Translation Benchmarks",
             "author": "Wenda Xu, Sweta Agrawal, Vilém Zouhar, Markus Freitag, Daniel Deutsch",
-            "venue": "In review 2026",
+            "venue": "EMNLP 2026",
             "links": {
                 "paper": "https://arxiv.org/abs/2509.26600"
             },
