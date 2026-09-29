@@ -2,19 +2,19 @@ Hi, I'm Vilém (colloquially Vilda), a final-year PhD at ETH Zürich, Switzerlan
 I do research on natural language processing.
 Let me know if you're interested in any of these topics!
 <ul style="margin-bottom: 5px;">
-    <li>Evaluation (human annotations, automated metrics, methods)</li>
+    <li>Theoretical problems in evaluation (efficient, adaptive, comparable, robust evaluation)</li>
+    <li>Practically useful evaluation methods</li>
+    <li>Model improvement from (efficient & personalized) evaluation signal</li>
     <li>Multilingual NLP</li>
-    <li>NLP-oriented human-computer interaction (confidence, quality)</li>
 </ul>
 
 
 <h4>News</h4>
 <ul>
+    <li>2026: I am on the academic job market. My <a href="t/research_statement.pdf">research_statement.pdf</a>. Please reach out!</li>
     <li>2026: We are building the Last Translation Benchmark! <a href="https://last-translation-benchmark.vilda.net/">Become a contributor</a> with coauthoship!</li>
-    <li>2026: We're organizing a <a href="https://github.com/zouharvi/humeval-tutorial">tutorial on human evaluation</a> at EAMT, KONVENS, and MT Marathon!</li>
-    <li>2026: I am on the academic job market. I welcome opportunities for research visits, talks, and collaborations.
-        Please reach out!</li>
-    <!-- <li>2026: We are organizing the first Speech Translation Metrics shared task at IWSLT.
+    <!-- <li>2026: We're organizing a <a href="https://github.com/zouharvi/humeval-tutorial">tutorial on human evaluation</a> at EAMT, KONVENS, and MT Marathon!</li> -->
+        <!-- <li>2026: We are organizing the first Speech Translation Metrics shared task at IWSLT.
         <a href="https://iwslt.org/2026/metrics">Participate!</a>
     </li>
     <li>2026: We are organizing various WMT shared tasks. <a href="https://www2.statmt.org/wmt26/">Participate!</a> -->
