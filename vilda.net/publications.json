@@ -94,7 +94,7 @@
                 "code": "https://github.com/FlorianZogaj/Breaking-MT"
             },
             "abstract": "As machine translation (MT) systems continue to improve, standard benchmarks become less informative for exposing remaining weaknesses. Traditional methods for creating challenging test sets rely on expensive manual creation or curation, while automated approaches struggle to produce sets with the necessary translation difficulty and linguistic diversity. We propose a scalable reinforcement-learning-based approach for rewriting existing source texts into instances that are more difficult to translate for MT systems. We fine-tune a large language model with Group Relative Policy Optimization (GRPO), using reward signals based on translation difficulty together with constraints for semantic similarity, grammaticality, and approximate length preservation. On WMT25, our approach substantially reduces average COMET translation quality from 0.63 to 0.48, while preserving grammaticality and readability, whereas the base model remains at 0.64. Evaluations on the unseen WMT19-WMT24 benchmarks confirm that this behavior generalizes beyond the training data, and human evaluation further shows that the rewrites substantially lower translation quality while incurring a moderate drop in naturalness and only a small change in grammaticality. We release our code to support reproducibility.",
-            "type": "project",
+            "type": "project_hide",
             "key": "grpo_text_translation_difficulty",
             "image": "grpo_text_translation_difficulty.svg"
         },
@@ -161,6 +161,58 @@
             "key": "comet_earlyexit"
         },
         {
+            "title": "Findings of the WMT26 General Machine Translation Shared Task: Contrastive Dynamic Human Evaluation at Scale",
+            "author": "Tom Kocmi, Ekaterina Artemova, Eleftherios Avramidis, Rachel Bawden, Ondřej Bojar, Sergey Dukanov, Anton Dvorkovich, Mark Fishel, Markus Freitag, Samuel Frontull, Thamme Gowda, Roman Grundkiewicz, Barry Haddow, Stan Kharevich, Philipp Koehn, Zheng Li, Jean Maillard, Christof Monz, Alexander Murauski, Kenton Murray, Masaaki Nagata, Stefano Perrella, Martin Popel, Maja Popović, Lorenzo Proietti, Sara Rajaee, Parker Riley, Mariya Shmatova, Steinþór Steingrímsson, Lisa Yankovskaya, Vilém Zouhar",
+            "venue": "WMT 2026",
+            "links": {
+            "paper": "https://www2.statmt.org/wmt26/pdf/2026.wmt-1.48.pdf",
+            "data": "https://github.com/wmt-conference/wmt26-general-mt",
+            "code": "https://github.com/wmt-conference/wmt26-general-mt"
+            },
+            "abstract": "This paper presents the results of the General Machine Translation Task organized under the 2026 Conference on Machine Translation (WMT). Participants build systems for any of the 23 language pairs spanning four to five domains. This year we brought major changes to the human evaluation: (1) new annotation platform Pearmut for better reproducibility, (2) new human protocol \"contrastive Error Span Annotation\" for higher quality and side-by-side evaluation, and (3) Dynamic human evaluation that allows assessing all submitted models while evaluating higher-performing models more frequently. Beyond human evaluation, we (4) extended difficulty sampling with a human-driven stage, (5) added two new domains, (6) made the test sets fully document-level without requiring segment-level alignment and relying on HTML or JSON structure, (7) prepared some human references by post-editing open-weight model outputs, and (8) introduced contextual instructions governing formality and structural style. We evaluated 46 systems in total: 30 submitted by participants and 16 consisting of translations from large language models (LLMs) and industry translation providers.",
+            "type": "shared_task",
+            "key": "wmt26_general_mt"
+        },
+        {
+            "title": "Findings of the WMT26 Shared Task on Automated Translation Quality Evaluation Systems: Compact Open Models are Competitive Quality Evaluators",
+            "author": "Alon Lavie, Greg Hanneman, Stefano Perrella, Shuoyang Ding, Eleftherios Avramidis, Lorenzo Proietti, Chi-kiu Lo 羅致翹, Ammon Shurtz, Chrysoula Zerva, Archchana Sindhujan, Vilém Zouhar, Diptesh Kanojia, Frédéric Blain, Brian Thompson, Giorgos Filandrianos, Orfeas Menis Mastromichalakis, Tom Kocmi, Pranav Gupta",
+            "venue": "WMT 2026",
+            "links": {
+            "paper": "https://www2.statmt.org/wmt26/pdf/2026.wmt-1.49.pdf",
+            "data": "https://github.com/wmt-conference/wmt26-mteval",
+            "code": "https://github.com/wmt-conference/wmt26-mteval"
+            },
+            "abstract": "We present the findings of the WMT26 Shared Task on Automated Translation Quality Evaluation Systems, continuing last year’s unification of the earlier separate WMT Metrics and Quality Estimation shared tasks. This year we evaluated three complementary views of segment-level translation quality on a common test set: fine-grained error-span detection, continuous quality-score prediction, and a new task on identifying error-free translations. Submissions to upstream tasks were also converted automatically to downstream predictions. The evaluation covered 21 translation directions using human cESA judgments from the WMT26 General Machine Translation task, with optional reference translations generated as either native, post-edited, or pseudo-references, depending on the translation direction. Official evaluation data was complemented by five submitted challenge sets. Across all three primary tasks, unsupervised LLM-as-a-judge approaches outperformed all traditional and supervised metrics, while open-weight models such as Gemma 4 were found to be competitive with proprietary frontier models. Reference-free LLM judges are highly competitive, and the benefit of adding a reference largely depends on its provenance and on the evaluator model family.",
+            "type": "shared_task",
+            "key": "wmt26_mteval"
+        },
+        {
+            "title": "Findings of the WMT26 Multilingual Instruction Shared Task: Small Models Are Not Yet Polyglots",
+            "author": "Patrícia Schmidtová, Katia Artemova, Seth Aycock, Niyati Bafna, Shobhit Banga, Manmeet Kaur, Tom Kocmi, Philipp Koehn, Danni Liu, Nam Luu, Sara Papi, Beatrice Savoldi, Mariya Shmatova, Hanuman Sidh, Evfrosiniya Zerminova, Vilém Zouhar, Maike Züfle, Pinzhen Chen",
+            "venue": "WMT 2026",
+            "links": {
+            "paper": "https://www2.statmt.org/wmt26/pdf/2026.wmt-1.50.pdf",
+            "data": "https://github.com/wmt-conference/wmt26-mist",
+            "code": "https://github.com/wmt-conference/wmt26-mist"
+            },
+            "abstract": "We present the findings of the WMT26 Multilingual Instruction Shared Task (MIST), evaluating small (≤10B parameter) open-weight language models across 24 languages on three subtasks: context-based QA, cross-lingual summarization, and open-ended generation. Submissions from eight teams explore fine-tuning, knowledge distillation, and prompt engineering. Our findings demonstrate that small models are not yet polyglots: while leading systems perform well on high-resource languages, performance drops sharply on low-resource varieties, and comprehension degrades significantly when transferring across non-English language pairs. In open-ended generation, human evaluation and automatic rule-based verification exhibit strong overall rank correlation (ρ=0.79) but diverge locally at the top: human evaluators favor distilled pipelines with superior fluency and cross-lingual equity, whereas automatic verifiers reward concise prompt-engineered systems. Furthermore, multi-stage pipelines suffer from prompt-language inertia on cross-lingual instructions, and summarization exhibits severe English leakage unless penalized by language gating. Finally, while baseline fluency is largely achieved by modern small models, multi-constraint instruction following and unanswerable question refusal remain the primary performance bottlenecks. We release all test sets, system outputs, human judgments, and evaluation code under a permissive license.",
+            "type": "shared_task",
+            "key": "wmt26_mist"
+        },
+        {
+            "title": "Findings of the WMT26 Terminology Translation Task: The Hard Part is Finding the Terms, Not Using Them",
+            "author": "Adrian Charkiewicz, Pinzhen Chen, Thierry Etchegoyhen, Harritxu Gete, Kamil Guttmann, Xu Huang, David Ponce, Artur Nowakowski, Frédéric Odermatt, Arturo Oncevay, Dawei Zhu, Vilém Zouhar, Kirill Semenov",
+            "venue": "WMT 2026",
+            "links": {
+            "paper": "https://www2.statmt.org/wmt26/pdf/2026.wmt-1.51.pdf",
+            "data": "https://github.com/wmt-conference/wmt26-terminology",
+            "code": "https://github.com/wmt-conference/wmt26-terminology"
+            },
+            "abstract": "The WMT26 Terminology Translation Task aims to evaluate machine translation in high-stakes, term-heavy domains (technology, finance, medicine). This year, we focus solely on document-level translation and run two tasks: (1) MT with explicit document-level dictionaries, (2) MT with bitext samples that contain the specific terms. Participants are presented with the texts in three translation directions, two of which feature mid-to-low-resourced morphologically rich languages: Spanish→Basque, English→Polish, and Traditional Chinese→English. This year, the main metrics were multiple variants of overall translation quality and terminology success rate; in line with previous shared tasks, we also compared systems with no terminology, proper dictionaries, and random dictionaries to causally analyze terminology utility. 17 teams participated in our task, submitting 21 systems to Track 1 and 18 systems to Track 2. The results show that document-level translation with explicit dictionaries is close to saturation, and the best systems nearly reach the reference texts. In contrast, for translation with sample bitexts, the spread of the systems is bigger, and the best scores are lower, highlighting the need to concentrate on terminology extraction rather than its use from an explicit source. We also evaluate the grammaticality of the generated texts in Basque and Polish and observe slight trends toward using dictionary forms of the terms and assigning the most frequent grammemes.",
+            "type": "shared_task",
+            "key": "wmt26_terminology"
+        },
+        {
             "title": "Findings of the WMT25 general machine translation shared task: Time to stop evaluating on easy test sets",
             "author": "Tom Kocmi, Ekaterina Artemova, Eleftherios Avramidis, Rachel Bawden, Ondrej Bojar, Konstantin Dranch, Anton Dvorkovich, Sergey Dukanov, Mark Fishel, Markus Freitag, Thamme Gowda, Roman Grundkiewicz, Barry Haddow, Marzena Karpinska, Philipp Koehn, Howard Lakougna, Jessica M Lundin, Christof Monz, Kenton Murray, Masaaki Nagata, Stefano Perrella, Lorenzo Proietti, Martin Popel, Maja Popovic, Parker Riley, Mariya Shmatova, Steinþór Steingrímsson, Lisa Yankovskaya, Vilém Zouhar",
             "venue": "WMT 2025",
@@ -170,7 +222,7 @@
                 "code": "https://github.com/wmt-conference/wmt25-general-mt"
             },
             "abstract": "This paper presents the results of the General Machine Translation Task organized as part of the 2025 Conference on Machine Translation (WMT). Participants were invited to build systems for any of the 30 language pairs. For half of these pairs, we conducted a human evaluation on test sets spanning four to five different domains. We evaluated 60 systems in total: 36 submitted by participants and 24 consisting of translations we collected from large language models (LLMs) and popular online translation providers. This year, we focused on creating challenging test sets by developing a difficulty sampling technique and using more complex source data. We evaluated system outputs with professional annotators using the Error Span Annotation (ESA) protocol, except for two language pairs, for which we used Multidimensional Quality Metrics (MQM) instead. We continued the trend of increasingly shifting towards document-level translation, providing the source texts as whole documents containing multiple paragraphs.",
-            "type": "publication",
+            "type": "shared_task",
             "key": "wmt25_general_mt"
         },
         {
@@ -196,7 +248,7 @@
             },
             "abstract": "Large language models (LLMs) have achieved top results in recent machine translation evaluations, but they are also known to be sensitive to errors and perturbations in their prompts. We systematically evaluate how both humanly plausible and synthetic errors in user prompts affect LLMs' performance on two related tasks: Machine translation and machine translation evaluation. We provide both a quantitative analysis and qualitative insights into how the models respond to increasing noise in the user prompt. The prompt quality strongly affects the translation performance: With many errors, even a good prompt can underperform a minimal or poor prompt without errors. However, different noise types impact translation quality differently, with character-level and combined noisers degrading performance more than phrasal perturbations. Qualitative analysis reveals that lower prompt quality largely leads to poorer instruction following, rather than directly affecting translation quality itself. Further, LLMs can still translate in scenarios with overwhelming random noise that would make the prompt illegible to humans.",
             "image": "imperfect_english_prompts.svg",
-            "type": "project",
+            "type": "project_hide",
             "key": "imperfect_english_prompts"
         },
         {
@@ -234,7 +286,7 @@
                 "data": "https://github.com/wmt-conference/wmt-mist"
             },
             "abstract": "The WMT25 Multilingual Instruction Shared Task (MIST) introduces a benchmark to evaluate large language models (LLMs) across 30 languages. The benchmark covers five types of problems: machine translation, linguistic reasoning, open-ended generation, cross-lingual summarization, and LLM-as-a-judge. We provide automatic evaluation and collect human annotations, which highlight the limitations of automatic evaluation and allow further research into metric meta-evaluation. We run on our benchmark a diverse set of open-and closedweight LLMs, providing a broad assessment of the multilingual capabilities of current LLMs. Results highlight substantial variation across sub-tasks and languages, revealing persistent challenges in reasoning, cross-lingual generation, and evaluation reliability. This work establishes a standardized framework for measuring future progress in multilingual LLM development.",
-            "type": "project",
+            "type": "shared_task",
             "key": "wmt25_mist"
         },
         {
@@ -246,7 +298,7 @@
                 "code": "https://github.com/wmt-conference/wmt25-mteval"
             },
             "abstract": "The WMT25 Shared Task on Automated Translation Evaluation Systems evaluates metrics and quality estimation systems that assess the quality of language translation systems. This task unifies and consolidates the separate WMT shared tasks on Machine Translation Evaluation Metrics and Quality Estimation from previous years. Our primary goal is to encourage the development and assessment of new state-of-the-art translation quality evaluation systems. The shared task this year consisted of three subtasks:(1) segment-level quality score prediction,(2) span-level translation error annotation, and (3) quality-informed segment-level error correction. The evaluation data for the shared task were provided by the General MT shared task and were complemented by “challenge sets” from both the organizers and participants. Task 1 results indicate the strong performance of large LLMs at the system level, while reference-based baseline metrics outperform LLMs at the segment level. Task 2 results indicate that accurate error detection and balancing precision and recall are persistent challenges. Task 3 results show that minimal editing is challenging even when informed by quality indicators. Robustness across the broad diversity of languages remains a major challenge across all three subtasks.",
-            "type": "project",
+            "type": "shared_task",
             "key": "wmt25_mteval"
         },
         {
@@ -259,7 +311,7 @@
                 "code": "https://github.com/wmt-conference/wmt25-terminology/"
             },
             "abstract": "The WMT25 Terminology Translation Task releases new resources in high-stakes domains and investigates the capabilities of translation systems to accurately and consistently translate specialized terms. This year, we feature new domain and language coverage over previous editions, introducing two distinct tracks:(1) sentence-level translation in the information technology domain for English→ German, English→ Russian, and English→ Spanish, and (2) document-level translation in the finance domain for English↔ Traditional Chinese with a document-level one-to-many dictionary. Participants are challenged to translate texts under three modes: no terminology, proper terminology, and random terminology, allowing for a causal analysis of terminology utility. Evaluation combines overall quality, terminology accuracy, and terminology consistency. This shared task attracted broad participation, with 13 teams submitting 20 systems in Track 1 and 4 teams participating in Track 2. The results show that providing proper terminology consistently boosts both overall translation quality and term accuracy, whereas reliance on random terminology yields smaller gains. Despite the near-saturation of sentence-level benchmarks, document-level finance translation still falls short, indicating an urgent need for long-form evaluation and more robust metrics tailored to professional domains.",
-            "type": "project",
+            "type": "shared_task",
             "key": "wmt25_terminology"
         },
         {
@@ -363,7 +415,7 @@
             },
             "abstract": "Stories play a pivotal role in human communication, shaping beliefs and morals, particularly in children. As parents increasingly rely on large language models (LLMs) to craft bedtime stories, the presence of cultural and gender stereotypes in these narratives raises significant concerns. To address this issue, we present Biased Tales, a comprehensive dataset designed to analyze how biases influence protagonists' attributes and story elements in LLM-generated stories. Our analysis uncovers striking disparities. When the protagonist is described as a girl (as compared to a boy), appearance-related attributes increase by 55.26%. Stories featuring non-Western children disproportionately emphasize cultural heritage, tradition, and family themes far more than those for Western children. Our findings highlight the role of sociocultural bias in making creative AI use more equitable and diverse.",
             "image": "biased_tales.svg",
-            "type": "project",
+            "type": "project_hide",
             "key": "biased_tales"
         },
         {
@@ -460,7 +512,7 @@
             },
             "abstract": "Automatic machine translation metrics often use human translations to determine the quality of system translations. Common wisdom in the field dictates that the human references should be of very high quality. However, there are no cost-benefit analyses that could be used to guide practitioners who plan to collect references for machine translation evaluation. We find that higher-quality references lead to better metric correlations with humans at the segment-level. Having up to 7 references per segment and taking their average helps all metrics. Interestingly, the references from vendors of different qualities can be mixed together and improve metric success. Higher quality references, however, cost more to create and we frame this as an optimization problem: given a specific budget, what references should be collected to maximize metric success. These findings can be used by evaluators of shared tasks when references need to be created under a certain budget.",
             "image": "ortmt.png",
-            "type": "publication",
+            "type": "publication_hide",
             "key": "ortmt"
         },
         {
@@ -473,7 +525,7 @@
                 "data": "https://github.com/wmt-conference/wmt24-news-systems"
             },
             "image": "",
-            "type": "publication",
+            "type": "shared_task",
             "key": "wmt24"
         },
         {
@@ -559,7 +611,7 @@
             },
             "abstract": "The WMT 2023 Terminology Shared Task investigates progress in machine translation of texts with specialized vocabulary. The participants were given the source text and segment-level terminology dictionaries for three language pairs: Chinese→English, English→Czech, and German→English. We evaluate 21 submissions from 7 teams on two main criteria: general translation quality and the effectiveness of translating specialized terminology. Systems took varied approaches — incorporating terminology at inference time or weakly supervised training that uses terminology access. While incorporating terminology dictionaries leads to improvement in the translation quality, incorporating an equal amount of information from the reference leads to similar results. This challenges the position of terminologies being the crux of meaning in translation, it can also be explained by inadequate metrics which are not terminology-centric.",
             "image": "wmt23_terminology.png",
-            "type": "publication",
+            "type": "shared_task",
             "key": "wmt23_terminology"
         },
         {
@@ -624,7 +676,7 @@
                 "code": "https://github.com/zouharvi/iwslt26-metrics"
             },
             "abstract": "This paper reports on the outcomes of the shared tasks organized as part of the 23rd International Workshop on Spoken Language Translation (IWSLT). The workshop covered ten major challenges in spoken language translation, including speech-to-text translation for both high-resource and low-resource language pairs, customized speech translation, speech generation, instruction-following speech processing, and the evaluation of speech translation systems. The shared tasks received strong participation, with more than 30 teams submitting runs. This year’s edition broadened the range of tasks, placing particular emphasis on speech generation and evaluation metrics.",
-            "type": "project",
+            "type": "shared_task",
             "key": "iwlst_2026"
         },
         {
@@ -635,7 +687,7 @@
                 "paper": "https://aclanthology.org/2025.iwslt-1.44/"
             },
             "abstract": "This paper presents the outcomes of the shared tasks conducted at the 22nd International Workshop on Spoken Language Translation (IWSLT). The workshop addressed seven critical challenges in spoken language translation: simultaneous and offline translation, automatic subtitling and dubbing, model compression, speech-to-speech translation, dialect and low-resource speech translation, and Indic languages. The shared tasks garnered significant participation, with 32 teams submitting their runs. The field’s growing importance is reflected in the increasing diversity of shared task organizers and contributors to this overview paper, representing a balanced mix of industrial and academic institutions. This broad participation demonstrates the rising prominence of spoken language translation in both research and practical applications.",
-            "type": "project",
+            "type": "shared_task",
             "key": "iwlst_2025"
         },
         {
@@ -716,7 +768,7 @@
             },
             "abstract": "Recently neural network based approaches to knowledge-intensive NLP tasks, such as question answering, started to rely heavily on the combination of neural retrievers and readers. Retrieval is typically performed over a large textual knowledge base (KB) which requires significant memory and compute resources, especially when scaled up. On HotpotQA we systematically investigate reducing the size of the KB index by means of dimensionality (sparse random projections, PCA, autoencoders) and numerical precision reduction. Our results show that PCA is an easy solution that requires very little data and is only slightly worse than autoencoders, which are less stable. All methods are sensitive to pre- and post-processing and data should always be centered and normalized both before and after dimension reduction. Finally, we show that it is possible to combine PCA with using 1bit per dimension. Overall we achieve (1) 100× compression with 75%, and (2) 24× compression with 92% original retrieval performance.",
             "image": "kbshrink_paper.png",
-            "type": "project",
+            "type": "project_hide",
             "key": "kbshrink_paper"
         },
         {
@@ -758,7 +810,7 @@
             },
             "abstract": "In most of neural machine translation distillation or stealing scenarios, the highest-scoring hypothesis of the target model (teacher) is used to train a new model (student). If reference translations are also available, then better hypotheses (with respect to the references) can be oversampled and poor hypotheses either removed or undersampled. This paper explores the sampling method landscape (pruning, hypothesis oversampling and undersampling, deduplication and their combination) with English to Czech and English to German MT models using standard MT evaluation metrics. We show that careful oversampling and combination with the original data leads to better performance when compared to training only on the original or synthesized data or their direct combination.",
             "image": "mt_filtering.png",
-            "type": "project",
+            "type": "project_hide",
             "key": "mt_filtering"
         },
         {
@@ -772,7 +824,7 @@
             },
             "abstract": "Even though sentence-centric metrics are used widely in machine translation evaluation, document-level performance is at least equally important for professional usage. In this paper, we bring attention to detailed document-level evaluation focused on markables (expressions bearing most of the document meaning) and the negative impact of various markable error phenomena on the translation. For an annotation experiment of two phases, we chose Czech and English documents translated by systems submitted to WMT20 News Translation Task. These documents are from the News, Audit and Lease domains. We show that the quality and also the kind of errors varies significantly among the domains. This systematic variance is in contrast to the automatic evaluation results. We inspect which specific markables are problematic for MT systems and conclude with an analysis of the effect of markable error types on the MT performance measured by humans and automatic evaluation tools.",
             "image": "wmt20_markable.png",
-            "type": "project",
+            "type": "project_hide",
             "key": "wmt20_markable"
         },
         {
@@ -785,7 +837,7 @@
             },
             "abstract": "Textbooks continue to be one of primary mediums of learning. Students often need additional support during the process of reading textbooks leading to several research efforts that aim to increase student engagement and provide tailored experiences in textbook reading. However, providing excessive information beyond the textbook can also distract students from the reading task. When enhancing the reading experience, one has to strike a delicate balance between providing sufficient informational support and maintaining students’ focus on textbook reading. Fusing together latest developments in large language models (LLMs), their applications in education and several pedagogical theories, we design a textbook reading guidance mechanism. We introduce IRead, an interactive tool for textbook reading which uses LLMs with visualization and interaction techniques, to enhance students’ reading and learning experiences. IRead incorporates conceptual visualizations that reflect the textbook’s content and features an AI-driven question bot that generates questions and offers hints in response to student reading and interaction history. We evaluate IRead with a between-subject user study and measure the effectiveness of our methodology in supporting the students’ reading experience based on the Bloom’s Taxonomy and the ARCS model. We collect feedback from participants ranging from undergraduate to doctorate students. The results highlight the effectiveness of simple yet intuitive visualizations, such as the concept tree in IRead. We also derive general insights for the development of tools that enhance educational reading experiences.",
             "image": "",
-            "type": "project",
+            "type": "project_hide",
             "key": "iread"
         },
         {
@@ -979,7 +1031,7 @@
             },
             "abstract": "Many NLP models gain performance by having access to a knowledge base. A lot of research has been devoted to devising and improving the way the knowledge base is accessed and incorporated into the model, resulting in a number of mechanisms and pipelines. Despite the diversity of proposed mechanisms, there are patterns in the designs of such systems. In this paper, we systematically describe the typology of *artefacts* (items retrieved from a knowledge base), retrieval mechanisms and the way these artefacts are *fused* into the model. This further allows us to uncover combinations of design decisions that had not yet been tried. Most of the focus is given to language models, though we also show how question answering, fact-checking and knowledgable dialogue models fit into this system as well. Having an abstract model which can describe the architecture of specific models also helps with transferring these architectures between multiple NLP tasks.",
             "image": "artefact_retrieval.png",
-            "type": "project",
+            "type": "project_hide",
             "key": "artefact_retrieval"
         },
         {
@@ -992,7 +1044,7 @@
             },
             "abstract": "The most common tools for word-alignment rely on a large amount of parallel sentences,which are then usually processed according to one of the IBM model algorithms. The trainingdata is, however, the same as for machine translation (MT) systems, especially for neural MT(NMT), which itself is able to produce word-alignments using the trained attention heads. Thisis convenient because word-alignment is theoretically a viable byproduct of any attention-basedNMT, which is also able to provide decoder scores for a translated sentence pair.We summarize different approaches on how word-alignment can be extracted from align-ment scores and then explore ways in which scores can be extracted from NMT, focusing oninferring the word-alignment scores based on output sentence and token probabilities. Wecompare this to the extraction of alignment scores from attention. We conclude with aggregat-ing all of the sources of alignment scores into a simple feed-forward network which achievesthe best results when combined alignment extractors are used.",
             "image": "leverage_align.png",
-            "type": "project",
+            "type": "project_hide",
             "key": "leverage_align"
         },
         {
@@ -1056,7 +1108,7 @@
             },
             "abstract": "It is unclear whether, how and where large pre-trained language models capture subtle linguistic traits like ambiguity, grammaticality and sentence complexity. We present results of automatic classification of these traits and compare their viability and patterns across representation types. We demonstrate that template-based datasets with surface-level artifacts should not be used for probing, careful comparisons with baselines should be done and that t-SNE plots should not be used to determine the presence of a feature among dense vectors representations. We also show how features might be highly localized in the layers for these models and get lost in the upper layers.",
             "image": "sentence_ambiguity.png",
-            "type": "project",
+            "type": "project_hide",
             "key": "sentence_ambiguity"
         },
         {
@@ -1108,7 +1160,7 @@
             },
             "abstract": "It is not uncommon for Internet users to have to produce text in aforeign language they have very little knowledge of and are unable to verify thetranslation quality. We call the task “outbound translation” and explore it byintroducing an open-source modular system Ptakopět. Its main purpose is toinspect human interaction with machine translation systems enhanced by ad-ditional subsystems, such as backward translation and quality estimation. Wefollow up with an experiment on (Czech) human annotators tasked to producequestions in a language they do not speak (German), with the help of Ptakopět.We focus on three real-world use cases (communication with IT support, describ-ing administrative issues and asking encyclopedic questions) from which we gaininsight into different strategies users take when faced with outbound translationtasks. Round trip translation is known to be unreliable for evaluating MT sys-tems but our experimental evaluation documents that it works very well for users,at least on MT systems of mid-range quality.",
             "image": "ptakopet_thesis.png",
-            "type": "project",
+            "type": "project_hide",
             "key": "ptakopet_thesis"
         },
         {

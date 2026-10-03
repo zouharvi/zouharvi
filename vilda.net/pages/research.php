@@ -46,10 +46,10 @@ function publication_entry($item) {
 ?>
 
 <br><br>
-<h3>Less-selected publications/projects</h3>
+<h3>Other projects and Shared Tasks</h3>
 <?php
   foreach ($data as &$item) {
-    if ($item["type"] == "project") {
+    if ($item["type"] == "project" || $item["type"] == "shared_task") {
       echo publication_entry($item);
     }
   }
