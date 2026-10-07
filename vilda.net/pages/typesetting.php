@@ -3,10 +3,13 @@ design.
 I am a big fan of the work of <a href="https://www.edwardtufte.com/books/">Edward Tufte</a> on visual communication of
 information.
 For academic posters, I enjoy experimenting with layouts and colors to engagingly communicate research findings.
-Some of the posters I designed or was involved in designing:
+Some of the posters I designed or was involved in designing are here.
+In hindsight, I see plenty of flaws in each (ask me what I would change).
 <br>
 <br>
 
+<img class="poster" src="https://raw.githubusercontent.com/zouharvi/cESA/refs/heads/main/meta/poster.png">
+<img class="poster" src="https://raw.githubusercontent.com/zouharvi/evaluation-bandit/1966c15766c5cde217c570abefb9533467126522/misc/poster.svg">
 <img class="poster" src="https://github.com/zouharvi/pearmut/raw/main/misc/poster_nofont.svg">
 <img class="poster" src="https://github.com/zouharvi/mt-breaker/raw/main/poster_nofont.svg">
 <img class="poster" src="https://github.com/zouharvi/COMET-early-exit/raw/main/meta/poster_nofont.svg">
