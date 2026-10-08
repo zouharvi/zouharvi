@@ -2,8 +2,8 @@ Hi, I'm Vilém (colloquially Vilda), a final-year PhD at ETH Zürich, Switzerlan
 I do research on natural language processing.
 Let me know if you're interested in any of these topics!
 <ul style="margin-bottom: 5px;">
-    <li>Theoretical problems in evaluation (efficient, adaptive, comparable, robust evaluation)</li>
-    <li>Practically useful evaluation methods</li>
+    <li>Theoretical problems in evaluation (efficient, adaptive, comparable, robustness, applied statistics)</li>
+    <li>Practically useful evaluation methods (humans, automatic)</li>
     <li>Model improvement from (efficient & personalized) evaluation signal</li>
     <li>Multilingual NLP</li>
 </ul>
