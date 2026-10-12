@@ -1,5 +1,5 @@
 Hi, I'm Vilém (colloquially Vilda), a final-year PhD at ETH Zürich, Switzerland.
-I do research on natural language processing.
+I research artificial intelligence.
 Let me know if you're interested in any of these topics!
 <ul style="margin-bottom: 5px;">
     <li>Theoretical problems in evaluation (efficient, adaptive, comparable, robustness, applied statistics)</li>
