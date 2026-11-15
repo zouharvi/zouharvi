@@ -3,6 +3,11 @@
         "title": "Theory and Practice of of Efficient Evaluation",
         "venues": [
             {
+                "venue": "Bocconi MilaNLP",
+                "link": "",
+                "date": "2026"
+            },
+            {
                 "venue": "Google Gboard",
                 "link": "",
                 "date": "2026"
