@@ -11,7 +11,7 @@ Let me know if you're interested in any of these topics!
 
 <h4>News</h4>
 <ul>
-    <li>2026: I am on the academic job market. My <a href="t/research_statement.pdf">research_statement.pdf</a>. Please reach out!</li>
+    <li>2026: I am on the academic job market. Please reach out if you're interested in my research statement.</li>
     <li>2026: We are building the Last Translation Benchmark! <a href="https://last-translation-benchmark.vilda.net/">Become a contributor</a> with coauthoship!</li>
     <!-- <li>2026: We're organizing a <a href="https://github.com/zouharvi/humeval-tutorial">tutorial on human evaluation</a> at EAMT, KONVENS, and MT Marathon!</li> -->
         <!-- <li>2026: We are organizing the first Speech Translation Metrics shared task at IWSLT.
