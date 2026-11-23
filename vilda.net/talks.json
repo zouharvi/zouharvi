@@ -2,6 +2,11 @@
     {
         "title": "Theory and Practice of of Efficient Evaluation",
         "venues": [
+        	{
+        		"venue": "Zurich.tech",
+        		"link": "https://zurich.tech/events/zurichnlp-23",
+        		"date": "2026"
+        	},
             {
                 "venue": "Bocconi MilaNLP",
                 "link": "",
